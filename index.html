@@ -48,12 +48,22 @@
                            T 130 750
                            Q 100 850 300 1000
                            T 150 1200"
-                        fill="none" stroke="black" stroke-width="10px" />
+                        fill="none" 
+                        stroke="gray" 
+                        stroke-width="10px" 
+                       />
+
+                       <defs>
+                        <clipPath id="cut-bottom">
+                          <rect x="0" y="0" width="10" height="50" />
+                        </clipPath>
+                      </defs>     
                   
-                  <circle class="ball ball01" r="20" cx="50" cy="100"></circle>
+                  <!-- <circle class="ball ball01" r="20" cx="50" cy="100"></circle> -->
                   <circle class="ball ball02" r="20" cx="278" cy="201"></circle>
                   <circle class="ball ball03" r="20" cx="327" cy="401"></circle>
                   <circle class="ball ball04" r="20" cx="203" cy="601"></circle>
+                  <image class="ball01" height="160" width="160" href="img/cycle.png"  />
                 
                 </svg>
               </div>
@@ -166,8 +176,10 @@ const main = gsap.timeline({defaults: {duration: 1},
 .to(".ball01", {motionPath: {
   path: ".theLine", 
   align:".theLine",
+autoRotate: true,
   alignOrigin: [0.5, 0.5],
 }}, 0)
+
 .add(pulses, 0);
 
 
