@@ -31,41 +31,90 @@
             </div>
             <div class="section">
               <div class="anim">
-                <div class="box"></div>
-                <svg id="svg-stage" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 600 1200" preserveAspectRatio="none">
-                  <path class="line01 line" d="M 10 200 600 200" ></path>
-                  <path class="line02 line" d="M 10 400 600 400" ></path>
-                  <path class="line03 line" d="M 10 600 600 600" ></path>
-                  <path class="line04 line" d="M 10 800 600 800" ></path>
-                  <path class="line05 line" d="M 10 1000 600 1000" ></path>
-                  <text class="text01" x="30" y="190">Munchen</text>
-                  <text class="text02" x="30" y="390">Zermat</text>
-                  <text class="text03" x="30" y="590">Monaco</text>
-                
-                  <path class="theLine" 
-                        d="M -5,0
-                           Q 450 230 300 450 
-                           T 130 750
-                           Q 100 850 300 1000
-                           T 150 1200"
-                        fill="none" 
-                        stroke="gray" 
-                        stroke-width="10px" 
-                       />
+              
+             <div class="anim_left">
+              <div class="route_section">
+                <div class="waypoint right_align">Munich</div>
+                <div class="day_section right_align">
+                  <div class="route_data right_align">
+                  Day 1<br>119km<br>820m
+                </div>
+                </div>
+              </div>
+              <div class="route_section"> 
+                <div class="waypoint right_align">0 km</div>   
+                <div class="day_section right_align">
+                  <div class="route_image"></div>
 
-                       <defs>
-                        <clipPath id="cut-bottom">
-                          <rect x="0" y="0" width="10" height="50" />
-                        </clipPath>
-                      </defs>     
-                  
-                  <!-- <circle class="ball ball01" r="20" cx="50" cy="100"></circle> -->
-                  <circle class="ball ball02" r="20" cx="278" cy="201"></circle>
-                  <circle class="ball ball03" r="20" cx="327" cy="401"></circle>
-                  <circle class="ball ball04" r="20" cx="203" cy="601"></circle>
-                  <image class="ball01" height="160" width="160" href="img/cycle.png"  />
-                
-                </svg>
+                </div>
+             </div>
+             </div>
+             <div class="anim_mid">
+              <svg id="route_svg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 200 5290" preserveAspectRatio="none">
+                <path class="theLine" 
+                d="M 100,20
+                Q	200	195	100	370
+                Q	0	545	100	720
+                Q	200	895	100	1070
+                Q	0	1245	100	1420
+                Q	200	1595	100	1770
+                Q	0	1945	100	2120
+                Q	200	2295	100	2470
+                Q	0	2645	100	2820
+                Q	200	2995	100	3170
+                Q	0	3345	100	3520
+                Q	200	3695	100	3870
+                Q	0	4045	100	4220
+                Q	200	4395	100	4570
+                Q	0	4745	100	4920
+                Q	200	5095	100	5270
+                     
+                   "
+                fill="none" 
+                stroke="black" 
+                stroke-dasharray="35,10"
+                stroke-width="2px" 
+               />
+               <circle class="ball " r="15" cx="100" cy="20"></circle>
+               <circle class="ball " r="15" cx="100" cy="370"></circle>
+               <circle class="ball " r="15" cx="100" cy="720"></circle>
+               <circle class="ball " r="15" cx="100" cy="1070"></circle>
+               <circle class="ball " r="15" cx="100" cy="1420"></circle>
+               <circle class="ball " r="15" cx="100" cy="1770"></circle>
+               <circle class="ball " r="15" cx="100" cy="2120"></circle>
+               <circle class="ball " r="15" cx="100" cy="2470"></circle>
+               <circle class="ball " r="15" cx="100" cy="2820"></circle>
+               <circle class="ball " r="15" cx="100" cy="3170"></circle>
+               <circle class="ball " r="15" cx="100" cy="3520"></circle>
+               <circle class="ball " r="15" cx="100" cy="3870"></circle>
+               <circle class="ball " r="15" cx="100" cy="4220"></circle>
+               <circle class="ball " r="15" cx="100" cy="4570"></circle>
+               <circle class="ball " r="15" cx="100" cy="4920"></circle>
+               <circle class="ball " r="15" cx="100" cy="5270"></circle>
+         
+              </svg>
+              <div id="cover" class="path_cover"></div>
+              <canvas id="cyclist"></canvas>
+             </div>
+             <div class="anim_right">  
+              <div class="route_section"> 
+                <div class="waypoint left_align">119 km</div>   
+                <div class="day_section left_align">
+                  <div class="route_image"></div>
+
+                </div>
+              </div>
+                <div class="route_section">
+                  <div class="waypoint left_align">Ehrwald (AT)</div>
+                  <div class="day_section left_align">
+                    <div class="route_data left_align"> 
+                    Day 2<br>118km<br>1.580m
+                  </div> 
+                  </div>
+                </div>
+             
+            </div>
+          
               </div>
             </div>
           </div>
@@ -130,6 +179,80 @@
         <div class="footer"></div>
     </div>
     <script>
+      const html = document.documentElement;
+      const cover = document.getElementById("cover");
+      const route_svg = document.getElementById("route_svg");
+      const canvas = document.getElementById("cyclist");
+      const context = canvas.getContext("2d");
+      const frameCount = 24;
+      const currentFrame = index => (
+        `img/animation/00${index.toString()}.png`
+      )
+      var imageArray = []
+      var index = 0
+      const preloadImages = () => {
+        for (let i = 1; i <= frameCount; i++) {
+          const img = new Image();
+          // console.log(currentFrame(i))
+          img.src = currentFrame(i);
+          imageArray.push(img)
+        }
+        console.log(imageArray)
+      };
+      const img2 = new Image()
+      img2.src = currentFrame(1);
+      canvas.width=250;
+      canvas.height=250;
+      img2.onload=function(){
+        context.drawImage(img2, 0, 0);
+      }
+
+     
+      window.addEventListener('scroll', () => {  
+        const scrollTop = html.scrollTop;
+        const maxScrollTop = html.scrollHeight - window.innerHeight;
+        const scrollFraction = scrollTop / maxScrollTop * 10;
+       
+        const svgPos = route_svg.getBoundingClientRect().top
+        const startScroll =  window.innerHeight/2;
+        
+        const routeHeight = 5290;
+        const updateImage = () => {
+         
+          if (svgPos <= startScroll){
+            cover.style.height = routeHeight - (startScroll - svgPos)+"px";
+            canvas.style.top = (startScroll - svgPos - 100)+"px";
+            canvas.style.left = (Math.sin(((startScroll - svgPos)/700*360)*Math.PI/180)*50) - 20 + "px"
+           
+
+
+            if (index < frameCount - 1){
+              index++
+            }else{
+              index = 0
+            }
+       
+           
+            context.clearRect(0, 0, canvas.width, canvas.height);
+          
+            context.drawImage(imageArray[index], 0, 0);
+            }else{
+              cover.style.height = routeHeight +"px";
+            }
+          // img2.src = currentFrame(index);
+         
+          // img2.src = currentFrame(index);
+          // context.drawImage(img2, 0, 0);
+        }
+      
+          
+        requestAnimationFrame(() => updateImage())
+       
+      });
+
+      preloadImages()
+    </script>
+    <script>
       const slider = document.querySelector(".slider input");
       const img = document.querySelector(".images .img-2");
       const dragLine = document.querySelector(".slider .drag-line");
@@ -139,51 +262,6 @@
         img.style.width = sliderVal + "%";
       }
     </script>
-      <script src="js/TweenLite.min.js"></script>
-       <script src="js/gsap.min.js"></script>
-       <script src="js/ScrollTrigger.min.js"></script>
-       <script src="js/DrawSVGPlugin.min.js"></script>
-       <script src="js/MotionPathPlugin.min.js"></script>
-       <script>
-        
-        gsap.registerPlugin(ScrollTrigger, MotionPathPlugin, DrawSVGPlugin);
-            // gsap code here!
-            gsap.defaults({ease: "none"});
-
-
-
-const pulses = gsap.timeline({
-  defaults: {
-    duration: 0.05, 
-    autoAlpha: 1, 
-    scale: 2, 
-    transformOrigin: 'center', 
-    ease: "elastic(2.5, 1)"
-  }})
-.to(".ball02, .text01", {}, 0.2) 
-.to(".ball03, .text02", {}, 0.33)
-.to(".ball04, .text03", {}, 0.46)
-
-const main = gsap.timeline({defaults: {duration: 1},
-  scrollTrigger: {
-    trigger: "#svg-stage",
-    scrub: true,
-    start: "top center",
-    end: "bottom center"
-  }})
-.to(".ball01", {duration: 0.01, autoAlpha: 1})
-.from(".theLine", {drawSVG: 0}, 0)
-.to(".ball01", {motionPath: {
-  path: ".theLine", 
-  align:".theLine",
-autoRotate: true,
-  alignOrigin: [0.5, 0.5],
-}}, 0)
-
-.add(pulses, 0);
-
-
-       
-       </script>
+   
   </body>
 </html>

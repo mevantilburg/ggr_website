@@ -87,16 +87,114 @@ p{
   margin-right: auto;
   display: flex;
   width: 100%;
-  min-height: 200vh;
+ 
   max-width: 1448px;
   z-index: 1;
   /* padding-top: 5px; */
   padding-bottom: 30px;
   background-color: rgb(255, 255, 255);
-  flex-direction: column;
+  flex-direction: row;
  
   
 
+}
+.path_cover{
+  bottom: 0;
+  position: absolute;
+  width: 200px;
+  height: 5290px;
+  background-color: #fff;
+ 
+}
+#cyclist{
+  position: absolute;
+  transform: rotate(30);
+  top: 0;
+  left: -20px;
+  /* visibility: hidden; */
+}
+@keyframes resize {
+  from {height: 5290}
+  to {height: 0}
+}
+.anim_left{
+  width: 50%;
+  height: 100%;
+}
+.anim_mid{
+  position: relative;
+  min-width: 200px;
+  /* background-color: #ccc; */
+  height: 100%;
+}
+.anim_right{
+  width: 50%;
+  height: 100%;
+}
+.route_section{
+  min-height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@keyframes fade-in2 {
+  from {scale: .8; opacity: 0;}
+  to {scale: 1; opacity: 1;}
+}
+.waypoint{
+ 
+ opacity: 0;
+ font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  animation: fade-in2 linear forwards;
+  animation-timeline: view();
+  animation-range-start: 50vh;
+  animation-range-end: 60vh;
+
+}
+
+.day_section{
+  opacity: 0;
+  display: flex;
+  min-height: 300px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  animation: fade-in2 linear forwards;
+  animation-timeline: view();
+  animation-range-start: 50vh;
+  animation-range-end: 60vh;
+}
+.route_data{
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.route_image{
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 150px;
+  width: 200px;
+  border: solid #ffffff 7px;
+  background-color: #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);;
+}
+.right_align{
+  text-align: right;
+  margin-right: 30px;
+  margin-left: auto;
+}
+.left_align{
+  text-align: left;
+  margin-left: 30px;
+}
+#roadmap {
+
+  width: 100%;
+  height: 200vh;
 }
 #svg-stage {
   margin-left: auto;
@@ -112,8 +210,10 @@ p{
 }
 
 .ball {
-  fill: rgb(0, 0, 0);
-  visibility: hidden;
+  fill: rgb(255, 255, 255);
+  stroke: rgb(0, 0, 0);
+  stroke-width: 2px;
+  /* visibility: hidden; */
 }
 
 .line {
