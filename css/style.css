@@ -125,12 +125,42 @@ p{
   /* visibility: hidden; */
 }
 #cyclist2{
- 
-  /* visibility: hidden; */
+ position: relative;
+  z-index: 1;
 }
 @keyframes resize {
   from {height: 5290}
   to {height: 0}
+}
+.flag{
+  height: 15px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.day_label{
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+.day_num{
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  text-align: center;
+  margin-left: -26px;
+    min-width: 153px;
+}
+.day_data{
+  font-family: "Roboto", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  white-space: nowrap;
 }
 .section_title{
   text-align: center;
@@ -141,7 +171,7 @@ p{
   max-width: 1448px;
   font-family: "Montserrat", serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 30px;
   padding-bottom: 10px;
   background-color: rgb(255, 255, 255);
@@ -184,14 +214,21 @@ p{
  opacity: 0;
  font-family: "Montserrat", serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 30px;
-  
-  /* animation-timeline: view();
-  animation-range-start: 30vh;
-  animation-range-end: 40vh; */
+  padding-top: 4px;;
 
 }
+.dist{
+  padding-top: 17px;;
+  opacity: 0;
+  font-family: "Montserrat", serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   
+ 
+ }
 .animate_in{
   animation: fade-in2 linear forwards;
   animation-duration: 0.5s;
@@ -235,12 +272,13 @@ p{
 }
 .right_align{
   text-align: right;
-  margin-right: 30px;
+  margin-right: -30px;
   margin-left: auto;
 }
 .left_align{
   text-align: left;
-  /* margin-left: 30px; */
+  margin-left: -30px;
+  margin-right: auto;
 }
 #roadmap {
 
