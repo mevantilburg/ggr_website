@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="css/style.css?v0.1">
+    <link rel="stylesheet" href="css/style.css?v0.11">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -49,7 +49,7 @@
                 <div class="anim">
                     <div class="anim_left">
                         <div class="route_section">
-                            <div class="waypoint right_align">Munich</div>
+                            <div id="wp1" class="wp1 waypoint right_align">Munich</div>
                             <div class="day_section right_align">
                                 <div class="route_data right_align">
                                     Day 1<br>119km<br>820m
@@ -166,7 +166,7 @@
                     </div>
                     <div class="anim_right">
                         <div class="route_section">
-                            <div class="waypoint left_align">119 km</div>
+                            <div class="wp1 waypoint left_align">119 km</div>
                             <div class="day_section left_align">
                                 <div class="route_image"></div>
 
@@ -393,7 +393,7 @@
             const img3 = new Image();
              img3.src =`img/animation/straight.png`
             if (img3.complete) {
-                context.drawImage(img3, 0, 0);
+                context.drawImage(img3, -50, -50);
             } else {
                 img3.onload = function () {
                     context.drawImage(img3, -50, -50);
@@ -447,6 +447,12 @@
                         }
                         context.stroke(); 
                         for (var p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
+                            
+                            const elements =Array.from(document.getElementsByClassName("wp1"))
+                            elements.forEach(element => {
+                                element.classList.add("animate");
+                            });
+                           
                             var dir = 0
                             if (p % 2 !== 0) {
                                 dir = 150

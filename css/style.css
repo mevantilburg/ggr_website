@@ -181,11 +181,15 @@ p{
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
-  animation: fade-in2 linear forwards;
-  animation-timeline: view();
+  
+  /* animation-timeline: view();
   animation-range-start: 30vh;
-  animation-range-end: 40vh;
+  animation-range-end: 40vh; */
 
+}
+.waypoint.animate{
+  animation: fade-in2 linear forwards;
+  animation-duration: 1s;
 }
 .dotted_line{
   width: 1px;
