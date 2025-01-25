@@ -82,6 +82,17 @@ p{
     background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
+.center_image_section{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+ 
+  z-index: 1;
+  /* padding-top: 5px; */
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
 .anim{
   margin-left: auto;
   margin-right: auto;
