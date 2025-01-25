@@ -174,6 +174,11 @@ p{
   from {scale: .8; opacity: 0;}
   to {scale: 1; opacity: 1;}
 }
+@keyframes fade-out {
+  from {scale: 1; opacity: 1;}
+  to {scale: .8; opacity: 0;}
+ 
+}
 .waypoint{
  
  opacity: 0;
@@ -187,9 +192,13 @@ p{
   animation-range-end: 40vh; */
 
 }
-.waypoint.animate{
+.animate_in{
   animation: fade-in2 linear forwards;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
+}
+.animate_out{
+  animation: fade-out linear forwards;
+  animation-duration: 0.1s;
 }
 .dotted_line{
   width: 1px;
@@ -204,10 +213,11 @@ p{
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+
+}
+.day_section.animate{
   animation: fade-in2 linear forwards;
-  animation-timeline: view();
-  animation-range-start: 50vh;
-  animation-range-end: 60vh;
+  animation-duration: 0.5s;
 }
 .route_data{
   width: 100%;
