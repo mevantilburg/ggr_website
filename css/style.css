@@ -132,6 +132,21 @@ p{
   from {height: 5290}
   to {height: 0}
 }
+.section_title{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  max-width: 1448px;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
 .anim_left{
   width: 50%;
   height: 100%;
@@ -142,6 +157,7 @@ p{
   min-width: 200px;
   /* background-color: #ccc; */
   height: 100%;
+  margin-left: 49px;
 }
 .anim_right{
   width: 50%;
@@ -171,7 +187,11 @@ p{
   animation-range-end: 40vh;
 
 }
-
+.dotted_line{
+  width: 1px;
+  border: solid 1px #111;
+  height: 100px;
+}
 .day_section{
   opacity: 0;
   display: flex;
@@ -213,18 +233,7 @@ p{
   width: 100%;
   height: 200vh;
 }
-#svg-stage {
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 600px;
-  max-width: 600px;
-  overflow: visible;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%)
-  /* margin-top: 60vh; */
-}
+
 
 .ball {
   fill: rgb(255, 255, 255);
