@@ -144,7 +144,7 @@ p{
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
-  text-wrap: nowrap;
+  /* text-wrap: nowrap; */
 
 }
 
@@ -292,15 +292,7 @@ p{
   animation-duration: 0.5s;
 }
 
-.route_image{
-  margin-top: auto;
-  margin-bottom: auto;
-  height: 150px;
-  width: 200px;
-  border: solid #ffffff 7px;
-  background-color: #ccc;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);;
-}
+
 .right_align{
   text-align: right;
   margin-right: -30px;
@@ -352,6 +344,39 @@ text {
 
 
 @media screen and (max-width: 800px) {
+  .waypoint{
+ 
+    opacity: 0;
+    font-family: "Montserrat", serif;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     padding-top: 4px;;
+   
+   }
+   .day_label{
+
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 8px;
+  
+  }
+  .day_label span{
+  
+    font-weight: 400;
+    font-size: 12px;
+  
+  }
+  .route_image{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 150px;
+    width: 85px;
+    border: solid #ffffff 2px;
+    background-color: #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);;
+  }
     .column_section{
         margin-left: auto;
         margin-right: auto;
@@ -373,6 +398,15 @@ text {
     }
 }
 @media screen and (min-width: 800px) {
+  .route_image{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 150px;
+    width: 200px;
+    border: solid #ffffff 7px;
+    background-color: #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);;
+  }
     .column_section{
         margin-left: auto;
         margin-right: auto;
