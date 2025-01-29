@@ -138,29 +138,40 @@ p{
   padding-left: 5px;
   padding-right: 5px;
 }
+.route_data{
+  font-family: "Roboto", serif;
+  font-style: normal;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-wrap: nowrap;
+
+}
+
 .day_label{
-  font-family: "Roboto", serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  text-align: center;
-}
-.day_num{
-  font-family: "Roboto", serif;
-  font-style: normal;
+
   font-weight: 700;
-  font-size: 75px;
-  text-align: center;
-  margin-left: -26px;
-    min-width: 153px;
+  font-size: 22px;
+  text-align: left;
+  margin-bottom: 8px;
+
 }
-.day_data{
-  font-family: "Roboto", serif;
-  font-style: normal;
+.day_label span{
+
   font-weight: 400;
-  font-size: 15px;
-  text-align: center;
-  white-space: nowrap;
+  font-size: 16px;
+
+}
+.icon{
+  height: 16px;
+ 
+  
+  padding-right: 15px;
+}
+.superscript {
+  vertical-align: super;
+  font-size: smaller;
+  line-height: normal;
 }
 .section_title{
   text-align: center;
@@ -229,6 +240,30 @@ p{
    
  
  }
+ .dist_left{
+  padding-top: 17px;;
+  opacity: 0;
+  font-family: "Montserrat", serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   text-align: right;
+    margin-right: -85px;
+    margin-left: auto;
+ 
+ }
+ .dist_right{
+  padding-top: 17px;;
+  opacity: 0;
+  font-family: "Montserrat", serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 16px;
+   text-align: left;
+    margin-left: -85px;
+    margin-right: auto;
+ 
+ }
 .animate_in{
   animation: fade-in2 linear forwards;
   animation-duration: 0.5s;
@@ -256,11 +291,7 @@ p{
   animation: fade-in2 linear forwards;
   animation-duration: 0.5s;
 }
-.route_data{
-  width: 100%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
+
 .route_image{
   margin-top: auto;
   margin-bottom: auto;
