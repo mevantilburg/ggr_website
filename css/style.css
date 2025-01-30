@@ -602,6 +602,9 @@ text {
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    #map{
+      height: 400px;
+    }
     .dist_right, 
     .dist_left {
       padding-top: 8px;
