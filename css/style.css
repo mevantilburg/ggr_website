@@ -50,12 +50,18 @@ p{
   height: 100%;
   background-color: rgba(0, 0, 0, .2);
   z-index: 1000;
-  
+  perspective: 1000px;
 }
 .modal_image{
   width: 80vw;
+ 
+}
+.modal:hover{
+  
 }
 .modal{
+ 
+  transform-style: preserve-3d;
   margin: auto;
   opacity: 0;
   /* width: 100%;
@@ -63,17 +69,20 @@ p{
   margin: 50px;
   background-color: #fff; */
 }
-/* @keyframes fade-in2 {
-  from {scale: .8; opacity: 0;}
-  to {scale: 1; opacity: 1;}
-} */
+@keyframes fade-in3 {
+  from {scale: .8; opacity: 0; transform: rotateY(90deg);}
+  to {scale: 1; opacity: 1; transform: rotateY(0);}
+}
 .showmodal{
   
   display: flex;
 }
 .animate_modal{
-  animation: fade-in2 linear forwards;
+  
+  animation: fade-in3 linear forwards;
   animation-duration: 0.1s;
+
+ 
 }
 .header{
     width: 100%;
@@ -580,6 +589,10 @@ text {
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .dist_right, 
+    .dist_left {
+      padding-top: 8px;
+    }
     .day_section_text_left{
       margin-left: auto;
       margin-right: -125px;
