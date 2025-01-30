@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="css/style.css?v0.16">
+    <link rel="stylesheet" href="css/style.css?v0.17">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -15,7 +15,12 @@
 </head>
 
 <body style="height:100%;margin:0">
-    <div class="wrapper">
+    <div onclick="closeModal()" id="modal_wrapper" class="modal_wrapper">
+        <div id="modal"  class="modal">
+            <img class="modal_image" src="img/aletsch.png"/>
+        </div>
+    </div>
+    <div id="wrapper" class="wrapper">
         <div class="header"></div>
         <div class="main">
             <div class="section">
@@ -199,7 +204,7 @@
                         <div class="route_section">
                             <div class="wp1 dist_left"></div>
                             <div class="wp1 day_section left_align">
-                                <div class="route_image_right"></div>
+                                <div class="route_image_right"><img onclick="showModal(1)" class="postcard"  src="img/aletsch.png"/></div>
 
                             </div>
                         </div>
@@ -406,7 +411,23 @@
             <div class="footer"></div>
         </div>
         <script>
+            function showModal() {
+                const modal = document.getElementById("modal");
+                const wrapper = document.getElementById("modal_wrapper");
+              wrapper.style.display = "flex"
+                modal.classList.add("animate_modal");
+                document.body.style.overflow = "hidden"
 
+            }
+            function closeModal() {
+                const modal = document.getElementById("modal");
+               
+               const wrapper = document.getElementById("modal_wrapper");
+              wrapper.style.display = "none"
+                modal.classList.remove("animate_modal");
+                document.body.style.overflow = "auto"
+
+            }
             // todo: start position, end position and refresh on scroll down, long page without having scrolled, catch up
             const html = document.documentElement;
             const canvas = document.getElementById("cyclist2");
