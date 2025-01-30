@@ -732,16 +732,31 @@
             }
         </script>
           <script type="module">
-            const map = L.map('map');
-            L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            const map = L.map('map',{scrollWheelZoom: false});
+            L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+              
               attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
             }).addTo(map);
-      
+            const imageUrl = 'https://mevantilburg.github.io/ggr_website/img/oldmap.png';
+            const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+	const altText = 'Image of Newark, N.J. in 1922. Source: The University of Texas at Austin, UT Libraries Map Collection.';
+	const latLngBounds = L.latLngBounds([[48.0111963236901, 5.01088955729314], [42.84518733312462, 14.337080873159813]]);
+            const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+                opacity: 1,
+                errorOverlayUrl,
+                alt: altText,
+                interactive: true
+            }).addTo(map);
+            // L.rectangle(latLngBounds).addTo(map);
             // URL to your GPX file or the GPX itself as a XML string.
             const url = 'https://mevantilburg.github.io/ggr_website/img/Ride.gpx';
             const options = {
+                markers: {
+                startIcon: 'https://mevantilburg.github.io/ggr_website/img/poi.svg',
+                endIcon: 'https://mevantilburg.github.io/ggr_website/img/poi.svg',
+            },
               async: true,
-              polyline_options: { color: 'red' },
+              polyline_options: { color: 'black', dashArray: "15,5" },
             };
       
             const gpx = new L.GPX(url, options).on('loaded', (e) => {
