@@ -10,7 +10,7 @@
   <wpt lon="10.821996370738262" lat="47.35893874199161">
     <name>Fernpass - 1200m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="10.451803465247735" lat="46.52971683046087">
     <name>Passo di Stelvio - 2759m</name>
@@ -40,7 +40,7 @@
   <wpt lon="8.086556351026942" lat="46.43299654027469">
     <name>Aletsch Glacier - 2360m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="9.935964991237896" lat="46.423458057145666">
     <name>Morteratschgletsjer</name>
