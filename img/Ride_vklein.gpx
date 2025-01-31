@@ -70,12 +70,12 @@
   <wpt lon="6.923646170929274" lat="46.004133251158635">
     <name>Col de Montets - 1458m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.999538783575323" lat="46.058262039043704">
     <name>Col de la Forclaz - 1502m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.965953999999983" lat="45.96370400000001">
     <name>Argentière-gletsjer</name>
@@ -90,37 +90,37 @@
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
     <name>Col de Saisies - 1660</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.690157542693114" lat="45.69125498595285">
     <name>Cormet de Roselend - 1974</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="7.030676307338264" lat="45.41725777339293">
     <name>Col de l'Iseran - 2750</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="7.053995500041004" lat="45.072195434791844">
     <name>Colle delle Finestre - 2175</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.78322164168208" lat="44.89394816288885">
     <name>Col de Bousson - 2168</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.735011318741622" lat="44.81986326804929">
     <name>Col d'Izoard - 2363</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.702448946732891" lat="44.539251809274724">
     <name>Col de Vars - 2115</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.807150799953354" lat="44.321588609885644">
     <name>Cime de la Bonette - 2802</name>
@@ -130,17 +130,17 @@
   <wpt lon="7.223117106864123" lat="44.070971755010866">
     <name>Col Saint-Martin - 1499</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="7.38193330210811" lat="43.97315911781427">
     <name>Col de Turini - 1630</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="6.921791248779314" lat="45.224705671277">
     <name>Col du Mont Cenis - 2102</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <trk>
     <name>Goodbye Glacier Ride v0.2</name>

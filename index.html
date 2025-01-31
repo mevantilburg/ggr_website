@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
-    <link rel="stylesheet" href="css/style.css?v0.22">
+    <link rel="stylesheet" href="css/style.css?v0.23">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -865,14 +865,14 @@
                 interactive: true,
 
             }).addTo(map);
-
+           
             control.addOverlay(imageOverlay, "Historic Map")
             const url = 'https://mevantilburg.github.io/ggr_website/img/Ride_vklein.gpx';
             const options = {
                 markers: {
-                    startIcon: 'https://mevantilburg.github.io/ggr_website/img/marker.svg',
-                    endIcon: 'https://mevantilburg.github.io/ggr_website/img/marker.svg',
-                    wptTypeIcons: { pass: 'https://mevantilburg.github.io/ggr_website/img/marker.svg', glacier: 'https://mevantilburg.github.io/ggr_website/img/marker.svg', Dot: 'https://mevantilburg.github.io/ggr_website/img/marker.svg' },
+                    startIcon: './img/marker2.svg',
+                    endIcon: './img/marker2.svg',
+                    wptTypeIcons: { pass: './img/marker_pass.svg', glacier: './img/marker_glacier.svg', Dot: './img/marker2.svg' },
 
                 },
 
@@ -884,7 +884,7 @@
                 control.addOverlay(gpx, "Goodbye Glacier Ride");
             }).addTo(map);
 
-
+            
         </script>
  
 </body>
