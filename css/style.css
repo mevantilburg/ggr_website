@@ -525,11 +525,11 @@ a{
   padding-right: 10px;
 }
 #map{
-  height: 650px;
-  margin-left: 50px;
-  margin-right: 50px;
+  height: 620px;
+  margin-left:auto;
+  margin-right: auto;
   border: solid #f6e7d1 8px;
-  width: calc(100% - 100px);
+  width: 780px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);;
 }
 .route_map{
@@ -681,7 +681,8 @@ a{
   }
   @media screen and (max-width: 800px) {
     #map{
-      height: 400px;
+      height: 325px;
+      width: 325px;
     }
     .dist_right, 
     .dist_left {

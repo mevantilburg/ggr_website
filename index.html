@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
-    <link rel="stylesheet" href="css/style.css?v0.20">
+    <link rel="stylesheet" href="css/style.css?v0.21">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -778,18 +778,25 @@
             }
         </script>
         <script type="module">
-            const map = L.map('map', { scrollWheelZoom: false });
+            var initZoom = 7
+            if (window.innerWidth < 800){
+                initZoom = 6
+            }
+            const map = L.map('map', { minZoom: (initZoom),
+                maxZoom: 9,scrollWheelZoom: false }).setView([45.495, 9.734], initZoom);
             L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-                attribution: 'Map data &copy; <a href="http://www.osm.org">OpenStreetMap</a>'
+                attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
             }).addTo(map);
             var control = L.control.layers(null, null).addTo(map);
             var marker = L.marker([46.529, 10.851], {
                 title: "glacier"
             }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
-            const imageUrl = 'https://mevantilburg.github.io/ggr_website/img/oldmap.png';
+            const imageUrl = './img/oldmap_modified.png';
             const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
             const altText = '';
-            const latLngBounds = L.latLngBounds([[48.0111963236901, 5.01088955729314], [42.84518733312462, 14.337080873159813]]);
+            const latLngBounds = L.latLngBounds([[48.126926, 4.950054], [42.759366, 14.614517]]);
+            const latLngBoundsZoom = L.latLngBounds([[48.426926, 4.650054], [42.459366, 14.914517]]);
+            map.setMaxBounds(latLngBoundsZoom);
             const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
                 opacity: 1,
                 errorOverlayUrl,
@@ -815,11 +822,11 @@
 
             const gpx = new L.GPX(url, options).on('loaded', (e) => {
 
-                map.fitBounds(e.target.getBounds());
+                // map.fitBounds(e.target.getBounds());
                 control.addOverlay(gpx, gpx.get_name());
             }).addTo(map);
 
-            //  map.setMaxBounds(latLngBounds);
+           
 
         </script>
 
