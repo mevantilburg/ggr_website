@@ -35,22 +35,7 @@
                     <div class="section">
                         <div class="text_section">
 
-                            <p>Starting from 4048m of altitude, the Morteratsch Glacier is 6km long and the sixth
-                                biggest glacier in the Alps.
-
-                                After a steep icefall, the tongue flattens abruptly and shows beautiful ogives: an
-                                alternation of darker and lighter bands of ice created by (seasonal) differences in flow
-                                velocity of the icefall.
-
-                                Since 1900 the length of the Morteratsch has declined by 3km, while annually it loses
-                                about 10 meter of thickness.
-
-                                Even if we meet the most stringent climate policies, according to recent research and
-                                this animation, the Morteratsch glacier will disappear by 2100.
-
-                                source:
-
-                            </p>
+                          
                         </div>
                     </div>
                     <div class="section">
@@ -132,7 +117,7 @@
                                 <div class="route_data_left">
                                     <div class="day_label"><img class="icon" src="img/day.svg" />1<span
                                             class="superscript">st</span>
-                                        <span>day</span>
+                                        <span class="normalscript">day</span>
                                     </div>
                                     <div class="day_label"><img class="icon" src="img/dist.svg" />119 <span>km</span>
                                     </div>
@@ -864,9 +849,9 @@
             attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
         }).addTo(map);
         var control = L.control.layers(null, null).addTo(map);
-        var marker = L.marker([46.529, 10.851], {
-            title: "glacier"
-        }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
+        // var marker = L.marker([46.529, 10.851], {
+        //     title: "glacier"
+        // }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
         const imageUrl = './img/oldmap_modified.png';
         const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
         const altText = '';
