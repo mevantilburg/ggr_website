@@ -15,27 +15,27 @@
   <wpt lon="10.451803465247735" lat="46.52971683046087">
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="10.390944028850813" lat="46.539939833266054">
     <name>Bocchetta di Forcola - 2735m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="9.836945617142838" lat="46.58173965637579">
     <name>Albulapass: 2307m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="8.67124835988211" lat="46.65936196710087">
     <name>Oberalppass - 2040</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="8.414778650073224" lat="46.57277500717369">
     <name>Furkapass - 2430m</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="8.086556351026942" lat="46.43299654027469">
     <name>Aletsch Glacier - 2360m</name>
@@ -45,12 +45,12 @@
   <wpt lon="9.935964991237896" lat="46.423458057145666">
     <name>Morteratschgletsjer</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="8.38865268939065" lat="46.57904945959968">
     <name>Rhone Glacier</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="7.748201740219449" lat="46.02382648456371">
     <name>Zermatt</name>
@@ -65,7 +65,7 @@
   <wpt lon="7.011889999999985" lat="46.02990999999999">
     <name>Trient Glacier</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="6.923646170929274" lat="46.004133251158635">
     <name>Col de Montets - 1458m</name>
@@ -80,12 +80,12 @@
   <wpt lon="6.965953999999983" lat="45.96370400000001">
     <name>Argentière-gletsjer</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="6.91741299999999" lat="45.932107">
     <name>Mer de Glace</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
     <name>Col de Saisies - 1660</name>
