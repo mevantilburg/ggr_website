@@ -1,3 +1,7 @@
+
+html{
+  scroll-behavior: smooth;
+}
 h1{
     font-size: 48px;
     letter-spacing: 0.03em;
@@ -62,7 +66,7 @@ p{
    
 }
 .modal_wrapper{
-  display: none;
+  display: flex;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -71,25 +75,49 @@ p{
   perspective: 1000px;
 }
 .modal_image{
-  width: 80vw;
- 
+  width: calc(100%);
+
 }
 .modal:hover{
   
 }
+.modaltop{
+  height: 40px;
+display: flex;
+}
+.closeicon{
+  width: 33px;
+  height: 40px;
+  padding-top: 13px;
+  margin-left: auto;
+  cursor: pointer;
+}
+.closeicon:hover{
+opacity: 0.5;
+}
+.modalcontent{
+  height: calc(100% - 80px);
+  overflow-y: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  
+}
 .modal{
- 
+  font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+  width: 80vw;
+  max-width: 900px;
   transform-style: preserve-3d;
   margin: auto;
-  opacity: 0;
-  /* width: 100%;
-  
-  margin: 50px;
-  background-color: #fff; */
+  opacity: 1;
+ height: 90vh;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+  background-color: #fff; 
 }
 @keyframes fade-in3 {
-  from {scale: .8; opacity: 0; transform: rotateY(90deg);}
-  to {scale: 1; opacity: 1; transform: rotateY(0);}
+  from {scale: .8; opacity: 0;}
+  to {scale: 1; opacity: 1; }
 }
 .showmodal{
   

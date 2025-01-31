@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
     <link rel="stylesheet" href="css/style.css?v0.21">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -17,9 +18,56 @@
 </head>
 
 <body style="height:100%;margin:0">
-    <div onclick="closeModal()" id="modal_wrapper" class="modal_wrapper">
+    
+    <div  id="modal_wrapper" onclick="closeModal()" class="modal_wrapper">
         <div id="modal" class="modal">
+            <div class="modaltop">
+                <div onclick="closeModal()" class="closeicon">
+                <svg >
+                    <path d="M16.2,5.5L12,9.7L7.8,5.5L5.5,7.8L9.7,12l-4.2,4.2l2.3,2.3l4.2-4.2l4.2,4.2l2.3-2.3L14.3,12l4.2-4.2L16.2,5.5z"/> </svg>
+                </div>
+            </div>
+            <div class="modalcontent" onclick="handleClick(event)">
             <img class="modal_image" src="img/aletsch.png" />
+            <div>
+                <div class="section">
+                    <div class="text_section">
+                       
+                        <p>Starting from 4048m of altitude, the Morteratsch Glacier is 6km long and the sixth biggest glacier in the Alps.
+
+                            After a steep icefall, the tongue flattens abruptly and shows beautiful ogives: an alternation of darker and lighter bands of ice created by (seasonal) differences in flow velocity of the icefall.
+                            
+                            Since 1900 the length of the Morteratsch has declined by 3km, while annually it loses about 10 meter of thickness. 
+                            
+                            Even if we meet the most stringent climate policies, according to recent research and this animation, the Morteratsch glacier will disappear by 2100. 
+                            
+                            source: https://glacierchange.com/en/morteratsch-glacier/ 
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="text_section">
+                        <div class="column_section">
+                            <div class="twocolumn">
+                                <img src="./img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg" />
+                            </div>
+                            <div class="twocolumn">
+                                <h3>The Aletsch Glacier is the largest glacier in the Alps.
+                                    biggest
+
+                                    6km in length
+                                    -67% volume loss since 1900
+                                    Expected to be vanished in 2100
+
+                                </h3>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
     <div id="wrapper" class="wrapper">
@@ -57,7 +105,7 @@
             <div class="section">
                 <div class="image_section">
                     <div id="map"></div>
-                    <!-- <img class="route_map" alt="" src="img/oldmap.png" > -->
+                   
                 </div>
             </div>
             <div class="section">
@@ -481,10 +529,10 @@
                             <h3>Glaciers are shrinking at record speed due to climate change.
                             </h3>
                             <br>
-                         
+
                             <h3>Billions of people are dependent on glaciers for water and food.
                             </h3>
-                          <br>
+                            <br>
                         </div>
                         <div class="twocolumn">
                             <div class="wrapperslider">
@@ -520,12 +568,13 @@
                 <div class="text_section">
                     <div class="column_section">
                         <div class="twocolumn">
-                          <img src="./img/MASTER_ENGLISH_FULLCOLOUR.png"/>
+                            <img src="./img/MASTER_ENGLISH_FULLCOLOUR.png" />
                         </div>
                         <div class="twocolumn">
-                            <h3>To highlight the importance of glaciers, the United Nations has designated 2025 as the International Year of Glaciers' Preservation.
+                            <h3>To highlight the importance of glaciers, the United Nations has designated 2025 as the
+                                International Year of Glaciers' Preservation.
                             </h3>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -538,11 +587,14 @@
             </div>
             <div class="section">
                 <div class="text_section">
-               
-                    <p>The Goodbye Glacier Ride started to show the harsh reality of climate change and ignite action to do something about it.
 
-                        You can support the ride by ordering one or more of the limited edition postcards. They will be send from the location with a personal note.  The total revenue (minus some costs) will go to XXX good causes.
-                        
+                    <p>The Goodbye Glacier Ride started to show the harsh reality of climate change and ignite action to
+                        do something about it.
+
+                        You can support the ride by ordering one or more of the limited edition postcards. They will be
+                        send from the location with a personal note. The total revenue (minus some costs) will go to XXX
+                        good causes.
+
                     </p>
                 </div>
             </div>
@@ -582,6 +634,13 @@
             <div class="footer"></div>
         </div>
         <script>
+            function handleClick(event) {
+
+                // Do something when clicking the child div
+
+                event.stopPropagation(); 
+
+                }
             function showModal() {
                 const modal = document.getElementById("modal");
                 const wrapper = document.getElementById("modal_wrapper");
@@ -779,11 +838,13 @@
         </script>
         <script type="module">
             var initZoom = 7
-            if (window.innerWidth < 800){
+            if (window.innerWidth < 800) {
                 initZoom = 6
             }
-            const map = L.map('map', { minZoom: (initZoom),
-                maxZoom: 9,scrollWheelZoom: false }).setView([45.495, 9.734], initZoom);
+            const map = L.map('map', {
+                minZoom: (initZoom),
+                maxZoom: 9, scrollWheelZoom: false
+            }).setView([45.495, 9.734], initZoom);
             L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
                 attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
             }).addTo(map);
@@ -804,9 +865,8 @@
                 interactive: true,
 
             }).addTo(map);
-            // L.rectangle(latLngBounds).addTo(map);
-            // URL to your GPX file or the GPX itself as a XML string.
-            control.addOverlay(imageOverlay, "Old Map")
+
+            control.addOverlay(imageOverlay, "Historic Map")
             const url = 'https://mevantilburg.github.io/ggr_website/img/Ride_vklein.gpx';
             const options = {
                 markers: {
@@ -821,15 +881,12 @@
             };
 
             const gpx = new L.GPX(url, options).on('loaded', (e) => {
-
-                // map.fitBounds(e.target.getBounds());
-                control.addOverlay(gpx, gpx.get_name());
+                control.addOverlay(gpx, "Goodbye Glacier Ride");
             }).addTo(map);
 
-           
 
         </script>
-
+ 
 </body>
 
 </html>
