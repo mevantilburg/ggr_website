@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
-    <link rel="stylesheet" href="css/style.css?v0.23">
+    <link rel="stylesheet" href="css/style.css?v0.24">
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -18,56 +18,63 @@
 </head>
 
 <body style="height:100%;margin:0">
-    
-    <div  id="modal_wrapper" onclick="closeModal()" class="modal_wrapper">
+
+    <div id="modal_wrapper" onclick="closeModal()" class="modal_wrapper">
         <div id="modal" class="modal">
             <div class="modaltop">
                 <div onclick="closeModal()" class="closeicon">
-                <svg >
-                    <path d="M16.2,5.5L12,9.7L7.8,5.5L5.5,7.8L9.7,12l-4.2,4.2l2.3,2.3l4.2-4.2l4.2,4.2l2.3-2.3L14.3,12l4.2-4.2L16.2,5.5z"/> </svg>
+                    <svg>
+                        <path
+                            d="M16.2,5.5L12,9.7L7.8,5.5L5.5,7.8L9.7,12l-4.2,4.2l2.3,2.3l4.2-4.2l4.2,4.2l2.3-2.3L14.3,12l4.2-4.2L16.2,5.5z" />
+                    </svg>
                 </div>
             </div>
             <div class="modalcontent" onclick="handleClick(event)">
-            <img class="modal_image" src="img/aletsch.png" />
-            <div>
-                <div class="section">
-                    <div class="text_section">
-                       
-                        <p>Starting from 4048m of altitude, the Morteratsch Glacier is 6km long and the sixth biggest glacier in the Alps.
+                <img class="modal_image" src="img/aletsch.png" />
+                <div>
+                    <div class="section">
+                        <div class="text_section">
 
-                            After a steep icefall, the tongue flattens abruptly and shows beautiful ogives: an alternation of darker and lighter bands of ice created by (seasonal) differences in flow velocity of the icefall.
-                            
-                            Since 1900 the length of the Morteratsch has declined by 3km, while annually it loses about 10 meter of thickness. 
-                            
-                            Even if we meet the most stringent climate policies, according to recent research and this animation, the Morteratsch glacier will disappear by 2100. 
-                            
-                            source: 
-                            
-                        </p>
+                            <p>Starting from 4048m of altitude, the Morteratsch Glacier is 6km long and the sixth
+                                biggest glacier in the Alps.
+
+                                After a steep icefall, the tongue flattens abruptly and shows beautiful ogives: an
+                                alternation of darker and lighter bands of ice created by (seasonal) differences in flow
+                                velocity of the icefall.
+
+                                Since 1900 the length of the Morteratsch has declined by 3km, while annually it loses
+                                about 10 meter of thickness.
+
+                                Even if we meet the most stringent climate policies, according to recent research and
+                                this animation, the Morteratsch glacier will disappear by 2100.
+
+                                source:
+
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="section">
-                    <div class="text_section">
-                        <div class="column_section">
-                            <div class="twocolumn">
-                                <img src="./img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg" />
-                            </div>
-                            <div class="twocolumn">
-                                <h3>The Aletsch Glacier is the largest glacier in the Alps.
-                                    biggest
+                    <div class="section">
+                        <div class="text_section">
+                            <div class="column_section">
+                                <div class="twocolumn">
+                                    <img src="./img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg" />
+                                </div>
+                                <div class="twocolumn">
+                                    <h3>The Aletsch Glacier is the largest glacier in the Alps.
+                                        biggest
 
-                                    6km in length
-                                    -67% volume loss since 1900
-                                    Expected to be vanished in 2100
+                                        6km in length
+                                        -67% volume loss since 1900
+                                        Expected to be vanished in 2100
 
-                                </h3>
+                                    </h3>
 
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </div>
     <div id="wrapper" class="wrapper">
@@ -105,7 +112,7 @@
             <div class="section">
                 <div class="image_section">
                     <div id="map"></div>
-                   
+
                 </div>
             </div>
             <div class="section">
@@ -585,6 +592,7 @@
 
 
             </div>
+         
             <div class="section">
                 <div class="text_section">
 
@@ -630,102 +638,182 @@
                     </div>
                 </div>
             </div>
+            <div class="section">
+                <div class="image_section">
+                    <img class="altmap" src="./img/altmap.svg" />
+                </div>
+            </div>
+        </div>
 
+        <div class="section">
             <div class="footer"></div>
         </div>
-        <script>
-            function handleClick(event) {
+    </div>
+    <script>
+        function handleClick(event) {
 
-                // Do something when clicking the child div
+            // Do something when clicking the child div
 
-                event.stopPropagation(); 
+            event.stopPropagation();
 
-                }
-            function showModal() {
-                const modal = document.getElementById("modal");
-                const wrapper = document.getElementById("modal_wrapper");
-                wrapper.style.display = "flex"
-                modal.classList.add("animate_modal");
-                document.body.style.overflow = "hidden"
+        }
+        function showModal() {
+            const modal = document.getElementById("modal");
+            const wrapper = document.getElementById("modal_wrapper");
+            wrapper.style.display = "flex"
+            modal.classList.add("animate_modal");
+            document.body.style.overflow = "hidden"
 
+        }
+        function closeModal() {
+            const modal = document.getElementById("modal");
+
+            const wrapper = document.getElementById("modal_wrapper");
+            wrapper.style.display = "none"
+            modal.classList.remove("animate_modal");
+            document.body.style.overflow = "auto"
+
+        }
+        // todo: start position, end position and refresh on scroll down, long page without having scrolled, catch up
+        const html = document.documentElement;
+        const canvas = document.getElementById("cyclist2");
+        const context = canvas.getContext("2d");
+        const frameCount = 144;
+        const offset = 100; // when the cyclist starts animating
+        const a = 5 // scroll resolution e.g. 1 animation frame per 5 pixels
+        const currentFrame = index => (
+            `img/animation/anim${index.toString()}.png`
+        )
+        var imageArray = []
+        var index = 0
+        const preloadImages = () => {
+            for (let i = 1; i <= frameCount; i++) {
+                const img = new Image();
+                img.src = currentFrame(i);
+
+                imageArray.push(img)
             }
-            function closeModal() {
-                const modal = document.getElementById("modal");
-
-                const wrapper = document.getElementById("modal_wrapper");
-                wrapper.style.display = "none"
-                modal.classList.remove("animate_modal");
-                document.body.style.overflow = "auto"
-
-            }
-            // todo: start position, end position and refresh on scroll down, long page without having scrolled, catch up
-            const html = document.documentElement;
-            const canvas = document.getElementById("cyclist2");
-            const context = canvas.getContext("2d");
-            const frameCount = 144;
-            const offset = 100; // when the cyclist starts animating
-            const a = 5 // scroll resolution e.g. 1 animation frame per 5 pixels
-            const currentFrame = index => (
-                `img/animation/anim${index.toString()}.png`
-            )
-            var imageArray = []
-            var index = 0
-            const preloadImages = () => {
-                for (let i = 1; i <= frameCount; i++) {
-                    const img = new Image();
-                    img.src = currentFrame(i);
-
-                    imageArray.push(img)
-                }
-            };
-            context.beginPath();
-            context.strokeStyle = "black";
-            context.lineWidth = 2;
-            context.moveTo(75, 0);
-            context.setLineDash([35, 10]);
-            context.lineTo(75, 75);
-            context.stroke();
-            context.beginPath();
-            context.arc(75, 75, 15, 0, 2 * Math.PI, false);
-            context.fillStyle = 'white';
-            context.fill();
-            context.lineWidth = 2;
-            context.setLineDash([]);
-            context.strokeStyle = 'black';
-            context.stroke();
-            const img3 = new Image();
-            img3.src = `img/animation/straight.png`
-            if (img3.complete) {
+        };
+        context.beginPath();
+        context.strokeStyle = "black";
+        context.lineWidth = 2;
+        context.moveTo(75, 0);
+        context.setLineDash([35, 10]);
+        context.lineTo(75, 75);
+        context.stroke();
+        context.beginPath();
+        context.arc(75, 75, 15, 0, 2 * Math.PI, false);
+        context.fillStyle = 'white';
+        context.fill();
+        context.lineWidth = 2;
+        context.setLineDash([]);
+        context.strokeStyle = 'black';
+        context.stroke();
+        const img3 = new Image();
+        img3.src = `img/animation/straight.png`
+        if (img3.complete) {
+            context.drawImage(img3, -50, -50);
+        } else {
+            img3.onload = function () {
                 context.drawImage(img3, -50, -50);
-            } else {
-                img3.onload = function () {
-                    context.drawImage(img3, -50, -50);
-                };
-            }
+            };
+        }
 
-            context.drawImage(img3, 100, 200);
-            window.addEventListener('scroll', () => {
-                const scrollTop = html.scrollTop;
-                const canvasPos = canvas.getBoundingClientRect().top
-                const startScroll = window.innerHeight / 2;
-                const routeHeight = 5290;
+        context.drawImage(img3, 100, 200);
+        window.addEventListener('scroll', () => {
+            const scrollTop = html.scrollTop;
+            const canvasPos = canvas.getBoundingClientRect().top
+            const startScroll = window.innerHeight / 2;
+            const routeHeight = 5290;
 
-                const updateImage = () => {
+            const updateImage = () => {
 
 
 
-                    if (canvasPos <= startScroll) {
+                if (canvasPos <= startScroll) {
 
-                        var f = 2;
-                        var w = 1440;
-                        var h = 100 / 2;
-                        function calcSineY(x) {
-                            return h - h * Math.sin(x * 2 * Math.PI * (f / w));
+                    var f = 2;
+                    var w = 1440;
+                    var h = 100 / 2;
+                    function calcSineY(x) {
+                        return h - h * Math.sin(x * 2 * Math.PI * (f / w));
+                    }
+                    context.clearRect(0, 0, canvas.width, canvas.height);
+                    index = Math.floor((startScroll - canvasPos) / a) % (frameCount - 1);
+                    posY = (Math.sin(((index) / (frameCount - 1) * 360) * Math.PI / 180) * 50) - 50
+                    posX = (startScroll - canvasPos) - 50
+                    context.beginPath();
+                    context.strokeStyle = "black";
+                    context.lineWidth = 2;
+                    context.moveTo(75, 0);
+                    context.setLineDash([35, 10]);
+                    context.lineTo(75, 75);
+                    context.stroke();
+
+
+                    context.beginPath();
+                    context.moveTo(75, 75);
+                    context.setLineDash([35, 10]);
+                    context.strokeStyle = "black";
+                    for (var i = 0; i < Math.floor((startScroll - canvasPos)); i++) {
+                        if (i < 5080) {
+                            var y = calcSineY(i);
+
+                            context.lineTo(150 - 25 - y, i + 75);
                         }
+
+
+                    }
+                    context.stroke();
+                    var prevP = 0
+                    for (var p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
+
+                        const elements = Array.from(document.getElementsByClassName("wp" + (p + 1)))
+                        elements.forEach(element => {
+                            element.classList.remove("animate_out");
+                            element.classList.add("animate_in");
+                        });
+                        for (var r = p + 1; r < 15; r++) {
+                            const elements = Array.from(document.getElementsByClassName("wp" + (r + 1)))
+                            elements.forEach(element => {
+                                element.classList.remove("animate_in");
+                                element.classList.add("animate_out");
+                            });
+                        }
+
+                        var dir = 25
+                        if (p % 2 !== 0) {
+                            dir = 125
+                        }
+                        context.beginPath();
+                        context.moveTo(75, 75 + (p) * 360);
+                        context.setLineDash([]);
+                        context.lineTo(dir, 75 + (p) * 360);
+                        context.stroke();
+                        context.beginPath();
+                        context.arc(75, 75 + (p) * 360, 15, 0, 2 * Math.PI, false);
+                        context.fillStyle = 'white';
+                        context.fill();
+                        context.lineWidth = 2;
+                        context.setLineDash([]);
+                        context.strokeStyle = 'black';
+                        context.stroke();
+                    }
+                    if ((startScroll - canvasPos) <= 5050) {
+                        context.drawImage(imageArray[index], posY, posX);
+                    } else {
+                        context.drawImage(img3, -50, 5000);
+                    }
+
+                } else {
+                    if (canvasPos > startScroll) {
+                        const elements = Array.from(document.getElementsByClassName("wp1"))
+                        elements.forEach(element => {
+                            element.classList.remove("animate_in");
+                            element.classList.add("animate_out");
+                        });
                         context.clearRect(0, 0, canvas.width, canvas.height);
-                        index = Math.floor((startScroll - canvasPos) / a) % (frameCount - 1);
-                        posY = (Math.sin(((index) / (frameCount - 1) * 360) * Math.PI / 180) * 50) - 50
-                        posX = (startScroll - canvasPos) - 50
+
                         context.beginPath();
                         context.strokeStyle = "black";
                         context.lineWidth = 2;
@@ -733,160 +821,88 @@
                         context.setLineDash([35, 10]);
                         context.lineTo(75, 75);
                         context.stroke();
-
-
                         context.beginPath();
-                        context.moveTo(75, 75);
-                        context.setLineDash([35, 10]);
-                        context.strokeStyle = "black";
-                        for (var i = 0; i < Math.floor((startScroll - canvasPos)); i++) {
-                            if (i < 5080) {
-                                var y = calcSineY(i);
-
-                                context.lineTo(150 - 25 - y, i + 75);
-                            }
-
-
-                        }
+                        context.arc(75, 75, 15, 0, 2 * Math.PI, false);
+                        context.fillStyle = 'white';
+                        context.fill();
+                        context.lineWidth = 2;
+                        context.setLineDash([]);
+                        context.strokeStyle = 'black';
                         context.stroke();
-                        var prevP = 0
-                        for (var p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
+                        context.drawImage(img3, -50, -50);
 
-                            const elements = Array.from(document.getElementsByClassName("wp" + (p + 1)))
-                            elements.forEach(element => {
-                                element.classList.remove("animate_out");
-                                element.classList.add("animate_in");
-                            });
-                            for (var r = p + 1; r < 15; r++) {
-                                const elements = Array.from(document.getElementsByClassName("wp" + (r + 1)))
-                                elements.forEach(element => {
-                                    element.classList.remove("animate_in");
-                                    element.classList.add("animate_out");
-                                });
-                            }
-
-                            var dir = 25
-                            if (p % 2 !== 0) {
-                                dir = 125
-                            }
-                            context.beginPath();
-                            context.moveTo(75, 75 + (p) * 360);
-                            context.setLineDash([]);
-                            context.lineTo(dir, 75 + (p) * 360);
-                            context.stroke();
-                            context.beginPath();
-                            context.arc(75, 75 + (p) * 360, 15, 0, 2 * Math.PI, false);
-                            context.fillStyle = 'white';
-                            context.fill();
-                            context.lineWidth = 2;
-                            context.setLineDash([]);
-                            context.strokeStyle = 'black';
-                            context.stroke();
-                        }
-                        if ((startScroll - canvasPos) <= 5050) {
-                            context.drawImage(imageArray[index], posY, posX);
-                        } else {
-                            context.drawImage(img3, -50, 5000);
-                        }
-
-                    } else {
-                        if (canvasPos > startScroll) {
-                            const elements = Array.from(document.getElementsByClassName("wp1"))
-                            elements.forEach(element => {
-                                element.classList.remove("animate_in");
-                                element.classList.add("animate_out");
-                            });
-                            context.clearRect(0, 0, canvas.width, canvas.height);
-
-                            context.beginPath();
-                            context.strokeStyle = "black";
-                            context.lineWidth = 2;
-                            context.moveTo(75, 0);
-                            context.setLineDash([35, 10]);
-                            context.lineTo(75, 75);
-                            context.stroke();
-                            context.beginPath();
-                            context.arc(75, 75, 15, 0, 2 * Math.PI, false);
-                            context.fillStyle = 'white';
-                            context.fill();
-                            context.lineWidth = 2;
-                            context.setLineDash([]);
-                            context.strokeStyle = 'black';
-                            context.stroke();
-                            context.drawImage(img3, -50, -50);
-
-                        }
-                        // index = 0
-                        // context.clearRect(0, 0, canvas.width, canvas.height);
-
-                        // context.drawImage(imageArray[index], -50, -50, 250, 250);
                     }
+                    // index = 0
+                    // context.clearRect(0, 0, canvas.width, canvas.height);
+
+                    // context.drawImage(imageArray[index], -50, -50, 250, 250);
                 }
-                requestAnimationFrame(() => updateImage())
-            });
-            preloadImages()
-        </script>
-        <script>
-            const slider = document.querySelector(".slider input");
-            const img = document.querySelector(".images .img-2");
-            const dragLine = document.querySelector(".slider .drag-line");
-            slider.oninput = () => {
-                let sliderVal = slider.value;
-                dragLine.style.left = sliderVal + "%";
-                img.style.width = sliderVal + "%";
             }
-        </script>
-        <script type="module">
-            var initZoom = 7
-            if (window.innerWidth < 800) {
-                initZoom = 6
-            }
-            const map = L.map('map', {
-                minZoom: (initZoom),
-                maxZoom: 9, scrollWheelZoom: false
-            }).setView([45.495, 9.734], initZoom);
-            L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-                attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
-            }).addTo(map);
-            var control = L.control.layers(null, null).addTo(map);
-            var marker = L.marker([46.529, 10.851], {
-                title: "glacier"
-            }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
-            const imageUrl = './img/oldmap_modified.png';
-            const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-            const altText = '';
-            const latLngBounds = L.latLngBounds([[48.126926, 4.950054], [42.759366, 14.614517]]);
-            const latLngBoundsZoom = L.latLngBounds([[48.426926, 4.650054], [42.459366, 14.914517]]);
-            map.setMaxBounds(latLngBoundsZoom);
-            const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
-                opacity: 1,
-                errorOverlayUrl,
-                alt: altText,
-                interactive: true,
+            requestAnimationFrame(() => updateImage())
+        });
+        preloadImages()
+    </script>
+    <script>
+        const slider = document.querySelector(".slider input");
+        const img = document.querySelector(".images .img-2");
+        const dragLine = document.querySelector(".slider .drag-line");
+        slider.oninput = () => {
+            let sliderVal = slider.value;
+            dragLine.style.left = sliderVal + "%";
+            img.style.width = sliderVal + "%";
+        }
+    </script>
+    <script type="module">
+        var initZoom = 7
+        if (window.innerWidth < 800) {
+            initZoom = 6
+        }
+        const map = L.map('map', {
+            minZoom: (initZoom),
+            maxZoom: 9, scrollWheelZoom: false
+        }).setView([45.495, 9.734], initZoom);
+        L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+            attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
+        }).addTo(map);
+        var control = L.control.layers(null, null).addTo(map);
+        var marker = L.marker([46.529, 10.851], {
+            title: "glacier"
+        }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
+        const imageUrl = './img/oldmap_modified.png';
+        const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+        const altText = '';
+        const latLngBounds = L.latLngBounds([[48.126926, 4.950054], [42.759366, 14.614517]]);
+        const latLngBoundsZoom = L.latLngBounds([[48.426926, 4.650054], [42.459366, 14.914517]]);
+        map.setMaxBounds(latLngBoundsZoom);
+        const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+            opacity: 1,
+            errorOverlayUrl,
+            alt: altText,
+            interactive: true,
 
-            }).addTo(map);
-           
-            control.addOverlay(imageOverlay, "Historic Map")
-            const url = 'https://mevantilburg.github.io/ggr_website/img/Ride_vklein.gpx';
-            const options = {
-                markers: {
-                    startIcon: './img/marker2.svg',
-                    endIcon: './img/marker2.svg',
-                    wptTypeIcons: { pass: './img/marker_pass.svg', glacier: './img/marker_glacier.svg', Dot: './img/marker2.svg' },
+        }).addTo(map);
 
-                },
+        control.addOverlay(imageOverlay, "Historic Map")
+        const url = 'https://mevantilburg.github.io/ggr_website/img/Ride_vklein.gpx';
+        const options = {
+            markers: {
+                startIcon: './img/marker2.svg',
+                endIcon: './img/marker2.svg',
+                wptTypeIcons: { pass: './img/marker_pass.svg', glacier: './img/marker_glacier.svg', Dot: './img/marker2.svg' },
 
-                async: true,
-                polyline_options: { color: 'black', dashArray: "15,5" },
-            };
+            },
 
-            const gpx = new L.GPX(url, options).on('loaded', (e) => {
-                control.addOverlay(gpx, "Goodbye Glacier Ride");
-            }).addTo(map);
+            async: true,
+            polyline_options: { color: 'black', dashArray: "15,5" },
+        };
 
-            
-        </script>
- 
+        const gpx = new L.GPX(url, options).on('loaded', (e) => {
+            control.addOverlay(gpx, "Goodbye Glacier Ride");
+        }).addTo(map);
+
+
+    </script>
+
 </body>
 
 </html>
