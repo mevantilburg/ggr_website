@@ -657,6 +657,7 @@ a{
     background: none;
     -webkit-appearance: none;
     cursor: col-resize;
+    box-shadow: none;
   }
   .slider .drag-line{
     width: 3px;
