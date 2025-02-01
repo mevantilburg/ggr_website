@@ -278,7 +278,7 @@ margin-left: auto;
 }
 .superscript {
   vertical-align: super;
-  font-size: 8px;
+ 
   line-height: normal;
 }
 .normalscript {
@@ -719,6 +719,7 @@ a{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    
     #map{
       height: 325px;
       width: 325px;
@@ -755,7 +756,7 @@ a{
       height: 10px;
     }
      .day_label{
-      display: flex;
+     
       font-weight: 700;
       font-size: 16px;
       text-align: left;
