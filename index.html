@@ -315,9 +315,16 @@
                         <div class="route_section">
                             <div class="wp1 dist_left"></div>
                             <div class="wp1 day_section left_align">
-                                <div class="route_image_right"><img onclick="showModal(1)" class="postcard"
-                                        src="img/aletsch.png" />
-                                </div>
+                             
+                                    <div class="pc_wrap" onclick="showModal(1)">
+                                     
+                                        <!-- <img class="postcard" src="img/aletsch.png" /> -->
+                                        <div class="pc_back"></div>
+                                          <img id="pc1" class="pc_image" src="img/aletsch.png" />
+                                        <div class="pc_front"></div>
+                                    </div>
+                                   
+                               
 
                             </div>
                         </div>
@@ -788,6 +795,8 @@
                     } else {
                         context.drawImage(img3, -50, 5000);
                     }
+                    // const lastcard=document.getElementById("pc" + (Math.floor((startScroll - canvasPos) / 360) + 1))
+                    // console.log(lastcard)
 
                 } else {
                     if (canvasPos > startScroll) {

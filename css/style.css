@@ -206,6 +206,44 @@ opacity: 0.5;
   margin-bottom: -6px;
   cursor: pointer;
 }
+.pc_wrap{
+ position: relative;
+ margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+
+    width: 200px;
+    height: 218px;
+    transition: transform .1s ease-in-out;
+}
+.pc_image{
+  width: 166px;
+  top: 80px;
+  left: 18px;
+  position: absolute;
+ 
+}
+.pc_wrap:hover .pc_image{
+  transform: rotate(3deg) translateY(-10px);
+ 
+}
+.pc_front{
+  position: absolute;
+  height: 218px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-image: url("../img/envelope_front.png");
+  background-size: contain;
+  ;
+}
+.pc_back{
+  position: absolute;
+  height: 218px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/envelope_back.png");
+}
 .path_cover{
   bottom: 0;
   position: absolute;
@@ -719,7 +757,13 @@ a{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
-    
+    .modalcontent{
+     
+      padding-left: 15px;
+      padding-right: 15px;
+     
+      
+    }
     #map{
       height: 325px;
       width: 325px;
