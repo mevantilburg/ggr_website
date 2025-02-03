@@ -125,7 +125,7 @@
   <wpt lon="6.807150799953354" lat="44.321588609885644">
     <name>Cime de la Bonette - 2802</name>
     <sym>Dot</sym>
-    <type>Dot</type>
+    <type>pass</type>
   </wpt>
   <wpt lon="7.223117106864123" lat="44.070971755010866">
     <name>Col Saint-Martin - 1499</name>

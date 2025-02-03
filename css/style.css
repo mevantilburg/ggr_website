@@ -63,7 +63,79 @@ p{
 .wrapper{
     height: 100%;
     width: 100%;
-   
+ 
+}
+.navbar{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #1974b7;
+    display: flex;
+    flex-direction: column;
+}
+.nav-container{
+  display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1448px;
+}
+.navbar-toggler{
+  display: none;
+  padding: 0.75rem;
+    font-size: 0.75rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.55);
+    border-color: rgba(255, 255, 255, 0);
+background-color:transparent;
+margin-right: 20px;
+cursor: pointer;
+}
+.svg-inline{
+  height: 14px;
+
+  width: 20px;
+}
+.nav-collapse{
+  margin-left: auto;
+  margin-right: 20px;
+
+}
+.navbar-nav{
+  display: flex;
+  margin-left: auto;
+}
+.nav-item{
+  
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  font-family: "Montserrat", serif;
+  font-style: normal;
+  font-weight: 500;
+  list-style: none;
+  padding-left: 50px;
+}
+.navbar-brand{
+  height: 35px;;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.navbar-brand-link{
+display: flex;
+margin-left: 20px;
+}
+.nav-link{
+  color: rgba(255, 255, 255, 0.55);
 }
 .modal_wrapper{
   display: none;
@@ -137,7 +209,7 @@ opacity: 0.5;
 }
 .header{
     width: 100%;
-    height: 50px;
+    height: 10px;
     background-color: #ccc;
     background-image: url("../img/GLOBE---1850-2023-MO.png");
     background-size: cover;
@@ -146,7 +218,7 @@ opacity: 0.5;
     width: 100%;
     min-height: 100%;
     background-color: rgb(246, 246, 246);
-
+    margin-top: 80px;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
 }
@@ -206,7 +278,8 @@ opacity: 0.5;
   margin-bottom: -6px;
   cursor: pointer;
 }
-.pc_wrap{
+.pc_wrap_left,
+.pc_wrap_right{
  position: relative;
  margin-top: auto;
     margin-bottom: auto;
@@ -223,7 +296,8 @@ opacity: 0.5;
   position: absolute;
  
 }
-.pc_wrap:hover .pc_image{
+.pc_wrap_left:hover .pc_image,
+.pc_wrap_right:hover .pc_image{
   transform: rotate(3deg) translateY(-10px);
  
 }
@@ -757,6 +831,24 @@ a{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .navbar-toggler{
+      display: flex;
+      margin-left: auto;
+    }
+    .nav-collapse{
+      display: none;
+      flex-basis: 100%;
+    }
+    .navbar-nav{
+      flex-direction: column;
+      flex-grow: 1;
+      padding-inline-start: 20px;
+    }
+    .nav-item{
+      padding-left: 0px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
     .modalcontent{
      
       padding-left: 15px;
@@ -812,6 +904,27 @@ a{
       font-weight: 400;
       font-size: 12px;
     
+    }
+    .pc_wrap_left{
+      width: 80px;
+      height: 88px;
+      margin-right: -15px;
+    }
+    .pc_wrap_right{
+      width: 80px;
+      height: 88px;
+      margin-left: -15px;
+     
+    }
+    .pc_front,
+    .pc_back{
+      width: 80px;
+      height: 88px;
+    }
+    .pc_image{
+      width: 66px;
+      top: 32px;
+      left: 7px;
     }
     .route_image_left{
       margin-right: -15px;
