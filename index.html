@@ -971,9 +971,16 @@
             markers: {
                 startIcon: './img/marker2.svg',
                 endIcon: './img/marker2.svg',
-                wptTypeIcons: { pass: './img/marker_pass.svg', glacier: './img/marker_glacier.svg', Dot: './img/marker2.svg' },
+               
 
             },
+            marker_options: {
+					startIconUrl: './img/marker2.svg',
+					endIconUrl: './img/marker2.svg',				
+					iconSize: [18, 22],
+					iconAnchor: [9, 22],
+					
+				},
 
             async: true,
             polyline_options: { color: 'black', dashArray: "15,5" },
@@ -1003,14 +1010,19 @@ const passMarkers = L.layerGroup();
                     
                     const icon = L.icon({
                         iconUrl: getIconUrl(type),
-                        iconSize: [28, 46],     // Match SVG viewBox dimensions
-                        iconAnchor: [14, 46],   // Center horizontally (25/2) and place at bottom
-                        popupAnchor: [0, -46]   // Place popup above the marker
+                        iconSize: [18, 22],     // Match SVG viewBox dimensions
+                        iconAnchor: [9, 22],   // Center horizontally (25/2) and place at bottom
+                        popupAnchor: [0, -22]   // Place popup above the marker
                     });
                     
                     const marker = L.marker([lat, lon], { 
                         icon: icon,
                         title: name 
+                    }).bindPopup(name, {
+                        className: 'custom-popup',  // Add a custom CSS class
+                        closeButton: false,         // Hide the close button
+                        autoClose: true,           // Close when another popup is opened
+                        closeOnClick: true         // Close when clicking elsewhere on the map
                     });
                     
                     // Add marker to appropriate layer group

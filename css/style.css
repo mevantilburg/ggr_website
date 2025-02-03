@@ -142,6 +142,11 @@ cursor: pointer;
 display: flex;
 margin-left: 20px;
 }
+.leaflet-popup-content-wrapper {
+  border-radius: 3px;
+}
+
+
 .nav-link{
   color: rgba(255, 255, 255, 0.55);
 }
