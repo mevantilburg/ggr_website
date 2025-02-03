@@ -145,6 +145,8 @@ margin-left: 20px;
   background-color: rgba(0, 0, 0, .2);
   z-index: 1000;
   perspective: 1000px;
+  margin-top: -80px;
+  z-index: 2000;
 }
 .modal_image{
   width: calc(100%);
