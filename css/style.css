@@ -38,13 +38,21 @@ h3{
   margin-bottom: auto;
 }
 h2{
-    color: rgb(56, 56, 56);
-    text-align: center;
-    font-family: "Jost", serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 140%;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 153.5%;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-end: 0em;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 p{
     margin: 20px auto;
@@ -145,7 +153,7 @@ margin-left: 20px;
   background-color: rgba(0, 0, 0, .2);
   z-index: 1000;
   perspective: 1000px;
-  margin-top: -80px;
+  margin-top: -60px;
   z-index: 2000;
 }
 .modal_image{
@@ -256,6 +264,18 @@ a.anchor {
     padding-bottom: 30px;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
+}
+.image_section2{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  max-width: 1448px;
+  z-index: 1;
+  /* padding-top: 5px; */
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
 }
 .center_image_section{
   margin-left: auto;
@@ -738,11 +758,20 @@ a{
       width: 33.3%;
       flex-direction: column;
   }
+  .source{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
 .wrapperslider{
     position: relative;
-    height: 600px;
+    height: 638px;
     width: 100%;
-    max-width: 600px;
+    max-width: 900px;
     overflow: hidden;
     background: #fff;
     margin-left: auto;
@@ -758,7 +787,7 @@ a{
   .wrapper .images .img-1{
     height: 100%;
     width: 100%;
-    background: url("../img/rhone1.png") no-repeat;
+    background: url("../img/Schlatenkees1.jpg") no-repeat;
     background-size: cover;
   }
   .wrapper .images .img-2{
@@ -766,7 +795,7 @@ a{
     height: 100%;
     width: 50%;
   
-    background: url("../img/rhone2.png") no-repeat;
+    background: url("../img/Schlatenkees2.jpg") no-repeat;
     background-size: cover;
    
   }
@@ -783,7 +812,7 @@ a{
     -webkit-appearance: none;
   }
   .slider input::-webkit-slider-thumb{
-    height: 600px;
+    height: 638px;
     width: 60px;
     background: none;
     -webkit-appearance: none;
@@ -792,7 +821,7 @@ a{
   }
   .slider .drag-line{
     width: 3px;
-    height: 600px;
+    height: 638px;
     position: absolute;
     left: 49.85%;
     pointer-events: none;
@@ -802,7 +831,7 @@ a{
     position: absolute;
     content: "";
     width: 100%;
-    height: 278px;
+    height: 298px;
     background: #fff;
   }
   .slider .drag-line::before{
@@ -845,6 +874,24 @@ a{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .wrapperslider{
+     
+      height: 300px;
+      width: 100%;
+     
+     
+    }
+    .slider .drag-line{
+    
+      height: 300px;
+     
+    }
+    .slider .drag-line::before,
+    .slider .drag-line::after{
+     
+      height: 128px;
+    
+    }
     .navbar-toggler{
       display: flex;
       margin-left: auto;
