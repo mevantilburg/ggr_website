@@ -21,7 +21,7 @@ const ROUTE_DATA = {
                 support_image: "img/placeholder_support.png",
                 name: "Zugspitze",
                 type: "location",
-                points: []
+                points: ["The highest mountain in Germany ( 2.962m ), on the border with Austria, holds the two last glaciers in Germany.", "hallo"]
             },
             accumulatedDistance: 0
         },
@@ -300,7 +300,7 @@ const ROUTE_DATA = {
                 distance: 125,
                 elevation: 2945,
                 points: [
-                    "Col de l'Isteran",
+                    "Col de l'Iseran",
                     "Col de Mont Cenis"
                 ]
             },
