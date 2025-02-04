@@ -74,10 +74,10 @@ const ROUTE_DATA = {
                 name: "Passo dello Stelvio",
                 type: "col",
                 stats: {
-                    distance: 24,9,
-                    elevation: 1.846,
-                    gradient: 7,4,
-                    steepest: 10,3
+                    distance: "24,9",
+                    elevation: "1.846",
+                    gradient: "7,4",
+                    steepest: "10,3"
                 },
                 points: []
             },
