@@ -112,7 +112,7 @@ const ROUTE_DATA = {
                     surface: 15
                 },
                 points: ["Since 1900, the Morteratsch Glacier lost 2/3 of its volume.",
-                         "It is expected that the 6th biggest glacier will be vanished by 2100]
+                         "It is expected that the 6th biggest glacier will be vanished by 2100"]
             },
             accumulatedDistance: 328
         },
