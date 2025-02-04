@@ -21,7 +21,7 @@ const ROUTE_DATA = {
                 support_image: "img/placeholder_support.png",
                 name: "Zugspitze",
                 type: "location",
-                points: []
+                points: ["hallo", "hallo"]
             },
             accumulatedDistance: 0
         },
