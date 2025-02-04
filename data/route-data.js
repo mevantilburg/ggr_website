@@ -47,7 +47,8 @@ const ROUTE_DATA = {
                 support_image: "img/placeholder_support.png",
                 name: "Campanile di Curon",
                 type: "location",
-                points: []
+                points: ["In 1950 the village of Curon was moved due to the construction of a hydropower dam, that joined the lakes of Resia and Curon.", 
+                         "The 700 year old bell tower is the remainder of the old village of Curon." ]
             },
             accumulatedDistance: 119
         },
