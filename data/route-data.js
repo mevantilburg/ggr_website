@@ -192,8 +192,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard7",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/Aletsch_s.png",
+                large_image: "img/aletsch.png",
                 support_image: "img/placeholder_support.png",
                 name: "Aletsch Glacier",
                 type: "glacier",
