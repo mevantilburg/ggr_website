@@ -21,7 +21,8 @@ const ROUTE_DATA = {
                 support_image: "img/Zugspitze.png",
                 name: "Zugspitze",
                 type: "location",
-                points: ["The highest mountain in Germany ( 2.962m ), on the border with Austria, holds the two last glaciers in Germany.", "hallo"]
+                points: ["The highest mountain in Germany ( 2.962m ), on the border with Austria, holds the two last glaciers in Germany.", 
+                         "In 2022, the Südliche Schneeferner has lost its status as a glacier and is now dead ice. The Nördliche Schneeferner will also be completely melted in a few years."]
             },
             accumulatedDistance: 0
         },
