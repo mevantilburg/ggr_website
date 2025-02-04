@@ -48,7 +48,7 @@ const ROUTE_DATA = {
                 name: "Campanile di Curon",
                 type: "location",
                 points: ["In 1950 the village of Curon was moved due to the construction of a hydropower dam, that joined the lakes of Resia and Curon.", 
-                         "The 700 year old bell tower is the remainder of the old village of Curon." ]
+                         "The 700 year old bell tower is the remainder of the old village of Curon."]
             },
             accumulatedDistance: 119
         },
@@ -291,7 +291,7 @@ const ROUTE_DATA = {
                     length: "11,5",
                     surface: 28
                 },
-                points: ["It's the largest glacier in France and the third of the Alps and up to 200 m thick",]
+                points: ["It's the largest glacier in France and the third of the Alps and up to 200 m thick"]
             },
             accumulatedDistance: 929
         },
