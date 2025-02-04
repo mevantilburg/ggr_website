@@ -70,7 +70,7 @@ const ROUTE_DATA = {
                 id: "postcard3",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Stelvio.jpg",
                 name: "Passo dello Stelvio",
                 type: "col",
                 stats: {
@@ -133,7 +133,7 @@ const ROUTE_DATA = {
                 id: "postcard5",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Oberalppass.jpg",
                 name: "Oberalppass",
                 type: "col",
                 stats: {
@@ -313,12 +313,12 @@ const ROUTE_DATA = {
                 id: "postcard11",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Iseran.jpg",
                 name: "Col de l'Iseran",
                 type: "col",
                 stats: {
                     distance: "47,4",
-                    elevation: "2.05",
+                    elevation: "2.050",
                     gradient: "4,3",
                     steepest: "8,6"
                 },
@@ -345,7 +345,7 @@ const ROUTE_DATA = {
                 id: "postcard12",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Finestre.jpg",
                 name: "Colle delle Finestre",
                 type: "col",
                 stats: {
@@ -376,7 +376,7 @@ const ROUTE_DATA = {
                 id: "postcard13",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/CimeBonette.jpg",
                 name: "Cime de la Bonette",
                 type: "col",
                 stats: {
