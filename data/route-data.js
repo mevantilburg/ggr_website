@@ -157,7 +157,7 @@ const ROUTE_DATA = {
                 elevation: 2530,
                 points: [
                     "Furkapass",
-                    "Rhone Glacier",
+                    "Rhône Glacier",
                     "Hotel Belvedere",
                     "Aletsch Glacier"
                 ]
@@ -166,8 +166,8 @@ const ROUTE_DATA = {
                 id: "postcard6",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
-                name: "Rhone Glacier",
+                support_image: "img/Rhone.jpg",
+                name: "Rhône Glacier",
                 type: "glacier",
                 stats: {
                     size: 8,
@@ -225,7 +225,7 @@ const ROUTE_DATA = {
                 id: "postcard8",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Matterhorn.jpg",
                 name: "Zermatt",
                 type: "location",
                 points: ["Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
