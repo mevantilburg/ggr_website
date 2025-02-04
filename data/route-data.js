@@ -166,7 +166,7 @@ const ROUTE_DATA = {
                 id: "postcard6",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/Rhone.jpg",
+                support_image: "img/RhoneGlacier.jpeg",
                 name: "Rhône Glacier",
                 type: "glacier",
                 stats: {
@@ -225,7 +225,7 @@ const ROUTE_DATA = {
                 id: "postcard8",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/Matterhorn.jpg",
+                support_image: "img/Matterhorn.png",
                 name: "Zermatt",
                 type: "location",
                 points: ["Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
