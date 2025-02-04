@@ -253,7 +253,7 @@ const ROUTE_DATA = {
                 id: "postcard9",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Trient.jpg",
                 name: "Trient Glacier",
                 type: "glacier",
                 stats: {
@@ -283,7 +283,7 @@ const ROUTE_DATA = {
                 id: "postcard10",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/MerdeGlace.jpg",
                 name: "Mer de Glace",
                 type: "glacier",
                 stats: {
