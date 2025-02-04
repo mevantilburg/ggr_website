@@ -44,7 +44,7 @@ const ROUTE_DATA = {
                 id: "postcard2",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/curon.jpg",
+                support_image: "img/Curon.jpg",
                 name: "Campanile di Curon",
                 type: "location",
                 points: ["In 1950 the village of Curon was moved due to the construction of a hydropower dam, that joined the lakes of Resia and Curon.", 
