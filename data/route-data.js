@@ -196,7 +196,7 @@ const ROUTE_DATA = {
                 id: "postcard7",
                 image: "img/Aletsch_s.png",
                 large_image: "img/aletsch.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg",
                 name: "Aletsch Glacier",
                 type: "glacier",
                 stats: {
