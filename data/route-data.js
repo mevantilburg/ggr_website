@@ -103,15 +103,16 @@ const ROUTE_DATA = {
                 id: "postcard4",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Morteratsch.jpg",
                 name: "Morteratsch Glacier",
                 type: "glacier",
                 stats: {
-                    size: 0,
-                    length: 0,
-                    surface: 0
+                    size: 6,
+                    length: 6,
+                    surface: 15
                 },
-                points: []
+                points: ["Since 1900, the Morteratsch Glacier lost 2/3 of its volume.",
+                         "It is expected that the 6th biggest glacier will be vanished by 2100]
             },
             accumulatedDistance: 328
         },
