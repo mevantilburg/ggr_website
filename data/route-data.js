@@ -300,7 +300,7 @@ const ROUTE_DATA = {
                 distance: 125,
                 elevation: 2945,
                 points: [
-                    "Col de l'Isteran",
+                    "Col de l'Iseran",
                     "Col de Mont Cenis"
                 ]
             },
