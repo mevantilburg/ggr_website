@@ -137,10 +137,10 @@ const ROUTE_DATA = {
                 name: "Oberalppass",
                 type: "col",
                 stats: {
-                    distance: "16,1",
-                    elevation: 960,
-                    gradient: 6,
-                    steepest: "16,5"
+                    distance: "20,8",
+                    elevation: 906,
+                    gradient: "4,3",
+                    steepest: "9,4"
                 },
                 points: []
             },
