@@ -408,10 +408,10 @@ const ROUTE_DATA = {
                 id: "postcard15",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/placeholder_support.png",
+                support_image: "img/Monaco Casino.jpg",
                 name: "Monaco Casino",
                 type: "location",
-                points: []
+                points: ["We gamble with our planet, what's your bet?"]
             },
             accumulatedDistance: 1388
         },
