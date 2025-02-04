@@ -1,4 +1,3 @@
-
 html{
   scroll-behavior: smooth;
 }
@@ -160,10 +159,25 @@ margin-left: 20px;
   perspective: 1000px;
   margin-top: -60px;
   z-index: 2000;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .modal_image{
   width: calc(100%);
+  margin-bottom: -5px;
 
+}
+.modal_image_small{
+  width: calc(100% - 40px);
+ padding: 20px;
+}
+.modal_data_right{
+  font-family: "Jost", serif;
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: 20px;
 }
 .modal:hover{
   
@@ -172,26 +186,56 @@ margin-left: 20px;
   height: 40px;
 display: flex;
 }
+.modal_arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 15px;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+
+.modal_arrow:hover {
+    opacity: 0.7;
+}
+
+.modal_arrow_left {
+    left: -60px;
+}
+
+.modal_arrow_right {
+    right: -60px;
+}
 .closeicon{
+  position: absolute;
+  top: -8px;
+  right: -1px;
   width: 33px;
   height: 40px;
   padding-top: 13px;
   margin-left: auto;
   cursor: pointer;
+  color: #fff;
 }
 .closeicon:hover{
 opacity: 0.5;
 }
+
+
 .modalcontent{
-  height: calc(100% - 80px);
-  overflow-y: auto;
-  padding-left: 40px;
+  /* height: calc(100% - 80px);
+  /* overflow-y: auto; */
+  /* padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 40px;
-  
+  padding-bottom: 40px; */
+
 }
 .modal{
-  margin
+  
   font-family: "Jost", serif;
     font-optical-sizing: auto;
   width: 80vw;
@@ -199,9 +243,23 @@ opacity: 0.5;
   transform-style: preserve-3d;
   margin: auto;
   opacity: 0;
- height: 80vh;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+ /* height: 80vh; */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
   background-color: #fff; 
+}
+.modal_label{
+
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 8px;
+
+}
+.modal_label span{
+
+  font-weight: 400;
+  font-size: 20px;
+
 }
 @keyframes fade-in3 {
   from {scale: .8; opacity: 0;}
@@ -915,12 +973,28 @@ a{
       padding-top: 5px;
       padding-bottom: 5px;
     }
-    .modalcontent{
+    .modal_label{
+
+    
+      font-size: 16px;
+   
+      margin-bottom: 8px;
+    
+    }
+    .modal_image_small {
+      width: calc(100% - 20px);
+      padding: 10px;
+    }
+    .modal_data_right {
      
-      padding-left: 15px;
-      padding-right: 15px;
-     
-      
+      margin-top: 4px;
+     margin-bottom: 10px;
+    }
+    .modal_label span{
+    
+    
+      font-size: 16px;
+    
     }
     #map{
       height: 325px;
