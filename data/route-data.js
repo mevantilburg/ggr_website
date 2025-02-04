@@ -18,7 +18,7 @@ const ROUTE_DATA = {
                 id: "postcard1",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/Zugspitze.png",
+                support_image: "img/Zugspitze.jpg",
                 name: "Zugspitze",
                 type: "location",
                 points: ["The highest mountain in Germany ( 2.962m ), on the border with Austria, holds the two last glaciers in Germany.", 
