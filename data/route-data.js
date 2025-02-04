@@ -137,10 +137,10 @@ const ROUTE_DATA = {
                 name: "Oberalppass",
                 type: "col",
                 stats: {
-                    distance: 0,
-                    elevation: 0,
-                    gradient: 0,
-                    steepest: 0
+                    distance: "16,1",
+                    elevation: 960,
+                    gradient: 6,
+                    steepest: "16,5"
                 },
                 points: []
             },
@@ -170,11 +170,12 @@ const ROUTE_DATA = {
                 name: "Rhone Glacier",
                 type: "glacier",
                 stats: {
-                    size: 0,
-                    length: 0,
-                    surface: 0
+                    size: 8,
+                    length: 8,
+                    surface: 17
                 },
-                points: []
+                points: ["Primary source of water for the Rhone River.",
+                         "One of the most extensively studied glaciers, providing valuable data on climate change and glacial dynamics"]
             },
             accumulatedDistance: 537
         },
@@ -199,11 +200,11 @@ const ROUTE_DATA = {
                 name: "Aletsch Glacier",
                 type: "glacier",
                 stats: {
-                    size: 0,
-                    length: 0,
-                    surface: 0
+                    size: 1,
+                    length: 20,
+                    surface: 78
                 },
-                points: []
+                points: ["The glacier lost 12% of its volume between 2016 and 2021"]
             },
             accumulatedDistance: 638
         },
@@ -227,7 +228,8 @@ const ROUTE_DATA = {
                 support_image: "img/placeholder_support.png",
                 name: "Zermatt",
                 type: "location",
-                points: []
+                points: ["Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
+                        "Known for its stunning alpine landscape, the town sits at the foot of the iconic Matterhorn and is surrounded by several peaks over 4,000 meters and multiple Glaciers." ]
             },
             accumulatedDistance: 690
         },
@@ -255,9 +257,9 @@ const ROUTE_DATA = {
                 name: "Trient Glacier",
                 type: "glacier",
                 stats: {
-                    size: 0,
-                    length: 0,
-                    surface: 0
+                    size: 14,
+                    length: "4,4",
+                    surface: "5,5"
                 },
                 points: []
             },
@@ -285,11 +287,11 @@ const ROUTE_DATA = {
                 name: "Mer de Glace",
                 type: "glacier",
                 stats: {
-                    size: 0,
-                    length: 0,
-                    surface: 0
+                    size: 3,
+                    length: "11,5",
+                    surface: 28
                 },
-                points: []
+                points: ["It's the largest glacier in France and the third of the Alps and up to 200 m thick",]
             },
             accumulatedDistance: 929
         },
@@ -315,10 +317,10 @@ const ROUTE_DATA = {
                 name: "Col de l'Iseran",
                 type: "col",
                 stats: {
-                    distance: 0,
-                    elevation: 0,
-                    gradient: 0,
-                    steepest: 0
+                    distance: "47,4",
+                    elevation: "2.05",
+                    gradient: "4,3",
+                    steepest: "8,6"
                 },
                 points: []
             },
@@ -347,10 +349,10 @@ const ROUTE_DATA = {
                 name: "Colle delle Finestre",
                 type: "col",
                 stats: {
-                    distance: 0,
-                    elevation: 0,
-                    gradient: 0,
-                    steepest: 0
+                    distance: "18,8",
+                    elevation: "1.702",
+                    gradient: "9,1",
+                    steepest: "16,5"
                 },
                 points: []
             },
@@ -378,10 +380,10 @@ const ROUTE_DATA = {
                 name: "Cime de la Bonette",
                 type: "col",
                 stats: {
-                    distance: 0,
-                    elevation: 0,
-                    gradient: 0,
-                    steepest: 0
+                    distance: "23,3",
+                    elevation: "1.590",
+                    gradient: "6,8",
+                    steepest: "14,1"
                 },
                 points: []
             },
