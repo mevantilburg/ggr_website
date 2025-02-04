@@ -286,6 +286,11 @@ a.anchor {
   /* background-color: #ccc; */
   margin-bottom: -30px;
 }
+.supporta-campaign-overview{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
 .columnimage{
   max-width: 300px;
   margin-left: auto;
