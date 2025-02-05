@@ -349,8 +349,8 @@ window.addEventListener('scroll', () => {
             for (var p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
                 if (p >= totalDays) break; // Don't draw beyond last day
                 
-                const pc = document.getElementById("pc" + (Math.floor((startScroll - canvasPos) / 360) + 1));
-                pc.classList.add('animate_postcard');
+                // const pc = document.getElementById("pc" + (Math.floor((startScroll - canvasPos) / 360) + 1));
+                // pc.classList.add('animate_postcard');
                 // Animate current waypoint
                 const elements = Array.from(document.getElementsByClassName("wp" + (p + 1)));
                 elements.forEach(element => {
