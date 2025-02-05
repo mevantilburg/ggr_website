@@ -167,10 +167,22 @@ margin-left: 20px;
   margin-bottom: -5px;
 
 }
-.modal_image_small{
-  width: calc(100% - 40px);
- padding: 20px;
-}
+  .modal_image_small{
+    width: calc(100% - 40px);
+  padding-top: 20px;
+  
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .modal_support_image_source{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    text-align: center;
+    height: 20px;
+  }
 .modal_data_right{
   font-family: "Jost", serif;
     font-style: normal;
@@ -289,7 +301,7 @@ a.anchor {
 .supporta-campaign-overview{
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 600px;
 }
 .columnimage{
   max-width: 300px;
@@ -396,6 +408,14 @@ a.anchor {
   left: 18px;
   position: absolute;
  
+}
+@keyframes postcard-animation {
+  0% { transform: rotate(0deg) translateY(0); }
+ 50% { transform: rotate(3deg) translateY(-10px); }
+  100% { transform: rotate(0deg) translateY(0); }
+}
+.animate_postcard {
+  animation: postcard-animation 0.5s forwards;
 }
 .pc_wrap_left:hover .pc_image,
 .pc_wrap_right:hover .pc_image{
@@ -944,6 +964,10 @@ a{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .supporta-campaign-overview{
+     
+      width: 300px;
+    }
     .wrapperslider{
      
       height: 300px;

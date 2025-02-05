@@ -99,7 +99,7 @@ static renderDayStats(day, position) {
     `;
 }
 
-static renderPostcard(postcard, position) {
+static renderPostcard(postcard, position,dayId) {
     if (!postcard) return '';
     
     // Determine wrap position based on the column position
@@ -108,7 +108,7 @@ static renderPostcard(postcard, position) {
     return `
         <div class="pc_wrap_${wrapPosition}" onclick="openPostcardModal('${postcard.id}')">
             <div class="pc_back"></div>
-            <img id="pc1" class="pc_image" src="${postcard.image}" />
+            <img id="pc${dayId}" class="pc_image" src="${postcard.image}" />
             <div class="pc_front"></div>
         </div>
     `;
@@ -169,7 +169,7 @@ static renderRouteSection(day, position = 'left') {
         content = `
             <div class="wp${day.id} ${distClass}">${day.accumulatedDistance} km</div>
             <div class="wp${day.id} day_section ${alignClass}">
-                ${this.renderPostcard(day.postcard, position)}
+                ${this.renderPostcard(day.postcard, position, day.id)}
             </div>
         `;
     }
@@ -348,7 +348,9 @@ window.addEventListener('scroll', () => {
             // Draw circles and animate waypoints
             for (var p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
                 if (p >= totalDays) break; // Don't draw beyond last day
-
+                
+                const pc = document.getElementById("pc" + (Math.floor((startScroll - canvasPos) / 360) + 1));
+                pc.classList.add('animate_postcard');
                 // Animate current waypoint
                 const elements = Array.from(document.getElementsByClassName("wp" + (p + 1)));
                 elements.forEach(element => {
@@ -597,7 +599,7 @@ function openPostcardModal(postcardId) {
     // Set images
     document.getElementById('modal_main_image').src = postcards[currentPostcardIndex].large_image;
     document.getElementById('modal_support_image').src = postcards[currentPostcardIndex].support_image;
-    
+    document.getElementById('modal_support_image_source').textContent = postcards[currentPostcardIndex].support_image_source;
     // Clear and populate data container
     const dataContainer = document.getElementById('modal_data_container');
     dataContainer.innerHTML = '';
@@ -619,11 +621,11 @@ function openPostcardModal(postcardId) {
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/length.svg">
-                ${length}<span>km length</span>
+                ${length}<span> km length</span>
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/surface.svg">
-                ${surface}<span>m surface</span>
+                ${surface}<span> km<sup>2</sup> surface</span>
             </div>
         `;
     } else if (postcards[currentPostcardIndex].type === 'col') {
@@ -631,11 +633,11 @@ function openPostcardModal(postcardId) {
         dataContainer.innerHTML += `
             <div class="modal_label">
                 <img class="icon" src="img/dist.svg">
-                ${distance}<span>km distance</span>
+                ${distance}<span> km distance</span>
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/alt.svg">
-                ${elevation}<span>m altimeters</span>
+                ${elevation}<span> altimeters</span>
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/gradient.svg">
@@ -651,8 +653,7 @@ function openPostcardModal(postcardId) {
     // Add points if any exist
     if (postcards[currentPostcardIndex].points && postcards[currentPostcardIndex].points.length > 0) {
         postcards[currentPostcardIndex].points.forEach(point => {
-            dataContainer.innerHTML += `
-                <div class="modal_label">
+            dataContainer.innerHTML += `                <div class="modal_label">
                     <span>${point}</span>
                 </div>
             `;
@@ -682,4 +683,5 @@ document.addEventListener('keydown', (e) => {
         }
     }
 });
+
 

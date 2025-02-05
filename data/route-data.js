@@ -19,6 +19,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Zugspitze.jpg",
+                support_image_source: "",
                 name: "Zugspitze",
                 type: "location",
                 points: ["The highest mountain in Germany (2.962m), on the border with Austria, holds the two last glaciers in Germany.", 
@@ -45,6 +46,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Curon.jpg",
+                support_image_source: "",
                 name: "Campanile di Curon",
                 type: "location",
                 points: ["In 1950 the village of Curon was moved due to the construction of a hydropower dam, that joined the lakes of Resia and Curon.", 
@@ -71,6 +73,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Stelvio.jpg",
+                support_image_source: "source: climbfinder.com",
                 name: "Passo dello Stelvio",
                 type: "col",
                 stats: {
@@ -104,6 +107,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Morteratsch.jpg",
+                support_image_source: "",
                 name: "Morteratsch Glacier",
                 type: "glacier",
                 stats: {
@@ -134,6 +138,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Oberalppass.jpg",
+                support_image_source: "source: climbfinder.com",
                 name: "Oberalppass",
                 type: "col",
                 stats: {
@@ -167,6 +172,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/RhoneGlacier.jpeg",
+                support_image_source: "",
                 name: "Rhône Glacier",
                 type: "glacier",
                 stats: {
@@ -197,6 +203,7 @@ const ROUTE_DATA = {
                 image: "img/Aletsch_s.png",
                 large_image: "img/aletsch.png",
                 support_image: "img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg",
+                support_image_source: "",
                 name: "Aletsch Glacier",
                 type: "glacier",
                 stats: {
@@ -226,6 +233,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Matterhorn.png",
+                support_image_source: "",
                 name: "Zermatt",
                 type: "location",
                 points: ["Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
@@ -254,6 +262,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Trient.jpg",
+                support_image_source: "",
                 name: "Trient Glacier",
                 type: "glacier",
                 stats: {
@@ -284,6 +293,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/MerdeGlace.jpg",
+                support_image_source: "",
                 name: "Mer de Glace",
                 type: "glacier",
                 stats: {
@@ -314,6 +324,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Iseran.jpg",
+                support_image_source: "source: climbfinder.com",
                 name: "Col de l'Iseran",
                 type: "col",
                 stats: {
@@ -346,6 +357,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Finestre.jpg",
+               support_image_source: "source: climbfinder.com",
                 name: "Colle delle Finestre",
                 type: "col",
                 stats: {
@@ -377,6 +389,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/CimeBonette.jpg",
+                support_image_source: "source: climbfinder.com",
                 name: "Cime de la Bonette",
                 type: "col",
                 stats: {
@@ -409,6 +422,7 @@ const ROUTE_DATA = {
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
                 support_image: "img/Monaco Casino.jpg",
+                support_image_source: "",
                 name: "Monaco Casino",
                 type: "location",
                 points: ["We gamble with our planet, what's your bet?"]
