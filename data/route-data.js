@@ -200,7 +200,7 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard7",
-                image: "img/Aletsch_s.png",
+                image: "img/aletsch_s.png",
                 large_image: "img/aletsch.png",
                 support_image: "img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg",
                 support_image_source: "",
