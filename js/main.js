@@ -64,9 +64,9 @@ static getDayOrdinal(day) {
 
 static renderPointOfInterest(point) {
     return `
-        <div class="day_label">
+        <div class="day_label day_label_flex">
             <img class="icon" src="img/poi.svg" />
-            <span>${point}</span>
+            <span class="poi_text">${point}</span>
         </div>
     `;
 }

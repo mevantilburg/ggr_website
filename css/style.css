@@ -497,6 +497,13 @@ margin-left: auto;
   margin-bottom: 8px;
 
 }
+.poi_text{
+  margin-left: 4px;
+  margin-top: auto;
+}
+.day_label_flex{
+  display: flex;
+}
 .day_label span{
 
   font-weight: 400;
@@ -530,7 +537,7 @@ margin-left: auto;
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   background-color: rgb(255, 255, 255);
   flex-direction: column;
 }
@@ -758,7 +765,7 @@ text {
   max-width: 1448px;
   z-index: 1;
   /* padding-top: 5px; */
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   background-color: rgb(255, 255, 255);
   flex-direction: column;
 }
@@ -851,6 +858,16 @@ a{
   .source{
     margin-left: auto;
     margin-right: auto;
+    max-width: 900px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .source_map{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
     max-width: 900px;
     padding-left: 10px;
     padding-right: 10px;
@@ -964,6 +981,18 @@ a{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .source_map{
+   
+      margin-top: 6px;
+      max-width: 300px;
+
+      font-size: 12px;
+     
+    }
+    .modal_support_image_source{
+      font-size: 6px;
+      height: 10px;
+    }
     .supporta-campaign-overview{
      
       width: 300px;
@@ -1012,9 +1041,12 @@ a{
       margin-bottom: 8px;
     
     }
-    .modal_image_small {
+    .modal_image_small{
       width: calc(100% - 20px);
-      padding: 10px;
+    padding-top: 10px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
     }
     .modal_data_right {
      
