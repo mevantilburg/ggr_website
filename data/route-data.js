@@ -232,7 +232,7 @@ const ROUTE_DATA = {
                 id: "postcard8",
                 image: "img/placeholder_thumb.png",
                 large_image: "img/placeholder.png",
-                support_image: "img/Matterhorn.png",
+                support_image: "img/Matterhorn.jpg",
                 support_image_source: "",
                 name: "Zermatt",
                 type: "location",
