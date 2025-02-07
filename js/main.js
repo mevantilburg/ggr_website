@@ -439,10 +439,11 @@ var control = L.control.layers(null, null).addTo(map);
 // var marker = L.marker([46.529, 10.851], {
 //     title: "glacier"
 // }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
-const imageUrl = './img/oldmap_modified.png';
+
+const imageUrl = './img/oldmap_modified_small.jpg';
 const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
 const altText = '';
-const latLngBounds = L.latLngBounds([[48.126926, 4.950054], [42.759366, 14.614517]]);
+const latLngBounds = L.latLngBounds([[48.026926, 5.140054], [42.867, 14.429]]);
 const latLngBoundsZoom = L.latLngBounds([[48.426926, 4.650054], [42.459366, 14.914517]]);
 map.setMaxBounds(latLngBoundsZoom);
 const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
@@ -454,6 +455,7 @@ const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
 }).addTo(map);
 
 control.addOverlay(imageOverlay, "Historic Map")
+
 const url = './data/Ride_vklein.gpx';
 const options = {
     markers: {
