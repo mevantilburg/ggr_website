@@ -789,7 +789,10 @@ text {
 }
 a{
   text-decoration: none;
-  color: black;
+  color: #1974b7;
+}
+a:hover{
+  text-decoration: underline;
 }
 .links{
   font-size: 20px;
