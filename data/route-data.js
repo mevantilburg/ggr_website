@@ -43,8 +43,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard2",
-                image: "img/StelvioCard.jpg",
-                large_image: "img/StelvioCard.jpg",
+                image: "img/FernpassCard.jpeg",
+                large_image: "img/FernpassCard.jpeg",
                 support_image: "img/Curon.jpg",
                 support_image_source: "",
                 name: "Campanile di Curon",
@@ -135,8 +135,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard5",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/OberalppassCard.jpg",
+                large_image: "img/OberalppassCard.jpg",
                 support_image: "img/Oberalppass.jpg",
                 support_image_source: "source: climbfinder.com",
                 name: "Oberalppass",
