@@ -290,8 +290,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard10",
-                image: "img/MerdeGlace.jpg",
-                large_image: "img/MerdeGlace.jpg",
+                image: "img/MerDeGlaceCard.jpg",
+                large_image: "img/MerDeGlaceCard.jpg",
                 support_image: "img/MerdeGlace.jpg",
                 support_image_source: "",
                 name: "Mer de Glace",
