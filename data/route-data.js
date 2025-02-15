@@ -230,8 +230,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard8",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/ZermattCard.jpg",
+                large_image: "img/ZermattCard.jpg",
                 support_image: "img/Matterhorn.jpg",
                 support_image_source: "",
                 name: "Zermatt",
@@ -259,8 +259,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard9",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/MerdeGlace.jpg",
+                large_image: "img/MerdeGlace.jpg",
                 support_image: "img/Trient.jpg",
                 support_image_source: "",
                 name: "Trient Glacier",
