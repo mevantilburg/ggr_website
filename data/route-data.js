@@ -17,7 +17,7 @@ const ROUTE_DATA = {
             postcard: {
                 id: "postcard1",
                 image: "img/Garmisch.jpg",
-                large_image: "img/placeholder.png",
+                large_image: "img/Garmisch.jpg",
                 support_image: "img/Zugspitze.jpg",
                 support_image_source: "",
                 name: "Zugspitze",
@@ -44,7 +44,7 @@ const ROUTE_DATA = {
             postcard: {
                 id: "postcard2",
                 image: "img/StelvioCard.jpg",
-                large_image: "img/placeholder.png",
+                large_image: "img/StelvioCard.jpg",
                 support_image: "img/Curon.jpg",
                 support_image_source: "",
                 name: "Campanile di Curon",
