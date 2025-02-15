@@ -354,8 +354,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard12",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/FinestreCard.jpg",
+                large_image: "img/FinestreCard.jpg",
                 support_image: "img/Finestre.jpg",
                support_image_source: "source: climbfinder.com",
                 name: "Colle delle Finestre",
