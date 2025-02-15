@@ -259,8 +259,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard9",
-                image: "img/MerdeGlace.jpg",
-                large_image: "img/MerdeGlace.jpg",
+                image: "img/TrientCard.jpg",
+                large_image: "img/TrientCard.jpg",
                 support_image: "img/Trient.jpg",
                 support_image_source: "",
                 name: "Trient Glacier",
@@ -321,8 +321,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard11",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/IseranCard.jpg",
+                large_image: "img/IseranCard.jpg",
                 support_image: "img/Iseran.jpg",
                 support_image_source: "source: climbfinder.com",
                 name: "Col de l'Iseran",
