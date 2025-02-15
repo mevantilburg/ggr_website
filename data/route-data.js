@@ -169,8 +169,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard6",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/FurkaCard.jpg",
+                large_image: "img/FurkaCard.jpg",
                 support_image: "img/RhoneGlacier.jpeg",
                 support_image_source: "",
                 name: "Rhône Glacier",
