@@ -386,8 +386,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard13",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/BonetteCard.jpg",
+                large_image: "img/BonetteCard.jpg",
                 support_image: "img/CimeBonette.jpg",
                 support_image_source: "source: climbfinder.com",
                 name: "Cime de la Bonette",
