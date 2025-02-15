@@ -99,7 +99,7 @@ const ROUTE_DATA = {
                     "Passo Forcola di Livigno",
                     "Passo Bernina",
                     "Morteratsch Glacier",
-                    "Albula pass"
+                    "Albulapass"
                 ]
             },
             postcard: {
