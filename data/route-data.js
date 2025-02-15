@@ -70,7 +70,7 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard3",
-                image: "img/pStelvioCard.jpg",
+                image: "img/StelvioCard.jpg",
                 large_image: "img/StelvioCard.jpg",
                 support_image: "img/Stelvio.jpg",
                 support_image_source: "source: climbfinder.com",
@@ -104,8 +104,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard4",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/MorteratschPostcard.jpg",
+                large_image: "img/MorteratschPostcard.jpg",
                 support_image: "img/Morteratsch.jpg",
                 support_image_source: "",
                 name: "Morteratsch Glacier",
