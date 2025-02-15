@@ -16,7 +16,7 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard1",
-                image: "img/placeholder_thumb.png",
+                image: "img/Garmisch.jpg",
                 large_image: "img/placeholder.png",
                 support_image: "img/Zugspitze.jpg",
                 support_image_source: "",
