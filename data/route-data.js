@@ -419,8 +419,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard15",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/MonacoCasino.jpg",
+                large_image: "img/MonacoCasino.jpg",
                 support_image: "img/Monaco Casino.jpg",
                 support_image_source: "",
                 name: "Monaco Casino",
