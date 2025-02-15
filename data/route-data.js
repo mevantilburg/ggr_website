@@ -70,8 +70,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard3",
-                image: "img/placeholder_thumb.png",
-                large_image: "img/placeholder.png",
+                image: "img/pStelvioCard.jpg",
+                large_image: "img/StelvioCard.jpg",
                 support_image: "img/Stelvio.jpg",
                 support_image_source: "source: climbfinder.com",
                 name: "Passo dello Stelvio",
