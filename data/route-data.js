@@ -43,7 +43,7 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard2",
-                image: "img/placeholder_thumb.png",
+                image: "img/StelvioCard.jpg",
                 large_image: "img/placeholder.png",
                 support_image: "img/Curon.jpg",
                 support_image_source: "",
