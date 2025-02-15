@@ -321,8 +321,8 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard11",
-                image: "img/IseranCard.jpg",
-                large_image: "img/IseranCard.jpg",
+                image: "img/IseranCard.jpeg",
+                large_image: "img/IseranCard.jpeg",
                 support_image: "img/Iseran.jpg",
                 support_image_source: "source: climbfinder.com",
                 name: "Col de l'Iseran",
