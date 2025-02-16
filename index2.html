@@ -1,0 +1,279 @@
+<!doctype html>
+<html style="height:100%;margin:0">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Goodbye Glacier Ride</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
+    <link rel="stylesheet" href="css/style.css?v0.27">
+
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <script src="data/route-data.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body style="height:100%;margin:0">
+
+    <div id="modal_wrapper" onclick="closeModal()" class="modal_wrapper">
+        <div id="modal" class="modal">
+            <div id="modal_prev" class="modal_arrow modal_arrow_left" onclick="handleClick(event); navigateModal('prev')">
+                <svg width="48" height="48" fill="white" viewBox="0 0 24 24">
+                    <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                </svg>
+            </div>
+            <div id="modal_next" class="modal_arrow modal_arrow_right" onclick="handleClick(event); navigateModal('next')">
+                <svg width="48" height="48" fill="white" viewBox="0 0 24 24">
+                    <path d="M8.59 16.59L10 18l6-6-6-6L8.59 7.41 13.17 12z"/>
+                </svg>
+            </div>
+            <div class="modalcontent" onclick="handleClick(event)">
+                <div onclick="closeModal()" class="closeicon">
+                    <svg width="24" height="24" fill="white">
+                        <path d="M16.2,5.5L12,9.7L7.8,5.5L5.5,7.8L9.7,12l-4.2,4.2l2.3,2.3l4.2-4.2l4.2,4.2l2.3-2.3L14.3,12l4.2-4.2L16.2,5.5z" />
+                    </svg>
+                </div>
+                <img id="modal_main_image" class="modal_image" src="" />
+                <div>
+                    <div class="section">
+                        <div class="modal_bottom_section">
+                            <div class="column_section">
+                               
+                                <div class="twocolumn">
+                                    <div id="modal_data_container" class="modal_data_right">
+                                    </div>
+                                </div>
+                                <div class="twocolumn">
+                                    <img id="modal_support_image" class="modal_image_small" src="" />
+                                    <div id="modal_support_image_source" class="modal_support_image_source" >hello</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="wrapper" class="wrapper">
+
+        <nav class="navbar">
+            <div class="header"></div>
+            <div class="nav-container">
+                <a class="navbar-brand-link" href="#page-top"><img class="navbar-brand" src="./img/finalggr_small.png"
+                        alt="..." /></a>
+                <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+                    Menu
+                    <svg class="svg-inline" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </button>
+                <div class="nav-collapse" id="navitems">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="#why">Why</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="#route">Route</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="#support">Support</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <a class="anchor" id="page-top"></a>
+        <div class="main">
+            <div class="section">
+                <div class="image_section">
+                    <div class="center_image_section">
+                        <img alt="" src="img/finalggr.png" width="300">
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text_section">
+                    <h1>Goodbye Glacier Ride</h1>
+                    <p>A 1.500 km cycling trip from Munich to Monaco with more than 30.000 altimeters. Passing the
+                        massive
+                        glaciers of the Alps and crossing its most spectacular cols.
+                        A two week cycling adventure to enjoy the beauty of the Alps and face the harsh reality of
+                        climate change.
+
+                    </p>
+                </div>
+            </div>
+            <a class="anchor" id="why"></a>
+          
+
+
+            <div class="section">
+                <div class="text_section">
+                    <h2>Why</h2>
+                    <p>Glaciers are essential to life on Earth. Billions of people depend on them for water and food. 
+                    </p>
+
+
+                    <p>However, glaciers are retreating at an alarming rate due to climate change. 
+                        This threatens ecosystems, water resources, and human communities. Melting glaciers contribute 
+                        significantly to sea-level rise, posing risks to coastal communities and causing saltwater intrusion into freshwater supplies.
+                    </p>
+
+                    <p>To keep our planet livable, we need to protect our glaciers and halt climate change.
+                    </p>
+                    
+                    <br>
+                </div>
+
+
+            </div>
+            <div class="section">
+                <div class="image_section">
+
+                    <div class="wrapperslider">
+                        <div class="images">
+                            <div class="img-1"></div>
+                            <div class="img-2"></div>
+                        </div>
+                        <div class="slider">
+                            <div class="drag-line">
+                                <span></span>
+                            </div>
+                            <input type="range" min="0" max="100" value="50">
+                        </div>
+                    </div>
+                    <div class="source">The Schlatenkees in ca. 1920-1940 (left) and 2022. Source 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href="https://glacierchange.com/nl/schlatenkees-nl/">glacierchange.com</a></div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="red text_section ">
+                    <h3>
+                        We have to stop treating our atmosphere as a sewer and start to remove CO<sup>2</sup> to preserve our
+                        glaciers and secure a sustainable future for all.
+                    </h3>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section_spacer"></div>
+            </div>
+            <a class="anchor" id="route"></a>
+            <div class="section">
+                <div class="section_title"><h2>The Route</h2></div>
+
+
+
+            </div>
+            <div class="section">
+                <div class="section_spacer"></div>
+            </div>
+            <div class="section">
+                <div class="image_section">
+                    <div id="map"></div>
+                    <div class="source_map">The glaciers in the alps have lost more than half their volume since this map was drawn in the 1930's.</div>
+
+                </div>
+            </div>
+         
+            <div class="section">
+                <div class="anim">
+                    <div class="anim_left">
+                        <div id="left_route_content"></div>
+                    </div>
+                    <div class="anim_mid">
+                        <canvas id="cyclist2" width="200" height="5290"></canvas>
+                    </div>
+                    <div class="anim_right">
+                        <div id="right_route_content"></div>
+                    </div>
+                </div>
+            </div>
+            <a class="anchor" id="support"></a>
+            <div class="section">
+                <div class="section_title"><h2>Support</h2></div>
+
+
+
+            </div>
+            <div class="section">
+                <div class="text_section">
+
+                    <p> The Goodbye Glacier Ride is initiated in 2025. It is a ride to show the bitter reality of
+                        climate change,
+                        but more important to ignite action to do something about it.
+                        <br>
+                        <br>
+                        This is where you come in! You can <strong>support the riders</strong> by ordering one or more of the limited
+                        edition
+                        postcards. They will be send from the location with a personal note. The revenue will go to a
+                        climate solution selected by the cyclist.
+                        <br>
+                      
+                      
+                    </p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="text_section">
+                    <div class="supporta-campaign-overview" data-charity="9mov" data-per-page="8" data-columns="2" data-hide-search="true"></div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="text_section">
+
+                    <p> 
+                        Do you want to ride (a part of) the Goodbye Glacier Ride yourself and start your own fundraising campaign?
+                        You can <a href="mailto:joost@cycling4climate.nl">register here.</a>
+                    </p>
+                </div>
+            </div>
+            <div class="section">
+                <div class="image_section">
+                  
+                            <img class="columnimage" src="./img/MASTER_ENGLISH_FULLCOLOUR.png" />
+                            <p>To highlight the importance of glaciers, the United Nations has designated 2025 as the
+                                International Year of Glaciers' Preservation.
+                            </p>
+
+                        </div>
+                      
+            </div>
+            
+              <div class="section">
+                <div class="image_section">
+                  
+                            <img class="columnimage" src="./img/C4C logo_blauw.png" />
+                            <p>The Goodbye Glacier Ride is an initiative of Cycling 4 Climate.
+                            A not for profit but for impact foundation from The Netherlands.
+                            </p>
+
+                        </div>
+                      
+            </div>          
+
+   
+            <div class="section">
+                <div class="image_section">
+                    <img class="altmap" src="./img/altmap.svg" />
+                </div>
+            </div>
+      
+        </div>
+        <div class="section">
+            <div class="footer"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.supporta.cc/embed.js" async></script>
+</body>
+
+</html>
