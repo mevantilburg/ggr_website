@@ -357,7 +357,7 @@ const ROUTE_DATA = {
                 id: "postcard12",
                 image: "img/FinestreCard.jpg",
                 large_image: "img/FinestreCard.jpg",
-                support_image: "img/Finestre.jpg",
+                support_image: "img/col-du-galibier.png",
                support_image_source: "source: climbfinder.com",
                 name: "Col du Galibier",
                 type: "col",
