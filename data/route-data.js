@@ -359,13 +359,13 @@ const ROUTE_DATA = {
                 large_image: "img/FinestreCard.jpg",
                 support_image: "img/Finestre.jpg",
                support_image_source: "source: climbfinder.com",
-                name: "Colle delle Finestre",
+                name: "Col du Galibier",
                 type: "col",
                 stats: {
-                    distance: "18,8",
-                    elevation: "1.702",
-                    gradient: "9,1",
-                    steepest: "16,5"
+                    distance: "34,6",
+                    elevation: "2.085",
+                    gradient: "6",
+                    steepest: "10"
                 },
                 points: []
             },
