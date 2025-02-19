@@ -222,10 +222,11 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                distance: 172,
-                elevation: 340,
+                distance: 137,
+                elevation: 2660,
                 points: [
-                    "UCI - Aigle"
+                    "Lac de Moiry",
+                    "Moiry Glacier"
                 ]
             },
             postcard: {
@@ -244,12 +245,12 @@ const ROUTE_DATA = {
         {
             id: 9,
             location: {
-                city: "Martigny",
+                city: "Nax",
                 country: "ch"
             },
             stats: {
-                distance: 67,
-                elevation: 3400,
+                distance: 124,
+                elevation: 3030,
                 points: [
                     "Col de la Forclaz",
                     "Trient Glacier",
@@ -340,15 +341,15 @@ const ROUTE_DATA = {
         {
             id: 12,
             location: {
-                city: "Susa",
-                country: "it"
+                city: "St Michel de Maurienne",
+                country: "fr"
             },
             stats: {
-                distance: 112,
-                elevation: 3850,
+                distance: 110,
+                elevation: 3350,
                 points: [
-                    "Colle delle Finestre",
-                    "Col Bousson",
+                    "Col du Télégraphe",
+                    "Col du Galibier",
                     "Col d'Izoard"
                 ]
             },
