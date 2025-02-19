@@ -341,7 +341,7 @@ const ROUTE_DATA = {
         {
             id: 12,
             location: {
-                city: "St Michel de Maurienne",
+                city: "St. Michel de Maurienne",
                 country: "fr"
             },
             stats: {
