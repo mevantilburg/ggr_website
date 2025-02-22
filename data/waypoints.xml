@@ -16,7 +16,7 @@
     <type>pass</type>
   </wpt>
   <wpt lon="9.836945617142838" lat="46.58173965637579">
-    <name>Albulapass: 2307m</name>
+    <name>Albulapass - 2307m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
@@ -81,42 +81,42 @@
     <type>glacier</type>
   </wpt>
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
-    <name>Col de Saisies - 1660</name>
+    <name>Col de Saisies - 1660m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="6.690157542693114" lat="45.69125498595285">
-    <name>Cormet de Roselend - 1974</name>
+    <name>Cormet de Roselend - 1974m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="7.030676307338264" lat="45.41725777339293">
-    <name>Col de l'Iseran - 2750</name>
+    <name>Col de l'Iseran - 2750m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
  <wpt lon="6.407975232393048" lat="45.063996034531534">
-    <name>Col du Galibier</name>
+    <name>Col du Galibier - 2642m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="6.444314002382225" lat="45.20254480936231">
-    <name>Col du Télégraphe</name>
+    <name>Col du Télégraphe - 1567m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="6.735011318741622" lat="44.81986326804929">
-    <name>Col d'Izoard - 2363</name>
+    <name>Col d'Izoard - 2363m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="6.702448946732891" lat="44.539251809274724">
-    <name>Col de Vars - 2115</name>
+    <name>Col de Vars - 2115m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="6.807150799953354" lat="44.321588609885644">
-    <name>Cime de la Bonette - 2802</name>
+    <name>Cime de la Bonette - 2802m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
@@ -126,12 +126,12 @@
     <type>pass</type>
   </wpt>
   <wpt lon="7.38193330210811" lat="43.97315911781427">
-    <name>Col de Turini - 1630</name>
+    <name>Col de Turini - 1630m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
   <wpt lon="6.921791248779314" lat="45.224705671277">
-    <name>Col du Mont Cenis - 2102</name>
+    <name>Col du Mont Cenis - 2102m</name>
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
