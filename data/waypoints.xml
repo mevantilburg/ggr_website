@@ -5,6 +5,11 @@
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
+ <wpt lon="10.534450244809221" lat="46.8132021823893">
+    <name>Campanile di Curon</name>
+    <sym>Dot</sym>
+    <type>Dot</type>
+  </wpt>    
   <wpt lon="10.451803465247735" lat="46.52971683046087">
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
