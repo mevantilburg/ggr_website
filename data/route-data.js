@@ -93,7 +93,7 @@ const ROUTE_DATA = {
                 country: "it"
             },
             stats: {
-                distance: 190,
+                distance: 112,
                 elevation: 1990,
                 points: [
                     { name: "Passo Forcola di Livigno", type: "pass" },
@@ -127,8 +127,8 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                distance: 100,
-                elevation: 1950,
+                distance: 101,
+                elevation: 2420,
                 points: [
                     { name: "Oberalppass", type: "pass" }
                 ]
@@ -149,7 +149,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 437
+            accumulatedDistance: 440
         },
         {
             id: 6,
@@ -158,8 +158,8 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                distance: 101,
-                elevation: 2530,
+                distance: 110,
+                elevation: 2630,
                 points: [
                     { name: "Furkapass", type: "pass" },
                     { name: "Rhône Glacier", type: "glacier" },
@@ -183,7 +183,7 @@ const ROUTE_DATA = {
                 points: ["Primary source of water for the Rhone River.",
                          "One of the most extensively studied glaciers, providing valuable data on climate change and glacial dynamics"]
             },
-            accumulatedDistance: 537
+            accumulatedDistance: 541
         },
         {
             id: 7,
@@ -192,7 +192,7 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                distance: 52,
+                distance: 51,
                 elevation: 1020,
                 points: [
                     { name: "Glacier Valley", type: "glacier" }
@@ -213,7 +213,7 @@ const ROUTE_DATA = {
                 },
                 points: ["The glacier lost 12% of its volume between 2016 and 2021"]
             },
-            accumulatedDistance: 638
+            accumulatedDistance: 651
         },
         {
             id: 8,
@@ -240,7 +240,7 @@ const ROUTE_DATA = {
                 points: ["Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
                         "Known for its stunning alpine landscape, the town sits at the foot of the iconic Matterhorn and is surrounded by several peaks over 4,000 meters and multiple Glaciers."]
             },
-            accumulatedDistance: 690
+            accumulatedDistance: 702
         },
         {
             id: 9,
@@ -249,8 +249,8 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                distance: 124,
-                elevation: 3030,
+                distance: 119,
+                elevation: 2880,
                 points: [
                     { name: "Col de la Forclaz", type: "pass" },
                     { name: "Trient Glacier", type: "glacier" },
@@ -273,7 +273,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 862
+            accumulatedDistance: 839
         },
         {
             id: 10,
@@ -282,8 +282,8 @@ const ROUTE_DATA = {
                 country: "fr"
             },
             stats: {
-                distance: 117,
-                elevation: 2690,
+                distance: 119,
+                elevation: 2700,
                 points: [
                     { name: "Col des Saisies", type: "pass" },
                     { name: "Cormet de Roselend", type: "place" }
@@ -304,7 +304,7 @@ const ROUTE_DATA = {
                 },
                 points: ["It's the largest glacier in France and the third of the Alps and up to 200 m thick"]
             },
-            accumulatedDistance: 929
+            accumulatedDistance: 958
         },
         {
             id: 11,
@@ -313,11 +313,11 @@ const ROUTE_DATA = {
                 country: "fr"
             },
             stats: {
-                distance: 125,
-                elevation: 2945,
+                distance: 127,
+                elevation: 2400,
                 points: [
                     { name: "Col de l'Iseran", type: "pass" },
-                    { name: "Col de Mont Cenis", type: "pass" }
+                    { name: "La Grande Motte", type: "glacier" }
                 ]
             },
             postcard: {
@@ -336,7 +336,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 1046
+            accumulatedDistance: 1077
         },
         {
             id: 12,
@@ -345,11 +345,12 @@ const ROUTE_DATA = {
                 country: "fr"
             },
             stats: {
-                distance: 110,
-                elevation: 3350,
+                distance: 120,
+                elevation: 3300,
                 points: [
                     { name: "Col du Télégraphe", type: "pass" },
                     { name: "Col du Galibier", type: "pass" },
+                    { name: "Glacier Blanc", type: "glacier" },
                     { name: "Col d'Izoard", type: "pass" }
                 ]
             },
@@ -369,7 +370,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 1171
+            accumulatedDistance: 1204
         },
         {
             id: 13,
@@ -378,7 +379,7 @@ const ROUTE_DATA = {
                 country: "fr"
             },
             stats: {
-                distance: 105,
+                distance: 106,
                 elevation: 2700,
                 points: [
                     { name: "Col de Vars", type: "pass" },
@@ -401,7 +402,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 1283
+            accumulatedDistance: 1324
         },
         {
             id: 14,
@@ -428,7 +429,7 @@ const ROUTE_DATA = {
                 type: "location",
                 points: ["We gamble with our planet, what's your bet?"]
             },
-            accumulatedDistance: 1388
+            accumulatedDistance: 1430
         },
         {
             id: 15,
@@ -436,7 +437,7 @@ const ROUTE_DATA = {
                 city: "Monaco Casino",
                 country: "mc"
             },
-            accumulatedDistance: 1518
+            accumulatedDistance: 1560
         }
     ]
 };
