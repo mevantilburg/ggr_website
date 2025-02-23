@@ -161,7 +161,7 @@
   <wpt lon="7.875257083985332" lat="45.99187857855146">
     <name>Findel Glacier</name>
     <sym>Dot</sym>
-    <type>Glacier</type>
+    <type>glacier</type>
   </wpt>
   <wpt lon="7.46115378562803" lat="45.954691642492016">
     <name>Otemma Glacier</name>
