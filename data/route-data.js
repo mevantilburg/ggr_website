@@ -870,7 +870,7 @@ const ROUTE_DATA_old = {
                 support_image_source: "",
                 name: "Monaco Casino",
                 type: "location",
-                points: ["We gamble with our planet, what's your bet?"]
+                points: ["We gamble with the liveability of our planet, what's your bet?"]
             },
             accumulatedDistance: 1388
         },
