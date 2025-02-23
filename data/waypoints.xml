@@ -5,10 +5,16 @@
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
+ <wpt lon="10.534450244809221" lat="46.8132021823893">
+    <name>Campanile di Curon</name>
+    <sym>Dot</sym>
+    <type>Dot</type>
+  </wpt>    
   <wpt lon="10.451803465247735" lat="46.52971683046087">
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>StelvioCard.jpg</img>
   </wpt>
   <wpt lon="10.390944028850813" lat="46.539939833266054">
     <name>Bocchetta di Forcola - 2735m</name>
@@ -24,11 +30,13 @@
     <name>Oberalppass - 2040</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>OberalppassCard.jpg</img>
   </wpt>
   <wpt lon="8.414778650073224" lat="46.57277500717369">
     <name>Furkapass - 2430m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>FurkaCard.jpg</img>
   </wpt>
   <wpt lon="8.086556351026942" lat="46.43299654027469">
     <name>Aletsch Glacier - 2360m</name>
@@ -37,12 +45,13 @@
     <img>aletsch_s.png</img>
   </wpt>
   <wpt lon="9.935964991237896" lat="46.423458057145666">
-    <name>Morteratschgletsjer</name>
+    <name>Morteratsch Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>Morteratsch.jpg</img>
   </wpt>
   <wpt lon="8.38865268939065" lat="46.57904945959968">
-    <name>Rhone Glacier</name>
+    <name>Rhône Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
   </wpt>
@@ -61,6 +70,7 @@
     <name>Trient Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>TrientCard.jpg</img>
   </wpt>
   <wpt lon="6.923646170929274" lat="46.004133251158635">
     <name>Col de Montets - 1458m</name>
@@ -81,6 +91,7 @@
     <name>Mer de Glace</name>
     <sym>Dot</sym>
     <type>glacier</type>
+      <img>MerDeGlaceCard.jpg</img>
   </wpt>
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
     <name>Col de Saisies - 1660m</name>
@@ -132,5 +143,41 @@
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
+ <wpt lon="6.391422241844351" lat="44.943905718518394">
+    <name>Glacier Blanc</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="6.879827308192854" lat="45.41228668384758">
+    <name>La Grande Motte</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+<wpt lon="7.8189921026630005" lat="45.94093868769692">
+    <name>Gorner Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.626937496849111" lat="45.99432910459629">
+    <name>Zmutt Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.875257083985332" lat="45.99187857855146">
+    <name>Findel Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.46115378562803" lat="45.954691642492016">
+    <name>Otemma Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.278506080549905" lat="45.95507950790901">
+    <name>Glacier de Corbassière</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+    
 </gpx>    
   
