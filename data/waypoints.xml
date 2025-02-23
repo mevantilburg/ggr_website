@@ -40,13 +40,13 @@
     <img>aletsch_s.png</img>
   </wpt>
   <wpt lon="9.935964991237896" lat="46.423458057145666">
-    <name>Morteratschgletsjer</name>
+    <name>Morteratsch Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>MorteratschPostcard.jpg</img>
+    <img>Morteratsch.jpg</img>
   </wpt>
   <wpt lon="8.38865268939065" lat="46.57904945959968">
-    <name>Rhone Glacier</name>
+    <name>Rhône Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
   </wpt>
