@@ -1,3 +1,7 @@
+import { translator } from './index.js';  // or from wherever the instance is exported
+
+console.log("Current language:", translator.getCurrentLanguage());
+
 function handleClick(event) {
 
     // Do something when clicking the child div
@@ -6,16 +10,30 @@ function handleClick(event) {
 
 }
 function toggleMenu() {
+    const menu = document.getElementById("languageDropdown");
     const nav = document.getElementById("navitems");
+      menu.style.display = 'none'
     if (nav.style.display == 'flex') {
         nav.style.display = 'none'
     } else {
+       
         nav.style.display = 'flex'
     }
 }
+function toggleLanguageDropdown() {
+    const menu = document.getElementById("languageDropdown");
+  
+    if (menu.style.display == 'flex') {
+        menu.style.display = 'none'
+    } else {
+        menu.style.display = 'flex'
+    }
+}
+
 function closeMenu() {
     if (window.innerWidth < 800) {
         const nav = document.getElementById("navitems");
+        
         nav.style.display = 'none'
     }
 
@@ -84,7 +102,7 @@ static renderDayStats(day, position) {
             <div class="day_label">
                 <img class="icon" src="img/day.svg" />
                 ${this.getDayOrdinal(day.id)}
-                <span class="normalscript">day</span>
+                <span data-i18n="cyclist.day" class="normalscript">day</span>
             </div>
             <div class="day_label">
                 <img class="icon" src="img/dist.svg" />
@@ -320,8 +338,8 @@ window.addEventListener('scroll', () => {
             }
             context.clearRect(0, 0, canvas.width, canvas.height);
             index = Math.floor((startScroll - canvasPos) / a) % (frameCount - 1);
-            posY = (Math.sin(((index) / (frameCount - 1) * 360) * Math.PI / 180) * 50) - 50;
-            posX = (startScroll - canvasPos) - 50;
+            let posY = (Math.sin(((index) / (frameCount - 1) * 360) * Math.PI / 180) * 50) - 50;
+            let posX = (startScroll - canvasPos) - 50;
 
             // Draw initial line and circle
             context.beginPath();
@@ -593,19 +611,54 @@ function updateArrowVisibility() {
 
 function openPostcardModal(postcardId) {
     // Find the index of the postcard
+   
     const postcards = ROUTE_DATA.days
         .filter(day => day.postcard)
         .map(day => day.postcard);
     currentPostcardIndex = postcards.findIndex(p => p.id === postcardId);
     
     // Helper function for ordinal numbers
-    function getOrdinal(n) {
-        const suffixes = ['th', 'st', 'nd', 'rd'];
-        const suffix = n % 10 < 4 && Math.floor(n / 10) !== 1 
-            ? suffixes[n % 10] 
-            : suffixes[0];
-        return `${n}<span class="superscript">${suffix}</span>`;
-    }
+    function getOrdinal(n, lang) {
+        switch (lang) {
+          case "en": {
+            // English: 1st, 2nd, 3rd, etc.
+            const suffixes = ["th", "st", "nd", "rd"];
+            const suffix = n % 10 < 4 && Math.floor(n / 10) !== 1
+              ? suffixes[n % 10]
+              : suffixes[0];
+            return `${n}<span class="superscript">${suffix}</span>`;
+          }
+          case "nl": {
+            // Dutch: simply append an "e" (e.g., 1e, 2e, 14e)
+            return `${n}e`;
+          }
+          case "de": {
+            // German: use a period after the number (e.g., 1., 2., 14.)
+            return `${n}.`;
+          }
+          case "fr": {
+            // French: for 1, use "1er" (masculine by default); otherwise, add "e" (e.g., 2e, 14e)
+            if (n === 1) {
+              return `${n}<span class="superscript">er</span>`;
+            } else {
+              return `${n}<span class="superscript">e</span>`;
+            }
+          }
+          case "it": {
+            // Italian: typically, ordinals are shown with the degree symbol (e.g., 1°, 2°, 14°)
+            return `${n}<span class="superscript">°</span>`;
+          }
+          default: {
+            // Fallback to English rules if language is unknown
+            const suffixes = ["th", "st", "nd", "rd"];
+            const suffix = n % 10 < 4 && Math.floor(n / 10) !== 1
+              ? suffixes[n % 10]
+              : suffixes[0];
+            return `${n}<span class="superscript">${suffix}</span>`;
+          }
+        }
+      }
+      
     
     // Set images
     document.getElementById('modal_main_image').src = postcards[currentPostcardIndex].large_image;
@@ -623,52 +676,115 @@ function openPostcardModal(postcardId) {
     `;
     
     // Add type-specific stats
-    if (postcards[currentPostcardIndex].type === 'glacier') {
+    const translations = {
+        biggest: {
+          en: " biggest",
+          nl: " grootste",
+          de: " größte",
+          fr: " plus grand",
+          it: " più grande"
+        },
+        length: {
+          en: " km length",
+          nl: " km lengte",
+          de: " km Länge",
+          fr: " km de longueur",
+          it: " km di lunghezza"
+        },
+        surface: {
+          en: " km<sup>2</sup> surface",
+          nl: " km<sup>2</sup> oppervlakte",
+          de: " km<sup>2</sup> Fläche",
+          fr: " km<sup>2</sup> de surface",
+          it: " km<sup>2</sup> di superficie"
+        },
+        distance: {
+          en: " km distance",
+          nl: " km afstand",
+          de: " km Entfernung",
+          fr: " km de distance",
+          it: " km di distanza"
+        },
+        altimeters: {
+          en: " altimeters",
+          nl: " hoogtemeters",
+          de: " Höhenmesser",
+          fr: " altimètres",
+          it: " altimetri"
+        },
+        gradient: {
+          en: "% average gradient",
+          nl: "% gemiddelde helling",
+          de: "% durchschnittliche Steigung",
+          fr: "% pente moyenne",
+          it: "% pendenza media"
+        },
+        steepest: {
+          en: "% steepest 100m",
+          nl: "% steilste 100m",
+          de: "% steilste 100m",
+          fr: "% plus raide sur 100m",
+          it: "% più ripida per 100m"
+        }
+      };
+      
+      const currentLang = translator.getCurrentLanguage();
+
+      if (postcards[currentPostcardIndex].type === 'glacier') {
         const { size, length, surface } = postcards[currentPostcardIndex].stats;
         dataContainer.innerHTML += `
-            <div class="modal_label">
-                <img class="icon" src="img/size.svg">
-                ${getOrdinal(size)}<span class="normalscript"> biggest</span>
-            </div>
-            <div class="modal_label">
-                <img class="icon" src="img/length.svg">
-                ${length}<span> km length</span>
-            </div>
-            <div class="modal_label">
-                <img class="icon" src="img/surface.svg">
-                ${surface}<span> km<sup>2</sup> surface</span>
-            </div>
+          <div class="modal_label">
+            <img class="icon" src="img/size.svg">
+            ${getOrdinal(size, currentLang)}<span class="normalscript">${translations.biggest[currentLang]}</span>
+          </div>
+          <div class="modal_label">
+            <img class="icon" src="img/length.svg">
+            ${length}<span>${translations.length[currentLang]}</span>
+          </div>
+          <div class="modal_label">
+            <img class="icon" src="img/surface.svg">
+            ${surface}<span>${translations.surface[currentLang]}</span>
+          </div>
         `;
-    } else if (postcards[currentPostcardIndex].type === 'col') {
+      } else if (postcards[currentPostcardIndex].type === 'col') {
         const { distance, elevation, gradient, steepest } = postcards[currentPostcardIndex].stats;
         dataContainer.innerHTML += `
             <div class="modal_label">
                 <img class="icon" src="img/dist.svg">
-                ${distance}<span> km distance</span>
+                ${distance}<span>${translations.distance[currentLang]}</span>
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/alt.svg">
-                ${elevation}<span> altimeters</span>
+                ${elevation}<span>${translations.altimeters[currentLang]}</span>
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/gradient.svg">
-                ${gradient}<span>% average gradient</span>
+                ${gradient}<span>${translations.gradient[currentLang]}</span>
             </div>
             <div class="modal_label">
                 <img class="icon" src="img/steepest.svg">
-                ${steepest}<span>% steepest 100m</span>
+                ${steepest}<span>${translations.steepest[currentLang]}</span>
             </div>
         `;
     }
     
+    
     // Add points if any exist
-    if (postcards[currentPostcardIndex].points && postcards[currentPostcardIndex].points.length > 0) {
-        postcards[currentPostcardIndex].points.forEach(point => {
-            dataContainer.innerHTML += `                <div class="modal_label">
-                    <span>${point}</span>
-                </div>
-            `;
-        });
+    // const currentLang = translator.getCurrentLanguage();
+    console.log("Current language:", currentLang);
+
+    if (
+    postcards[currentPostcardIndex].points &&
+    postcards[currentPostcardIndex].points[currentLang] &&
+    postcards[currentPostcardIndex].points[currentLang].length > 0
+    ) {
+    postcards[currentPostcardIndex].points[currentLang].forEach(point => {
+        dataContainer.innerHTML += `
+        <div class="modal_label">
+            <span>${point}</span>
+        </div>
+        `;
+    });
     }
     
     // Show modal
@@ -695,4 +811,12 @@ document.addEventListener('keydown', (e) => {
     }
 });
 
-
+window.toggleLanguageDropdown = toggleLanguageDropdown;
+window.toggleMenu = toggleMenu;
+window.closeMenu = closeMenu;
+window.handleClick = handleClick;
+window.closeModal = closeModal;
+window.showModal = showModal;
+window.navigateModal = navigateModal;
+window.openPostcardModal = openPostcardModal;
+window.getIconUrl = getIconUrl;

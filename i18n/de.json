@@ -1,0 +1,52 @@
+{
+    "pageTitle": "Goodbye Glacier Ride",
+    "hero": {
+      "h1": "Goodbye Glacier Ride",
+      "description": "Eine 1.500 km lange Radtour von München nach Monaco mit mehr als 30.000 Höhenmetern. Vorbei an den massiven Gletschern der Alpen und überquerend die spektakulärsten Pässe. Ein zweiwöchiges Fahrraderlebnis, um die Schönheit der Alpen zu genießen und der harten Realität des Klimawandels zu begegnen."
+    },
+    "launch": {
+      "h2": "Bald verfügbar!",
+      "announcement": "Das Ziel, die Route und wie Sie teilnehmen können, werden am <strong>Freitag, 21. März</strong> live vom Welt-Gletschertag in Paris bekanntgegeben.",
+      "join": "Sie können am Online-Launch-Event um <strong>9:00 Uhr <a href=\"https://meet.google.com/wms-wwht-kbk\">hier</a></strong> teilnehmen."
+    },
+    "nav": {
+      "menu": "Menü",
+      "why": "Warum",
+      "route": "Route",
+      "support": "Support"
+    },
+    "why": {
+      "h2": "Warum",
+      "p1": "Gletscher sind essenziell für das Leben auf der Erde. Milliarden Menschen sind auf sie für Wasser und Nahrung angewiesen.",
+      "p2": "Allerdings ziehen sich die Gletscher aufgrund des Klimawandels in alarmierendem Tempo zurück. Dies bedroht Ökosysteme, Wasserressourcen und menschliche Gemeinschaften. Das Schmelzen der Gletscher trägt erheblich zum Anstieg des Meeresspiegels bei, was Küstengemeinden gefährdet und zu salzhaltiger Wasserintrusion in Süßwasserreserven führt.",
+      "p3": "Um unseren Planeten bewohnbar zu halten, müssen wir unsere Gletscher schützen und den Klimawandel stoppen."
+    },
+    "slider": {
+      "source": "Der Schlatenkees ca. 1920-1940 (links) und 2022. Quelle 1920: Österreichische Nationalbibliothek, Foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
+    },
+    "sustainability": {
+      "message": "Wir müssen aufhören, unsere Atmosphäre wie einen Abwasserkanal zu behandeln, und beginnen, CO<sub>2</sub> zu entfernen, um unsere Gletscher zu erhalten und eine nachhaltige Zukunft für alle zu sichern."
+    },
+    "route": {
+      "h2": "Die Route"
+    },
+    "map": {
+      "source": "Die Gletscher in den Alpen haben mehr als die Hälfte ihres Volumens verloren, seit diese Karte in den 1930er Jahren gezeichnet wurde."
+    },
+    "cyclist": {
+      "day": "Tag"
+    },
+    "support": {
+      "h2": "Support & Sink",
+      "description": "Der Goodbye Glacier Ride wurde ins Leben gerufen, um die bittere Realität des Klimawandels aufzuzeigen, aber vor allem, um <strong>Aktion zu entfachen</strong>, damit etwas dagegen unternommen wird.<br><br>Hier kommen Sie ins Spiel! Sie können die Fahrer <strong>unterstützen</strong>, indem Sie eine oder mehrere der limitierten Postkarten bestellen. Die Postkarte wird vom Veranstaltungsort mit einer persönlichen Notiz versendet.<br><br>Während die Fahrer schwitzen, entfernen Sie CO<sub>2</sub> aus der Atmosphäre. Die Einnahmen werden zur Finanzierung von Projekten zur Entfernung von Kohlendioxid verwendet, die das lokale Einkommen steigern, die Bodenqualität verbessern und Klimafinanzierung ermöglichen: ein Triple Win.",
+      "register": "Möchten Sie selbst (teilweise) am Goodbye Glacier Ride teilnehmen und Ihre eigene Carbon-Sinking-Kampagne starten? Sie können sich <a href=\"mailto:joost@cycling4climate.nl\">hier anmelden</a>."
+    },
+    "info": {
+      "un": "Um die Bedeutung der Gletscher hervorzuheben, haben die Vereinten Nationen 2025 zum Internationalen Jahr des Gletscherschutzes erklärt.",
+      "initiative": "Der Goodbye Glacier Ride ist eine Initiative von Cycling 4 Climate. Eine gemeinnützige, aber wirkungsorientierte Stiftung aus den Niederlanden."
+    },
+    "modal": {
+      "supportImageSource": "hello"
+    }
+  }
+  

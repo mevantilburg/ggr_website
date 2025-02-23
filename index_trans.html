@@ -1,0 +1,137 @@
+<!doctype html>
+<html style="height:100%;margin:0">
+
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n="pageTitle">Goodbye Glacier Ride</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
+    <link rel="stylesheet" href="css/style.css?v0.27">
+
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+ 
+</head>
+
+<body style="height:100%;margin:0">
+    <div id="wrapper" class="wrapper">
+        <nav class="navbar">
+            <div class="header"></div>
+            <div class="nav-container">
+                <a class="navbar-brand-link" href="#page-top">
+                    <img class="navbar-brand" src="./img/finalggr_small.png" alt="..." />
+                </a>
+               
+                <div class="dropdown">
+                    <button class="dropdown-toggle" id="languageSwitcher" type="button" onclick="toggleLanguageDropdown()">
+                        <img src="img/en.svg" alt="English Flag" class="flag-icon">
+                        <span class="dropdown-arrow">&#9662;</span>
+                    </button>
+                    <div class="dropdown-menu" id="languageDropdown">
+                        <a class="dropdown-item" href="#" id="nlLink">
+                             <img src="img/nl.svg" alt="NL Flag" class="flag-icon"> Nederlands
+                        </a>
+                        <a class="dropdown-item" href="#" id="enLink">
+                             <img src="img/en.svg" alt="EN Flag" class="flag-icon"> English
+                        </a>
+                        <a class="dropdown-item" href="#" id="frLink">
+                             <img src="img/fr.svg" alt="FR Flag" class="flag-icon"> Français
+                        </a>
+                        <a class="dropdown-item" href="#" id="deLink">
+                             <img src="img/de.svg" alt="DE Flag" class="flag-icon"> Deutsch
+                        </a>
+                        <a class="dropdown-item" href="#" id="itLink">
+                             <img src="img/it.svg" alt="IT Flag" class="flag-icon"> Italiano
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <a class="anchor" id="page-top"></a>
+        <div class="main">
+            <div class="section">
+                <div class="image_section">
+                    <div class="center_image_section">
+                        <img alt="" src="img/finalggr.png" width="300">
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text_section">
+                    <h1 data-i18n="hero.h1">Goodbye Glacier Ride</h1>
+                    <p data-i18n="hero.description">
+                        A 1.500 km cycling trip from Munich to Monaco with more than 30.000 altimeters. Passing the
+                        massive glaciers of the Alps and crossing its most spectacular cols.
+                        A two week cycling adventure to enjoy the beauty of the Alps and face the harsh reality of
+                        climate change.
+                    </p>
+                </div>
+            </div>
+            <a class="anchor" id="why"></a>
+
+            <div class="section">
+                <div class="text_section">
+                    <h2 data-i18n="launch.h2">Launching soon!</h2>
+                    <p data-i18n="launch.announcement">
+                        The goal, the route and how you can participate will be announced on <strong>Friday March 21st</strong> live from the World Glacier Day in Paris.
+                    </p>
+                    <p data-i18n="launch.join">
+                        You can join the online launch event at <strong>9.00 AM <a href="https://meet.google.com/wms-wwht-kbk"> here.</a></strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="image_section">
+                    <img class="columnimage" src="./img/MASTER_ENGLISH_FULLCOLOUR.png" />
+                    <p data-i18n="info.un">
+                        To highlight the importance of glaciers, the United Nations has designated 2025 as the International Year of Glaciers' Preservation.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <div class="image_section">
+                    <img class="columnimage" src="./img/C4C logo_blauw.png" />
+                    <p data-i18n="info.initiative">
+                        The Goodbye Glacier Ride is an initiative of Cycling 4 Climate.
+                        A not for profit but for impact foundation from The Netherlands.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="image_section">
+                    <img class="altmap" src="./img/altmap.svg" />
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="footer"></div>
+        </div>
+    </div>
+   
+    <script type="module" src="js/index.js" ></script>
+    <script  >function toggleLanguageDropdown() {
+        const menu = document.getElementById("languageDropdown");
+      
+        if (menu.style.display == 'flex') {
+            menu.style.display = 'none'
+        } else {
+            menu.style.display = 'flex'
+        }
+    }</script>
+    <script type="text/javascript" src="https://cdn.supporta.cc/embed.js" async></script>
+</body>
+
+</html>

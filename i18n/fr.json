@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Goodbye Glacier Ride",
+  "hero": {
+    "h1": "Goodbye Glacier Ride",
+    "description": "Une randonnée cycliste de 1 500 km de Munich à Monaco avec plus de 30 000 altimètres. En passant devant les immenses glaciers des Alpes et en traversant leurs cols les plus spectaculaires. Une aventure cycliste de deux semaines pour profiter de la beauté des Alpes et affronter la dure réalité du changement climatique."
+  },
+  "launch": {
+    "h2": "Bientôt lancé !",
+    "announcement": "L'objectif, l'itinéraire et la manière de participer seront annoncés le <strong>vendredi 21 mars</strong> en direct depuis la Journée mondiale des glaciers à Paris.",
+    "join": "Vous pouvez participer à l'événement de lancement en ligne à <strong>9h00 <a href=\"https://meet.google.com/wms-wwht-kbk\"> ici.</a></strong>"
+  },
+  "nav": {
+    "menu": "Menu",
+    "why": "Pourquoi",
+    "route": "Itinéraire",
+    "support": "Soutien"
+  },
+  "why": {
+    "h2": "Pourquoi",
+    "p1": "Les glaciers sont essentiels à la vie sur Terre. Des milliards de personnes dépendent d'eux pour l'eau et la nourriture.",
+    "p2": "Cependant, les glaciers reculent à un rythme alarmant en raison du changement climatique. Cela menace les écosystèmes, les ressources en eau et les communautés humaines. La fonte des glaciers contribue de manière significative à l'élévation du niveau de la mer, posant des risques pour les communautés côtières et provoquant une intrusion d'eau salée dans les réserves d'eau douce.",
+    "p3": "Pour rendre notre planète vivable, nous devons protéger nos glaciers et stopper le changement climatique."
+  },
+  "slider": {
+    "source": "Le Schlatenkees vers 1920-1940 (à gauche) et 2022. Source 1920 : Österreichische Nationalbibliothek, photo L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
+  },
+  "sustainability": {
+    "message": "Nous devons cesser de traiter notre atmosphère comme une égout et commencer à éliminer le CO<sub>2</sub> pour préserver nos glaciers et garantir un avenir durable pour tous."
+  },
+  "route": {
+    "h2": "L'itinéraire"
+  },
+  "map": {
+    "source": "Les glaciers des Alpes ont perdu plus de la moitié de leur volume depuis que cette carte a été dessinée dans les années 1930."
+  },
+  "cyclist": {
+    "day": "jour"
+  },
+  "support": {
+    "h2": "Soutien & captage",
+    "description": "La Goodbye Glacier Ride a été lancée pour montrer la dure réalité du changement climatique, mais surtout pour <strong>stimuler l'action</strong> afin d'agir. <br><br>C'est ici que vous intervenez ! Vous pouvez <strong>soutenir les cyclistes</strong> en commandant une ou plusieurs des cartes postales en édition limitée. La carte postale sera envoyée depuis le lieu de l'événement accompagnée d'un mot personnalisé. <br><br>Tandis que les cyclistes transpirent, vous éliminez le CO<sub>2</sub> de l'atmosphère. Les revenus servent à financer des projets d'élimination du dioxyde de carbone, qui augmentent le revenu local, améliorent la qualité des sols et permettent la finance climatique : un Triple Gain.",
+    "register": "Souhaitez-vous participer (en partie) à la Goodbye Glacier Ride et lancer votre propre campagne de captage du carbone ? Vous pouvez <a href=\"mailto:joost@cycling4climate.nl\">vous inscrire ici.</a>"
+  },
+  "info": {
+    "un": "Pour mettre en valeur l'importance des glaciers, les Nations Unies ont désigné 2025 comme l'Année internationale de la préservation des glaciers.",
+    "initiative": "La Goodbye Glacier Ride est une initiative de Cycling 4 Climate. Une fondation à but non lucratif mais à fort impact des Pays-Bas."
+  },
+  "modal": {
+    "supportImageSource": "hello"
+  }
+}

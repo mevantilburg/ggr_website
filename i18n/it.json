@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Goodbye Glacier Ride",
+  "hero": {
+    "h1": "Goodbye Glacier Ride",
+    "description": "Un viaggio in bicicletta di 1.500 km da Monaco di Baviera a Montecarlo con oltre 30.000 metri di dislivello. Percorrendo i massicci ghiacciai delle Alpi e attraversando i passi più spettacolari. Un'avventura ciclistica di due settimane per godere della bellezza delle Alpi e affrontare la dura realtà del cambiamento climatico."
+  },
+  "launch": {
+    "h2": "In arrivo a breve!",
+    "announcement": "L'obiettivo, il percorso e le modalità di partecipazione saranno annunciati in diretta il <strong>venerdì 21 marzo</strong> dalla Giornata Mondiale dei Ghiacciai a Parigi.",
+    "join": "Puoi partecipare all'evento di lancio online alle <strong>9:00 <a href=\"https://meet.google.com/wms-wwht-kbk\">qui</a></strong>."
+  },
+  "nav": {
+    "menu": "Menu",
+    "why": "Perché",
+    "route": "Percorso",
+    "support": "Supporto"
+  },
+  "why": {
+    "h2": "Perché",
+    "p1": "I ghiacciai sono essenziali per la vita sulla Terra. Miliardi di persone dipendono da essi per l'acqua e il cibo.",
+    "p2": "Tuttavia, i ghiacciai stanno ritirandosi a un ritmo allarmante a causa dei cambiamenti climatici. Ciò minaccia gli ecosistemi, le risorse idriche e le comunità umane. Lo scioglimento dei ghiacciai contribuisce in modo significativo all'innalzamento del livello del mare, ponendo rischi per le comunità costiere e causando l'infiltrazione di acqua salata nelle riserve d'acqua dolce.",
+    "p3": "Per mantenere il nostro pianeta vivibile, dobbiamo proteggere i nostri ghiacciai e fermare il cambiamento climatico."
+  },
+  "slider": {
+    "source": "Il Schlatenkees intorno al 1920-1940 (a sinistra) e 2022. Fonte 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
+  },
+  "sustainability": {
+    "message": "Dobbiamo smettere di trattare la nostra atmosfera come una fogna e iniziare a rimuovere il CO<sub>2</sub> per preservare i nostri ghiacciai e garantire un futuro sostenibile per tutti."
+  },
+  "route": {
+    "h2": "Il percorso"
+  },
+  "map": {
+    "source": "I ghiacciai nelle Alpi hanno perso più della metà del loro volume da quando questa mappa è stata disegnata negli anni '30."
+  },
+  "cyclist": {
+    "day": "giorno"
+  },
+  "support": {
+    "h2": "Supporto & stoccaggio",
+    "description": "Il Goodbye Glacier Ride è stata lanciata per mostrare la dura realtà del cambiamento climatico, ma soprattutto per <strong>incitare all'azione</strong> per fare qualcosa al riguardo.<br><br>Ed è qui che entri in gioco! Puoi <strong>supportare i ciclisti</strong> ordinando una o più delle cartoline in edizione limitata. La cartolina verrà inviata dal luogo dell'evento con un messaggio personale.<br><br>Mentre i ciclisti sudano, tu rimuovi il CO<sub>2</sub> dall'atmosfera. I ricavi vengono utilizzati per finanziare progetti di rimozione del biossido di carbonio, che aumentano il reddito locale, migliorano la qualità del suolo e rendono possibile la finanza climatica: un Triplo Vantaggio.",
+    "register": "Vuoi partecipare (anche parzialmente) al Goodbye Glacier Ride e avviare la tua campagna di stoccaggio del carbonio? Puoi <a href=\"mailto:joost@cycling4climate.nl\">iscriverti qui</a>."
+  },
+  "info": {
+    "un": "Per evidenziare l'importanza dei ghiacciai, le Nazioni Unite hanno designato il 2025 come Anno Internazionale della Conservazione dei Ghiacciai.",
+    "initiative": "Il Goodbye Glacier Ride è un'iniziativa di Cycling 4 Climate. Una fondazione senza scopo di lucro ma ad alto impatto dei Paesi Bassi."
+  },
+  "modal": {
+    "supportImageSource": "hello"
+  }
+}
