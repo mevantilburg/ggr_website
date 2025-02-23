@@ -24,11 +24,13 @@
     <name>Oberalppass - 2040</name>
     <sym>Dot</sym>
     <type>pass</type>
+      <img>OberalppassCard.jpg</img>
   </wpt>
   <wpt lon="8.414778650073224" lat="46.57277500717369">
     <name>Furkapass - 2430m</name>
     <sym>Dot</sym>
     <type>pass</type>
+      <img>FurkaCard.jpg</img>
   </wpt>
   <wpt lon="8.086556351026942" lat="46.43299654027469">
     <name>Aletsch Glacier - 2360m</name>
@@ -61,6 +63,7 @@
     <name>Trient Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>TrientCard.jpg</img>
   </wpt>
   <wpt lon="6.923646170929274" lat="46.004133251158635">
     <name>Col de Montets - 1458m</name>
@@ -81,6 +84,7 @@
     <name>Mer de Glace</name>
     <sym>Dot</sym>
     <type>glacier</type>
+      <img>MerDeGlaceCard.jpg</img>
   </wpt>
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
     <name>Col de Saisies - 1660m</name>
