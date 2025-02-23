@@ -138,5 +138,41 @@
     <sym>Dot</sym>
     <type>pass</type>
   </wpt>
+ <wpt lon="6.391422241844351" lat="44.943905718518394">
+    <name>Glacier Blanc</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="6.879827308192854" lat="45.41228668384758">
+    <name>La Grande Motte</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+<wpt lon="7.8189921026630005" lat="45.94093868769692">
+    <name>Gorner Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.626937496849111" lat="45.99432910459629">
+    <name>Zmutt Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.875257083985332" lat="45.99187857855146">
+    <name>Findel Glacier</name>
+    <sym>Dot</sym>
+    <type>Glacier</type>
+  </wpt>
+  <wpt lon="7.46115378562803" lat="45.954691642492016">
+    <name>Otemma Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.278506080549905" lat="45.95507950790901">
+    <name>Glacier de Corbassière</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+    
 </gpx>    
   
