@@ -9,6 +9,7 @@
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>StelvioCard.jpg</img>
   </wpt>
   <wpt lon="10.390944028850813" lat="46.539939833266054">
     <name>Bocchetta di Forcola - 2735m</name>
@@ -24,13 +25,13 @@
     <name>Oberalppass - 2040</name>
     <sym>Dot</sym>
     <type>pass</type>
-      <img>OberalppassCard.jpg</img>
+    <img>OberalppassCard.jpg</img>
   </wpt>
   <wpt lon="8.414778650073224" lat="46.57277500717369">
     <name>Furkapass - 2430m</name>
     <sym>Dot</sym>
     <type>pass</type>
-      <img>FurkaCard.jpg</img>
+    <img>FurkaCard.jpg</img>
   </wpt>
   <wpt lon="8.086556351026942" lat="46.43299654027469">
     <name>Aletsch Glacier - 2360m</name>
@@ -42,6 +43,7 @@
     <name>Morteratschgletsjer</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>MorteraschPostcard.jpg</img>
   </wpt>
   <wpt lon="8.38865268939065" lat="46.57904945959968">
     <name>Rhone Glacier</name>
