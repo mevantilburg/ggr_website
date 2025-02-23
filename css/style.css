@@ -386,6 +386,10 @@ a.anchor {
   
 
 }
+.custom-popup .leaflet-popup-content {
+  margin: 9px 9px 9px 9px;
+ 
+}
 .postcard{
   width: 100%;
   margin-bottom: -6px;

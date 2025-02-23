@@ -498,6 +498,15 @@ fetch('./data/waypoints.xml')
         const name = wpt.getElementsByTagName('name')[0].textContent;
         const type = wpt.getElementsByTagName('type')[0].textContent;
         
+
+        // Check for an image element and prepare the popup content
+        const imgTag = wpt.getElementsByTagName('img')[0];
+        let popupContent = name;
+        if (imgTag) {
+            const imgUrl = imgTag.textContent.trim(); // Adjust if your XML stores the URL in an attribute
+            popupContent = `<img src="./img/${imgUrl}" alt="Image for ${name}" style="width:175px; height:auto;"><br>` + name;
+        }
+
         const icon = L.icon({
             iconUrl: getIconUrl(type),
             iconSize: [18, 22],     // Match SVG viewBox dimensions
@@ -508,7 +517,7 @@ fetch('./data/waypoints.xml')
         const marker = L.marker([lat, lon], { 
             icon: icon,
             title: name 
-        }).bindPopup(name, {
+        }).bindPopup(popupContent, {
             className: 'custom-popup',  // Add a custom CSS class
             closeButton: false,         // Hide the close button
             autoClose: true,           // Close when another popup is opened

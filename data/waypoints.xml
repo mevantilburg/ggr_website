@@ -34,6 +34,7 @@
     <name>Aletsch Glacier - 2360m</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>aletsch_s.png</img>
   </wpt>
   <wpt lon="9.935964991237896" lat="46.423458057145666">
     <name>Morteratschgletsjer</name>
@@ -49,6 +50,7 @@
     <name>Zermatt</name>
     <sym>Dot</sym>
     <type>Dot</type>
+     <img>ZermattCard.jpg</img>
   </wpt>
   <wpt lon="7.578658000000011" lat="46.103594">
     <name>Moiry Glacier</name>
