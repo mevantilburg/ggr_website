@@ -2,12 +2,12 @@
     "pageTitle": "Goodbye Glacier Ride",
     "hero": {
       "h1": "Goodbye Glacier Ride",
-      "description": "Een fietstocht van 1.500 km van München naar Monaco met meer dan 30.000 hoogtemeters. Langs de indrukwekkende gletsjers van de Alpen en door de meest spectaculaire passen. Een tweeweekse fietservaring om te genieten van de schoonheid van de Alpen en de harde realiteit van klimaatverandering onder ogen te zien."
+      "description": "Een fietstocht van 1.500 km van München naar Monaco met meer dan 30.000 hoogtemeters. Langs de indrukwekkendste gletsjers van de Alpen en over de iconische bergpassen. Een tweeweekse fietservaring om te genieten van de schoonheid van de Alpen en de harde realiteit van klimaatverandering onder ogen te zien."
     },
     "launch": {
       "h2": "Binnenkort gelanceerd!",
-      "announcement": "Het doel, de route en hoe u kunt deelnemen worden aangekondigd op <strong>vrijdag 21 maart</strong> live tijdens de Wereld Gletsjer Dag in Parijs.",
-      "join": "U kunt deelnemen aan het online lanceerevenement om <strong>9.00 uur <a href=\"https://meet.google.com/wms-wwht-kbk\">hier</a></strong>."
+      "announcement": "Het doel, de route en hoe je kunt deelnemen worden aangekondigd op <strong>vrijdag 21 maart</strong> live tijdens de World Glacier Day in Parijs.",
+      "join": "De lancering is om <strong>9.00 uur</strong>. En <strong><a href=\"https://meet.google.com/wms-wwht-kbk\">hier</a></strong> kun je deelnemen."
     },
     "nav": {
       "menu": "Menu",
@@ -17,15 +17,15 @@
     },
     "why": {
       "h2": "Waarom",
-      "p1": "Gletsjers zijn essentieel voor het leven op aarde. Miljarden mensen zijn van hen afhankelijk voor water en voedsel.",
-      "p2": "Echter, gletsjers trekken zich in een alarmerend tempo terug door klimaatverandering. Dit bedreigt ecosystemen, watervoorraden en menselijke gemeenschappen. Het smelten van gletsjers draagt aanzienlijk bij aan de stijging van de zeespiegel, wat risico’s met zich meebrengt voor kustgemeenschappen en zoutwaterintrusie in zoetwatervoorraden veroorzaakt.",
-      "p3": "Om onze planeet bewoonbaar te houden, moeten we onze gletsjers beschermen en de klimaatverandering tegenhouden."
+      "p1": "Gletsjers zijn essentieel voor het leven op aarde. Miljarden mensen zijn afhankelijk van gletscher voor water en voedselvoorziening.",
+      "p2": "Door klimaatverandering krimpen en verdwijnen gletsjers echter met een alarmerend tempo. Dit bedreigt ecosystemen, watervoorraden en de leefbaarheid. Daarnaast draagt het smelten van gletsjers aanzienlijk bij aan de stijging van de zeespiegel, wat risico’s met zich meebrengt voor kustgemeenschappen.",
+      "p3": "Om onze planeet bewoonbaar te houden, moeten we onze gletsjers beschermen en klimaatverandering zien af te remmen."
     },
     "slider": {
       "source": "De Schlatenkees circa 1920-1940 (links) en 2022. Bron 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
     },
     "sustainability": {
-      "message": "We moeten stoppen met het behandelen van onze atmosfeer als een riool en beginnen met het verwijderen van CO<sub>2</sub> om onze gletsjers te behouden en een duurzame toekomst voor iedereen te waarborgen."
+      "message": "We moeten stoppen met het gebruiken van onze atmosfeer als een open riool en beginnen met het verwijderen van CO<sub>2</sub> om onze gletsjers te behouden en een duurzame toekomst voor iedereen te waarborgen."
     },
     "route": {
       "h2": "De Route"
@@ -38,11 +38,11 @@
       },
     "support": {
       "h2": "Steun & CO<sub>2</sub>-opslag",
-      "description": "De Goodbye Glacier Ride is opgezet om de bittere realiteit van klimaatverandering te tonen, maar nog belangrijker: om actie te ondernemen tegen deze verandering.<br><br>Hier komt u in beeld! U kunt de renners <strong>steunen</strong> door één of meer van de limited edition ansichtkaarten te bestellen. De ansichtkaart wordt vanaf de locatie verstuurd met een persoonlijke boodschap.<br><br>Terwijl de renners zwoegen, verwijdert u CO<sub>2</sub> uit de atmosfeer. De opbrengst wordt gebruikt om projecten voor de verwijdering van koolstofdioxide te financieren, die het lokale inkomen verhogen, de bodemkwaliteit verbeteren en klimaatfinanciering mogelijk maken: een Triple Win.",
-      "register": "Wilt u (deels) meedoen aan de Goodbye Glacier Ride en uw eigen campagne voor koolstofopslag starten? U kunt <a href=\"mailto:joost@cycling4climate.nl\">hier registreren</a>."
+      "description": "De Goodbye Glacier Ride is opgezet om de bittere realiteit van klimaatverandering te tonen, maar nog belangrijker: om actie te ondernemen tegen deze verandering.<br><br>Hier komt u in beeld! U kunt de deelnemers <strong>steunen</strong> door één of meer ansichtkaarten te bestellen. De ansichtkaart wordt vanaf de locatie verstuurd met een persoonlijke boodschap.<br><br>Terwijl de renners zweten, verwijdert u CO<sub>2</sub> uit de atmosfeer. Met de opbrengst worden CO<sub>2</sub> verwijderingsprojecten gerealiseerd. Deze projecten verhogen inkomens, verbeteren de bodemkwaliteit en zijn feitelijk klimaatfinanciering: een <strong>Triple Win</strong>.",
+      "register": "Wil je zelf (een deel van) de Goodbye Glacier Ride fietsen en een eigen CO<sub>2</sub> fundraise-campagne  starten? Schrijf je <a href=\"mailto:joost@cycling4climate.nl\">hier</a> in."
     },
     "info": {
-      "un": "Om het belang van gletsjers te benadrukken, hebben de Verenigde Naties 2025 uitgeroepen tot het Internationaal Jaar van Gletsjerbehoud.",
+      "un": "Om het belang van gletsjers te benadrukken, hebben de Verenigde Naties 2025 uitgeroepen tot the International Year of Glacier Preservation.",
       "initiative": "De Goodbye Glacier Ride is een initiatief van Cycling 4 Climate. Een non-profit, maar impactvolle stichting uit Nederland."
     },
     "modal": {
