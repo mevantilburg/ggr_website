@@ -2,6 +2,14 @@ import { translator } from './index.js';  // or from wherever the instance is ex
 
 console.log("Current language:", translator.getCurrentLanguage());
 
+const questions = document.querySelectorAll('.faq_question');
+
+questions.forEach(question => {
+    question.addEventListener('click', () => {
+        const answer = question.children[1];
+        answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+    });
+});
 function handleClick(event) {
 
     // Do something when clicking the child div

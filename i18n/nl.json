@@ -47,6 +47,22 @@
     },
     "modal": {
       "supportImageSource": "hello"
-    }
+    },
+    
+      "faq": {
+        "h2": "Veelgestelde Vragen",
+        "question1": "Wat is de GGR?",
+        "answer1": "De Goodbye Glacier Ride is een individuele fietsavontuur om bewustzijn te creëren over klimaatverandering. Deelnemers halen geld op voor koolstofverwijdering: ze nodigen vrienden, familie, enz. uit om via hun inzamelingscampagne CO2 uit de atmosfeer te verwijderen.",
+        "question2": "Kun je ook slechts een deel van de rit meedoen?",
+        "answer2": "Ja, dat kan. Idealiter passeer je minstens de Morteratsch-, Rhône- en Aletsch-gletsjers en bezoek je de Mer de Glace in Chamonix.",
+        "question3": "Wat heb je nodig om mee te doen aan de GGR?",
+        "answer3": "<ul><li>Een goede conditie!</li><li>En de toewijding om minstens 100 ton CO2 te laten verwijderen. Met andere woorden: Vind 100 mensen die elk één ton CO2 voor €150 verwijderen (of 200 mensen die elk 500 kg verwijderen).</li></ul>",
+        "question4": "Wat kost deelname aan de GGR?",
+        "answer4": "Het inschrijfgeld voor de GGR is €25. Hiervoor ontvang je het GPX-bestand, de dagplanning en een persoonlijke inzamelingspagina op de website. Je ontvangt ook de digitale drukbestanden van de ansichtkaarten die je naar je supporters kunt sturen, en je wordt opgenomen in de lijst van Goodbye Glacier Riders.</br>Het GGR-wedstrijdshirt kan optioneel worden aangeschaft en kost € XXX. Dit kan gekocht worden in de webshop van Cycling 4 Climate (zorg ervoor dat je de juiste maat selecteert).",
+        "question5": "Wat is Koolstofdioxide Verwijdering (CDR)?",
+        "answer5": "Een proces waarbij CO2 uit de atmosfeer wordt gehaald en voor duizenden jaren wordt opgeslagen. De mensheid is momenteel op een traject om de 1,5°C-doelstelling voor wereldwijde temperatuurstijging te overschrijden. Om het aardsysteem terug te brengen naar een stabiele, leefbare staat, moeten we overtollige CO2 uit de atmosfeer verwijderen.</br></br><strong>Hoe werkt dit?</strong></br>Er zijn verschillende technologieën om CO2 te verwijderen. De bekendste is waarschijnlijk ‘Direct Air Capture’ (DAC). Grote ventilatoren laten lucht door een installatie stromen die het CO2 eruit “zuigt”. Het Mammoth-project van Climeworks is het meest geavanceerd. Dit is een technologie in een vroege fase die al XXX aan investeringskapitaal heeft ontvangen."
+      }
+    
+    
   }
   

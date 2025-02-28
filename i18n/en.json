@@ -47,6 +47,19 @@
     },
     "modal": {
       "supportImageSource": "hello"
+    },
+    "faq": {
+      "h2": "Frequently Asked Questions",
+      "question1":"What is the GGR?",
+      "answer1": "The Goodbye Glacier ride is an individual cycling adventure to raise awareness on climate disruption. Participants fundraise carbon removal: they invite friends, family etc to start removing CO2 from the atmosphere via their fundraising campaign.",
+      "question2":"Can you also ride only a part of the ride?",
+      "answer2": "Yes you can. Ideally you pass at least the Morteratsch, Rhône and Aletsch glaciers, and visit the Mer de Glace in Chamonix.",
+      "question3":"What is needed to ride the GGR?",
+      "answer3": "<ul><li>A good condition!</li><li>and the commitment to sink at least 100 ton’s of CO2. In other words: Find 100 people that will sink one ton of CO2 of €150 (or 200 people to sink 500 kg each).</li></ul>",
+      "question4":"What does it cost to ride the GGR?",
+      "answer4": " Registration fee for the GGR is € 25. Therefore you’ll get the GPX-file, the day planning and a personal fundraising page on the website. You’ll also receive the digital print files of the postcards you can send to your supporters and you’ll be included in the list of Goodbye Glacier Riders. </br>The GGR race shirt can be bought as an option and costs € XXX. It can be purchased in the webshop of Cycling 4 Climate (make sure you select the right side).",
+      "question5":"What is Carbon Dioxide Removal (CDR)?",
+      "answer5": "A process where CO2 from the atmosphere is captured and stored for 1000 of years. Humanity is currently on a trajectory to overshoot the 1,5C global temperature increase target. To bring the earth system back into a stable, liveable state, we need to remove excess CO2 from the atmosphere.</br></br> <strong>How does this work?</strong> </br>There are different technologies to remove CO2. The most known is probably “Direct Air Capture” or DAC. Huge ventilators have air running through a facility that “sucks” the CO2 from the air. The Mamoth project of Climeworks is the most advanced. Its early stage technollgu that already received XXX of investment capital."
     }
   }
   

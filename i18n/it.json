@@ -47,5 +47,20 @@
   },
   "modal": {
     "supportImageSource": "hello"
-  }
+  },
+    "faq": {
+      "h2": "Domande Frequenti",
+      "question1": "Cos'è il GGR?",
+      "answer1": "Il Goodbye Glacier Ride è un'avventura ciclistica individuale per sensibilizzare al cambiamento climatico. I partecipanti raccolgono fondi per la rimozione del carbonio: invitano amici, familiari, ecc., a iniziare a rimuovere la CO2 dall'atmosfera attraverso la loro campagna di raccolta fondi.",
+      "question2": "Si può percorrere solo una parte del tragitto?",
+      "answer2": "Sì, è possibile. Idealmente, dovresti attraversare almeno i ghiacciai di Morteratsch, Rodano e Aletsch, e visitare la Mer de Glace a Chamonix.",
+      "question3": "Cosa serve per partecipare al GGR?",
+      "answer3": "<ul><li>Una buona condizione fisica!</li><li>E l'impegno a rimuovere almeno 100 tonnellate di CO2. In altre parole: trovare 100 persone disposte a rimuovere una tonnellata di CO2 per 150 € (o 200 persone per 500 kg ciascuna).</li></ul>",
+      "question4": "Quanto costa partecipare al GGR?",
+      "answer4": "La quota di iscrizione al GGR è di 25 €. Con questa quota riceverai il file GPX, la pianificazione giornaliera e una pagina personale di raccolta fondi sul sito web. Riceverai anche i file digitali delle cartoline che puoi inviare ai tuoi sostenitori e sarai inserito nella lista dei Goodbye Glacier Riders.</br>La maglia da corsa GGR è opzionale e costa XXX €. Può essere acquistata nello shop online di Cycling 4 Climate (assicurati di selezionare la taglia corretta).",
+      "question5": "Cos'è la Rimozione del Biossido di Carbonio (CDR)?",
+      "answer5": "Un processo in cui la CO2 viene catturata e immagazzinata per migliaia di anni. L'umanità è attualmente su una traiettoria che supera l'obiettivo di limitare l'aumento della temperatura globale a 1,5°C. Per riportare il sistema terrestre in uno stato stabile e vivibile, dobbiamo rimuovere l'eccesso di CO2 dall'atmosfera.</br></br><strong>Come funziona?</strong></br>Esistono diverse tecnologie per rimuovere la CO2. La più conosciuta è probabilmente la “cattura diretta dell’aria” o DAC. Grandi ventilatori fanno passare l'aria attraverso un impianto che “aspira” la CO2. Il progetto Mammoth di Climeworks è il più avanzato. È una tecnologia ancora in fase iniziale che ha già ricevuto XXX di capitale di investimento."
+    }
+  
+  
 }

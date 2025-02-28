@@ -47,5 +47,21 @@
   },
   "modal": {
     "supportImageSource": "hello"
-  }
+  },
+  
+    "faq": {
+      "h2": "Questions Fréquemment Posées",
+      "question1": "Qu'est-ce que le GGR ?",
+      "answer1": "Le Goodbye Glacier Ride est une aventure cycliste individuelle visant à sensibiliser au dérèglement climatique. Les participants collectent des fonds pour l’élimination du carbone : ils invitent leurs amis, leur famille, etc., à commencer à éliminer le CO2 de l’atmosphère via leur campagne de collecte de fonds.",
+      "question2": "Peut-on ne parcourir qu'une partie du trajet ?",
+      "answer2": "Oui, c'est possible. Idéalement, vous passez au moins par les glaciers de Morteratsch, du Rhône et d’Aletsch, et vous visitez la Mer de Glace à Chamonix.",
+      "question3": "De quoi a-t-on besoin pour participer au GGR ?",
+      "answer3": "<ul><li>Une bonne condition physique !</li><li>Et l'engagement d'éliminer au moins 100 tonnes de CO2. En d'autres termes : trouver 100 personnes prêtes à éliminer une tonne de CO2 pour 150 € (ou 200 personnes pour 500 kg chacune).</li></ul>",
+      "question4": "Combien coûte la participation au GGR ?",
+      "answer4": "Les frais d'inscription au GGR s'élèvent à 25 €. En échange, vous recevrez le fichier GPX, la planification des journées et une page de collecte de fonds personnelle sur le site web. Vous recevrez également les fichiers d’impression numérique des cartes postales à envoyer à vos soutiens et serez ajouté à la liste des Goodbye Glacier Riders.</br>Le maillot de course GGR est en option et coûte XXX €. Il peut être acheté dans la boutique en ligne de Cycling 4 Climate (assurez-vous de sélectionner la bonne taille).",
+      "question5": "Qu'est-ce que l’élimination du dioxyde de carbone (CDR) ?",
+      "answer5": "Un processus où le CO2 est capturé et stocké pendant des milliers d’années. L’humanité est actuellement sur une trajectoire dépassant l’objectif de limitation de l’augmentation de la température globale à 1,5°C. Pour ramener le système terrestre à un état stable et vivable, nous devons éliminer l’excès de CO2 de l’atmosphère.</br></br><strong>Comment cela fonctionne-t-il ?</strong></br>Il existe différentes technologies pour éliminer le CO2. La plus connue est probablement la “capture directe de l’air” ou DAC. D'énormes ventilateurs font circuler l’air à travers une installation qui “aspire” le CO2. Le projet Mammoth de Climeworks est le plus avancé. C’est une technologie encore en phase initiale qui a déjà reçu XXX de capital d’investissement."
+    }
+  
+  
 }

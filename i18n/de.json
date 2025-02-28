@@ -47,6 +47,22 @@
     },
     "modal": {
       "supportImageSource": "hello"
-    }
+    },
+    
+      "faq": {
+        "h2": "Häufig Gestellte Fragen",
+        "question1": "Was ist das GGR?",
+        "answer1": "Die Goodbye Glacier Ride ist ein individuelles Fahrradabenteuer, um das Bewusstsein für den Klimawandel zu schärfen. Die Teilnehmer sammeln Spenden für die CO2-Entfernung: Sie laden Freunde, Familie usw. ein, über ihre Spendenkampagne CO2 aus der Atmosphäre zu entfernen.",
+        "question2": "Kann man auch nur einen Teil der Strecke fahren?",
+        "answer2": "Ja, das ist möglich. Idealerweise passiert man mindestens die Gletscher Morteratsch, Rhône und Aletsch und besucht die Mer de Glace in Chamonix.",
+        "question3": "Was braucht man, um beim GGR mitzufahren?",
+        "answer3": "<ul><li>Eine gute körperliche Verfassung!</li><li>Und die Verpflichtung, mindestens 100 Tonnen CO2 zu binden. Anders gesagt: Finde 100 Personen, die jeweils eine Tonne CO2 für 150 € binden (oder 200 Personen für je 500 kg).</li></ul>",
+        "question4": "Was kostet die Teilnahme am GGR?",
+        "answer4": "Die Teilnahmegebühr für das GGR beträgt 25 €. Dafür erhältst du die GPX-Datei, die Tagesplanung und eine persönliche Spendenkampagnen-Seite auf der Website. Zudem bekommst du digitale Druckdateien der Postkarten, die du an deine Unterstützer senden kannst, und wirst in die Liste der Goodbye Glacier Riders aufgenommen.</br>Das GGR-Radtrikot kann optional erworben werden und kostet XXX €. Es kann im Online-Shop von Cycling 4 Climate gekauft werden (achte darauf, die richtige Größe zu wählen).",
+        "question5": "Was ist CO2-Entfernung (CDR)?",
+        "answer5": "Ein Prozess, bei dem CO2 aus der Atmosphäre entnommen und für Tausende von Jahren gespeichert wird. Die Menschheit steuert derzeit auf eine Überschreitung des 1,5°C-Temperaturziels zu. Um das Erdsystem in einen stabilen, lebenswerten Zustand zurückzubringen, müssen wir überschüssiges CO2 aus der Atmosphäre entfernen.</br></br><strong>Wie funktioniert das?</strong></br>Es gibt verschiedene Technologien zur CO2-Entfernung. Die bekannteste ist vermutlich „Direct Air Capture“ (DAC). Riesige Ventilatoren leiten Luft durch eine Anlage, die das CO2 herausfiltert. Das Mammoth-Projekt von Climeworks ist das fortschrittlichste. Es handelt sich um eine noch junge Technologie, die bereits XXX an Investitionskapital erhalten hat."
+      }
+    
+    
   }
   
