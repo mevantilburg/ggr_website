@@ -24,7 +24,7 @@ const ROUTE_DATA = {
                 type: "location",
                 points: {
                         en: [
-                        "The highest mountain in Germany (2.962m), on the border with Austria, holds the two last glaciers in Germany.",
+                        "The highest mountain in Germany (2,962m), on the border with Austria, holds the two last glaciers in Germany.",
                         "In 2022, the Südliche Schneeferner has lost its status as a glacier and is now dead ice. The Nördliche Schneeferner will also be completely melted in a few years."
                         ],
                         nl: [
@@ -117,10 +117,10 @@ const ROUTE_DATA = {
                 name: "Passo dello Stelvio",
                 type: "col",
                 stats: {
-                    distance: "24,9",
-                    elevation: "1.846",
-                    gradient: "7,4",
-                    steepest: "10,3"
+                    distance: "24.9",
+                    elevation: "1,846",
+                    gradient: "7.4",
+                    steepest: "10.3"
                 },
                 points: []
             },
@@ -202,10 +202,10 @@ const ROUTE_DATA = {
                 name: "Oberalppass",
                 type: "col",
                 stats: {
-                    distance: "20,8",
+                    distance: "20.8",
                     elevation: 906,
-                    gradient: "4,3",
-                    steepest: "9,4"
+                    gradient: "4.3",
+                    steepest: "9.4"
                 },
                 points: []
             },
@@ -336,7 +336,7 @@ const ROUTE_DATA = {
                 type: "location",
                 points: {
                     en: [
-                      "Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
+                      "Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1,620 meters.",
                       "Known for its stunning alpine landscape, the town sits at the foot of the iconic Matterhorn and is surrounded by several peaks over 4,000 meters and multiple Glaciers."
                     ],
                     nl: [
@@ -386,8 +386,8 @@ const ROUTE_DATA = {
                 type: "glacier",
                 stats: {
                     size: 14,
-                    length: "4,4",
-                    surface: "5,5"
+                    length: "4.4",
+                    surface: "5.5"
                 },
                 points: []
             },
@@ -417,7 +417,7 @@ const ROUTE_DATA = {
                 type: "glacier",
                 stats: {
                     size: 3,
-                    length: "11,5",
+                    length: "11.5",
                     surface: 28
                 },
                 points: {
@@ -464,10 +464,10 @@ const ROUTE_DATA = {
                 name: "Col de l'Iseran",
                 type: "col",
                 stats: {
-                    distance: "47,4",
-                    elevation: "2.050",
-                    gradient: "4,3",
-                    steepest: "8,6"
+                    distance: "47.4",
+                    elevation: "2,050",
+                    gradient: "4.3",
+                    steepest: "8.6"
                 },
                 points: []
             },
@@ -498,8 +498,8 @@ const ROUTE_DATA = {
                 name: "Col du Galibier",
                 type: "col",
                 stats: {
-                    distance: "34,6",
-                    elevation: "2.085",
+                    distance: "34.6",
+                    elevation: "2,085",
                     gradient: "6",
                     steepest: "10"
                 },
@@ -530,10 +530,10 @@ const ROUTE_DATA = {
                 name: "Cime de la Bonette",
                 type: "col",
                 stats: {
-                    distance: "23,3",
-                    elevation: "1.590",
-                    gradient: "6,8",
-                    steepest: "14,1"
+                    distance: "23.3",
+                    elevation: "1,590",
+                    gradient: "6.8",
+                    steepest: "14.1"
                 },
                 points: []
             },
@@ -573,7 +573,7 @@ const ROUTE_DATA = {
                       "Wir riskieren unseren Planeten, was ist dein Einsatz?"
                     ],
                     fr: [
-                      "Nous jouons avec notre planète, quel est ton pari ?"
+                      "Nous jouons avec notre planète, quel est ton pari?"
                     ],
                     it: [
                       "Scommettiamo sul nostro pianeta, qual è la tua scommessa?"
