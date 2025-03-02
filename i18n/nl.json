@@ -1,68 +1,71 @@
 {
-    "pageTitle": "Goodbye Glacier Ride",
-    "hero": {
-      "h1": "Goodbye Glacier Ride",
-      "description": "Een fietstocht van 1.500 km van München naar Monaco met meer dan 30.000 hoogtemeters. Langs de indrukwekkendste gletsjers van de Alpen en over iconische bergpassen. Een tweeweekse fietservaring om te genieten van de schoonheid van de Alpen en de harde realiteit van klimaatverandering onder ogen te zien."
-    },
-    "launch": {
-      "h2": "Binnenkort gelanceerd!",
-      "announcement": "Het doel, de route en hoe je kunt deelnemen worden aangekondigd tijdens de World Glacier Day op <strong>vrijdag 21 maart</strong> live vanuit Parijs.",
+  "pageTitle": "Goodbye Glacier Ride",
+  "hero": {
+    "h1": "Goodbye Glacier Ride",
+    "description": "Een 1.500 km lange fietstocht van München naar Monaco, waarbij je langs de enorme gletsjers van de Alpen rijdt en de meest spectaculaire passen oversteekt. Een fietservaring om te genieten van de schoonheid van de bergen en de harde realiteit van klimaatverandering onder ogen te zien, terwijl er geld wordt ingezameld om projecten voor CO<sub>2</sub>-verwijdering te ondersteunen."
+  },
+  "launch": {
+    "h2": "Binnenkort gelanceerd!",
+  "announcement": "Het doel, de route en hoe je kunt deelnemen worden aangekondigd tijdens de World Glacier Day op <strong>vrijdag 21 maart</strong> live vanuit Parijs.",
       "join": "De lancering start om <strong>9.00 uur</strong>. Via deze <strong><a href=\"https://meet.google.com/wms-wwht-kbk\">link</a></strong> kun je deelnemen."
-    },
-    "nav": {
-      "menu": "Menu",
-      "why": "Waarom",
-      "route": "Route",
-      "support": "Steun"
-    },
-    "why": {
-      "h2": "Waarom",
-      "p1": "Gletsjers zijn essentieel voor het leven op aarde. Miljarden mensen zijn afhankelijk van gletsjers voor water en voedselvoorziening.",
-      "p2": "Door klimaatverandering krimpen en verdwijnen gletsjers echter met een alarmerend tempo. Dit bedreigt ecosystemen, watervoorraden en de leefbaarheid. Daarnaast draagt het smelten van gletsjers aanzienlijk bij aan de stijging van de zeespiegel, met alle risico’s van dien.",
-      "p3": "Om onze planeet leefbaar te houden, moeten we onze gletsjers beschermen en klimaatverandering zien af te remmen."
-    },
-    "slider": {
-      "source": "De Schlatenkees circa 1920-1940 (links) en 2022. Bron 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
-    },
-    "sustainability": {
-      "message": "We moeten stoppen met het gebruiken van onze atmosfeer als een open riool en beginnen met het verwijderen van CO<sub>2</sub> om onze gletsjers te behouden en een duurzame toekomst voor iedereen te waarborgen."
-    },
-    "route": {
-      "h2": "De Route"
-    },
-    "map": {
-      "source": "De gletsjers in de Alpen hebben meer dan de helft van hun volume verloren sinds deze kaart in de jaren 1930 is getekend."
-    },
-    "cyclist": {
-        "day": "dag"
-      },
-    "support": {
+  },
+  "nav": {
+    "menu": "Menu",
+    "why": "Waarom",
+    "route": "Route",
+    "support": "Steun",
+    "faq": "FAQ"
+  },
+  "why": {
+    "h2": "Waarom",
+    "p1": "Gletsjers zijn essentieel voor het leven op aarde. Miljarden mensen – zowel in bergachtige gebieden als in grote steden – zijn afhankelijk van hen voor de zoetwatervoorziening en voedselproductie. Gletsjers zijn onze natuurlijke waterreservoirs.",
+    "p2": "Echter, gletsjers trekken in een alarmerend tempo terug door klimaatverandering. Dit bedreigt ecosystemen, watervoorraden en menselijke gemeenschappen. Het smelten van gletsjers draagt aanzienlijk bij aan de stijging van de zeespiegel, wat risico's met zich meebrengt voor kustgemeenschappen en zoutwaterintrusie in zoetwatervoorzieningen veroorzaakt.",
+    "p3": "Hoe minder ijs er is, hoe minder water beschikbaar is voor menselijk gebruik – of het nu gaat om drinken, waterkracht of irrigatie. Om onze planeet leefbaar te houden, moeten we onze gletsjers beschermen en klimaatverandering stoppen."
+  },
+  "slider": {
+    "source": "De Schlatenkees circa 1920-1940 (links) en 2022. Bron 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
+  },
+  "sustainability": {
+    "message": "We moeten stoppen met het gebruiken van onze atmosfeer als een open riool en beginnen met het verwijderen van CO<sub>2</sub> om onze gletsjers te behouden en een duurzame toekomst voor iedereen te waarborgen."
+  },
+  "route": {
+    "h2": "De Route"
+  },
+  "map": {
+    "source": "De gletsjers in de Alpen hebben meer dan de helft van hun volume verloren sinds deze kaart in de jaren 1930 is getekend."
+  },
+  "cyclist": {
+    "day": "dag"
+  },
+  "support": {
       "h2": "Steun & verwijder CO<sub>2</sub>",
       "description": "De Goodbye Glacier Ride is opgezet om de bittere realiteit van klimaatverandering te tonen, maar nog belangrijker: om <strong>actie</strong> te ondernemen.<br><br>And that's where you come in! U kunt de deelnemers <strong>steunen</strong> door één of meer ansichtkaarten te kopen. Deze wordt dan vanaf de route met een persoonlijke boodschap verstuurd.<br><br>Met de opbrengst worden CO<sub>2</sub> verwijderingsprojecten gerealiseerd. Terwijl de renners zweten, verwijdert u CO<sub>2</sub> uit de atmosfeer. De projecten verhogen inkomens, verbeteren de bodemkwaliteit en zijn feitelijk klimaatfinanciering: een <strong>Triple Win</strong>.",
       "register": "Wil je zelf (een deel van) de Goodbye Glacier Ride fietsen en een eigen CO<sub>2</sub> verwijderingscampagne  starten? Schrijf je <a href=\"mailto:joost@cycling4climate.nl\">hier</a> in."
     },
-    "info": {
-      "un": "Om het belang van gletsjers te benadrukken, hebben de Verenigde Naties 2025 uitgeroepen tot the International Year of Glacier Preservation.",
-      "initiative": "De Goodbye Glacier Ride is een initiatief van Cycling 4 Climate. Een non-profit, maar impactvolle stichting uit Nederland."
-    },
-    "modal": {
-      "supportImageSource": "hello"
-    },
-    
-      "faq": {
-        "h2": "Veelgestelde Vragen",
-        "question1": "Wat is de GGR?",
-        "answer1": "De Goodbye Glacier Ride is een individuele fietsavontuur om bewustzijn te creëren over klimaatverandering. Deelnemers halen geld op voor koolstofverwijdering: ze nodigen vrienden, familie, enz. uit om via hun inzamelingscampagne CO2 uit de atmosfeer te verwijderen.",
-        "question2": "Kun je ook slechts een deel van de rit meedoen?",
-        "answer2": "Ja, dat kan. Idealiter passeer je minstens de Morteratsch-, Rhône- en Aletsch-gletsjers en bezoek je de Mer de Glace in Chamonix.",
-        "question3": "Wat heb je nodig om mee te doen aan de GGR?",
-        "answer3": "<ul><li>Een goede conditie!</li><li>En de toewijding om minstens 100 ton CO2 te laten verwijderen. Met andere woorden: Vind 100 mensen die elk één ton CO2 voor €150 verwijderen (of 200 mensen die elk 500 kg verwijderen).</li></ul>",
-        "question4": "Wat kost deelname aan de GGR?",
-        "answer4": "Het inschrijfgeld voor de GGR is €25. Hiervoor ontvang je het GPX-bestand, de dagplanning en een persoonlijke inzamelingspagina op de website. Je ontvangt ook de digitale drukbestanden van de ansichtkaarten die je naar je supporters kunt sturen, en je wordt opgenomen in de lijst van Goodbye Glacier Riders.</br>Het GGR-wedstrijdshirt kan optioneel worden aangeschaft en kost € XXX. Dit kan gekocht worden in de webshop van Cycling 4 Climate (zorg ervoor dat je de juiste maat selecteert).",
-        "question5": "Wat is Koolstofdioxide Verwijdering (CDR)?",
-        "answer5": "Een proces waarbij CO2 uit de atmosfeer wordt gehaald en voor duizenden jaren wordt opgeslagen. De mensheid is momenteel op een traject om de 1,5°C-doelstelling voor wereldwijde temperatuurstijging te overschrijden. Om het aardsysteem terug te brengen naar een stabiele, leefbare staat, moeten we overtollige CO2 uit de atmosfeer verwijderen.</br></br><strong>Hoe werkt dit?</strong></br>Er zijn verschillende technologieën om CO2 te verwijderen. De bekendste is waarschijnlijk ‘Direct Air Capture’ (DAC). Grote ventilatoren laten lucht door een installatie stromen die het CO2 eruit “zuigt”. Het Mammoth-project van Climeworks is het meest geavanceerd. Dit is een technologie in een vroege fase die al XXX aan investeringskapitaal heeft ontvangen."
-      }
-    
-    
+  "info": {
+    "un": "Om het belang van gletsjers te benadrukken, hebben de Verenigde Naties 2025 uitgeroepen tot het Internationaal Jaar van Gletsjerbehoud.",
+    "initiative": "Goodbye Glacier Ride is een initiatief van Cycling 4 Climate. Een non-profit maar impactgerichte stichting uit Nederland."
+  },
+  "modal": {
+    "supportImageSource": "hallo"
+  },
+  "faq": {
+    "h2": "Veelgestelde Vragen",
+    "question1": "Wat is Goodbye Glacier Ride?",
+    "answer1": "Goodbye Glacier Ride is een individuele fietservaring langs de mooiste maar krimpende gletsjers van de Alpen, bedoeld om bewustzijn te creëren over klimaatverandering. De totale rit beslaat 1.500 km en er moet meer dan 30.000 meter aan hoogtewinst worden overwonnen. De deelnemers zamelen geld in voor CO<sub>2</sub>-verwijdering: ze nodigen vrienden, familie, etc. uit om via hun individuele inzamelingscampagne CO<sub>2</sub> uit de atmosfeer te verwijderen.",
+    "question2": "Hoe kan ik ondersteunen?",
+    "answer2": "Je kunt een donatie doen aan de renner van jouw keuze. Je kunt kiezen voor een ansichtkaart die naar je wordt verzonden, of een directe donatie doen. Het geld wordt gebruikt om CO<sub>2</sub>-verwijderingsprojecten te financieren.",
+    "question3": "Wat is Carbon Dioxide Removal en waarom is het belangrijk?",
+    "answer3": "Carbon Dioxide Removal (CDR) is een proces waarbij CO<sub>2</sub> uit de atmosfeer wordt gehaald en voor duizenden jaren wordt opgeslagen. De mensheid bevindt zich momenteel op een traject dat het doel van een wereldwijde temperatuurstijging van 1,5°C overschrijdt. Om het aardse systeem weer in een stabiele, leefbare staat te brengen, moeten we het overtollige CO<sub>2</sub> uit de atmosfeer verwijderen.</br></br> <strong>Hoe werkt het?</strong> </br> Met onze CDR-projecten wordt overtollig organisch afval omgezet in biochar. Biochar is een soort houtskool die zeer stabiel is. Na productie wordt de biochar aan de grond toegevoegd, waar het de bodemkwaliteit verbetert en de koolstof voor millennia wordt opgeslagen. Dit biedt een drievoudig voordeel: kleinschalige boeren verkrijgen extra inkomen, terwijl hun bodem verbetert en veerkrachtiger wordt tegen klimaatverandering.",
+    "question4": "Hoe wordt mijn donatie besteed?",
+    "answer4": "Jouw donatie wordt gebruikt om CO<sub>2</sub>-verwijderingsprojecten van de Carboneers te financieren. Het verwijderen en opslaan van 1.000 kg (= 1 ton) CO<sub>2</sub> kost €150. Dus elke euro verwijdert 6,67 kg CO<sub>2</sub> uit de atmosfeer. Als je doneert via een ansichtkaart, worden €5 gebruikt voor druk- en portokosten, en de rest wordt ingezet voor CO<sub>2</sub>-verwijdering.",
+    "question5": "Kan ik deze CO<sub>2</sub>-verwijderingsprojecten vertrouwen?",
+    "answer5": "Natuurlijk. Cycling 4 Climate is een impactgerichte stichting gerund door vrijwilligers, en vertrouwen is onze 'raison d'être'. We werken al twee jaar samen met de Carboneers als partner voor CO<sub>2</sub>-verwijdering. Zij hebben al meer dan 50.000 ton CO<sub>2</sub> verwijderd en hebben de ambitie om tegen 2028 1 megaton te verwijderen. Meer informatie over de Carboneers is te vinden op <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a>. Zodra een deelnemer zijn/haar GGR heeft voltooid, ontvangt hij/zij een certificaat van het CO<sub>2</sub>-verwijderingsregister van Carbon Standards International.",
+    "question6": "Wat heb ik nodig om mee te rijden in Goodbye Glacier Ride?",
+    "answer6": "Goede fysieke conditie! En de bereidheid om minstens 100 ton CO<sub>2</sub> te verwijderen. Dit betekent: voldoende mensen mobiliseren om samen de 100 ton CO<sub>2</sub> te verwijderen! Gemiddeld stoot een EU-burger ongeveer <a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 ton</a> CO<sub>2</sub> per jaar uit. Het doel van 100 ton is dus vergelijkbaar met de uitstoot van 13 EU-burgers. Het kost €150 om één ton CO<sub>2</sub> te verwijderen, dus het inzamelingsdoel is €15.000 per deelnemer.",
+    "question7": "Kan ik ook maar een deel van Goodbye Glacier Ride rijden?",
+    "answer7": "Ja, dat kan. Idealiter rijd je langs ten minste de gletsjers Morteratsch, Rhône en Aletsch, en bezoek je de Mer de Glace nabij Chamonix.",
+    "question8": "Wat kost deelname aan Goodbye Glacier Ride?",
+    "answer8": "Het inschrijfgeld voor de GGR bedraagt € 25. Je ontvangt dan het GPX-bestand, de dagplanning en een persoonlijke inzamelpagina op de website. Daarnaast ontvang je de digitale printbestanden van de ansichtkaarten die je naar je supporters kunt sturen, en word je opgenomen in de lijst van Goodbye Glacier Riders. <br>Het Goodbye Glacier fietstrui is optioneel en kan worden aangeschaft in de webshop van Cycling 4 Climate (zorg dat je de juiste maat selecteert)."
   }
-  
+}

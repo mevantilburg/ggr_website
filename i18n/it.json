@@ -2,65 +2,70 @@
   "pageTitle": "Goodbye Glacier Ride",
   "hero": {
     "h1": "Goodbye Glacier Ride",
-    "description": "Un viaggio in bicicletta di 1.500 km da Monaco di Baviera a Montecarlo con oltre 30.000 metri di dislivello. Percorrendo i massicci ghiacciai delle Alpi e attraversando i passi più spettacolari. Un'avventura ciclistica di due settimane per godere della bellezza delle Alpi e affrontare la dura realtà del cambiamento climatico."
+    "description": "Un viaggio in bicicletta di 1.500 km da Monaco di Baviera a Monaco, passando per i massicci ghiacciai delle Alpi e attraversando i suoi passi più spettacolari. Un'avventura ciclistica per godere della bellezza delle montagne e affrontare la dura realtà del cambiamento climatico, raccogliendo fondi per sostenere progetti di rimozione del CO<sub>2</sub>."
   },
   "launch": {
-    "h2": "In arrivo a breve!",
-    "announcement": "L'obiettivo, il percorso e le modalità di partecipazione saranno annunciati in diretta il <strong>venerdì 21 marzo</strong> dalla Giornata Mondiale dei Ghiacciai a Parigi.",
-    "join": "Puoi partecipare all'evento di lancio online alle <strong>9:00 <a href=\"https://meet.google.com/wms-wwht-kbk\">qui</a></strong>."
+    "h2": "In arrivo presto!",
+    "announcement": "L'obiettivo, il percorso e come puoi partecipare saranno annunciati il <strong>venerdì, 21 marzo</strong> in diretta dalla Giornata Mondiale dei Ghiacciai a Parigi.",
+    "join": "Puoi partecipare all'evento di lancio online alle <strong>9.00 AM <a href=\"https://meet.google.com/wms-wwht-kbk\">qui</a></strong>."
   },
   "nav": {
     "menu": "Menu",
     "why": "Perché",
     "route": "Percorso",
-    "support": "Supporto"
+    "support": "Sostegno",
+    "faq": "FAQ"
   },
   "why": {
     "h2": "Perché",
-    "p1": "I ghiacciai sono essenziali per la vita sulla Terra. Miliardi di persone dipendono da essi per l'acqua e il cibo.",
-    "p2": "Tuttavia, i ghiacciai stanno ritirandosi a un ritmo allarmante a causa dei cambiamenti climatici. Ciò minaccia gli ecosistemi, le risorse idriche e le comunità umane. Lo scioglimento dei ghiacciai contribuisce in modo significativo all'innalzamento del livello del mare, ponendo rischi per le comunità costiere e causando l'infiltrazione di acqua salata nelle riserve d'acqua dolce.",
-    "p3": "Per mantenere il nostro pianeta vivibile, dobbiamo proteggere i nostri ghiacciai e fermare il cambiamento climatico."
+    "p1": "I ghiacciai sono essenziali per la vita sulla Terra. Miliardi di persone – sia nelle regioni montuose che nelle grandi città – dipendono da essi per la fornitura di acqua dolce e per la produzione alimentare. I ghiacciai sono i nostri serbatoi naturali d'acqua.",
+    "p2": "Tuttavia, i ghiacciai stanno ritirandosi ad un ritmo allarmante a causa del cambiamento climatico. Ciò minaccia gli ecosistemi, le risorse idriche e le comunità umane. Lo scioglimento dei ghiacciai contribuisce in modo significativo all'innalzamento del livello del mare, ponendo rischi per le comunità costiere e causando l'intrusione di acqua salata nelle riserve di acqua dolce.",
+    "p3": "Meno ghiaccio c'è, meno acqua è disponibile per l'uso umano, sia per bere, per la produzione di energia idroelettrica o per l'irrigazione. Per mantenere il nostro pianeta vivibile, dobbiamo proteggere i nostri ghiacciai e fermare il cambiamento climatico."
   },
   "slider": {
-    "source": "Il Schlatenkees intorno al 1920-1940 (a sinistra) e 2022. Fonte 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
+    "source": "Lo Schlatenkees intorno al 1920-1940 (a sinistra) e 2022. Fonte 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
   },
   "sustainability": {
     "message": "Dobbiamo smettere di trattare la nostra atmosfera come una fogna e iniziare a rimuovere il CO<sub>2</sub> per preservare i nostri ghiacciai e garantire un futuro sostenibile per tutti."
   },
   "route": {
-    "h2": "Il percorso"
+    "h2": "Il Percorso"
   },
   "map": {
-    "source": "I ghiacciai nelle Alpi hanno perso più della metà del loro volume da quando questa mappa è stata disegnata negli anni '30."
+    "source": "I ghiacciai delle Alpi hanno perso più della metà del loro volume da quando questa mappa è stata realizzata negli anni '30."
   },
   "cyclist": {
     "day": "giorno"
   },
   "support": {
-    "h2": "Supporto & stoccaggio",
-    "description": "Il Goodbye Glacier Ride è stata lanciata per mostrare la dura realtà del cambiamento climatico, ma soprattutto per <strong>incitare all'azione</strong> per fare qualcosa al riguardo.<br><br>Ed è qui che entri in gioco! Puoi <strong>supportare i ciclisti</strong> ordinando una o più delle cartoline in edizione limitata. La cartolina verrà inviata dal luogo dell'evento con un messaggio personale.<br><br>Mentre i ciclisti sudano, tu rimuovi il CO<sub>2</sub> dall'atmosfera. I ricavi vengono utilizzati per finanziare progetti di rimozione del biossido di carbonio, che aumentano il reddito locale, migliorano la qualità del suolo e rendono possibile la finanza climatica: un Triplo Vantaggio.",
-    "register": "Vuoi partecipare (anche parzialmente) al Goodbye Glacier Ride e avviare la tua campagna di stoccaggio del carbonio? Puoi <a href=\"mailto:joost@cycling4climate.nl\">iscriverti qui</a>."
+    "h2": "Sostieni & rimuovi",
+    "description": "Goodbye Glacier Ride è stata avviata per mostrare la dura realtà del cambiamento climatico, ma soprattutto per <strong>incitare all'azione</strong> per fare qualcosa al riguardo.<br><br>Ed è qui che entri in gioco tu! Puoi <strong>sostenere i ciclisti</strong> ordinando una o più delle cartoline in edizione limitata. La cartolina verrà inviata dal luogo dell'evento con un messaggio personale.<br><br>Mentre i ciclisti si sforzano, il tuo contributo verrà utilizzato per rimuovere il CO<sub>2</sub> dall'atmosfera. Le entrate vengono impiegate per finanziare progetti di rimozione del carbonio che aumentano il reddito locale, migliorano la qualità del suolo e permettono la finanza climatica: <strong>una Triple Win</strong>.",
+    "register": "Vuoi partecipare (anche solo in parte) a Goodbye Glacier Ride e avviare la tua campagna di sequestro del carbonio? Puoi <a href=\"mailto:joost@cycling4climate.nl\">iscriverti qui</a>."
   },
   "info": {
     "un": "Per evidenziare l'importanza dei ghiacciai, le Nazioni Unite hanno designato il 2025 come Anno Internazionale della Conservazione dei Ghiacciai.",
-    "initiative": "Il Goodbye Glacier Ride è un'iniziativa di Cycling 4 Climate. Una fondazione senza scopo di lucro ma ad alto impatto dei Paesi Bassi."
+    "initiative": "Goodbye Glacier Ride è un'iniziativa di Cycling 4 Climate. Una fondazione senza scopo di lucro ma con impatto, proveniente dai Paesi Bassi."
   },
   "modal": {
-    "supportImageSource": "hello"
+    "supportImageSource": "ciao"
   },
-    "faq": {
-      "h2": "Domande Frequenti",
-      "question1": "Cos'è il GGR?",
-      "answer1": "Il Goodbye Glacier Ride è un'avventura ciclistica individuale per sensibilizzare al cambiamento climatico. I partecipanti raccolgono fondi per la rimozione del carbonio: invitano amici, familiari, ecc., a iniziare a rimuovere la CO2 dall'atmosfera attraverso la loro campagna di raccolta fondi.",
-      "question2": "Si può percorrere solo una parte del tragitto?",
-      "answer2": "Sì, è possibile. Idealmente, dovresti attraversare almeno i ghiacciai di Morteratsch, Rodano e Aletsch, e visitare la Mer de Glace a Chamonix.",
-      "question3": "Cosa serve per partecipare al GGR?",
-      "answer3": "<ul><li>Una buona condizione fisica!</li><li>E l'impegno a rimuovere almeno 100 tonnellate di CO2. In altre parole: trovare 100 persone disposte a rimuovere una tonnellata di CO2 per 150 € (o 200 persone per 500 kg ciascuna).</li></ul>",
-      "question4": "Quanto costa partecipare al GGR?",
-      "answer4": "La quota di iscrizione al GGR è di 25 €. Con questa quota riceverai il file GPX, la pianificazione giornaliera e una pagina personale di raccolta fondi sul sito web. Riceverai anche i file digitali delle cartoline che puoi inviare ai tuoi sostenitori e sarai inserito nella lista dei Goodbye Glacier Riders.</br>La maglia da corsa GGR è opzionale e costa XXX €. Può essere acquistata nello shop online di Cycling 4 Climate (assicurati di selezionare la taglia corretta).",
-      "question5": "Cos'è la Rimozione del Biossido di Carbonio (CDR)?",
-      "answer5": "Un processo in cui la CO2 viene catturata e immagazzinata per migliaia di anni. L'umanità è attualmente su una traiettoria che supera l'obiettivo di limitare l'aumento della temperatura globale a 1,5°C. Per riportare il sistema terrestre in uno stato stabile e vivibile, dobbiamo rimuovere l'eccesso di CO2 dall'atmosfera.</br></br><strong>Come funziona?</strong></br>Esistono diverse tecnologie per rimuovere la CO2. La più conosciuta è probabilmente la “cattura diretta dell’aria” o DAC. Grandi ventilatori fanno passare l'aria attraverso un impianto che “aspira” la CO2. Il progetto Mammoth di Climeworks è il più avanzato. È una tecnologia ancora in fase iniziale che ha già ricevuto XXX di capitale di investimento."
-    }
-  
-  
+  "faq": {
+    "h2": "Domande Frequenti",
+    "question1": "Che cos'è Goodbye Glacier Ride?",
+    "answer1": "Goodbye Glacier Ride è un'avventura ciclistica individuale lungo i ghiacciai più belli ma in ritirata delle Alpi, volta a sensibilizzare sul cambiamento climatico. La corsa totale copre 1.500 km e richiede di percorrere oltre 30.000 metri di dislivello. I partecipanti raccolgono fondi per la rimozione del carbonio: invitano amici, familiari, ecc. a iniziare a rimuovere il CO<sub>2</sub> dall'atmosfera tramite la loro campagna di raccolta fondi individuale.",
+    "question2": "Come posso sostenere?",
+    "answer2": "Puoi fare una donazione al ciclista di tua scelta. Puoi scegliere una cartolina che ti verrà inviata oppure effettuare una donazione diretta. I fondi vengono utilizzati per finanziare progetti di rimozione del carbonio.",
+    "question3": "Che cos'è la rimozione del diossido di carbonio e perché è importante?",
+    "answer3": "La rimozione del diossido di carbonio (CDR) è un processo mediante il quale il CO<sub>2</sub> viene catturato dall'atmosfera e immagazzinato per migliaia di anni. L'umanità è attualmente su una traiettoria che supera l'obiettivo di un aumento globale della temperatura di 1,5°C. Per riportare il sistema terrestre in uno stato stabile e vivibile, dobbiamo rimuovere l'eccesso di CO<sub>2</sub> dall'atmosfera.</br></br> <strong>Come funziona?</strong> </br> Con i nostri progetti di CDR, i rifiuti organici in eccesso vengono trasformati in biochar. Il biochar è una sorta di carbone molto stabile. Dopo la produzione, il biochar viene applicato al suolo, dove migliora la qualità del terreno e il carbonio viene immagazzinato per millenni. Questo offre un triplo vantaggio: gli agricoltori in piccolo scala ottengono un reddito extra, mentre i loro terreni migliorano e diventano più resistenti ai cambiamenti climatici.",
+    "question4": "Come viene spesa la mia donazione?",
+    "answer4": "La tua donazione viene utilizzata per finanziare i progetti di rimozione del carbonio dei Carboneers. Rimuovere e immagazzinare 1.000 kg (= 1 tonnellata) di CO<sub>2</sub> costa 150 €. Così, ogni euro elimina 6,67 kg di CO<sub>2</sub> dall'atmosfera. Se doni tramite una cartolina, 5 € sono destinati ai costi di stampa e spedizione, mentre il resto viene impiegato per la rimozione del carbonio.",
+    "question5": "Posso fidarmi di questi progetti di rimozione del carbonio?",
+    "answer5": "Certo. Cycling 4 Climate è una fondazione a impatto sociale gestita da volontari, e la fiducia è il nostro 'raison d'être'. Collaboriamo con i Carboneers come partner per la rimozione del carbonio da due anni. Hanno già rimosso oltre 50.000 tonnellate di CO<sub>2</sub> e hanno l'ambizione di rimuovere 1 megatonnellata entro il 2028. Maggiori informazioni sui Carboneers sono disponibili su <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a>. Una volta che un partecipante ha completato la sua GGR, riceve un certificato dal registro di rimozione del carbonio di Carbon Standards International.",
+    "question6": "Di cosa ho bisogno per partecipare a Goodbye Glacier Ride?",
+    "answer6": "Buona condizione fisica! E l'impegno a rimuovere almeno 100 tonnellate di CO<sub>2</sub>. Ciò significa: mobilitare un numero sufficiente di persone per donare e rimuovere insieme le 100 tonnellate di CO<sub>2</sub>! In media, un cittadino dell'UE emette circa <a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 tonnellate</a> di CO<sub>2</sub> all'anno. L'obiettivo di 100 tonnellate è dunque paragonabile alle emissioni di 13 cittadini dell'UE. Ci vogliono 150 € per rimuovere una tonnellata di CO<sub>2</sub>, pertanto l'obiettivo di raccolta fondi è di 15.000 € per partecipante.",
+    "question7": "Posso partecipare anche solo a una parte di Goodbye Glacier Ride?",
+    "answer7": "Sì, puoi. Idealmente, dovresti passare almeno vicino ai ghiacciai Morteratsch, Rhône e Aletsch, e visitare la Mer de Glace nei pressi di Chamonix.",
+    "question8": "Quanto costa partecipare a Goodbye Glacier Ride?",
+    "answer8": "La quota di iscrizione per la GGR è di 25 €. Riceverai così il file GPX, il programma della giornata e una pagina personale di raccolta fondi sul sito web. Riceverai anche i file digitali stampabili delle cartoline che potrai inviare ai tuoi sostenitori e sarai inserito nell'elenco dei partecipanti a Goodbye Glacier Ride. <br>La maglia ciclistica di Goodbye Glacier Ride è opzionale e può essere acquistata nel negozio online di Cycling 4 Climate (assicurati di selezionare la taglia corretta)."
+  }
 }

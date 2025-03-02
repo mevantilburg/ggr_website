@@ -1,68 +1,71 @@
 {
-    "pageTitle": "Goodbye Glacier Ride",
-    "hero": {
-      "h1": "Goodbye Glacier Ride",
-      "description": "Eine 1.500 km lange Radtour von München nach Monaco mit mehr als 30.000 Höhenmetern. Vorbei an den massiven Gletschern der Alpen und überquerend die spektakulärsten Pässe. Ein zweiwöchiges Fahrraderlebnis, um die Schönheit der Alpen zu genießen und der harten Realität des Klimawandels zu begegnen."
-    },
-    "launch": {
-      "h2": "Bald verfügbar!",
-      "announcement": "Das Ziel, die Route und wie Sie teilnehmen können, werden am <strong>Freitag, 21. März</strong> live vom Welt-Gletschertag in Paris bekanntgegeben.",
-      "join": "Sie können am Online-Launch-Event um <strong>9:00 Uhr <a href=\"https://meet.google.com/wms-wwht-kbk\">hier</a></strong> teilnehmen."
-    },
-    "nav": {
-      "menu": "Menü",
-      "why": "Warum",
-      "route": "Route",
-      "support": "Support"
-    },
-    "why": {
-      "h2": "Warum",
-      "p1": "Gletscher sind essenziell für das Leben auf der Erde. Milliarden Menschen sind auf sie für Wasser und Nahrung angewiesen.",
-      "p2": "Allerdings ziehen sich die Gletscher aufgrund des Klimawandels in alarmierendem Tempo zurück. Dies bedroht Ökosysteme, Wasserressourcen und menschliche Gemeinschaften. Das Schmelzen der Gletscher trägt erheblich zum Anstieg des Meeresspiegels bei, was Küstengemeinden gefährdet und zu salzhaltiger Wasserintrusion in Süßwasserreserven führt.",
-      "p3": "Um unseren Planeten bewohnbar zu halten, müssen wir unsere Gletscher schützen und den Klimawandel stoppen."
-    },
-    "slider": {
-      "source": "Der Schlatenkees ca. 1920-1940 (links) und 2022. Quelle 1920: Österreichische Nationalbibliothek, Foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
-    },
-    "sustainability": {
-      "message": "Wir müssen aufhören, unsere Atmosphäre wie einen Abwasserkanal zu behandeln, und beginnen, CO<sub>2</sub> zu entfernen, um unsere Gletscher zu erhalten und eine nachhaltige Zukunft für alle zu sichern."
-    },
-    "route": {
-      "h2": "Die Route"
-    },
-    "map": {
-      "source": "Die Gletscher in den Alpen haben mehr als die Hälfte ihres Volumens verloren, seit diese Karte in den 1930er Jahren gezeichnet wurde."
-    },
-    "cyclist": {
-      "day": "Tag"
-    },
-    "support": {
-      "h2": "Support & Sink",
-      "description": "Der Goodbye Glacier Ride wurde ins Leben gerufen, um die bittere Realität des Klimawandels aufzuzeigen, aber vor allem, um <strong>Aktion zu entfachen</strong>, damit etwas dagegen unternommen wird.<br><br>Hier kommen Sie ins Spiel! Sie können die Fahrer <strong>unterstützen</strong>, indem Sie eine oder mehrere der limitierten Postkarten bestellen. Die Postkarte wird vom Veranstaltungsort mit einer persönlichen Notiz versendet.<br><br>Während die Fahrer schwitzen, entfernen Sie CO<sub>2</sub> aus der Atmosphäre. Die Einnahmen werden zur Finanzierung von Projekten zur Entfernung von Kohlendioxid verwendet, die das lokale Einkommen steigern, die Bodenqualität verbessern und Klimafinanzierung ermöglichen: ein Triple Win.",
-      "register": "Möchten Sie selbst (teilweise) am Goodbye Glacier Ride teilnehmen und Ihre eigene Carbon-Sinking-Kampagne starten? Sie können sich <a href=\"mailto:joost@cycling4climate.nl\">hier anmelden</a>."
-    },
-    "info": {
-      "un": "Um die Bedeutung der Gletscher hervorzuheben, haben die Vereinten Nationen 2025 zum Internationalen Jahr des Gletscherschutzes erklärt.",
-      "initiative": "Der Goodbye Glacier Ride ist eine Initiative von Cycling 4 Climate. Eine gemeinnützige, aber wirkungsorientierte Stiftung aus den Niederlanden."
-    },
-    "modal": {
-      "supportImageSource": "hello"
-    },
-    
-      "faq": {
-        "h2": "Häufig Gestellte Fragen",
-        "question1": "Was ist das GGR?",
-        "answer1": "Die Goodbye Glacier Ride ist ein individuelles Fahrradabenteuer, um das Bewusstsein für den Klimawandel zu schärfen. Die Teilnehmer sammeln Spenden für die CO2-Entfernung: Sie laden Freunde, Familie usw. ein, über ihre Spendenkampagne CO2 aus der Atmosphäre zu entfernen.",
-        "question2": "Kann man auch nur einen Teil der Strecke fahren?",
-        "answer2": "Ja, das ist möglich. Idealerweise passiert man mindestens die Gletscher Morteratsch, Rhône und Aletsch und besucht die Mer de Glace in Chamonix.",
-        "question3": "Was braucht man, um beim GGR mitzufahren?",
-        "answer3": "<ul><li>Eine gute körperliche Verfassung!</li><li>Und die Verpflichtung, mindestens 100 Tonnen CO2 zu binden. Anders gesagt: Finde 100 Personen, die jeweils eine Tonne CO2 für 150 € binden (oder 200 Personen für je 500 kg).</li></ul>",
-        "question4": "Was kostet die Teilnahme am GGR?",
-        "answer4": "Die Teilnahmegebühr für das GGR beträgt 25 €. Dafür erhältst du die GPX-Datei, die Tagesplanung und eine persönliche Spendenkampagnen-Seite auf der Website. Zudem bekommst du digitale Druckdateien der Postkarten, die du an deine Unterstützer senden kannst, und wirst in die Liste der Goodbye Glacier Riders aufgenommen.</br>Das GGR-Radtrikot kann optional erworben werden und kostet XXX €. Es kann im Online-Shop von Cycling 4 Climate gekauft werden (achte darauf, die richtige Größe zu wählen).",
-        "question5": "Was ist CO2-Entfernung (CDR)?",
-        "answer5": "Ein Prozess, bei dem CO2 aus der Atmosphäre entnommen und für Tausende von Jahren gespeichert wird. Die Menschheit steuert derzeit auf eine Überschreitung des 1,5°C-Temperaturziels zu. Um das Erdsystem in einen stabilen, lebenswerten Zustand zurückzubringen, müssen wir überschüssiges CO2 aus der Atmosphäre entfernen.</br></br><strong>Wie funktioniert das?</strong></br>Es gibt verschiedene Technologien zur CO2-Entfernung. Die bekannteste ist vermutlich „Direct Air Capture“ (DAC). Riesige Ventilatoren leiten Luft durch eine Anlage, die das CO2 herausfiltert. Das Mammoth-Projekt von Climeworks ist das fortschrittlichste. Es handelt sich um eine noch junge Technologie, die bereits XXX an Investitionskapital erhalten hat."
-      }
-    
-    
+  "pageTitle": "Goodbye Glacier Ride",
+  "hero": {
+    "h1": "Goodbye Glacier Ride",
+    "description": "Eine 1.500 km lange Radtour von München nach Monaco, die an den massiven Gletschern der Alpen vorbeiführt und deren spektakulärste Pässe überquert. Ein Fahrradabenteuer, um die Schönheit der Berge zu genießen und sich der harten Realität des Klimawandels zu stellen, während gleichzeitig Spenden zur Unterstützung von CO<sub>2</sub>-Entfernungsprojekten gesammelt werden."
+  },
+  "launch": {
+    "h2": "Bald verfügbar!",
+    "announcement": "Das Ziel, die Route und die Teilnahmebedingungen werden am <strong>Freitag, 21. März</strong> live vom World Glacier Day in Paris angekündigt.",
+    "join": "Sie können an der Online-Startveranstaltung um <strong>9.00 Uhr <a href=\"https://meet.google.com/wms-wwht-kbk\">hier</a></strong> teilnehmen."
+  },
+  "nav": {
+    "menu": "Menü",
+    "why": "Warum",
+    "route": "Route",
+    "support": "Unterstützung",
+    "faq": "FAQ"
+  },
+  "why": {
+    "h2": "Warum",
+    "p1": "Gletscher sind essenziell für das Leben auf der Erde. Milliarden von Menschen – ob in bergigen Regionen oder in Großstädten – sind auf sie angewiesen für die Versorgung mit Süßwasser und die Nahrungsmittelproduktion. Gletscher sind unsere natürlichen Wasserspeicher.",
+    "p2": "Allerdings ziehen sich die Gletscher aufgrund des Klimawandels in alarmierendem Tempo zurück. Dies bedroht Ökosysteme, Wasserressourcen und menschliche Gemeinschaften. Das Abschmelzen der Gletscher trägt erheblich zum Anstieg des Meeresspiegels bei, was Küstenregionen gefährdet und zu einer Versalzung der Süßwasservorräte führt.",
+    "p3": "Je weniger Eis vorhanden ist, desto weniger Wasser steht für den menschlichen Gebrauch zur Verfügung – sei es zum Trinken, für die Wasserkraft oder zur Bewässerung. Um unseren Planeten lebenswert zu halten, müssen wir unsere Gletscher schützen und den Klimawandel stoppen."
+  },
+  "slider": {
+    "source": "Der Schlatenkees ca. 1920–1940 (links) und 2022. Quelle 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
+  },
+  "sustainability": {
+    "message": "Wir müssen aufhören, unsere Atmosphäre wie eine Kanalisation zu behandeln, und anfangen, CO<sub>2</sub> zu entfernen, um unsere Gletscher zu bewahren und eine nachhaltige Zukunft für alle zu sichern."
+  },
+  "route": {
+    "h2": "Die Route"
+  },
+  "map": {
+    "source": "Die Gletscher in den Alpen haben seit der Erstellung dieser Karte in den 1930er Jahren mehr als die Hälfte ihres Volumens verloren."
+  },
+  "cyclist": {
+    "day": "Tag"
+  },
+  "support": {
+    "h2": "Unterstützen & Entfernen",
+    "description": "Goodbye Glacier Ride wurde ins Leben gerufen, um die bittere Realität des Klimawandels aufzuzeigen, aber vor allem, um <strong>zum Handeln anzuregen</strong>.<br><br>Hier kommen Sie ins Spiel! Sie können die Fahrer <strong>unterstützen</strong>, indem Sie eine oder mehrere der limitierten Postkarten bestellen. Die Postkarte wird vom Veranstaltungsort mit einer persönlichen Nachricht versandt.<br><br>Während die Fahrer ins Schwitzen kommen, wird Ihr Beitrag genutzt, um CO<sub>2</sub> aus der Atmosphäre zu entfernen. Die Einnahmen fließen in Projekte zur CO<sub>2</sub>-Entfernung, die das lokale Einkommen steigern, die Bodenqualität verbessern und die Klimafinanzierung ermöglichen: <strong>ein Triple Win</strong>.",
+    "register": "Möchten Sie selbst (teilweise) an Goodbye Glacier Ride teilnehmen und Ihre eigene CO<sub>2</sub>-Senkungskampagne starten? Sie können sich <a href=\"mailto:joost@cycling4climate.nl\">hier anmelden</a>."
+  },
+  "info": {
+    "un": "Um die Bedeutung der Gletscher zu unterstreichen, haben die Vereinten Nationen das Jahr 2025 zum Internationalen Jahr der Gletschererhaltung erklärt.",
+    "initiative": "Goodbye Glacier Ride ist eine Initiative von Cycling 4 Climate. Eine gemeinnützige, wirkungsorientierte Stiftung aus den Niederlanden."
+  },
+  "modal": {
+    "supportImageSource": "hallo"
+  },
+  "faq": {
+    "h2": "Häufig gestellte Fragen",
+    "question1": "Was ist Goodbye Glacier Ride?",
+    "answer1": "Goodbye Glacier Ride ist ein individuelles Fahrradabenteuer entlang der schönsten, jedoch schrumpfenden Gletscher der Alpen, das das Bewusstsein für den Klimawandel schärfen soll. Die gesamte Strecke beträgt 1.500 km und es müssen mehr als 30.000 Meter Höhenunterschied überwunden werden. Die Teilnehmer sammeln Spenden für die CO<sub>2</sub>-Entfernung, indem sie Freunde, Familie etc. einladen, über ihre individuelle Spendenkampagne CO<sub>2</sub> aus der Atmosphäre zu entfernen.",
+    "question2": "Wie kann ich unterstützen?",
+    "answer2": "Sie können den Fahrer Ihrer Wahl mit einer Spende unterstützen. Sie haben die Möglichkeit, eine Postkarte zu wählen, die Ihnen zugesandt wird, oder eine direkte Spende zu tätigen. Das Geld wird zur Finanzierung von CO<sub>2</sub>-Entfernungsprojekten verwendet.",
+    "question3": "Was ist die Entfernung von Kohlendioxid und warum ist sie wichtig?",
+    "answer3": "Die Entfernung von Kohlendioxid (CDR) ist ein Prozess, bei dem CO<sub>2</sub> aus der Atmosphäre eingefangen und über Tausende von Jahren gespeichert wird. Die Menschheit ist derzeit auf einem Kurs, das Ziel einer globalen Temperaturerhöhung von 1,5°C zu überschreiten. Um das Erdsystem wieder in einen stabilen, lebensfähigen Zustand zu versetzen, müssen wir das überschüssige CO<sub>2</sub> aus der Atmosphäre entfernen.</br></br> <strong>Wie funktioniert das?</strong> </br> Bei unseren CDR-Projekten wird überschüssige Biomasse in Biochar umgewandelt. Biochar ist eine Art sehr stabiler Holzkohle. Nach der Produktion wird der Biochar in den Boden eingearbeitet, wo er die Bodenqualität verbessert und der Kohlenstoff über Jahrtausende gespeichert wird. Dies bietet einen dreifachen Vorteil: Kleinbauern erhalten zusätzliches Einkommen, während sich ihre Böden verbessern und widerstandsfähiger gegen den Klimawandel werden.",
+    "question4": "Wie wird meine Spende verwendet?",
+    "answer4": "Ihre Spende wird zur Finanzierung von CO<sub>2</sub>-Entfernungsprojekten der Carboneers eingesetzt. Die Entfernung und Speicherung von 1.000 kg (= 1 Tonne) CO<sub>2</sub> kostet 150 €. Somit entfernt jeder Euro 6,67 kg CO<sub>2</sub> aus der Atmosphäre. Wenn Sie über eine Postkarte spenden, werden 5 € für Druck- und Portokosten verwendet, der Rest fließt in die CO<sub>2</sub>-Entfernung.",
+    "question5": "Kann ich diesen CO<sub>2</sub>-Entfernungsprojekten vertrauen?",
+    "answer5": "Natürlich. Cycling 4 Climate ist eine wirkungsorientierte Stiftung, die von Freiwilligen betrieben wird, und Vertrauen ist unser 'raison d'être'. Wir arbeiten seit zwei Jahren mit den Carboneers als Partner für die CO<sub>2</sub>-Entfernung zusammen. Sie haben bereits über 50.000 Tonnen CO<sub>2</sub> entfernt und streben an, bis 2028 1 Megatonne zu entfernen. Weitere Informationen zu den Carboneers finden Sie auf <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a>. Sobald ein Teilnehmer seine GGR abgeschlossen hat, erhält er ein Zertifikat aus dem CO<sub>2</sub>-Entfernungsregister von Carbon Standards International.",
+    "question6": "Was benötige ich, um an Goodbye Glacier Ride teilzunehmen?",
+    "answer6": "Gute körperliche Verfassung! Und die Bereitschaft, mindestens 100 Tonnen CO<sub>2</sub> zu entfernen. Das bedeutet, dass ausreichend Menschen mobilisiert werden müssen, um gemeinsam die 100 Tonnen CO<sub>2</sub> zu entfernen! Im Durchschnitt stößt ein EU-Bürger etwa <a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 Tonnen</a> CO<sub>2</sub> pro Jahr aus. Das Ziel von 100 Tonnen entspricht somit den Emissionen von 13 EU-Bürgern. Um eine Tonne CO<sub>2</sub> zu entfernen, sind 150 € erforderlich, weshalb das Spendenziel bei 15.000 € pro Teilnehmer liegt.",
+    "question7": "Kann ich auch nur an einem Teil von Goodbye Glacier Ride teilnehmen?",
+    "answer7": "Ja, das können Sie. Idealerweise führen Sie an mindestens den Gletschern Morteratsch, Rhône und Aletsch vorbei und besuchen die Mer de Glace in der Nähe von Chamonix.",
+    "question8": "Was kostet die Teilnahme an Goodbye Glacier Ride?",
+    "answer8": "Die Anmeldegebühr für die GGR beträgt 25 €. Damit erhalten Sie die GPX-Datei, den Tagesablauf und eine persönliche Spendenseite auf der Website. Außerdem bekommen Sie die digitalen Druckdateien der Postkarten, die Sie an Ihre Unterstützer senden können, und Sie werden in die Liste der Teilnehmer von Goodbye Glacier Ride aufgenommen. <br>Das 'Goodbye Glacier'-Radtrikot ist optional und kann im Onlineshop von Cycling 4 Climate erworben werden (achten Sie darauf, die richtige Größe auszuwählen)."
   }
-  
+}
