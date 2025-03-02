@@ -2,7 +2,7 @@
     "pageTitle": "Goodbye Glacier Ride",
     "hero": {
       "h1": "Goodbye Glacier Ride",
-      "description": "A 1.500 km cycling trip from Munich to Monaco, passing the massive glaciers of the Alps and crossing its most spectacular cols. A cycling adventure to enjoy the beauty of the Alps and face the harsh reality of climate change, while raising money to support CO<sub>2</sub> removal projects."
+      "description": "A 1.500 km cycling trip from Munich to Monaco, passing the massive glaciers of the Alps and crossing its most spectacular cols. A cycling adventure to enjoy the beauty of the mountains and face the harsh reality of climate change, while raising money to support CO<sub>2</sub> removal projects."
     },
     "launch": {
       "h2": "Launching soon!",
@@ -52,17 +52,22 @@
     "faq": {
       "h2": "Frequently Asked Questions",
       "question1":"What is the Goodbye Glacier Ride?",
-      "answer1": "The Goodbye Glacier Ride is an individual cycling adventure to raise awareness on climate disruption. Participants fundraise carbon removal: they invite friends, family, etc to start removing CO<sub>2</sub> from the atmosphere via their fundraising campaign.",
-      "question2":"How is my donation spent?",
-      "answer2": "Your donation is used to fund a Carbon Removal from the Carboneers. Each euro removes 6.67 kg of CO<sub>2</sub> from the atmosphere. To remove and store 1000 kg (= 1 ton) of CO<sub>2</sub> costs €150. If you donate via a postcard, €5 is used for printing and porto costs, the rest is 100% used to remove CO<sub>2</sub> from the atmosphere",
-      "question3":"Can I also ride a part of the Goodbye Glacier Ride?",
-      "answer3": "Yes you can. Ideally you pass at least the Morteratsch, Rhône and Aletsch glaciers, and visit the Mer de Glace in Chamonix.",
-      "question4":"What do I need to ride the Goodbye Glacier Ride?",
-      "answer4": "A good condition! <br> And the commitment to sink at least 100 ton’s of CO<sub>2</sub> at the cost of €15.000. Find enough people to donate and sink together the 100 tons!",
-      "question5":"What does it cost to ride the Goodbye Glacier Ride?",
-      "answer5": "Registration fee for the GGR is € 25. Therefore you’ll get the GPX-file, the day planning and a personal fundraising page on the website. You’ll also receive the digital print files of the postcards you can send to your supporters and you’ll be included in the list of Goodbye Glacier Riders. </br>The Goodbye Glacier cycling jersey is optional and can be purchased in the webshop of Cycling 4 Climate (make sure you select the right size).",
-      "question6":"What is Carbon Dioxide Removal (CDR)?",
-      "answer6": "A process where CO<sub>2</sub> from the atmosphere is captured and stored for 1000 of years. Humanity is currently on a trajectory to overshoot the 1,5C global temperature increase target. To bring the earth system back into a stable, liveable state, we need to remove excess CO<sub>2</sub> from the atmosphere.</br></br> <strong>How does this work?</strong> </br> Excess biowasted is transformed into biochar. Biochar is a kind of charcoal, that is very stable. The biochar is applied to the soil, where it improves its quality and the carbon is stored for millenia. There is a triple advantage: smallholder farmers gain extra income while their soils improve and become more resilient to climate change."
+      "answer1": "The Goodbye Glacier Ride is an individual cycling adventure to raise awareness on climate disruption. Participants fundraise carbon removal: they invite friends, family, etc to start removing CO<sub>2</sub> from the atmosphere via their individual fundraising campaign.",
+      "question2":"How can I support?",
+      "answer2": "You can make a donation to the rider of your choice. You can choose for a postcard that will be sent to you, or for a direct donation. The money is used to fund carbon removal projects.",
+      "question3":"How is my donation spent?",
+      "answer3": "Your donation is used to fund Carbon Removal projects from the Carboneers.earth. Each euro removes 6.67 kg of CO<sub>2</sub> from the atmosphere. To remove and store 1000 kg (= 1 ton) of CO<sub>2</sub> costs €150. If you donate via a postcard, €5 is used for printing and porto costs, the rest is 100% used to remove CO<sub>2</sub> from the atmosphere",   
+      "question4":"Is it trustworthy?",
+      "answer4": "Off course. Cycling 4 Climate is a for impact foundation runned by volunteers, and trust is our "raison d'être". We've been working with the Carboneers as Carbon-Removal partner for two years. They have already removed over 50.000 tons of C)<sub>2</sub> and have the ambition to remove 1 mega ton by 2027. More info on the Carboneers can be found on www.carboneers.earth.", 
+      "question5":"What is Carbon Dioxide Removal (CDR) and why is it important?",
+      "answer5": "CDR is a process where CO<sub>2</sub> from the atmosphere is captured and stored for 1000 of years. Humanity is currently on a trajectory to overshoot the target of 1,5C global temperature increase. To bring the earth system back into a stable, liveable state, we need to remove excess CO<sub>2</sub> from the atmosphere.</br></br> <strong>How does this work?</strong> </br> With "our" CDR projects, excess biowaste is transformed into biochar. Biochar is a kind of charcoal, that is very stable. The biochar is applied to the soil, where it improves its quality and the carbon is stored for millenia. There is a triple advantage: smallholder farmers gain extra income while their soils improve and become more resilient to climate change.",
+      "question6":"What do I need to ride the Goodbye Glacier Ride?",
+      "answer6": "A good condition! And the commitment to sink at least 100 ton’s of CO<sub>2</sub>. That means: engaging sufficient people to donate and sink together the 100 tons of CO<sub>2</sub>! Since it costs €150 to remove one ton of CO<sub>2</sub>, the fundraising target is €15.000 per participant.",
+      "question7":"Can I also ride a part of the Goodbye Glacier Ride?",
+      "answer7": "Yes you can. Ideally you pass at least the Morteratsch, Rhône and Aletsch glaciers, and visit the Mer de Glace in Chamonix.",
+      "question8":"What does it cost to ride the Goodbye Glacier Ride?",
+      "answer8": "Registration fee for the GGR is € 25. Therefore you’ll get the GPX-file, the day planning and a personal fundraising page on the website. You’ll also receive the digital print files of the postcards you can send to your supporters and you’ll be included in the list of Goodbye Glacier Riders. </br>The Goodbye Glacier cycling jersey is optional and can be purchased in the webshop of Cycling 4 Climate (make sure you select the right size).",
+      
     }
   }
   
