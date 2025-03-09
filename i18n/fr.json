@@ -1,7 +1,7 @@
 {
   "pageTitle": "Goodbye Glacier Ride",
   "hero": {
-    "h1": "Goodbye Glacier Ride",
+    "h1": "Glorious Glacier Ride",
     "description": "Un voyage à vélo de 1 500 km de Munich à Monaco, traversant les glaciers massifs des Alpes et franchissant leurs cols les plus spectaculaires. Une aventure cycliste pour savourer la beauté des montagnes et affronter la dure réalité du changement climatique, tout en récoltant des fonds pour soutenir des projets d'élimination du CO<sub>2</sub>."
   },
   "launch": {
@@ -39,20 +39,20 @@
   },
   "support": {
     "h2": "Soutenir & éliminer",
-    "description": "Goodbye Glacier Ride a été lancée pour montrer la dure réalité du changement climatique, mais surtout pour <strong>déclencher l'action</strong> afin d'y remédier.<br><br>C'est là que vous intervenez ! Vous pouvez <strong>soutenir les coureurs</strong> en commandant une ou plusieurs cartes postales en édition limitée. La carte postale sera envoyée depuis le lieu de l'événement accompagnée d'un mot personnalisé.<br><br>Tandis que les coureurs transpirent, votre contribution sera utilisée pour éliminer le CO<sub>2</sub> de l'atmosphère. Les revenus servent à financer des projets d'élimination du carbone qui augmentent les revenus locaux, améliorent la qualité des sols et favorisent la finance climatique : <strong>une triple victoire</strong>.",
-    "register": "Souhaitez-vous participer (en partie) à Goodbye Glacier Ride vous-même et lancer votre propre campagne d'élimination du carbone ? Vous pouvez <a href=\"mailto:joost@cycling4climate.nl\">vous inscrire ici.</a>"
+    "description": "Glorious Glacier Ride a été lancée pour montrer la dure réalité du changement climatique, mais surtout pour <strong>déclencher l'action</strong> afin d'y remédier.<br><br>C'est là que vous intervenez ! Vous pouvez <strong>soutenir les coureurs</strong> en commandant une ou plusieurs cartes postales en édition limitée. La carte postale sera envoyée depuis le lieu de l'événement accompagnée d'un mot personnalisé.<br><br>Tandis que les coureurs transpirent, votre contribution sera utilisée pour éliminer le CO<sub>2</sub> de l'atmosphère. Les revenus servent à financer des projets d'élimination du carbone qui augmentent les revenus locaux, améliorent la qualité des sols et favorisent la finance climatique : <strong>une triple victoire</strong>.",
+    "register": "Souhaitez-vous participer (en partie) à Glorious Glacier Ride vous-même et lancer votre propre campagne d'élimination du carbone ? Vous pouvez <a href=\"mailto:joost@cycling4climate.nl\">vous inscrire ici.</a>"
   },
   "info": {
     "un": "Pour souligner l'importance des glaciers, les Nations Unies ont désigné 2025 comme l'Année internationale de la préservation des glaciers.",
-    "initiative": "Goodbye Glacier Ride est une initiative de Cycling 4 Climate. Une fondation à but non lucratif mais à impact provenant des Pays-Bas."
+    "initiative": "Glorious Glacier Ride est une initiative de Cycling 4 Climate. Une fondation à but non lucratif mais à impact provenant des Pays-Bas."
   },
   "modal": {
     "supportImageSource": "bonjour"
   },
   "faq": {
     "h2": "Foire aux questions",
-    "question1": "Qu'est-ce que Goodbye Glacier Ride ?",
-    "answer1": "Goodbye Glacier Ride est une aventure cycliste individuelle le long des glaciers les plus beaux mais en recul des Alpes, destinée à sensibiliser aux perturbations climatiques. La course totale s'étend sur 1 500 km et comprend plus de 30 000 mètres de dénivelé positif à gravir. Les participants collectent des fonds pour l'élimination du carbone : ils invitent amis, famille, etc. à commencer à éliminer le CO<sub>2</sub> de l'atmosphère via leur campagne de financement participatif individuelle.",
+    "question1": "Qu'est-ce que Glorious Glacier Ride ?",
+    "answer1": "Glorious Glacier Ride est une aventure cycliste individuelle le long des glaciers les plus beaux mais en recul des Alpes, destinée à sensibiliser aux perturbations climatiques. La course totale s'étend sur 1 500 km et comprend plus de 30 000 mètres de dénivelé positif à gravir. Les participants collectent des fonds pour l'élimination du carbone : ils invitent amis, famille, etc. à commencer à éliminer le CO<sub>2</sub> de l'atmosphère via leur campagne de financement participatif individuelle.",
     "question2": "Comment puis-je soutenir ?",
     "answer2": "Vous pouvez faire un don au cycliste de votre choix. Vous pouvez opter pour une carte postale qui vous sera envoyée ou effectuer un don direct. L'argent est utilisé pour financer des projets d'élimination du carbone.",
     "question3": "Qu'est-ce que l'élimination du dioxyde de carbone et pourquoi est-elle importante ?",
@@ -61,11 +61,11 @@
     "answer4": "Votre don est utilisé pour financer les projets d'élimination du carbone des Carboneers. L'élimination et le stockage de 1 000 kg (= 1 tonne) de CO<sub>2</sub> coûtent 150 €. Ainsi, chaque euro élimine 6,67 kg de CO<sub>2</sub> de l'atmosphère. Si vous faites un don via une carte postale, 5 € sont utilisés pour les frais d'impression et de port, le reste servant à l'élimination du carbone.",
     "question5": "Puis-je faire confiance à ces projets d'élimination du carbone ?",
     "answer5": "Bien sûr. Cycling 4 Climate est une fondation à impact dirigée par des bénévoles, et la confiance est notre 'raison d'être'. Nous travaillons avec les Carboneers en tant que partenaire pour l'élimination du carbone depuis deux ans. Ils ont déjà éliminé plus de 50 000 tonnes de CO<sub>2</sub> et ont l'ambition d'éliminer 1 mégatonne d'ici 2028. Pour plus d'informations sur les Carboneers, consultez <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a>. Une fois qu'un participant a terminé sa GGR, il/elle reçoit un certificat du registre d'élimination du carbone de Carbon Standards International.",
-    "question6": "De quoi ai-je besoin pour participer à Goodbye Glacier Ride ?",
+    "question6": "De quoi ai-je besoin pour participer à Glorious Glacier Ride ?",
     "answer6": "Une bonne condition physique ! Et l'engagement d'éliminer au moins 100 tonnes de CO<sub>2</sub>. Cela signifie mobiliser suffisamment de personnes pour faire un don et éliminer ensemble les 100 tonnes de CO<sub>2</sub> ! En moyenne, un citoyen de l'UE émet environ <a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 tonnes</a> de CO<sub>2</sub> par an. L'objectif de 100 tonnes est ainsi comparable aux émissions de 13 citoyens de l'UE. Il faut 150 € pour éliminer une tonne de CO<sub>2</sub>, donc l'objectif de financement participatif est de 15 000 € par participant.",
-    "question7": "Puis-je également participer à une partie de Goodbye Glacier Ride ?",
+    "question7": "Puis-je également participer à une partie de Glorious Glacier Ride ?",
     "answer7": "Oui, vous le pouvez. Idéalement, vous passez par au moins les glaciers Morteratsch, Rhône et Aletsch, et vous visitez la Mer de Glace près de Chamonix.",
-    "question8": "Combien coûte la participation à Goodbye Glacier Ride ?",
-    "answer8": "Les frais d'inscription pour la GGR s'élèvent à 25 €. Vous recevrez ainsi le fichier GPX, la planification de la journée et une page personnelle de collecte de fonds sur le site web. Vous recevrez également les fichiers numériques imprimables des cartes postales que vous pourrez envoyer à vos soutiens, et vous serez inscrit dans la liste des participants à Goodbye Glacier Ride. <br>Le maillot cycliste de Goodbye Glacier Ride est optionnel et peut être acheté dans la boutique en ligne de Cycling 4 Climate (assurez-vous de sélectionner la bonne taille)."
+    "question8": "Combien coûte la participation à Glorious Glacier Ride ?",
+    "answer8": "Les frais d'inscription pour la GGR s'élèvent à 25 €. Vous recevrez ainsi le fichier GPX, la planification de la journée et une page personnelle de collecte de fonds sur le site web. Vous recevrez également les fichiers numériques imprimables des cartes postales que vous pourrez envoyer à vos soutiens, et vous serez inscrit dans la liste des participants à Glorious Glacier Ride. <br>Le maillot cycliste de Glorious Glacier Ride est optionnel et peut être acheté dans la boutique en ligne de Cycling 4 Climate (assurez-vous de sélectionner la bonne taille)."
   }
 }
