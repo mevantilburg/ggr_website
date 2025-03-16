@@ -41,7 +41,7 @@
   "support": {
     "h2": "Rejoins",
     "description": "Glorious Glacier Ride a été lancée pour montrer la dure réalité du changement climatique, mais surtout pour <strong>déclencher l'action</strong> afin d'y remédier.<br><br>C'est là que vous intervenez ! Vous pouvez <strong>soutenir les coureurs</strong> en commandant une ou plusieurs cartes postales en édition limitée. La carte postale sera envoyée depuis le lieu de l'événement accompagnée d'un mot personnalisé.<br><br>Tandis que les coureurs transpirent, votre contribution sera utilisée pour éliminer le CO<sub>2</sub> de l'atmosphère. Les revenus servent à financer des projets d'élimination du carbone qui augmentent les revenus locaux, améliorent la qualité des sols et favorisent la finance climatique : <strong>une triple victoire</strong>.",
-    "register": "Souhaitez-vous participer (en partie) à Glorious Glacier Ride vous-même et lancer votre propre campagne d'élimination du carbone ? Vous pouvez <a href=\"mailto:joost@cycling4climate.nl\">vous inscrire ici.</a>"
+    "register": "Souhaitez-vous participer (en partie) à Glorious Glacier Ride vous-même et lancer votre propre campagne d'élimination du carbone ? Vous pouvez <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>vous inscrire ici.</a>"
   },
   "info": {
     "un": "Pour souligner l'importance des glaciers, les Nations Unies ont désigné 2025 comme l'Année internationale de la préservation des glaciers.",
