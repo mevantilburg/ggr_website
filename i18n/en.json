@@ -4,7 +4,7 @@
     "h1": "Glorious Glacier Ride",
     "description": "Alpine glaciers have lost almost half of their volume in the past 25 years. With the Glorious Glacier Ride, we are taking action together.<br><br>This 1,500km cycling ride from Munich to Monaco takes you past the largest glaciers and over Europe's most iconic mountain passes. A unique cycling ride to enjoy the beauty of the Alps and face the reality of climate change.<br><br>Support the Glorious Glacier Peloton by buying a postcard to be sent during the ride!</br>"
   },
-  "cta": "Support Now!",
+  "cta": "Join Now!",
   "launch": {
     "h2": "Launching soon!",
     "announcement": "The goal, the route and how you can participate will be announced on <strong>Friday, March 21st</strong> live from the World Glacier Day in Paris.",
@@ -14,14 +14,14 @@
     "menu": "Menu",
     "why": "Why",
     "route": "Route",
-    "support": "Support",
+    "support": "Join",
     "faq": "FAQ"  
   },
   "why": {
     "h2": "Why",
     "p1": "Glaciers are essential to life on Earth. Billions of people - whether in mountainous regions or larger cities - depend on them for steady freshwater supply and dependable food production. Glaciers are our natural water reservoirs.",
     "p2": "However, glaciers are retreating at an alarming rate due to climate change. This threatens ecosystems, water resources, and human communities. Melting glaciers contribute significantly to sea-level rise, posing risks to coastal communities and causing saltwater intrusion into freshwater supplies.",
-    "p3": "T"
+    "p3": " "
   },
   "slider": {
     "source": "The Schlatenkees in ca. 1920-1940 (left) and 2022. Source 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -39,7 +39,7 @@
       "day": "day"
     },
   "support": {
-    "h2": "Support & remove",
+    "h2": "Join",
     "description": "The Glorious Glacier Ride is initiated to show the bitter reality of climate change, but more important: to <strong>ignite action</strong> to do something about it.<br><br>This is where you come in! You can <strong>support the riders</strong> by ordering one or more of the limited edition postcards. The postcard will be sent from the location with a personal note.<br><br>While the riders sweat, your contribution is used to remove CO<sub>2</sub> from the atmosphere. The revenue is used to fund Carbon Removal projects that increase local income, improves soil quality and enables climate finance:<strong> a Triple Win</strong>.",
     "register": "Do you want to ride (a part of) the Glorious Glacier Ride yourself and start your own Carbon-Sinking campaign? You can <a href=\"mailto:joost@cycling4climate.nl\">register here.</a>"
   },
