@@ -1,8 +1,8 @@
 {
-  "pageTitle": "Goodbye Glacier Ride",
+  "pageTitle": "Glorious Glacier Ride",
   "hero": {
     "h1": "Glorious Glacier Ride",
-    "description": "Eine 1.500 km lange Radtour von München nach Monaco, die an den massiven Gletschern der Alpen vorbeiführt und deren spektakulärste Pässe überquert. Ein Fahrradabenteuer, um die Schönheit der Berge zu genießen und sich der harten Realität des Klimawandels zu stellen, während gleichzeitig Spenden zur Unterstützung von CO<sub>2</sub>-Entfernungsprojekten gesammelt werden."
+    "description": "Die Alpengletscher haben in den letzten 25 Jahren fast 50 % ihres Volumens verloren. Mit der Glorious Glacier Ride ergreifen wir gemeinsam Maßnahmen.<br><br>Diese 1.500 km lange Radtour von München nach Monaco führt zu den größten Gletschern Europas und über ikonische Bergpässe. Eine einzigartige Radtour, um die Schönheit der Alpen zu genießen und sich mit der Realität des Klimawandels auseinanderzusetzen.<br><br>Unterstützen Sie das Glorious Glacier Peloton durch den Kauf einer Postkarte, die während der Fahrt verschickt wird!</br>"
   },
   "cta": "Unterstütze jetzt!",
   "launch": {
@@ -19,15 +19,15 @@
   },
   "why": {
     "h2": "Warum",
-    "p1": "Gletscher sind essenziell für das Leben auf der Erde. Milliarden von Menschen – ob in bergigen Regionen oder in Großstädten – sind auf sie angewiesen für die Versorgung mit Süßwasser und die Nahrungsmittelproduktion. Gletscher sind unsere natürlichen Wasserspeicher.",
-    "p2": "Allerdings ziehen sich die Gletscher aufgrund des Klimawandels in alarmierendem Tempo zurück. Dies bedroht Ökosysteme, Wasserressourcen und menschliche Gemeinschaften. Das Abschmelzen der Gletscher trägt erheblich zum Anstieg des Meeresspiegels bei, was Küstenregionen gefährdet und zu einer Versalzung der Süßwasservorräte führt.",
-    "p3": "Je weniger Eis vorhanden ist, desto weniger Wasser steht für den menschlichen Gebrauch zur Verfügung – sei es zum Trinken, für die Wasserkraft oder zur Bewässerung. Um unseren Planeten lebenswert zu halten, müssen wir unsere Gletscher schützen und den Klimawandel stoppen."
+    "p1": "letscher sind für das Leben auf der Erde unerlässlich. Milliarden von Menschen - sowohl in Gebirgsregionen als auch in Großstädten - sind auf Gletscher angewiesen, um Trinkwasser und Nahrungsmittel zu produzieren. Gletscher sind unsere natürlichen Wasserreservoirs.",
+    "p2": "Aufgrund des Klimawandels schrumpfen die Gletscher jedoch in einem alarmierenden Tempo. Es fällt weniger Schnee und die höheren Temperaturen lassen jedes Jahr mehr Eis schmelzen als neu hinzukommt. In den Alpen ist dies deutlich sichtbar: Viele kleine Gletscher sind bereits verschwunden.",
+    "p3": ""
   },
   "slider": {
     "source": "Der Schlatenkees ca. 1920–1940 (links) und 2022. Quelle 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
   },
   "sustainability": {
-    "message": "Wir müssen aufhören, unsere Atmosphäre wie eine Kanalisation zu behandeln, und anfangen, CO<sub>2</sub> zu entfernen, um unsere Gletscher zu bewahren und eine nachhaltige Zukunft für alle zu sichern."
+    "message": "Die Gletscher, die die Berge mit „ewigem“ Schnee bedeckten, schmelzen ab. Je weniger Eis vorhanden ist, desto weniger Wasser steht für die menschliche Nutzung zur Verfügung - sei es zum Trinken, für Wasserkraft oder zur Bewässerung. Um unseren Planeten lebenswert zu erhalten, müssen wir unsere Gletscher schützen und den Klimawandel aufhalten."
   },
   "route": {
     "h2": "Die Route"
