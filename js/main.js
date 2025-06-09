@@ -110,7 +110,7 @@ static renderDayStats(day, position) {
             <div class="day_label">
                 <img class="icon" src="img/day.svg" />
                 ${this.getDayOrdinal(day.id)}
-                <span data-i18n="cyclist.day" class="normalscript">day</span>
+                <span data-i18n="cyclist.day" class="normalscript">day,  ${stats.date}</span>
             </div>
             <div class="day_label">
                 <img class="icon" src="img/dist.svg" />

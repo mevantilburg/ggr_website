@@ -6,7 +6,9 @@ const ROUTE_DATA = {
                 city: "Munich",
                 country: "de"
             },
+        
             stats: {
+                date: "August 28",
                 distance: 119,
                 elevation: 820,
                 points: [
@@ -53,7 +55,9 @@ const ROUTE_DATA = {
                 city: "Ehrwald",
                 country: "at"
             },
+          
             stats: {
+                date: "August 29",
                 distance: 118,
                 elevation: 1580,
                 points: [
@@ -100,7 +104,9 @@ const ROUTE_DATA = {
                 city: "Sankt Valentin",
                 country: "it"
             },
+           
             stats: {
+                date: "August 30",
                 distance: 91,
                 elevation: 2980,
                 points: [
@@ -132,7 +138,9 @@ const ROUTE_DATA = {
                 city: "Livigno",
                 country: "it"
             },
+          
             stats: {
+                date: "August 31",
                 distance: 112,
                 elevation: 1990,
                 points: [
@@ -186,7 +194,9 @@ const ROUTE_DATA = {
                 city: "Thusis",
                 country: "ch"
             },
+          
             stats: {
+                date: "September 1",
                 distance: 101,
                 elevation: 2420,
                 points: [
@@ -217,7 +227,9 @@ const ROUTE_DATA = {
                 city: "Andermatt",
                 country: "ch"
             },
+          
             stats: {
+                date: "September 2",
                 distance: 110,
                 elevation: 2630,
                 points: [
@@ -267,11 +279,13 @@ const ROUTE_DATA = {
         },
         {
             id: 7,
+           
             location: {
                 city: "Mörel-Filet",
                 country: "ch"
             },
             stats: {
+                date: "September 3",
                 distance: 51,
                 elevation: 1020,
                 points: [
@@ -318,7 +332,9 @@ const ROUTE_DATA = {
                 city: "Zermatt",
                 country: "ch"
             },
+         
             stats: {
+                date: "September 5",
                 distance: 137,
                 elevation: 2660,
                 points: [
@@ -366,7 +382,9 @@ const ROUTE_DATA = {
                 city: "Nax",
                 country: "ch"
             },
+         
             stats: {
+                date: "September 6",
                 distance: 119,
                 elevation: 2880,
                 points: [
@@ -399,7 +417,9 @@ const ROUTE_DATA = {
                 city: "Chamonix",
                 country: "fr"
             },
+          
             stats: {
+                date: "September 7",
                 distance: 119,
                 elevation: 2700,
                 points: [
@@ -447,7 +467,9 @@ const ROUTE_DATA = {
                 city: "Bourg St. Maurice",
                 country: "fr"
             },
+           
             stats: {
+                date: "September 8",
                 distance: 127,
                 elevation: 2400,
                 points: [
@@ -479,7 +501,9 @@ const ROUTE_DATA = {
                 city: "St. Michel de Maurienne",
                 country: "fr"
             },
+          
             stats: {
+                date: "September 9",
                 distance: 120,
                 elevation: 3300,
                 points: [
@@ -513,7 +537,9 @@ const ROUTE_DATA = {
                 city: "Guillestre",
                 country: "fr"
             },
+        
             stats: {
+                date: "September 10",
                 distance: 106,
                 elevation: 2700,
                 points: [
@@ -545,7 +571,9 @@ const ROUTE_DATA = {
                 city: "Isola",
                 country: "fr"
             },
+           
             stats: {
+                date: "September 11",
                 distance: 130,
                 elevation: 2620,
                 points: [
