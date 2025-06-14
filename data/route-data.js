@@ -425,7 +425,7 @@ const ROUTE_DATA = {
                 points: [
                     { name: "Bossons Glacier", type: "glacier" },
                     { name: "Col des Saisies", type: "pass" },
-                    { name: "Cormet de Roselend", type: "place" }
+                    { name: "Cormet de Roselend", type: "pass" }
                 ]
             },
             postcard: {
