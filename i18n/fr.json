@@ -53,6 +53,13 @@
   "modal": {
     "supportImageSource": "bonjour"
   },
+  "routepage": {
+    "h1": "Itinéraire de la Glorious Glacier Ride",
+    "description": "Voici la page d’itinéraire pour les cyclistes souhaitant participer à la tournée.",
+    "flyer": "Flyer de l’itinéraire. Cliquez sur le flyer pour l’ouvrir dans un nouvel onglet.",
+    "gps": "Le GPS",
+    "gpsdescription": "Les fichiers GPS de la Glorious Glacier Ride sont disponibles au téléchargement."
+  },
   
     "faq": {
       "h2": "Foire aux questions",

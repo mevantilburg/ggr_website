@@ -489,6 +489,17 @@ a.anchor {
   background-color: rgb(255, 255, 255);
   flex-direction: column;
 }
+.center_iframe_section{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 700px;
+  z-index: 1;
+  /* padding-top: 5px; */
+  padding-top: 30px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
 .anim{
   margin-left: auto;
   margin-right: auto;
@@ -1119,6 +1130,17 @@ a:hover{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .center_iframe_section{
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      width: 100%;
+      z-index: 1;
+      /* padding-top: 5px; */
+      padding-top: 30px;
+      background-color: rgb(255, 255, 255);
+      flex-direction: column;
+    }
     .source_map{
    
       margin-top: 6px;

@@ -53,6 +53,14 @@
   "modal": {
     "supportImageSource": "hallo"
   },
+  "routepage": {
+    "h1": "Route der Glorious Glacier Ride",
+    "description": "Dies ist die Routenseite für Radfahrer, die an der Tour teilnehmen möchten.",
+    "flyer": "Routen-Flyer. Klicken Sie auf den Flyer, um ihn in einem neuen Tab zu öffnen.",
+    "gps": "Das GPS",
+    "gpsdescription": "GPS-Dateien für die Glorious Glacier Ride stehen zum Download bereit."
+
+  },
     "faq": {
       "h2": "Häufig gestellte Fragen",
   
