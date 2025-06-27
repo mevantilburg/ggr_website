@@ -40,7 +40,8 @@
   "support": {
     "h2": "Mach mit!",
     "description": "Die Glorious Glacier Ride zollt den Gletschern Tribut und macht auf das enorme Tempo aufmerksam, mit dem sie verschwinden. Schließen Sie sich unserem Peloton an und unterstützen Sie einen Teilnehmer! Sie können dies tun, indem Sie eine oder mehrere Postkarten kaufen. Diese werden während der Tour mit einer persönlichen Botschaft verschickt.<br><br>Mit Ihrem Kauf wird CO₂ aus der Luft entfernt, und zwar durch wirkungsvolle CO₂-Entfernungsprojekte. Während die Fahrer schwitzen, räumen Sie CO₂ auf!",
-    "register": "Möchten Sie selbst (teilweise) an Glorious Glacier Ride teilnehmen und Ihre eigene CO₂-Senkungskampagne starten? Sie können sich <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier anmelden</a>."
+    "register": "Möchten Sie selbst (teilweise) an Glorious Glacier Ride teilnehmen und Ihre eigene CO₂-Senkungskampagne starten? Sie können sich <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier anmelden</a>.",
+    "details": "Eine ausführlichere Beschreibung der Glorious Glacier Ride, einschließlich GPS-Dateien, finden Sie auf der <a href='/route.html'>Routenseite"
   },
   "info": {
     "h2": "Unterstützt durch",
