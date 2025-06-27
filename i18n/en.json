@@ -39,7 +39,7 @@
     },
   "support": {
     "h2": "Join",
-    "description": "The Glorious Glacier Ride pays tribute to the glaciers and draws attention to the enormous rate at which they are disappearing. Join our peloton and support a participant! You can do this by purchasing one or more postcards. These will be sent during the trip with a personal message.<br><br>With your purchase, CO₂ is removed from the atmosphere through impactful CO₂ removal projects. While the riders sweat, you clean up CO₂!",
+    "description": "The Glorious Glacier Ride pays tribute to the glaciers and draws attention to the enormous rate at which they are disappearing. Join our peloton and support a participant! You can do this by purchasing <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">one or more postcards</a>. These will be sent during the trip with a personal message.<br><br>With your purchase, CO₂ is removed from the atmosphere through impactful CO₂ removal projects. While the riders sweat, you clean up CO₂!",
     "register": "Do you want to ride (a part of) the Glorious Glacier Ride yourself and start your own Carbon-Sinking campaign? You can <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>register here</a>.",
     "details": "A more detailed description of the Glorious Glacier Ride, including GPS files, can be found on the <a href='/route.html'>Route Page"  },
   "info": {

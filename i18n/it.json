@@ -39,7 +39,7 @@
   },
   "support": {
     "h2": "Partecipa!",
-    "description": "La Glorious Glacier Ride rende omaggio ai ghiacciai e richiama l'attenzione sull'enorme velocità con cui scompaiono. Unitevi al nostro gruppo e sostenete un partecipante! Potete farlo acquistando una o più cartoline. Queste saranno inviate con un messaggio personale durante la corsa.<br><br>Con il tuo acquisto, la CO₂ viene rimossa dall'aria attraverso progetti di rimozione di CO₂ ad alto impatto. Mentre i ciclisti sudano, tu ripulisci la CO₂!",
+    "description": "La Glorious Glacier Ride rende omaggio ai ghiacciai e richiama l'attenzione sull'enorme velocità con cui scompaiono. Unitevi al nostro gruppo e sostenete un partecipante! Potete farlo acquistando <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">una o più cartoline</a>. Queste saranno inviate con un messaggio personale durante la corsa.<br><br>Con il tuo acquisto, la CO₂ viene rimossa dall'aria attraverso progetti di rimozione di CO₂ ad alto impatto. Mentre i ciclisti sudano, tu ripulisci la CO₂!",
     "register": "Vuoi partecipare (anche solo in parte) a Glorious Glacier Ride e avviare la tua campagna di sequestro del carbonio? Puoi <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>iscriverti qui</a>.",
     "details": "Una descrizione più dettagliata della Glorious Glacier Ride, compresi i file GPS, è disponibile sulla <a href='/route.html'>Pagina del Percorso"
   },

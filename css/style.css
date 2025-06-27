@@ -549,12 +549,21 @@ a.anchor {
   100% { transform: rotate(0deg) translateY(0); }
 }
 .animate_postcard {
-  animation: postcard-animation 0.5s forwards;
+  animation: postcard-animation 1.5s forwards;
 }
 .pc_wrap_left:hover .pc_image,
 .pc_wrap_right:hover .pc_image{
-  transform: rotate(3deg) translateY(-10px);
+  transform: rotate(3deg) translateY(-10px) !important; /* Add !important to override inline styles */
+  transition: transform 0.3s ease;
  
+}
+.pc_image.hover_animate {
+  transform: rotate(3deg) translateY(-10px);
+  transition: transform 0.3s ease;
+}
+.pc_image.hover_animate.animate_postcard {
+  animation: none; /* Disable the animation if both classes exist */
+  transform: rotate(3deg) translateY(-10px); /* Apply the transform directly */
 }
 .pc_front{
   position: absolute;
