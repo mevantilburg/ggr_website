@@ -111,7 +111,8 @@ const ROUTE_DATA = {
                 elevation: 2980,
                 points: [
                     { name: "Passo dello Stelvio", type: "pass" },
-                    { name: "Passo di Valle Alpisella", type: "pass" }
+                    { name: "Passo di Valle Alpisella", type: "pass" },
+                    { name: "Madatsch Glacier", type: "glacier" }
                 ]
             },
             postcard: {
@@ -499,7 +500,7 @@ const ROUTE_DATA = {
         {
             id: 12,
             location: {
-                city: "St. Michel de Maurienne",
+                city: "St. Jean de Maurienne",
                 country: "fr"
             },
           
