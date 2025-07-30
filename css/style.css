@@ -446,6 +446,10 @@ a.anchor {
     width: 100%;
     height: 50px;
     background-color: #dfebf8;
+    text-align: center;
+    font-family: Jost, serif;
+    color: #1875b7;
+    font-weight: 300;
 }
 .section{
     width: 100%;
