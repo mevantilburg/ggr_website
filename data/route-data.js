@@ -9,8 +9,8 @@ const ROUTE_DATA = {
         
             stats: {
                 date: "Aug 28",
-                distance: 119,
-                elevation: 820,
+                distance: 127,
+                elevation: 1360,
                 points: [
                     { name: "Garmisch-Partenkirchen", type: "place" },
                     { name: "Zugspitze", type: "place" }
@@ -58,8 +58,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Aug 29",
-                distance: 118,
-                elevation: 1580,
+                distance: 113,
+                elevation: 2025,
                 points: [
                     { name: "Fernpass", type: "pass" },
                     { name: "Campanile di Curon", type: "place" }
@@ -96,7 +96,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 119
+            accumulatedDistance: 127
         },
         {
             id: 3,
@@ -107,8 +107,8 @@ const ROUTE_DATA = {
            
             stats: {
                 date: "Aug 30",
-                distance: 91,
-                elevation: 2980,
+                distance: 106,
+                elevation: 3365,
                 points: [
                     { name: "Passo dello Stelvio", type: "pass" },
                     { name: "Passo di Valle Alpisella", type: "pass" },
@@ -131,7 +131,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 237
+            accumulatedDistance: 240
         },
         {
             id: 4,
@@ -142,8 +142,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Aug 31",
-                distance: 112,
-                elevation: 1990,
+                distance: 111,
+                elevation: 2002,
                 points: [
                     { name: "Passo Forcola di Livigno", type: "pass" },
                     { name: "Passo Bernina", type: "pass" },
@@ -187,7 +187,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 328
+            accumulatedDistance: 346
         },
         {
             id: 5,
@@ -198,8 +198,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Sept 1",
-                distance: 101,
-                elevation: 2420,
+                distance: 110,
+                elevation: 2640,
                 points: [
                     { name: "Oberalppass", type: "pass" }
                 ]
@@ -220,7 +220,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 440
+            accumulatedDistance: 457
         },
         {
             id: 6,
@@ -231,8 +231,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Sept 2",
-                distance: 110,
-                elevation: 2630,
+                distance: 115,
+                elevation: 3499,
                 points: [
                     { name: "Furkapass", type: "pass" },
                     { name: "Rhône Glacier", type: "glacier" },
@@ -276,7 +276,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 541
+            accumulatedDistance: 567
         },
         {
             id: 7,
@@ -287,8 +287,8 @@ const ROUTE_DATA = {
             },
             stats: {
                 date: "Sept 3",
-                distance: 51,
-                elevation: 1020,
+                distance: 102,
+                elevation: 1335,
                 points: [
                     { name: "Glacier Valley", type: "glacier" }
                 ]
@@ -325,7 +325,7 @@ const ROUTE_DATA = {
                   }
                   
             },
-            accumulatedDistance: 651
+            accumulatedDistance: 682
         },
         {
             id: 8,
@@ -336,8 +336,8 @@ const ROUTE_DATA = {
          
             stats: {
                 date: "Sept 5",
-                distance: 137,
-                elevation: 2660,
+                distance: 117,
+                elevation: 3050,
                 points: [
                     { name: "Lac de Moiry", type: "place" },
                     { name: "Moiry Glacier", type: "glacier" }
@@ -375,7 +375,7 @@ const ROUTE_DATA = {
                   }
                   
             },
-            accumulatedDistance: 702
+            accumulatedDistance: 784
         },
         {
             id: 9,
@@ -386,8 +386,8 @@ const ROUTE_DATA = {
          
             stats: {
                 date: "Sept 6",
-                distance: 119,
-                elevation: 2880,
+                distance: 116,
+                elevation: 3176,
                 points: [
                     { name: "Col de la Forclaz", type: "pass" },
                     { name: "Trient Glacier", type: "glacier" },
@@ -410,7 +410,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 839
+            accumulatedDistance: 901
         },
         {
             id: 10,
@@ -421,8 +421,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Sept 7",
-                distance: 119,
-                elevation: 2700,
+                distance: 127,
+                elevation: 2815,
                 points: [
                     { name: "Bossons Glacier", type: "glacier" },
                     { name: "Col des Saisies", type: "pass" },
@@ -461,7 +461,7 @@ const ROUTE_DATA = {
                   }
                   
             },
-            accumulatedDistance: 958
+            accumulatedDistance: 1017
         },
         {
             id: 11,
@@ -472,8 +472,8 @@ const ROUTE_DATA = {
            
             stats: {
                 date: "Sept 8",
-                distance: 127,
-                elevation: 2400,
+                distance: 143,
+                elevation: 2778,
                 points: [
                     { name: "Col de l'Iseran", type: "pass" },
                     { name: "La Grande Motte", type: "glacier" }
@@ -495,7 +495,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 1077
+            accumulatedDistance: 1144
         },
         {
             id: 12,
@@ -506,8 +506,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Sept 9",
-                distance: 120,
-                elevation: 3300,
+                distance: 136,
+                elevation: 3881,
                 points: [
                     { name: "Col du Télégraphe", type: "pass" },
                     { name: "Col du Galibier", type: "pass" },
@@ -531,7 +531,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 1204
+            accumulatedDistance: 1287
         },
         {
             id: 13,
@@ -543,7 +543,7 @@ const ROUTE_DATA = {
             stats: {
                 date: "Sept 10",
                 distance: 106,
-                elevation: 2700,
+                elevation: 2856,
                 points: [
                     { name: "Col de Vars", type: "pass" },
                     { name: "Cime de la Bonette", type: "place" }
@@ -565,7 +565,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 1324
+            accumulatedDistance: 1423
         },
         {
             id: 14,
@@ -576,8 +576,8 @@ const ROUTE_DATA = {
            
             stats: {
                 date: "Sept 11",
-                distance: 130,
-                elevation: 2620,
+                distance: 135,
+                elevation: 3035,
                 points: [
                     { name: "Col Saint-Martin", type: "pass" },
                     { name: "Col de Turini", type: "pass" },
@@ -610,7 +610,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 1430
+            accumulatedDistance: 1529
         },
         {
             id: 15,
@@ -618,7 +618,7 @@ const ROUTE_DATA = {
                 city: "Monaco Casino",
                 country: "mc"
             },
-            accumulatedDistance: 1560
+            accumulatedDistance: 1664
         }
     ]
 };
