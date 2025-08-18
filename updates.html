@@ -22,7 +22,7 @@
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <script src="data/route-data.js" defer></script>
+    <!-- <script src="data/route-data.js" defer></script> -->
     <script type="module" src="js/route_page.js" defer></script>
 </head>
 
@@ -103,7 +103,7 @@
                 <div class="text_section">
                     <h1 data-i18n="updates.h1">Updates from the Ride</h1>
                     <p data-i18n="updates.description" style="text-align: center;">
-                       The ride is currently happening. Follow along with updates from the peloton. </p>
+                        The ride is currently happening. Follow along with updates from the peloton. </p>
                 </div>
             </div>
 
@@ -112,13 +112,14 @@
             <div class="section">
                 <div class="section_spacer"></div>
             </div>
-            <a class="anchor" id="route"></a>
-            <div class="section">
-              
+            <div id="blog">
+                <!-- Updates will be dynamically loaded here -->
+                <div class="section">
+                    <div class="text_section">
+                        <p>Loading updates...</p>
+                    </div>
+                </div>
             </div>
-
-          
-
             <div class="section_spacer"></div>
             <div class="section">
                 <div class="image_section">
@@ -225,6 +226,7 @@
     </div>
     <script type="module" src="js/index.js"></script>
     <!-- <script type="text/javascript" src="https://cdn.supporta.cc/embed.js" async></script> -->
+    <script src="js/update-parser.js"></script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </body>
 

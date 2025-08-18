@@ -754,7 +754,7 @@ function openPostcardModal(postcardId) {
             it: " km di distanza"
         },
         altimeters: {
-            en: " altimeters",
+            en: " m. elevation gain",
             nl: " hoogtemeters",
             de: " Höhenmesser",
             fr: " altimètres",
