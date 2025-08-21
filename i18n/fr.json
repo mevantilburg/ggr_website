@@ -61,7 +61,10 @@
     "gps": "Le GPS",
     "gpsdescription": "Les fichiers GPS de la Glorious Glacier Ride sont disponibles au téléchargement."
   },
-  
+  "updates": {
+    "h1": "Updates from the Ride",
+    "description": "The ride is currently happening. Follow along with updates from the peloton."
+  },
     "faq": {
       "h2": "Foire aux questions",
   

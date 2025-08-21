@@ -9,7 +9,7 @@ class UpdateParser {
     this.updates = [];
     this.baseUrl = '/updates/'; // Folder containing the markdown files
     // List of update files - must be maintained manually for GitHub Pages
-    this.updateFiles = ['1.md', '2.md', '3.md']; // Add your files here
+    this.updateFiles = ['1.md', '2.md', '3.md','4.md', '5.md', '6.md','7.md', '8.md', '9.md','10.md', '11.md', '12.md']; // Add your files here
   }
 
   /**
@@ -105,33 +105,37 @@ class UpdateParser {
   }
   
   /**
-   * Simple markdown to HTML converter
-   */
-  markdownToHtml(markdown) {
-    // Split into paragraphs
-    const paragraphs = markdown.split(/\n\n+/);
-    
-    return paragraphs.map(paragraph => {
-      if (!paragraph.trim()) return '';
-      
-      // Check if paragraph is an image
-      if (paragraph.trim().startsWith('![')) {
-        return paragraph.replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="blog-image">');
-      }
-      
-      // Process paragraph content
-      let content = paragraph
-        // Handle links: [text](url)
-        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
-        // Handle bold: **text**
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        // Handle italics: *text*
-        .replace(/\*(.*?)\*/g, '<em>$1</em>');
-      
-      return `<p>${content}</p>`;
-    }).join('\n');
-  }
+ * Simple markdown to HTML converter with inline image support
+ */
+markdownToHtml(markdown) {
+  // Split into paragraphs
+  const paragraphs = markdown.split(/\n\n+/);
   
+  return paragraphs.map(paragraph => {
+    if (!paragraph.trim()) return '';
+    
+    // Process all inline elements, including images
+    let content = paragraph
+      // Handle images: ![alt text](image-url)
+      .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="blog-image">')
+      // Handle links: [text](url)
+      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+      // Handle bold: **text**
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      // Handle italics: *text*
+      .replace(/\*(.*?)\*/g, '<em>$1</em>');
+    
+    // Only wrap in paragraph tags if it's not just an image
+    if (paragraph.trim().startsWith('![') && 
+        paragraph.trim().match(/^!\[.*?\]\(.*?\)$/) !== null) {
+      // This is a standalone image, don't wrap in paragraph
+      return content;
+    } else {
+      // This has text or is a mixed paragraph, wrap in paragraph tags
+      return `<p>${content}</p>`;
+    }
+  }).join('\n');
+}
   /**
    * Render all updates to the page
    */
