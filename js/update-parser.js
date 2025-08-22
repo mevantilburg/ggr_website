@@ -9,7 +9,7 @@ class UpdateParser {
     this.updates = [];
     this.baseUrl = '/updates/'; // Folder containing the markdown files
     // List of update files - must be maintained manually for GitHub Pages
-    this.updateFiles = ['1.md', '2.md', '3.md','4.md', '5.md', '6.md','7.md', '8.md', '9.md','10.md', '11.md', '12.md']; // Add your files here
+    this.updateFiles = ['1.md', '2.md', '3.md','4.md', '5.md', '6.md','7.md', '8.md', '9.md','10.md', '11.md', '12.md','13.md', '14.md', '15.md']; // Add your files here
   }
 
   /**
@@ -183,6 +183,14 @@ markdownToHtml(markdown) {
           <div class="blog_header">
             <div class="blog_date">Day ${day}, ${date}</div>
             <div class="blog_subtitle">Theme: ${theme}</div>
+             <div class="blog_meta">
+              <div class="blog_columnleft">
+                <div class="blog_metaline"> <img class="meta_icon" src="img/start.svg"> <span>from </span>${metadata.from || '?'}</div>
+              </div>
+              <div class="blog_columnleft">
+                <div class="blog_metaline"> <img class="meta_icon" src="img/finish.svg"> <span>to </span>${metadata.to || '?'}</div>
+              </div>
+            </div>
             <div class="blog_meta">
               <div class="blog_columnleft">
                 <div class="blog_metaline"> <img class="meta_icon" src="img/${weatherIcon}">${metadata.weather || 'N/A'}</div>
