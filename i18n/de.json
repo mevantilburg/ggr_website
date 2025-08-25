@@ -63,8 +63,8 @@
 
   },
   "updates": {
-    "h1": "Updates from the Ride",
-    "description": "The ride is currently happening. Follow along with updates from the peloton."
+   "h1": "Updates von der Fahrt",
+"description": "Verfolge das Team live und bleibe mit Updates aus dem Peloton auf dem Laufenden."
   },
     "faq": {
       "h2": "Häufig gestellte Fragen",

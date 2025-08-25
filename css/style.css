@@ -1270,6 +1270,17 @@ a:hover{
     margin-right: auto;
    
   }
+  .iframe_container {
+   
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
   .wrapper .images{
     height: 100%;
     width: 100%;
@@ -1366,6 +1377,17 @@ a:hover{
     /* background-color: rgb(93, 93, 93); */
   }
   @media screen and (max-width: 800px) {
+    .iframe_container {
+     
+      position: relative;
+      box-shadow: none;
+      width: 100%;
+      max-width: 900px;
+      height: 400px;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
     .center_iframe_section{
       margin-left: auto;
       margin-right: auto;
