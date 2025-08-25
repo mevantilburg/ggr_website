@@ -351,7 +351,119 @@ margin-left: 20px;
   text-align: left;
   min-width: 260px;
 }
+.live_section_container{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  z-index: 1;
+  /* padding-top: 5px; */
 
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+.live_section{
+  display: flex;
+  flex-direction: column;
+  width: calc(100%-60px);
+
+ 
+  margin-left: 30px;
+  margin-right: 30px;
+ margin-top: 20px;
+ border:solid #dbdbdb 1px;
+  border-radius: 3px;
+ box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);;
+ 
+}
+.live_link{
+  text-decoration: none;
+}
+.live_link:hover{
+  text-decoration: none;
+}
+.live_image_container {
+  width: 100%;
+  height: 300px; /* Set the desired fixed height */
+  overflow: hidden; /* This will crop any overflow */
+  position: relative; /* For positioning the child image */
+  display: flex;
+  align-items: center; /* Center the image vertically */
+  justify-content: center; /* Center the image horizontally */
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.live_bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+ 
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.live_nav {
+margin-right: 15px;
+}
+.live_badge {
+
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Jost, serif;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #ffe6ea;           /* light red background */
+  color: #b4001a;                /* dark red text */
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  width: fit-content;
+}
+
+.live_icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff2d55;           /* red dot */
+  position: relative;
+  animation: live-pulse 1.5s ease-out infinite;
+}
+
+/* Optional ring pulse for stronger effect */
+.live_icon::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 45, 85, 0.45);
+  opacity: 0;
+  animation: live-pulse-ring 1.5s ease-out infinite;
+}
+
+@keyframes live-pulse {
+  0%   { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 45, 85, 0.55); }
+  70%  { transform: scale(1); box-shadow: 0 0 0 10px rgba(255, 45, 85, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 45, 85, 0); }
+}
+
+@keyframes live-pulse-ring {
+  0%   { opacity: 0.7; transform: scale(0.7); }
+  70%  { opacity: 0;   transform: scale(1.4); }
+  100% { opacity: 0;   transform: scale(1.4); }
+}
+
+/* Image style - object-fit for proper scaling */
+.live_image {
+  width: 100%; /* Fill the width of the container */
+  height: 100%; /* Fill the height of the container */
+  object-fit: cover; /* This maintains aspect ratio while covering the container */
+  object-position: center; /* Center the image within the container */
+}
 .blog_metaline span{
 
   font-weight: 400;
