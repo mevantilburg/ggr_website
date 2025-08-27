@@ -23,3 +23,23 @@ Example of a link
 **This text will be bold**
 
 Some more text
+
+---
+from: Munich
+to: Ehrwald
+day: 1
+date: August 28, 2025
+theme: Questionable, is climate change still questioned?
+# Weather options: sunny, partly cloudy, cloudy, rainy, stormy, thunder, snowy, foggy
+weather: cloudy
+temp: 25
+distance: 119
+gain: 820
+duration: 6h 10m
+burn: 50,000
+mayors: 1
+flats: 1
+route_video: Llnxp7k3qWM
+status: live
+# status options: draft, live
+---

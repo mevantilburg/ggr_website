@@ -9,7 +9,7 @@ class UpdateParser {
     this.updates = [];
     this.baseUrl = '/updates/'; // Folder containing the markdown files
     // List of update files - must be maintained manually for GitHub Pages
-    this.updateFiles = ['1.md', '2.md', '3.md','4.md', '5.md', '6.md','7.md', '8.md', '9.md','10.md', '11.md', '12.md','13.md', '14.md', '15.md']; // Add your files here
+    this.updateFiles = ['1.md', '2.md', '3.md', '4.md', '5.md', '6.md', '7.md', '8.md', '9.md', '10.md', '11.md', '12.md', '13.md', '14.md', '15.md']; // Add your files here
   }
 
   /**
@@ -19,7 +19,7 @@ class UpdateParser {
     try {
       // Show loading message
       this.updateContainer.innerHTML = '<div class="section"><div class="text_section"><p>Loading updates...</p></div></div>';
-      
+
       // Process each update file
       for (const file of this.updateFiles) {
         const update = await this.fetchAndParseUpdate(file);
@@ -27,22 +27,24 @@ class UpdateParser {
           this.updates.push(update);
         }
       }
-      
+
       // Sort updates by day number in descending order (newest first)
       this.updates.sort((a, b) => {
         const dayA = parseInt(a.metadata.day || '0', 10);
         const dayB = parseInt(b.metadata.day || '0', 10);
         return dayB - dayA;
       });
-      
+
       // Render all updates
       this.renderUpdates();
+      // Deep-link support (hash or ?day=)
+      this.setupDeepLinks();
     } catch (error) {
       console.error('Failed to load updates:', error);
       this.updateContainer.innerHTML = '<div class="section"><div class="text_section"><p>Error loading updates. Please try again later.</p></div></div>';
     }
   }
-  
+
   /**
    * Fetch and parse a single update file
    */
@@ -52,7 +54,7 @@ class UpdateParser {
       if (!response.ok) {
         throw new Error(`Failed to fetch ${filename}: ${response.status}`);
       }
-      
+
       const markdownContent = await response.text();
       return this.parseMarkdown(markdownContent, filename);
     } catch (error) {
@@ -60,23 +62,23 @@ class UpdateParser {
       return null;
     }
   }
-  
+
   /**
    * Parse markdown content into structured data
    */
   parseMarkdown(content, filename) {
     // Split the content into frontmatter and body
     const parts = content.split('---');
-    
+
     if (parts.length < 3) {
       console.error(`Invalid markdown format in ${filename}`);
       return null;
     }
-    
+
     // Parse frontmatter
     const frontmatter = parts[1].trim().split('\n');
     const metadata = {};
-    
+
     frontmatter.forEach(line => {
       const colonIndex = line.indexOf(':');
       if (colonIndex > 0) {
@@ -85,88 +87,88 @@ class UpdateParser {
         metadata[key] = value;
       }
     });
-    
+
     // Default status to draft if not specified
     if (!metadata.status) {
       metadata.status = 'draft';
     }
-    
+
     // Parse body content
     const bodyContent = parts.slice(2).join('---').trim();
-    
+
     // Parse markdown to HTML (using a simple parser)
     const htmlContent = this.markdownToHtml(bodyContent);
-    
+
     return {
       id: parseInt(filename.replace('.md', ''), 10),
       metadata,
       content: htmlContent
     };
   }
-  
+
   /**
  * Simple markdown to HTML converter with inline image support
  */
-markdownToHtml(markdown) {
-  // Split into paragraphs
-  const paragraphs = markdown.split(/\n\n+/);
-  
-  return paragraphs.map(paragraph => {
-    if (!paragraph.trim()) return '';
-    
-    // Process all inline elements, including images
-    let content = paragraph
-      // Handle images: ![alt text](image-url)
-      .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="blog-image">')
-      // Handle links: [text](url)
-      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
-      // Handle bold: **text**
-      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-      // Handle italics: *text*
-      .replace(/\*(.*?)\*/g, '<em>$1</em>');
-    
-    // Only wrap in paragraph tags if it's not just an image
-    if (paragraph.trim().startsWith('![') && 
+  markdownToHtml(markdown) {
+    // Split into paragraphs
+    const paragraphs = markdown.split(/\n\n+/);
+
+    return paragraphs.map(paragraph => {
+      if (!paragraph.trim()) return '';
+
+      // Process all inline elements, including images
+      let content = paragraph
+        // Handle images: ![alt text](image-url)
+        .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="blog-image">')
+        // Handle links: [text](url)
+        .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
+        // Handle bold: **text**
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        // Handle italics: *text*
+        .replace(/\*(.*?)\*/g, '<em>$1</em>');
+
+      // Only wrap in paragraph tags if it's not just an image
+      if (paragraph.trim().startsWith('![') &&
         paragraph.trim().match(/^!\[.*?\]\(.*?\)$/) !== null) {
-      // This is a standalone image, don't wrap in paragraph
-      return content;
-    } else {
-      // This has text or is a mixed paragraph, wrap in paragraph tags
-      return `<p>${content}</p>`;
-    }
-  }).join('\n');
-}
+        // This is a standalone image, don't wrap in paragraph
+        return content;
+      } else {
+        // This has text or is a mixed paragraph, wrap in paragraph tags
+        return `<p>${content}</p>`;
+      }
+    }).join('\n');
+  }
   /**
    * Render all updates to the page
    */
   renderUpdates() {
     // Clear existing content
     this.updateContainer.innerHTML = '';
-    
+
     if (this.updates.length === 0) {
       this.updateContainer.innerHTML = '<div class="section"><div class="text_section"><p>No updates available yet.</p></div></div>';
       return;
     }
-    
+
     this.updates.forEach(update => {
       const updateHtml = this.createUpdateHtml(update);
       this.updateContainer.innerHTML += updateHtml;
     });
   }
-  
+
   /**
    * Create HTML for a single update
    */
   createUpdateHtml(update) {
     const { metadata, content } = update;
-    
+
     // Check if required metadata exists
     const day = metadata.day || '?';
     const date = metadata.date || 'Date not available';
     const theme = metadata.theme || 'No theme';
     const weatherIcon = this.getWeatherIcon(metadata.weather || '');
     // Format the video embed if present
-    const videoEmbed = metadata.route_video ? 
+    const videoEmbed = metadata.route_video ?
       `<div class="section">
         <div class="image_section">
           <iframe class="blog-iframe" width="100%" 
@@ -176,13 +178,17 @@ markdownToHtml(markdown) {
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
       </div>` : '';
-    
+
     return `
-      <div class="section">
+      <section id="day${day}" class="update_section">  
+    <div class="section">
         <div class="text_section">
           <div class="blog_header">
             <div class="blog_date">Day ${day}, ${date}</div>
+           
             <div class="blog_subtitle">Theme: ${theme}</div>
+                <a class="permalink" href="#day${day}" title="Copy link to this update">#</a>
+        
              <div class="blog_meta">
               <div class="blog_columnleft">
                 <div class="blog_metaline"> <img class="meta_icon" src="img/start.svg"> <span>from </span>${metadata.from || '?'}</div>
@@ -215,9 +221,54 @@ markdownToHtml(markdown) {
         </div>
       </div>
       <div class="section_spacer"></div>
+      </section>
     `;
   }
+  // Deep-link helpers
+  setupDeepLinks() {
+    // Scroll to hash or ?day=
+    this.scrollToDeepLink();
 
+    // Update hash as user scrolls sections
+    this.observeAndUpdateHash();
+  }
+
+  scrollToDeepLink() {
+    console.log('Checking for deep link...');
+    const url = new URL(window.location.href);
+    let targetId = url.hash || '';
+    if (!targetId) {
+      const qDay = url.searchParams.get('day');
+      if (qDay) targetId = `#day${qDay}`;
+    }
+    if (targetId) {
+      console.log('Scrolling to', targetId);
+      const el = document.querySelector(targetId);
+      if (el) {
+        const OFFSET = 100; // pixels
+        const y = el.getBoundingClientRect().top + window.scrollY - OFFSET;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    }
+  }
+
+  observeAndUpdateHash() {
+    const sections = document.querySelectorAll('section[id^="day"]');
+    if (!sections.length) return;
+
+    const io = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter(e => e.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      const id = visible.target.id;
+      if (`#${id}` !== window.location.hash) {
+        history.replaceState(null, '', `#${id}`);
+      }
+    }, { root: null, threshold: [0.5] });
+
+    sections.forEach(s => io.observe(s));
+  }
   /**
    * Get the appropriate weather icon based on the weather condition
    */
@@ -225,40 +276,40 @@ markdownToHtml(markdown) {
     const weatherIcons = {
       // Clear conditions
       'sunny': 'sun.svg',
-    
-      
+
+
       // Partly cloudy conditions
       'partly cloudy': 'part.svg',
-    
-      
+
+
       // Cloudy conditions
       'cloudy': 'cloud.svg',
-    
-      
+
+
       // Rain conditions
       'rainy': 'rain.svg',
-     
-      
+
+
       // Thunderstorm conditions
       'stormy': 'storm.svg',
 
-       
+
       // Snow conditions
       'thunder': 'thunder.svg',
 
       // Snow conditions
       'snowy': 'snow.svg',
 
-      
+
       // Fog/mist conditions
       'foggy': 'fog.svg',
 
-      
+
     };
 
     // Convert to lowercase and trim for consistent matching
     const normalizedCondition = weatherCondition.toLowerCase().trim();
-    
+
     // Return the appropriate icon or default to cloud.svg if not found
     return weatherIcons[normalizedCondition] || 'cloud.svg';
   }

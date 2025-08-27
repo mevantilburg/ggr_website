@@ -325,6 +325,16 @@ margin-left: 20px;
 .blog_columnleft{
   margin-right: 30px;
 }
+.update_section {
+  scroll-margin-top: 100px; /* leave 100px space below fixed header */
+}
+.permalink {
+  margin-left: 8px;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.permalink:hover { opacity: 1; }
 .blog_date{
   font-size: 44px;
   letter-spacing: 0.03em;
