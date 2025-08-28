@@ -237,6 +237,7 @@ p{
 }
 
 .navbar-nav{
+  margin-right: -41px;
   display: flex;
   margin-left: auto;
 }
@@ -1386,7 +1387,7 @@ a:hover{
     height: 350px;
     /* background-color: rgb(93, 93, 93); */
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width:860px) {
     .iframe_container {
      
       position: relative;
