@@ -1,6 +1,109 @@
-import { translator } from './index.js';  // or from wherever the instance is exported
+import { translator, refreshPostcardHoverEffects } from './index.js';  // or from wherever the instance is exported
+
+const assetUrl = (relativePath) => new URL(relativePath, import.meta.url).href;
+
+async function loadRouteData(dataPath) {
+    try {
+        console.log(`[Route] Fetching route data from ${dataPath}`);
+        const response = await fetch(dataPath);
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}`);
+        }
+        const text = await response.text();
+        const factory = new Function(`${text}; return ROUTE_DATA;`);
+        const data = factory();
+        const dayCount = Array.isArray(data?.days) ? data.days.length : 0;
+        console.log(`[Route] Loaded ${dayCount} days from ${dataPath}`);
+        return data;
+    } catch (error) {
+        console.error(`[Route] Failed to load route data from ${dataPath}`, error);
+        return { days: [] };
+    }
+}
+
+async function buildRouteVariants() {
+    const configs = {
+        'ride-yourself': {
+            key: 'ride-yourself',
+            gpx: assetUrl('../data/Ride_vklein.gpx'),
+            waypoints: assetUrl('../data/waypoints.xml'),
+            dataPath: assetUrl('../data/route-data.js'),
+            mapLayerLabel: 'Ride Yourself'
+        },
+        'velo-tours': {
+            key: 'velo-tours',
+            gpx: assetUrl('../data/Ride_velo.gpx'),
+            waypoints: assetUrl('../data/waypoints_velo.xml'),
+            dataPath: assetUrl('../data/route-data-velo.js'),
+            mapLayerLabel: 'Velo Tours'
+        },
+        'borne-cycling': {
+            key: 'borne-cycling',
+            gpx: assetUrl('../data/Ride_borne.gpx'),
+            waypoints: assetUrl('../data/waypoints_borne.xml'),
+            dataPath: assetUrl('../data/route-data-borne.js'),
+            mapLayerLabel: 'Borne Cycling'
+        }
+    };
+
+    const entries = await Promise.all(Object.entries(configs).map(async ([key, config]) => {
+        const data = await loadRouteData(config.dataPath);
+        return [key, { ...config, data }];
+    }));
+
+    const variants = Object.fromEntries(entries);
+    console.log('[Route] Route variants ready', variants);
+    return variants;
+}
+
+const ROUTE_VARIANTS = await buildRouteVariants();
 
 console.log("Current language:", translator.getCurrentLanguage());
+
+let activeRouteKey = 'ride-yourself';
+let activeRouteData = ROUTE_VARIANTS[activeRouteKey].data;
+window.ROUTE_DATA = activeRouteData;
+let map;
+let layerControl;
+let imageOverlay;
+let currentGpxLayer;
+let currentWaypointLayers = [];
+let waypointFetchController = null;
+let currentPostcardIndex = 0;
+
+const ICON_URLS = {
+    place: '/img/marker_place.svg',
+    pass: '/img/marker_pass.svg',
+    glacier: '/img/marker_glacier.svg',
+    default: '/img/marker2.svg'
+};
+
+const IMAGE_BASE_URL = '/img/';
+
+const GPX_BASE_OPTIONS = {
+    marker_options: {
+        iconSize: [18, 22],
+        iconAnchor: [9, 22],
+        startIconUrl: ICON_URLS.place,
+        endIconUrl: ICON_URLS.place,
+    },
+    markers: {
+        startIcon: ICON_URLS.place,
+        endIcon: ICON_URLS.place
+    },
+    async: true,
+    polyline_options: { color: 'black', dashArray: '15,5' },
+};
+
+const animationAssets = {
+    frameCount: 144,
+    images: [],
+    straight: null,
+    scrollHandler: null,
+    reflowTimeout: null,
+    hasScrolled: false,
+    staticHidden: false
+};
 
 const questions = document.querySelectorAll('.faq_question');
 
@@ -70,9 +173,13 @@ function closeModal() {
 const slider = document.querySelector(".slider input");
 const img = document.querySelector(".images .img-2");
 const dragLine = document.querySelector(".slider .drag-line");
-slider.oninput = ({ target: { value } }) => {
-    dragLine.style.left = value + "%";
-    img.style.width = value + "%";
+if (slider && img && dragLine) {
+    slider.oninput = ({ target: { value } }) => {
+        dragLine.style.left = value + "%";
+        img.style.width = value + "%";
+    };
+} else {
+    console.warn('[Route] Slider elements missing, skipping before/after control setup');
 }
 
 
@@ -104,7 +211,7 @@ class RouteRenderer {
         // For left column (position 'right'), use route_data_left
         // For right column (position 'left'), use route_data_right
         const className = position === 'right' ? 'route_data_left' : 'route_data_right';
-        const postcard = day.postcard || ROUTE_DATA.days.find(d => d.id === day.id)?.postcard;
+        const postcard = day.postcard || activeRouteData.days.find(d => d.id === day.id)?.postcard;
         const onclickAttr = postcard ? `onclick="openPostcardModal('${postcard.id}')"` : '';
         const dataAttr = postcard ? `data-postcard-day="${day.id}"` : '';
 
@@ -144,8 +251,8 @@ class RouteRenderer {
     }
 
     static renderRouteSection(day, position = 'left') {
-        const isLast = day.id === ROUTE_DATA.days[ROUTE_DATA.days.length - 1].id;
-        const totalItemsIsEven = ROUTE_DATA.days.length % 2 === 0;
+        const isLast = day.id === activeRouteData.days[activeRouteData.days.length - 1].id;
+        const totalItemsIsEven = activeRouteData.days.length % 2 === 0;
         const sectionClass = isLast ? 'route_section_last' : 'route_section';
 
         // Special handling for the last item
@@ -220,16 +327,23 @@ class RouteRenderer {
     }
 }
 
-// Initialize on page load
-document.addEventListener('DOMContentLoaded', () => {
+function renderRouteColumns() {
     const leftContent = document.getElementById('left_route_content');
     const rightContent = document.getElementById('right_route_content');
+    if (!leftContent || !rightContent) return;
+    const dayCount = activeRouteData?.days?.length || 0;
+    console.log(`[Route] Rendering columns for ${activeRouteKey} with ${dayCount} days`);
+    if (!dayCount) {
+        const fallback = '<p class="route-error">Route data unavailable. Please try another tab or refresh.</p>';
+        leftContent.innerHTML = fallback;
+        rightContent.innerHTML = '';
+        return;
+    }
 
-    // Helper function to create alternating content
-    function createDayContent(day, isLeft) {
-        const isLast = day.id === ROUTE_DATA.days[ROUTE_DATA.days.length - 1].id;
+    const createDayContent = (day, isLeft) => {
+        const lastDayId = activeRouteData.days[activeRouteData.days.length - 1].id;
+        const isLast = day.id === lastDayId;
 
-        // Handle the last day specially
         if (isLast) {
             return {
                 id: day.id,
@@ -238,36 +352,8 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         }
 
-        // For left side content
         if (isLeft) {
             if (day.id % 2 === 1) {
-                // Odd numbered days show stats and location on left
-                return {
-                    id: day.id,
-                    location: day.location,
-                    stats: day.stats,
-                    accumulatedDistance: day.accumulatedDistance
-                };
-            } else {
-                // Even numbered days show only postcard on left
-                return {
-                    id: day.id,
-                    postcard: day.postcard,
-                    accumulatedDistance: day.accumulatedDistance
-                };
-            }
-        }
-        // For right side content
-        else {
-            if (day.id % 2 === 1) {
-                // Odd numbered days show only postcard on right
-                return {
-                    id: day.id,
-                    postcard: day.postcard,
-                    accumulatedDistance: day.accumulatedDistance
-                };
-            } else {
-                // Even numbered days show stats and location on right
                 return {
                     id: day.id,
                     location: day.location,
@@ -275,278 +361,414 @@ document.addEventListener('DOMContentLoaded', () => {
                     accumulatedDistance: day.accumulatedDistance
                 };
             }
+            return {
+                id: day.id,
+                postcard: day.postcard,
+                accumulatedDistance: day.accumulatedDistance
+            };
         }
-    }
 
-    // Create content for both sides
-    const leftDays = ROUTE_DATA.days.map(day => createDayContent(day, true));
-    const rightDays = ROUTE_DATA.days.map(day => createDayContent(day, false));
+        if (day.id % 2 === 1) {
+            return {
+                id: day.id,
+                postcard: day.postcard,
+                accumulatedDistance: day.accumulatedDistance
+            };
+        }
 
-    // Render the content
+        return {
+            id: day.id,
+            location: day.location,
+            stats: day.stats,
+            accumulatedDistance: day.accumulatedDistance
+        };
+    };
+
+    const leftDays = activeRouteData.days.map(day => createDayContent(day, true));
+    const rightDays = activeRouteData.days.map(day => createDayContent(day, false));
+
     leftContent.innerHTML = leftDays.map(day =>
         RouteRenderer.renderRouteSection(day, 'right')).join('');
     rightContent.innerHTML = rightDays.map(day =>
         RouteRenderer.renderRouteSection(day, 'left')).join('');
 
-    const html = document.documentElement;
-    const canvas = document.getElementById("cyclist2");
-    const context = canvas.getContext("2d");
-    const frameCount = 144;
-    const offset = 100;
-    const a = 5;
-    const totalDays = ROUTE_DATA.days.length;
-    const routeHeight = totalDays * 360 - 150; // Dynamic height based on number of days
-    const lastCircleY = 25 + ((totalDays - 1) * 360); // Y position of the last circle
-    canvas.height = routeHeight;
-    var imageArray = []
-    var index = 0
-    const preloadImages = () => {
-        for (let i = 1; i <= frameCount; i++) {
+    refreshPostcardHoverEffects();
+    resetWaypointAnimations();
+}
+
+function resetWaypointAnimations() {
+    if (!activeRouteData?.days) return;
+    activeRouteData.days.forEach(day => {
+        const elements = document.getElementsByClassName(`wp${day.id}`);
+        Array.from(elements).forEach(element => {
+            element.classList.remove('animate_in');
+            element.classList.add('animate_out');
+        });
+    });
+}
+
+function ensureAnimationAssets() {
+    if (!animationAssets.images.length) {
+        for (let i = 1; i <= animationAssets.frameCount; i++) {
             const img = new Image();
             img.src = `img/animation/anim${i.toString()}.png`;
-
-            imageArray.push(img)
+            animationAssets.images.push(img);
         }
-    };
-    context.beginPath();
-    context.strokeStyle = "black";
-    context.lineWidth = 2;
-    context.moveTo(75, 0);
-    context.setLineDash([35, 10]);
-    context.lineTo(75, 75);
-    context.stroke();
-    context.beginPath();
-    context.arc(75, 75, 15, 0, 2 * Math.PI, false);
-    context.fillStyle = 'white';
-    context.fill();
-    context.lineWidth = 2;
-    context.setLineDash([]);
-    context.strokeStyle = 'black';
-    context.stroke();
-    const img3 = new Image();
-    img3.src = `img/animation/straight.png`
-    if (img3.complete) {
-        context.drawImage(img3, -50, -50);
-    } else {
-        img3.onload = function () {
-            context.drawImage(img3, -50, -50);
-        };
     }
 
-    context.drawImage(img3, 100, 200);
-    window.addEventListener('scroll', () => {
-        const scrollTop = html.scrollTop;
-        const canvasPos = canvas.getBoundingClientRect().top;
-        const startScroll = window.innerHeight / 2;
+    if (!animationAssets.straight) {
+        const straightImg = new Image();
+        straightImg.src = 'img/animation/straight.png';
+        animationAssets.straight = straightImg;
+    }
+}
 
-        const updateImage = () => {
-            if (canvasPos <= startScroll) {
-                var f = 2;
-                var w = 1440;
-                var h = 100 / 2;
-                function calcSineY(x) {
-                    return h - h * Math.sin(x * 2 * Math.PI * (f / w));
-                }
-                context.clearRect(0, 0, canvas.width, canvas.height);
-                index = Math.floor((startScroll - canvasPos) / a) % (frameCount - 1);
-                let posY = (Math.sin(((index) / (frameCount - 1) * 360) * Math.PI / 180) * 50) - 50;
-                let posX = (startScroll - canvasPos) - 50;
+function drawStraightImage(context, x, y) {
+    if (!animationAssets.straight) return;
+    if (animationAssets.straight.complete) {
+        context.drawImage(animationAssets.straight, x, y);
+    } else {
+        animationAssets.straight.onload = function () {
+            context.drawImage(animationAssets.straight, x, y);
+        };
+    }
+}
 
-                // Draw initial line and circle
-                context.beginPath();
-                context.strokeStyle = "black";
-                context.lineWidth = 2;
-                context.moveTo(75, 0);
-                context.setLineDash([35, 10]);
-                context.lineTo(75, 75);
-                context.stroke();
+function setupCyclistAnimation() {
+    ensureAnimationAssets();
+    const html = document.documentElement;
+    const canvas = document.getElementById('cyclist2');
+    if (!canvas) return;
+    const context = canvas.getContext('2d');
+    const totalDays = activeRouteData.days.length;
+    const routeHeight = totalDays * 360 - 150;
+    const lastCircleY = 25 + ((totalDays - 1) * 360);
+    const speedFactor = 5;
+    canvas.height = routeHeight;
+    animationAssets.hasScrolled = false;
+    animationAssets.staticHidden = false;
 
-                // Draw wavy dashed line
-                context.beginPath();
-                context.moveTo(75, 75);
-                context.setLineDash([35, 10]);
-                context.strokeStyle = "black";
-                for (var i = 0; i < Math.floor((startScroll - canvasPos)); i++) {
-                    if (i < lastCircleY) { // Stop at last circle
-                        var y = calcSineY(i);
-                        context.lineTo(150 - 25 - y, i + 75);
-                    }
-                }
-                context.stroke();
+    const drawInitialTimeline = (showStaticCyclist = true) => {
+        context.beginPath();
+        context.strokeStyle = 'black';
+        context.lineWidth = 2;
+        context.moveTo(75, 0);
+        context.setLineDash([35, 10]);
+        context.lineTo(75, 75);
+        context.stroke();
+        context.beginPath();
+        context.arc(75, 75, 15, 0, 2 * Math.PI, false);
+        context.fillStyle = 'white';
+        context.fill();
+        context.lineWidth = 2;
+        context.setLineDash([]);
+        context.strokeStyle = 'black';
+        context.stroke();
+        if (showStaticCyclist) {
+            drawStraightImage(context, -50, -50);
+        }
+    };
 
-                // Draw circles and animate waypoints
-                for (var p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
-                    if (p >= totalDays) break; // Don't draw beyond last day
+    const updateImage = (canvasPos, startScroll) => {
+        if (canvasPos <= startScroll) {
+            animationAssets.hasScrolled = true;
+            if (!animationAssets.staticHidden) {
+                animationAssets.staticHidden = true;
+            }
+            const frequency = 2;
+            const width = 1440;
+            const amplitude = 50;
+            const calcSineY = (x) => amplitude - amplitude * Math.sin(x * 2 * Math.PI * (frequency / width));
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            const index = Math.floor((startScroll - canvasPos) / speedFactor) % (animationAssets.frameCount - 1);
+            const posY = (Math.sin(((index) / (animationAssets.frameCount - 1) * 360) * Math.PI / 180) * amplitude) - amplitude;
+            const posX = (startScroll - canvasPos) - amplitude;
 
-                    // const pc = document.getElementById("pc" + (Math.floor((startScroll - canvasPos) / 360) + 1));
-                    // pc.classList.add('animate_postcard');
-                    // Animate current waypoint
-                    const elements = Array.from(document.getElementsByClassName("wp" + (p + 1)));
-                    elements.forEach(element => {
-                        element.classList.remove("animate_out");
-                        element.classList.add("animate_in");
-                    });
-                    // Animate current postcard - Add this code
-                    const postcardImage = document.getElementById(`pc${p + 1}`);
-                    if (postcardImage) {
-                        // Add animation class to the current postcard
-                        postcardImage.classList.add('animate_postcard');
-                        // Remove the hover_animate class to ensure CSS hover effects work
-                        postcardImage.classList.remove('hover_animate');
+            // Draw initial line and circle
+            drawInitialTimeline(false);
 
-                        // Track the active day for later cleanup
-                        window.lastActivePostcard = p + 1;
-                    }
-                    // Hide future waypoints and reset previous postcards
-                    for (var r = 0; r < totalDays; r++) {
-                        if (r > p) {
-                            // Hide future waypoints
-                            const elements = Array.from(document.getElementsByClassName("wp" + (r + 1)));
-                            elements.forEach(element => {
-                                element.classList.remove("animate_in");
-                                element.classList.add("animate_out");
-                            });
-
-                            // Hide future postcards
-                            const futurePostcard = document.getElementById(`pc${r + 1}`);
-                            if (futurePostcard) {
-                                futurePostcard.classList.remove('animate_postcard');
-                                futurePostcard.classList.remove('hover_animate');
-                            }
-                        } else if (r < p - 1) {
-                            // Reset animation on older postcards (keeping previous one animated)
-                            const oldPostcard = document.getElementById(`pc${r + 1}`);
-                            if (oldPostcard) {
-                                oldPostcard.classList.remove('animate_postcard');
-                                oldPostcard.classList.remove('hover_animate');
-                            }
-                        }
-                    }
-
-                    // Draw circles and connecting lines
-                    var dir = p % 2 === 0 ? 25 : 125;
-                    context.beginPath();
-                    context.moveTo(75, 75 + p * 360);
-                    context.setLineDash([]);
-                    context.lineTo(dir, 75 + p * 360);
-                    context.stroke();
-                    context.beginPath();
-                    context.arc(75, 75 + p * 360, 15, 0, 2 * Math.PI, false);
-                    context.fillStyle = 'white';
-                    context.fill();
-                    context.lineWidth = 2;
-                    context.setLineDash([]);
-                    context.strokeStyle = 'black';
-                    context.stroke();
-                }
-
-                // Draw cyclist
-                if ((startScroll - canvasPos) <= lastCircleY) {
-                    context.drawImage(imageArray[index], posY, posX);
-                } else {
-                    context.drawImage(img3, -50, lastCircleY - 50); // Stop at last circle
-                }
-            } else {
-                if (canvasPos > startScroll) {
-                    const elements = Array.from(document.getElementsByClassName("wp1"))
-                    elements.forEach(element => {
-                        element.classList.remove("animate_in");
-                        element.classList.add("animate_out");
-                    });
-                    context.clearRect(0, 0, canvas.width, canvas.height);
-
-                    context.beginPath();
-                    context.strokeStyle = "black";
-                    context.lineWidth = 2;
-                    context.moveTo(75, 0);
-                    context.setLineDash([35, 10]);
-                    context.lineTo(75, 75);
-                    context.stroke();
-                    context.beginPath();
-                    context.arc(75, 75, 15, 0, 2 * Math.PI, false);
-                    context.fillStyle = 'white';
-                    context.fill();
-                    context.lineWidth = 2;
-                    context.setLineDash([]);
-                    context.strokeStyle = 'black';
-                    context.stroke();
-                    context.drawImage(img3, -50, -50);
+            // Draw wavy dashed line
+            context.beginPath();
+            context.moveTo(75, 75);
+            context.setLineDash([35, 10]);
+            context.strokeStyle = 'black';
+            for (let i = 0; i < Math.floor((startScroll - canvasPos)); i++) {
+                if (i < lastCircleY) {
+                    const y = calcSineY(i);
+                    context.lineTo(150 - 25 - y, i + 75);
                 }
             }
+            context.stroke();
+
+            for (let p = 0; p < (Math.floor((startScroll - canvasPos) / 360) + 1); p++) {
+                if (p >= totalDays) break;
+
+                const elements = Array.from(document.getElementsByClassName('wp' + (p + 1)));
+                elements.forEach(element => {
+                    element.classList.remove('animate_out');
+                    element.classList.add('animate_in');
+                });
+
+                const postcardImage = document.getElementById(`pc${p + 1}`);
+                if (postcardImage) {
+                    postcardImage.classList.add('animate_postcard');
+                    postcardImage.classList.remove('hover_animate');
+                    window.lastActivePostcard = p + 1;
+                }
+
+                for (let r = 0; r < totalDays; r++) {
+                    if (r > p) {
+                        const futureElements = Array.from(document.getElementsByClassName('wp' + (r + 1)));
+                        futureElements.forEach(element => {
+                            element.classList.remove('animate_in');
+                            element.classList.add('animate_out');
+                        });
+
+                        const futurePostcard = document.getElementById(`pc${r + 1}`);
+                        if (futurePostcard) {
+                            futurePostcard.classList.remove('animate_postcard');
+                            futurePostcard.classList.remove('hover_animate');
+                        }
+                    } else if (r < p - 1) {
+                        const oldPostcard = document.getElementById(`pc${r + 1}`);
+                        if (oldPostcard) {
+                            oldPostcard.classList.remove('animate_postcard');
+                            oldPostcard.classList.remove('hover_animate');
+                        }
+                    }
+                }
+
+                const dir = p % 2 === 0 ? 25 : 125;
+                context.beginPath();
+                context.moveTo(75, 75 + p * 360);
+                context.setLineDash([]);
+                context.lineTo(dir, 75 + p * 360);
+                context.stroke();
+                context.beginPath();
+                context.arc(75, 75 + p * 360, 15, 0, 2 * Math.PI, false);
+                context.fillStyle = 'white';
+                context.fill();
+                context.lineWidth = 2;
+                context.setLineDash([]);
+                context.strokeStyle = 'black';
+                context.stroke();
+            }
+
+            if ((startScroll - canvasPos) <= lastCircleY) {
+                context.drawImage(animationAssets.images[index], posY, posX);
+            } else {
+                drawStraightImage(context, -50, lastCircleY - 50);
+            }
+        } else {
+            context.clearRect(0, 0, canvas.width, canvas.height);
+            drawInitialTimeline(!animationAssets.staticHidden);
+            const targetElements = Array.from(document.getElementsByClassName('wp1'));
+            if (!animationAssets.hasScrolled) {
+                targetElements.forEach(element => {
+                    element.classList.remove('animate_in');
+                    element.classList.add('animate_out');
+                });
+            } else {
+                targetElements.forEach(element => {
+                    element.classList.remove('animate_in');
+                    element.classList.add('animate_out');
+                });
+            }
+            drawStraightImage(context, -50, -50);
         }
-        requestAnimationFrame(() => updateImage())
-    });
-    preloadImages()
-});
+    };
 
+    drawInitialTimeline(!animationAssets.staticHidden);
 
-var initZoom = 7
-if (window.innerWidth < 800) {
-    initZoom = 6
+    if (animationAssets.scrollHandler) {
+        window.removeEventListener('scroll', animationAssets.scrollHandler);
+    }
+    if (animationAssets.reflowTimeout) {
+        clearTimeout(animationAssets.reflowTimeout);
+        animationAssets.reflowTimeout = null;
+    }
+
+    animationAssets.scrollHandler = () => {
+        requestAnimationFrame(() => {
+            const canvasPos = canvas.getBoundingClientRect().top;
+            const startScroll = window.innerHeight / 2;
+            updateImage(canvasPos, startScroll);
+        });
+    };
+
+    window.addEventListener('scroll', animationAssets.scrollHandler);
+    animationAssets.scrollHandler();
+    animationAssets.reflowTimeout = setTimeout(() => {
+        animationAssets.scrollHandler();
+        animationAssets.reflowTimeout = null;
+    }, 200);
 }
-const map = L.map('map', {
-    minZoom: (initZoom),
-    maxZoom: 9, scrollWheelZoom: false
-}).setView([45.495, 9.734], initZoom);
-L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-    attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
-}).addTo(map);
-var control = L.control.layers(null, null).addTo(map);
-// var marker = L.marker([46.529, 10.851], {
-//     title: "glacier"
-// }).addTo(map).on('click', function (e) { window.location.href = "#monaco"; })
 
-const imageUrl = './img/oldmap_modified_small.jpg';
-const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
-const altText = '';
-const latLngBounds = L.latLngBounds([[48.026926, 5.140054], [42.867, 14.429]]);
-const latLngBoundsZoom = L.latLngBounds([[48.426926, 4.650054], [42.459366, 14.914517]]);
-map.setMaxBounds(latLngBoundsZoom);
-const imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
-    opacity: 1,
-    errorOverlayUrl,
-    alt: altText,
-    interactive: true,
+function updateActiveTab(routeKey) {
+    const tabs = document.querySelectorAll('.route-tab');
+    tabs.forEach(tab => {
+        if (tab.dataset.route === routeKey) {
+            tab.classList.add('is-active');
+            tab.setAttribute('aria-selected', 'true');
+        } else {
+            tab.classList.remove('is-active');
+            tab.setAttribute('aria-selected', 'false');
+        }
+    });
+}
 
-}).addTo(map);
+function initRouteTabs() {
+    const tabs = document.querySelectorAll('.route-tab');
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            handleRouteSelection(tab.dataset.route);
+        });
+    });
+    updateActiveTab(activeRouteKey);
+}
 
-control.addOverlay(imageOverlay, "Historic Map")
+function handleRouteSelection(routeKey) {
+    if (!ROUTE_VARIANTS[routeKey] || routeKey === activeRouteKey) return;
+    console.log(`[Route] Switching route tab from ${activeRouteKey} to ${routeKey}`);
+    activeRouteKey = routeKey;
+    activeRouteData = ROUTE_VARIANTS[routeKey].data;
+    window.ROUTE_DATA = activeRouteData;
+    updateActiveTab(routeKey);
+    initRouteExperience();
+    loadRouteOnMap(ROUTE_VARIANTS[routeKey]);
 
-const url = './data/Ride_vklein.gpx';
-const options = {
-    markers: {
-        startIcon: './img/marker2.svg',
-        endIcon: './img/marker2.svg',
+    const modalWrapper = document.getElementById('modal_wrapper');
+    if (modalWrapper && modalWrapper.style.display === 'flex') {
+        closeModal();
+    }
+}
+
+function initRouteExperience() {
+    console.log('[Route] Initializing route experience', { activeRouteKey, days: activeRouteData?.days?.length });
+    renderRouteColumns();
+    setupCyclistAnimation();
+    currentPostcardIndex = 0;
+    updateArrowVisibility();
+    window.ROUTE_DATA = activeRouteData;
+}
+
+function startRouteExperience() {
+    console.log('[Route] Starting route experience bootstrap');
+    try {
+        initRouteTabs();
+        initRouteExperience();
+        initMap();
+        loadRouteOnMap(ROUTE_VARIANTS[activeRouteKey]);
+    } catch (error) {
+        console.error('[Route] Failed to bootstrap route experience', error);
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('[Route] DOMContentLoaded fired, initializing UI');
+        startRouteExperience();
+    });
+} else {
+    console.log('[Route] Document already loaded, initializing UI immediately');
+    startRouteExperience();
+}
 
 
-    },
-    marker_options: {
-        startIconUrl: './img/marker2.svg',
-        endIconUrl: './img/marker2.svg',
-        iconSize: [18, 22],
-        iconAnchor: [9, 22],
+function initMap() {
+    if (map) return;
+    console.log('[Route] Initializing Leaflet map');
+    if (typeof L === 'undefined') {
+        console.error('[Route] Leaflet library (L) is not available. Make sure leaflet.js is loaded before main.js.');
+        return;
+    }
+    let initZoom = window.innerWidth < 800 ? 6 : 7;
+    map = L.map('map', {
+        minZoom: initZoom,
+        maxZoom: 9,
+        scrollWheelZoom: false
+    }).setView([45.495, 9.734], initZoom);
 
-    },
+    L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+        attribution: '<a href="http://www.osm.org">OpenStreetMap</a>'
+    }).addTo(map);
 
-    async: true,
-    polyline_options: { color: 'black', dashArray: "15,5" },
-};
+    layerControl = L.control.layers(null, null).addTo(map);
 
-const gpx = new L.GPX(url, options).on('loaded', (e) => {
-    control.addOverlay(gpx, "Goodbye Glacier Ride");
-}).addTo(map);
+    const imageUrl = './img/oldmap_modified_small.jpg';
+    const errorOverlayUrl = 'https://cdn-icons-png.flaticon.com/512/110/110686.png';
+    const altText = '';
+    const latLngBounds = L.latLngBounds([[48.026926, 5.140054], [42.867, 14.429]]);
+    const latLngBoundsZoom = L.latLngBounds([[48.426926, 4.650054], [42.459366, 14.914517]]);
+    map.setMaxBounds(latLngBoundsZoom);
+    imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+        opacity: 1,
+        errorOverlayUrl,
+        alt: altText,
+        interactive: true
+    }).addTo(map);
 
-// Create layer groups for different waypoint types
-const passMarkers = L.layerGroup();
-const glacierMarkers = L.layerGroup();
-const dotMarkers = L.layerGroup();
+    layerControl.addOverlay(imageOverlay, 'Historic Map');
+}
 
-// Load waypoints from XML file
-fetch('./data/waypoints.xml')
-    .then(response => response.text())
-    .then(str => (new window.DOMParser()).parseFromString(str, "text/xml"))
-    .then(data => {
+function clearWaypointLayers() {
+    if (!map || !layerControl) return;
+    currentWaypointLayers.forEach(({ layer }) => {
+        map.removeLayer(layer);
+        layerControl.removeLayer(layer);
+    });
+    currentWaypointLayers = [];
+}
+
+function loadRouteOnMap(routeVariant) {
+    if (!map || !layerControl) return;
+    console.log('[Route] Loading map layers for', routeVariant?.key, routeVariant);
+    if (typeof L === 'undefined' || !L.GPX) {
+        console.error('[Route] Leaflet GPX plugin missing, cannot load route GPX');
+        return;
+    }
+
+    if (currentGpxLayer) {
+        map.removeLayer(currentGpxLayer);
+        layerControl.removeLayer(currentGpxLayer);
+        currentGpxLayer = null;
+    }
+
+    clearWaypointLayers();
+
+    const gpxOptions = buildGpxOptions();
+
+    currentGpxLayer = new L.GPX(routeVariant.gpx, gpxOptions)
+        .on('loaded', () => {
+            console.log(`[Route] GPX loaded for ${routeVariant.key}`);
+            layerControl.addOverlay(currentGpxLayer, routeVariant.mapLayerLabel);
+        })
+        .on('error', (err) => {
+            console.error(`[Route] Failed to load GPX for ${routeVariant.key} from ${routeVariant.gpx}`, err);
+        })
+        .addTo(map);
+
+    loadWaypoints(routeVariant.waypoints);
+}
+
+async function loadWaypoints(waypointsUrl) {
+    if (!map || !layerControl) return;
+    console.log(`[Route] Loading waypoints from ${waypointsUrl}`);
+
+    if (waypointFetchController) {
+        waypointFetchController.abort();
+    }
+    waypointFetchController = new AbortController();
+
+    try {
+        const response = await fetch(waypointsUrl, { signal: waypointFetchController.signal });
+        const text = await response.text();
+        const data = new window.DOMParser().parseFromString(text, 'text/xml');
         const waypoints = data.getElementsByTagName('wpt');
+
+        const passMarkers = L.layerGroup();
+        const glacierMarkers = L.layerGroup();
+        const dotMarkers = L.layerGroup();
 
         Array.from(waypoints).forEach(wpt => {
             const lat = parseFloat(wpt.getAttribute('lat'));
@@ -554,33 +776,30 @@ fetch('./data/waypoints.xml')
             const name = wpt.getElementsByTagName('name')[0].textContent;
             const type = wpt.getElementsByTagName('type')[0].textContent;
 
-
-            // Check for an image element and prepare the popup content
             const imgTag = wpt.getElementsByTagName('img')[0];
             let popupContent = name;
             if (imgTag) {
-                const imgUrl = imgTag.textContent.trim(); // Adjust if your XML stores the URL in an attribute
-                popupContent = `<img src="./img/${imgUrl}" alt="Image for ${name}" style="width:175px; height:auto;"><br>` + name;
+                const imgUrl = imgTag.textContent.trim();
+                popupContent = `<img src="${IMAGE_BASE_URL}${imgUrl}" alt="Image for ${name}" style="width:175px; height:auto;"><br>` + name;
             }
 
             const icon = L.icon({
                 iconUrl: getIconUrl(type),
-                iconSize: [18, 22],     // Match SVG viewBox dimensions
-                iconAnchor: [9, 22],   // Center horizontally (25/2) and place at bottom
-                popupAnchor: [0, -22]   // Place popup above the marker
+                iconSize: [18, 22],
+                iconAnchor: [9, 22],
+                popupAnchor: [0, -22]
             });
 
             const marker = L.marker([lat, lon], {
                 icon: icon,
                 title: name
             }).bindPopup(popupContent, {
-                className: 'custom-popup',  // Add a custom CSS class
-                closeButton: false,         // Hide the close button
-                autoClose: true,           // Close when another popup is opened
-                closeOnClick: true         // Close when clicking elsewhere on the map
+                className: 'custom-popup',
+                closeButton: false,
+                autoClose: true,
+                closeOnClick: true
             });
 
-            // Add marker to appropriate layer group
             switch (type) {
                 case 'pass':
                     passMarkers.addLayer(marker);
@@ -593,33 +812,51 @@ fetch('./data/waypoints.xml')
             }
         });
 
-        // Add layer groups to map and control
         passMarkers.addTo(map);
         glacierMarkers.addTo(map);
         dotMarkers.addTo(map);
 
-        control.addOverlay(passMarkers, "Mountain Passes");
-        control.addOverlay(glacierMarkers, "Glaciers");
-        control.addOverlay(dotMarkers, "Other Points");
-    });
+        const overlays = [
+            { layer: passMarkers, label: 'Mountain Passes' },
+            { layer: glacierMarkers, label: 'Glaciers' },
+            { layer: dotMarkers, label: 'Other Points' }
+        ];
+
+        overlays.forEach(({ layer, label }) => layerControl.addOverlay(layer, label));
+        currentWaypointLayers = overlays;
+        console.log(`[Route] Waypoints loaded: passes=${passMarkers.getLayers().length}, glaciers=${glacierMarkers.getLayers().length}, other=${dotMarkers.getLayers().length}`);
+    } catch (error) {
+        if (error.name === 'AbortError') {
+            return;
+        }
+        console.error('Failed to load waypoints:', error);
+    }
+}
+
+function buildGpxOptions() {
+    return JSON.parse(JSON.stringify(GPX_BASE_OPTIONS));
+}
 
 function getIconUrl(type) {
     switch (type) {
         case 'pass':
-            return './img/marker_pass.svg';
+            return ICON_URLS.pass;
         case 'glacier':
-            return './img/marker_glacier.svg';
+            return ICON_URLS.glacier;
         default:
-            return './img/marker2.svg';
+            return ICON_URLS.default;
     }
 }
 
-let currentPostcardIndex = 0;
-function openFirstPostcard() {
-    // Get postcards from ROUTE_DATA
-    const postcards = ROUTE_DATA.days
+
+function getActivePostcards() {
+    return activeRouteData.days
         .filter(day => day.postcard)
         .map(day => day.postcard);
+}
+
+function openFirstPostcard() {
+    const postcards = getActivePostcards();
 
     // Open the first postcard if available
     if (postcards && postcards.length > 0) {
@@ -627,9 +864,7 @@ function openFirstPostcard() {
     }
 }
 function navigateModal(direction) {
-    const postcards = ROUTE_DATA.days
-        .filter(day => day.postcard)
-        .map(day => day.postcard);
+    const postcards = getActivePostcards();
 
     if (direction === 'next' && currentPostcardIndex < postcards.length - 1) {
         currentPostcardIndex++;
@@ -643,12 +878,16 @@ function navigateModal(direction) {
 }
 
 function updateArrowVisibility() {
-    const postcards = ROUTE_DATA.days
-        .filter(day => day.postcard)
-        .map(day => day.postcard);
+    const postcards = getActivePostcards();
 
     const prevArrow = document.getElementById('modal_prev');
     const nextArrow = document.getElementById('modal_next');
+
+    if (!postcards.length) {
+        prevArrow.style.display = 'none';
+        nextArrow.style.display = 'none';
+        return;
+    }
 
     // Show/hide previous arrow
     prevArrow.style.display = currentPostcardIndex === 0 ? 'none' : 'flex';
@@ -660,10 +899,12 @@ function updateArrowVisibility() {
 function openPostcardModal(postcardId) {
     // Find the index of the postcard
 
-    const postcards = ROUTE_DATA.days
-        .filter(day => day.postcard)
-        .map(day => day.postcard);
+    const postcards = getActivePostcards();
+    if (!postcards.length) return;
     currentPostcardIndex = postcards.findIndex(p => p.id === postcardId);
+    if (currentPostcardIndex === -1) {
+        currentPostcardIndex = 0;
+    }
 
     // Helper function for ordinal numbers
     function getOrdinal(n, lang) {

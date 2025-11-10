@@ -89,7 +89,12 @@ class Translator {
   }
 
   _getValueFromJSON(key, json, fallback) {
-    var text = key.split(".").reduce((obj, i) => obj[i], json);
+    var text = key.split(".").reduce((obj, i) => {
+      if (obj === undefined || obj === null) {
+        return undefined;
+      }
+      return obj[i];
+    }, json);
     if (!text && this._options.defaultLanguage && fallback) {
       let fallbackTranslation = JSON.parse(
         this._cache.get(this._options.defaultLanguage)

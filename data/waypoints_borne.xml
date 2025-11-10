@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx>
+<wpt lon="10.821996370738262" lat="47.35893874199161">
+    <name>Fernpass - 1200m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+ <wpt lon="10.534450244809221" lat="46.8132021823893">
+    <name>Campanile di Curon</name>
+    <sym>Dot</sym>
+    <type>Dot</type>
+  </wpt>    
+  <wpt lon="10.451803465247735" lat="46.52971683046087">
+    <name>Passo di Stelvio - 2759m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+    <img>StelvioCard.jpg</img>
+  </wpt>
+  <wpt lon="10.390944028850813" lat="46.539939833266054">
+    <name>Bocchetta di Forcola - 2735m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="9.836945617142838" lat="46.58173965637579">
+    <name>Albulapass - 2307m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="8.67124835988211" lat="46.65936196710087">
+    <name>Oberalppass - 2040</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+    <img>OberalppassCard.jpg</img>
+  </wpt>
+  <wpt lon="8.414778650073224" lat="46.57277500717369">
+    <name>Furkapass - 2430m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+    <img>FurkaCard.jpg</img>
+  </wpt>
+  <wpt lon="8.086556351026942" lat="46.43299654027469">
+    <name>Aletsch Glacier - 2360m</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+    <img>aletsch_s.png</img>
+  </wpt>
+  <wpt lon="9.935964991237896" lat="46.423458057145666">
+    <name>Morteratsch Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+    <img>Morteratsch.jpg</img>
+  </wpt>
+  <wpt lon="8.38865268939065" lat="46.57904945959968">
+    <name>Rhône Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.748201740219449" lat="46.02382648456371">
+    <name>Zermatt</name>
+    <sym>Dot</sym>
+    <type>Dot</type>
+     <img>ZermattCard.jpg</img>
+  </wpt>
+  <wpt lon="7.578658000000011" lat="46.103594">
+    <name>Moiry Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.011889999999985" lat="46.02990999999999">
+    <name>Trient Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+    <img>TrientCard.jpg</img>
+  </wpt>
+  
+    
+</gpx>    
+  

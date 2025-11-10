@@ -22,7 +22,6 @@
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-    <script src="data/route-data.js" defer></script>
     <script type="module" src="js/main.js" defer></script>
 </head>
 
@@ -270,6 +269,11 @@
             <div class="section">
                 <div class="section_title">
                     <h2 data-i18n="route.h2">The Route</h2>
+                    <div class="route-tabs" role="tablist">
+                        <button class="route-tab" type="button" data-route="ride-yourself" aria-selected="true" data-i18n="route.tabs.rideYourself">Ride Yourself</button>
+                        <button class="route-tab" type="button" data-route="velo-tours" aria-selected="false" data-i18n="route.tabs.veloTours">Velo Tours</button>
+                        <button class="route-tab" type="button" data-route="borne-cycling" aria-selected="false" data-i18n="route.tabs.borneCycling">Borne Cycling</button>
+                    </div>
                 </div>
             </div>
             <div class="section">

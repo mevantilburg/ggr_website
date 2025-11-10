@@ -30,7 +30,12 @@
     "message": "Glaciers that covered mountains with ‘eternal’ snow are melting away. The less ice there is, the less water is available for human use - whether for drinking, hydropower or irrigation. To keep our planet livable, we need to protect our glaciers and stop climate change."
   },
   "route": {
-    "h2": "The Route"
+    "h2": "The Route",
+    "tabs": {
+      "rideYourself": "Ride Yourself",
+      "veloTours": "Velo Tours",
+      "borneCycling": "Borne Cycling"
+    }
   },
   "map": {
     "source": "The glaciers in the Alps have lost more than half their volume since this map was drawn in the 1930s."

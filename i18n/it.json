@@ -30,7 +30,12 @@
     "message": "I ghiacciai che ricoprivano le montagne di neve “eterna” si stanno sciogliendo. Meno ghiaccio c'è, meno acqua è disponibile per l'uso umano, sia per bere che per l'energia idroelettrica o l'irrigazione. Per mantenere il nostro pianeta vivibile, dobbiamo proteggere i ghiacciai e fermare il cambiamento climatico."
   },
   "route": {
-    "h2": "Il Percorso"
+    "h2": "Il Percorso",
+    "tabs": {
+      "rideYourself": "Pedala tu stesso",
+      "veloTours": "Velo Tours",
+      "borneCycling": "Borne Cycling"
+    }
   },
   "map": {
     "source": "I ghiacciai delle Alpi hanno perso più della metà del loro volume da quando questa mappa è stata realizzata negli anni '30."

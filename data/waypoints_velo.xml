@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx>
+
+  <wpt lon="6.91741299999999" lat="45.932107">
+    <name>Mer de Glace</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+      <img>MerDeGlaceCard.jpg</img>
+  </wpt>
+  <wpt lon="6.5333698673952645" lat="45.76146417042205">
+    <name>Col de Saisies - 1660m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="6.690157542693114" lat="45.69125498595285">
+    <name>Cormet de Roselend - 1974m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="7.030676307338264" lat="45.41725777339293">
+    <name>Col de l'Iseran - 2750m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+ <wpt lon="6.407975232393048" lat="45.063996034531534">
+    <name>Col du Galibier - 2642m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="6.444314002382225" lat="45.20254480936231">
+    <name>Col du Télégraphe - 1567m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="6.735011318741622" lat="44.81986326804929">
+    <name>Col d'Izoard - 2363m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="6.702448946732891" lat="44.539251809274724">
+    <name>Col de Vars - 2115m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="6.807150799953354" lat="44.321588609885644">
+    <name>Cime de la Bonette - 2802m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="7.223117106864123" lat="44.070971755010866">
+    <name>Col Saint-Martin - 1499</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="7.38193330210811" lat="43.97315911781427">
+    <name>Col de Turini - 1630m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+ <wpt lon="6.391422241844351" lat="44.943905718518394">
+    <name>Glacier Blanc</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="6.879827308192854" lat="45.41228668384758">
+    <name>La Grande Motte</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+<wpt lon="7.8189921026630005" lat="45.94093868769692">
+    <name>Gorner Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.626937496849111" lat="45.99432910459629">
+    <name>Zmutt Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.875257083985332" lat="45.99187857855146">
+    <name>Findel Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.46115378562803" lat="45.954691642492016">
+    <name>Otemma Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.278506080549905" lat="45.95507950790901">
+    <name>Glacier de Corbassière</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+    
+</gpx>    
+  

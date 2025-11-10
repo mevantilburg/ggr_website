@@ -30,7 +30,12 @@
     "message": "De gletsjers met 'eeuwige' sneeuw smelten weg. Hoe minder ijs er is, hoe minder water er beschikbaar is voor menselijk gebruik – of het nu gaat om drinken, waterkracht of irrigatie. Om onze planeet leefbaar te houden, moeten we onze gletsjers beschermen en klimaatverandering stoppen."
   },
   "route": {
-    "h2": "De Route"
+    "h2": "De Route",
+    "tabs": {
+      "rideYourself": "Rijd Zelf",
+      "veloTours": "Velo Tours",
+      "borneCycling": "Borne Cycling"
+    }
   },
   "map": {
     "source": "De gletsjers in de Alpen hebben meer dan de helft van hun volume verloren sinds deze kaart in de jaren 1930 is getekend."

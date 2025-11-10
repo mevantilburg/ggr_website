@@ -3,7 +3,7 @@ const ROUTE_DATA = {
         {
             id: 1,
             location: {
-                city: "Munich",
+                city: "Munich_velo",
                 country: "de"
             },
         

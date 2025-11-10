@@ -30,7 +30,12 @@
     "message": "Les glaciers qui recouvraient les montagnes de neige « éternelle » fondent. Moins il y a de glace, moins il y a d'eau disponible pour l'homme, que ce soit pour la boisson, l'énergie hydraulique ou l'irrigation. Pour que notre planète reste vivable, nous devons protéger nos glaciers et arrêter le changement climatique."
   },
   "route": {
-    "h2": "L'itinéraire"
+    "h2": "L'itinéraire",
+    "tabs": {
+      "rideYourself": "Roulez vous-même",
+      "veloTours": "Velo Tours",
+      "borneCycling": "Borne Cycling"
+    }
   },
   "map": {
     "source": "Les glaciers des Alpes ont perdu plus de la moitié de leur volume depuis que cette carte a été réalisée dans les années 1930."

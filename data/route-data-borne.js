@@ -3,7 +3,7 @@ const ROUTE_DATA = {
         {
             id: 1,
             location: {
-                city: "Munich",
+                city: "Munich_Borne",
                 country: "de"
             },
         
@@ -52,7 +52,7 @@ const ROUTE_DATA = {
         {
             id: 2,
             location: {
-                city: "Ehrwald",
+                city: "Ehrwald_Borne",
                 country: "at"
             },
           
@@ -101,7 +101,7 @@ const ROUTE_DATA = {
         {
             id: 3,
             location: {
-                city: "Sankt Valentin",
+                city: "Sankt Valentin_Borne",
                 country: "it"
             },
            
@@ -136,7 +136,7 @@ const ROUTE_DATA = {
         {
             id: 4,
             location: {
-                city: "Livigno",
+                city: "Livigno_Borne",
                 country: "it"
             },
           
@@ -192,7 +192,7 @@ const ROUTE_DATA = {
         {
             id: 5,
             location: {
-                city: "Thusis",
+                city: "Thusis_Borne",
                 country: "ch"
             },
           
@@ -225,7 +225,7 @@ const ROUTE_DATA = {
         {
             id: 6,
             location: {
-                city: "Andermatt",
+                city: "Andermatt_Borne",
                 country: "ch"
             },
           
@@ -282,7 +282,7 @@ const ROUTE_DATA = {
             id: 7,
            
             location: {
-                city: "Mörel-Filet",
+                city: "Mörel-Filet_Borne",
                 country: "ch"
             },
             stats: {
@@ -327,293 +327,9 @@ const ROUTE_DATA = {
             },
             accumulatedDistance: 682
         },
+       
         {
             id: 8,
-            location: {
-                city: "Zermatt",
-                country: "ch"
-            },
-         
-            stats: {
-                date: "Sept 5",
-                distance: 117,
-                elevation: 3050,
-                points: [
-                    { name: "Lac de Moiry", type: "place" },
-                    { name: "Moiry Glacier", type: "glacier" }
-                ]
-            },
-            postcard: {
-                id: "postcard8",
-                image: "img/cards/0.5x/zermatt@0.5x-50.jpg",
-                large_image: "img/cards/3x/zermatt@3x-50.jpg",
-                support_image: "img/Matterhorn.jpg",
-                support_image_source: "",
-                name: "Zermatt",
-                type: "location",
-                points: {
-                    en: [
-                      "Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1,620 meters.",
-                      "Known for its stunning alpine landscape, the town sits at the foot of the iconic Matterhorn and is surrounded by several peaks over 4,000 meters and multiple Glaciers."
-                    ],
-                    nl: [
-                      "Zermatt is een pittoresk bergdorp in het zuiden van Zwitserland, gelegen op een hoogte van 1.620 meter.",
-                      "Bekend om zijn adembenemende alpine landschap, ligt het dorp aan de voet van de iconische Matterhorn en wordt omgeven door meerdere pieken van meer dan 4.000 meter en talrijke gletsjers."
-                    ],
-                    de: [
-                      "Zermatt ist ein malerisches Bergdorf im Süden der Schweiz, eingebettet in eine Höhe von 1.620 Metern.",
-                      "Bekannt für seine atemberaubende Alpenlandschaft, liegt das Dorf am Fuße des ikonischen Matterhorns und ist von mehreren Gipfeln über 4.000 Metern und zahlreichen Gletschern umgeben."
-                    ],
-                    fr: [
-                      "Zermatt est un pittoresque village de montagne dans le sud de la Suisse, niché à une altitude de 1 620 mètres.",
-                      "Réputée pour son paysage alpin à couper le souffle, la ville se situe au pied de l'emblématique Cervin et est entourée de plusieurs sommets de plus de 4 000 mètres ainsi que de multiples glaciers."
-                    ],
-                    it: [
-                      "Zermatt è un pittoresco borgo di montagna nel sud della Svizzera, situato a un'altitudine di 1.620 metri.",
-                      "Conosciuta per il suo splendido paesaggio alpino, il paese si trova ai piedi dell'iconico Cervino ed è circondato da diverse cime superiori ai 4.000 metri e da numerosi ghiacciai."
-                    ]
-                  }
-                  
-            },
-            accumulatedDistance: 784
-        },
-        {
-            id: 9,
-            location: {
-                city: "Nax",
-                country: "ch"
-            },
-         
-            stats: {
-                date: "Sept 6",
-                distance: 116,
-                elevation: 3176,
-                points: [
-                    { name: "Col de la Forclaz", type: "pass" },
-                    { name: "Trient Glacier", type: "glacier" },
-                    { name: "Col des Montets", type: "pass" },
-                    { name: "Mer de Glace", type: "glacier" }
-                ]
-            },
-            postcard: {
-                id: "postcard9",
-                image: "img/cards/0.5x/trient@0.5x-50.jpg",
-                large_image: "img/cards/3x/trient@3x-50.jpg",
-                support_image: "img/Trient.jpg",
-                support_image_source: "",
-                name: "Trient Glacier",
-                type: "glacier",
-                stats: {
-                    size: 14,
-                    length: "4.4",
-                    surface: "5.5"
-                },
-                points: []
-            },
-            accumulatedDistance: 901
-        },
-        {
-            id: 10,
-            location: {
-                city: "Chamonix",
-                country: "fr"
-            },
-          
-            stats: {
-                date: "Sept 7",
-                distance: 127,
-                elevation: 2815,
-                points: [
-                    { name: "Bossons Glacier", type: "glacier" },
-                    { name: "Col des Saisies", type: "pass" },
-                    { name: "Cormet de Roselend", type: "pass" }
-                ]
-            },
-            postcard: {
-                id: "postcard10",
-                image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
-                large_image: "img/cards/3x/merdeglace@3x-50.jpg",
-                support_image: "img/MerdeGlace.jpg",
-                support_image_source: "",
-                name: "Mer de Glace",
-                type: "glacier",
-                stats: {
-                    size: 3,
-                    length: "11.5",
-                    surface: 28
-                },
-                points: {
-                    en: [
-                      "It's the largest glacier in France and the third of the Alps and up to 200 m thick"
-                    ],
-                    nl: [
-                      "Het is de grootste gletsjer in Frankrijk en de derde van de Alpen en is tot 200 m dik."
-                    ],
-                    de: [
-                      "Es ist der größte Gletscher in Frankreich und der drittgrößte der Alpen und bis zu 200 m dick."
-                    ],
-                    fr: [
-                      "C'est le plus grand glacier de France et le troisième des Alpes, avec une épaisseur pouvant atteindre 200 m."
-                    ],
-                    it: [
-                      "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
-                    ]
-                  }
-                  
-            },
-            accumulatedDistance: 1017
-        },
-        {
-            id: 11,
-            location: {
-                city: "Bourg St. Maurice",
-                country: "fr"
-            },
-           
-            stats: {
-                date: "Sept 8",
-                distance: 143,
-                elevation: 2778,
-                points: [
-                    { name: "Col de l'Iseran", type: "pass" },
-                    { name: "La Grande Motte", type: "glacier" }
-                ]
-            },
-            postcard: {
-                id: "postcard11",
-                image: "img/cards/0.5x/iseran@0.5x-50.jpg",
-                large_image: "img/cards/3x/iseran@3x-50.jpg",
-                support_image: "img/Iseran.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Col de l'Iseran",
-                type: "col",
-                stats: {
-                    distance: "47.4",
-                    elevation: "2,050",
-                    gradient: "4.3",
-                    steepest: "8.6"
-                },
-                points: []
-            },
-            accumulatedDistance: 1144
-        },
-        {
-            id: 12,
-            location: {
-                city: "St. Jean de Maurienne",
-                country: "fr"
-            },
-          
-            stats: {
-                date: "Sept 9",
-                distance: 136,
-                elevation: 3881,
-                points: [
-                    { name: "Col du Télégraphe", type: "pass" },
-                    { name: "Col du Galibier", type: "pass" },
-                    { name: "Glacier Blanc", type: "glacier" },
-                    { name: "Col d'Izoard", type: "pass" }
-                ]
-            },
-            postcard: {
-                id: "postcard12",
-                image: "img/cards/0.5x/galibier@0.5x-50.jpg",
-                large_image: "img/cards/3x/galibier@3x-50.jpg",
-                support_image: "img/col-du-galibier.png",
-                support_image_source: "source: climbfinder.com",
-                name: "Col du Galibier",
-                type: "col",
-                stats: {
-                    distance: "34.6",
-                    elevation: "2,085",
-                    gradient: "6",
-                    steepest: "10"
-                },
-                points: []
-            },
-            accumulatedDistance: 1287
-        },
-        {
-            id: 13,
-            location: {
-                city: "Guillestre",
-                country: "fr"
-            },
-        
-            stats: {
-                date: "Sept 10",
-                distance: 106,
-                elevation: 2856,
-                points: [
-                    { name: "Col de Vars", type: "pass" },
-                    { name: "Cime de la Bonette", type: "place" }
-                ]
-            },
-            postcard: {
-                id: "postcard13",
-                image: "img/cards/0.5x/bonette@0.5x-50.jpg",
-                large_image: "img/cards/3x/bonette@3x-50.jpg",
-                support_image: "img/CimeBonette.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Cime de la Bonette",
-                type: "col",
-                stats: {
-                    distance: "23.3",
-                    elevation: "1,590",
-                    gradient: "6.8",
-                    steepest: "14.1"
-                },
-                points: []
-            },
-            accumulatedDistance: 1423
-        },
-        {
-            id: 14,
-            location: {
-                city: "Isola",
-                country: "fr"
-            },
-           
-            stats: {
-                date: "Sept 11",
-                distance: 135,
-                elevation: 3035,
-                points: [
-                    { name: "Col Saint-Martin", type: "pass" },
-                    { name: "Col de Turini", type: "pass" },
-                    { name: "Col de l'Ablé", type: "pass" }
-                ]
-            },
-            postcard: {
-                id: "postcard15",
-                image: "img/cards/0.5x/monaco@0.5x-50.jpg",
-                large_image: "img/cards/3x/monaco@3x-50.jpg",
-                support_image: "img/Monaco Casino.jpg",
-                support_image_source: "",
-                name: "Monaco Casino",
-                type: "location",
-                points: {
-                    en: [
-                      "We gamble with our planet, what's your bet?"
-                    ],
-                    nl: [
-                      "We gokken met onze planeet, wat is jouw inzet?"
-                    ],
-                    de: [
-                      "Wir riskieren unseren Planeten, was ist dein Einsatz?"
-                    ],
-                    fr: [
-                      "Nous jouons avec notre planète, quel est ton pari?"
-                    ],
-                    it: [
-                      "Scommettiamo sul nostro pianeta, qual è la tua scommessa?"
-                    ]
-                  }
-            },
-            accumulatedDistance: 1529
-        },
-        {
-            id: 15,
             location: {
                 city: "Monaco Casino",
                 country: "mc"
@@ -840,223 +556,9 @@ const ROUTE_DATA_old = {
             },
             accumulatedDistance: 638
         },
+       
         {
             id: 8,
-            location: {
-                city: "Zermatt",
-                country: "ch"
-            },
-            stats: {
-                distance: 137,
-                elevation: 2660,
-                points: [
-                    "Lac de Moiry",
-                    "Moiry Glacier"
-                ]
-            },
-            postcard: {
-                id: "postcard8",
-                image: "img/ZermattCard.jpg",
-                large_image: "img/ZermattCard.jpg",
-                support_image: "img/Matterhorn.jpg",
-                support_image_source: "",
-                name: "Zermatt",
-                type: "location",
-                points: ["Zermatt is a picturesque mountain village in southern Switzerland, nestled at an elevation of 1.620 meters.",
-                        "Known for its stunning alpine landscape, the town sits at the foot of the iconic Matterhorn and is surrounded by several peaks over 4,000 meters and multiple Glaciers." ]
-            },
-            accumulatedDistance: 690
-        },
-        {
-            id: 9,
-            location: {
-                city: "Nax",
-                country: "ch"
-            },
-            stats: {
-                distance: 124,
-                elevation: 3030,
-                points: [
-                    "Col de la Forclaz",
-                    "Trient Glacier",
-                    "Col des Montets",
-                    "Mer de Glace"
-                ]
-            },
-            postcard: {
-                id: "postcard9",
-                image: "img/TrientCard.jpg",
-                large_image: "img/TrientCard.jpg",
-                support_image: "img/Trient.jpg",
-                support_image_source: "",
-                name: "Trient Glacier",
-                type: "glacier",
-                stats: {
-                    size: 14,
-                    length: "4,4",
-                    surface: "5,5"
-                },
-                points: []
-            },
-            accumulatedDistance: 862
-        },
-        {
-            id: 10,
-            location: {
-                city: "Chamonix",
-                country: "fr"
-            },
-            stats: {
-                distance: 117,
-                elevation: 2690,
-                points: [
-                    "Col des Saisies",
-                    "Cormet de Roselend"
-                ]
-            },
-            postcard: {
-                id: "postcard10",
-                image: "img/MerDeGlaceCard.jpg",
-                large_image: "img/MerDeGlaceCard.jpg",
-                support_image: "img/MerdeGlace.jpg",
-                support_image_source: "",
-                name: "Mer de Glace",
-                type: "glacier",
-                stats: {
-                    size: 3,
-                    length: "11,5",
-                    surface: 28
-                },
-                points: ["It's the largest glacier in France and the third of the Alps and up to 200 m thick"]
-            },
-            accumulatedDistance: 929
-        },
-        {
-            id: 11,
-            location: {
-                city: "Bourg St. Maurice",
-                country: "fr"
-            },
-            stats: {
-                distance: 125,
-                elevation: 2945,
-                points: [
-                    "Col de l'Iseran",
-                    "Col de Mont Cenis"
-                ]
-            },
-            postcard: {
-                id: "postcard11",
-                image: "img/IseranCard.jpeg",
-                large_image: "img/IseranCard.jpeg",
-                support_image: "img/Iseran.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Col de l'Iseran",
-                type: "col",
-                stats: {
-                    distance: "47,4",
-                    elevation: "2.050",
-                    gradient: "4,3",
-                    steepest: "8,6"
-                },
-                points: []
-            },
-            accumulatedDistance: 1046
-        },
-        {
-            id: 12,
-            location: {
-                city: "St. Michel de Maurienne",
-                country: "fr"
-            },
-            stats: {
-                distance: 110,
-                elevation: 3350,
-                points: [
-                    "Col du Télégraphe",
-                    "Col du Galibier",
-                    "Col d'Izoard"
-                ]
-            },
-            postcard: {
-                id: "postcard12",
-                image: "img/Galibier.jpg",
-                large_image: "img/Galibier.jpg",
-                support_image: "img/col-du-galibier.png",
-               support_image_source: "source: climbfinder.com",
-                name: "Col du Galibier",
-                type: "col",
-                stats: {
-                    distance: "34,6",
-                    elevation: "2.085",
-                    gradient: "6",
-                    steepest: "10"
-                },
-                points: []
-            },
-            accumulatedDistance: 1171
-        },
-        {
-            id: 13,
-            location: {
-                city: "Guillestre",
-                country: "fr"
-            },
-            stats: {
-                distance: 105,
-                elevation: 2700,
-                points: [
-                    "Col de Vars",
-                    "Cime de la Bonette"
-                ]
-            },
-            postcard: {
-                id: "postcard13",
-                image: "img/BonetteCard.jpg",
-                large_image: "img/BonetteCard.jpg",
-                support_image: "img/CimeBonette.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Cime de la Bonette",
-                type: "col",
-                stats: {
-                    distance: "23,3",
-                    elevation: "1.590",
-                    gradient: "6,8",
-                    steepest: "14,1"
-                },
-                points: []
-            },
-            accumulatedDistance: 1283
-        },
-        {
-            id: 14,
-            location: {
-                city: "Isola",
-                country: "fr"
-            },
-            stats: {
-                distance: 130,
-                elevation: 2620,
-                points: [
-                    "Col Saint-Martin",
-                    "Col de Turini",
-                    "Col de l'Ablé"
-                ]
-            },
-            postcard: {
-                id: "postcard15",
-                image: "img/MonacoCasinoCard.jpg",
-                large_image: "img/MonacoCasinoCard.jpg",
-                support_image: "img/Monaco Casino.jpg",
-                support_image_source: "",
-                name: "Monaco Casino",
-                type: "location",
-                points: ["We gamble with the liveability of our planet, what's your bet?"]
-            },
-            accumulatedDistance: 1388
-        },
-        {
-            id: 15,
             location: {
                 city: "Monaco Casino",
                 country: "mc"

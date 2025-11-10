@@ -30,7 +30,12 @@
     "message": "Die Gletscher, die die Berge mit „ewigem“ Schnee bedeckten, schmelzen ab. Je weniger Eis vorhanden ist, desto weniger Wasser steht für die menschliche Nutzung zur Verfügung - sei es zum Trinken, für Wasserkraft oder zur Bewässerung. Um unseren Planeten lebenswert zu erhalten, müssen wir unsere Gletscher schützen und den Klimawandel aufhalten."
   },
   "route": {
-    "h2": "Die Route"
+    "h2": "Die Route",
+    "tabs": {
+      "rideYourself": "Selbst fahren",
+      "veloTours": "Velo Tours",
+      "borneCycling": "Borne Cycling"
+    }
   },
   "map": {
     "source": "Die Gletscher in den Alpen haben seit der Erstellung dieser Karte in den 1930er Jahren mehr als die Hälfte ihres Volumens verloren."
