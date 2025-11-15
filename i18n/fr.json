@@ -23,6 +23,11 @@
     "p1": "Les glaciers jouent un rôle vital pour la vie sur Terre. Véritables réservoirs naturels, ils fournissent de l'eau douce à des milliards de personnes, qu'elles vivent en montagne ou dans les grandes métropoles. Leur fonte menace non seulement cet approvisionnement, mais aussi la production alimentaire qui en dépend.",
     "p2": "Cependant, les glaciers reculent à un rythme alarmant en raison du changement climatique. Cela menace les écosystèmes, les ressources en eau et les communautés humaines. La fonte des glaciers contribue de manière significative à l'élévation du niveau de la mer, posant des risques pour les communautés côtières et provoquant une intrusion d'eau salée dans les réserves d'eau douce."
   },
+   "2026": {
+   "h2": "Join The Ride in 2026",
+    "p1": "In 2026, the Glorious Glacier Ride will take place again. Cyclists from around the world will embark on this epic journey, experiencing the breathtaking beauty of the Alps while raising awareness about the urgent need to combat climate change.",
+    "p2": "There are 3 ways to take part in the ride. You can follow the route independently, join a guided tour with <a href=\"https://velotours.nl/\">VeloTours</a>, or  <a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a>."
+ },
   "slider": {
     "source": "Le Schlatenkees vers 1920-1940 (à gauche) et 2022. Source 1920 : Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
   },
@@ -33,7 +38,7 @@
     "h2": "L'itinéraire",
     "tabs": {
       "rideYourself": "Roulez vous-même",
-      "veloTours": "Velo Tours",
+      "veloTours": "VeloTours",
       "borneCycling": "Borne Cycling"
     }
   },

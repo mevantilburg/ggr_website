@@ -23,6 +23,11 @@
     "p1": "Gletsjers zijn essentieel voor het leven op aarde. Miljarden mensen – zowel in bergachtige gebieden als in grote steden – zijn afhankelijk van gletsjers voor drinkwater en voedselproductie. Gletsjers zijn onze natuurlijke waterreservoirs.",
     "p2": "Gletsjers krimpen echter met een alarmerend tempo als gevolg van klimaatverandering. Er valt minder sneeuw en door de hogere temperaturen smelt er jaarlijks meer ijs dan dat erbij komt. In de Alpen is dit goed zichtbaar: veel kleine gletsjers zijn al verdwenen."
   },
+   "2026": {
+  "h2": "Join The Ride in 2026",
+    "p1": "In 2026, the Glorious Glacier Ride will take place again. Cyclists from around the world will embark on this epic journey, experiencing the breathtaking beauty of the Alps while raising awareness about the urgent need to combat climate change.",
+    "p2": "There are 3 ways to take part in the ride. You can follow the route independently, join a guided tour with <a href=\"https://velotours.nl/\">VeloTours</a>, or  <a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a>."
+  },
   "slider": {
     "source": "De Schlatenkees circa 1920-1940 (links) en 2022. Bron 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
   },
@@ -33,7 +38,7 @@
     "h2": "De Route",
     "tabs": {
       "rideYourself": "Rijd Zelf",
-      "veloTours": "Velo Tours",
+      "veloTours": "VeloTours",
       "borneCycling": "Borne Cycling"
     }
   },
