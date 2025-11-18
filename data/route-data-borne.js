@@ -16,35 +16,35 @@ const ROUTE_DATA = {
                     { name: "Mont Blanc", type: "glacier" }
                 ]
             },
-            postcard: {
-                id: "postcard1",
-                image: "img/cards/0.5x/zugspitze@0.5x-50.jpg",
-                large_image: "img/cards/3x/zugspitze@3x-50.jpg",
-                support_image: "img/Zugspitze.jpg",
+        postcard: {
+                id: "postcard10",
+                image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
+                large_image: "img/cards/3x/merdeglace@3x-50.jpg",
+                support_image: "img/MerdeGlace.jpg",
                 support_image_source: "",
-                name: "Zugspitze",
-                type: "location",
+                name: "Mer de Glace",
+                type: "glacier",
+                stats: {
+                    size: 3,
+                    length: "11.5",
+                    surface: 28
+                },
                 points: {
-                        en: [
-                        "The highest mountain in Germany (2,962m), on the border with Austria, holds the two last glaciers in Germany.",
-                        "In 2022, the Südliche Schneeferner has lost its status as a glacier and is now dead ice. The Nördliche Schneeferner will also be completely melted in a few years."
-                        ],
-                        nl: [
-                        "De hoogste berg in Duitsland (2.962 m), aan de grens met Oostenrijk, herbergt de twee laatste gletsjers in Duitsland.",
-                        "In 2022 heeft de Zuidelijke Schneeferner haar status als gletsjer verloren en is nu dode ijs. De Noordelijke Schneeferner zal ook binnen enkele jaren volledig gesmolten zijn."
-                        ],
-                        de: [
-                        "Der höchste Berg in Deutschland (2.962 m), an der Grenze zu Österreich, beherbergt die beiden letzten Gletscher in Deutschland.",
-                        "Im Jahr 2022 hat der Südliche Schneeferner seinen Status als Gletscher verloren und ist nun Toteis. Der Nördliche Schneeferner wird in wenigen Jahren ebenfalls vollständig schmelzen."
-                        ],
-                        fr: [
-                        "La plus haute montagne d'Allemagne (2 962 m), à la frontière avec l'Autriche, abrite les deux derniers glaciers d'Allemagne.",
-                        "En 2022, le Südliche Schneeferner a perdu son statut de glacier et n'est plus qu'une glace morte. Le Nördliche Schneeferner fondra complètement dans quelques années."
-                        ],
-                        it: [
-                        "La montagna più alta della Germania (2.962 m), al confine con l'Austria, ospita gli ultimi due ghiacciai della Germania.",
-                        "Nel 2022, il Südliche Schneeferner ha perso il suo status di ghiacciaio ed è ora ghiaccio morto. Il Nördliche Schneeferner si sarà completamente sciolto anche tra qualche anno."
-                        ]
+                    en: [
+                      "It's the largest glacier in France and the third of the Alps and up to 200 m thick"
+                    ],
+                    nl: [
+                      "Het is de grootste gletsjer in Frankrijk en de derde van de Alpen en is tot 200 m dik."
+                    ],
+                    de: [
+                      "Es ist der größte Gletscher in Frankreich und der drittgrößte der Alpen und bis zu 200 m dick."
+                    ],
+                    fr: [
+                      "C'est le plus grand glacier de France et le troisième des Alpes, avec une épaisseur pouvant atteindre 200 m."
+                    ],
+                    it: [
+                      "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
+                    ]
                     }
             },
             accumulatedDistance: 0
@@ -68,35 +68,19 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard2",
-                image: "img/cards/0.5x/fernpass@0.5x-50.jpg",
-                large_image: "img/cards/3x/fernpass@3x-50.jpg",
-                support_image: "img/Curon.jpg",
+                id: "postcard9",
+                image: "img/cards/0.5x/trient@0.5x-50.jpg",
+                large_image: "img/cards/3x/trient@3x-50.jpg",
+                support_image: "img/Trient.jpg",
                 support_image_source: "",
-                name: "Campanile di Curon",
-                type: "location",
-                points: {
-                    en: [
-                      "In 1950 the village of Curon was moved due to the construction of a hydropower dam, that joined the lakes of Resia and Curon.",
-                      "The 700 year old bell tower is the remainder of the old village of Curon."
-                    ],
-                    nl: [
-                      "In 1950 werd het dorp Curon verplaatst vanwege de bouw van een waterkrachtdam, die de meren Resia en Curon met elkaar verbond.",
-                      "De 700 jaar oude klokkentoren is het overblijfsel van het oude dorp Curon."
-                    ],
-                    de: [
-                      "Im Jahr 1950 wurde das Dorf Curon aufgrund des Baus eines Wasserkraftdamms verlegt, der die Seen Resia und Curon miteinander verband.",
-                      "Der 700 Jahre alte Glockenturm ist der Überrest des alten Dorfes Curon."
-                    ],
-                    fr: [
-                      "En 1950, le village de Curon a été déplacé en raison de la construction d'un barrage hydroélectrique, qui a relié les lacs de Resia et de Curon.",
-                      "Le clocher vieux de 700 ans est le vestige de l'ancien village de Curon."
-                    ],
-                    it: [
-                      "Nel 1950 il villaggio di Curon fu spostato a causa della costruzione di una diga idroelettrica, che ha unito i laghi di Resia e Curon.",
-                      "Il campanile di 700 anni è il resto dell'antico villaggio di Curon."
-                    ]
-                  }
+                name: "Trient Glacier",
+                type: "glacier",
+                stats: {
+                    size: 14,
+                    length: "4.4",
+                    surface: "5.5"
+                },
+                points: []    
             },
             accumulatedDistance: 30
         },
@@ -118,22 +102,40 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard3",
-                image: "img/cards/0.5x/stelvio@0.5x-50.jpg",
-                large_image: "img/cards/3x/stelvio@3x-50.jpg",
-                support_image: "img/Stelvio.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Passo dello Stelvio",
-                type: "col",
+                id: "postcard6",
+                image: "img/cards/0.5x/rhone@0.5x-50.jpg",
+                large_image: "img/cards/3x/rhone@3x-50.jpg",
+                support_image: "img/RhoneGlacier.jpeg",
+                support_image_source: "",
+                name: "Rhône Glacier",
+                type: "glacier",
                 stats: {
-                    distance: "24.9",
-                    elevation: "1,846",
-                    gradient: "7.4",
-                    steepest: "10.3"
+                    size: 8,
+                    length: 8,
+                    surface: 17
                 },
-                points: []
-            },
-            accumulatedDistance: 151
+                points: {
+                    en: [
+                      "Primary source of water for the Rhone River.",
+                      "One of the most extensively studied glaciers, providing valuable data on climate change and glacial dynamics."
+                    ],
+                    nl: [
+                      "Belangrijkste waterbron voor de Rhône.",
+                      "Een van de meest uitgebreid onderzochte gletsjers, die waardevolle gegevens levert over klimaatverandering en de dynamiek van gletsjers."
+                    ],
+                    de: [
+                      "Primäre Wasserquelle für den Rhône.",
+                      "Einer der am intensivsten untersuchten Gletscher, der wertvolle Daten über den Klimawandel und Gletscherdynamik liefert."
+                    ],
+                    fr: [
+                      "Source principale d'eau pour le Rhône.",
+                      "L'un des glaciers les plus étudiés en profondeur, fournissant des données précieuses sur le changement climatique et la dynamique glaciaire."
+                    ],
+                    it: [
+                      "Fonte principale d'acqua per il fiume Rodano.",
+                      "Uno dei ghiacciai più studiati in maniera approfondita, che fornisce dati preziosi sul cambiamento climatico e sulla dinamica dei ghiacciai."
+                    ]
+                  }
         },
         {
             id: 4,
