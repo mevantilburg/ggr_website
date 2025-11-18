@@ -225,7 +225,7 @@ const ROUTE_DATA = {
         {
             id: 6,
             location: {
-                city: "Pontersina",
+                city: "Pontresina",
                 country: "ch"
             },
           
