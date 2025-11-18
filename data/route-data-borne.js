@@ -17,7 +17,7 @@ const ROUTE_DATA = {
                 ]
             },
         postcard: {
-                id: "postcard10",
+                id: "postcard1",
                 image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
                 large_image: "img/cards/3x/merdeglace@3x-50.jpg",
                 support_image: "img/MerdeGlace.jpg",
@@ -68,7 +68,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard9",
+                id: "postcard2",
                 image: "img/cards/0.5x/trient@0.5x-50.jpg",
                 large_image: "img/cards/3x/trient@3x-50.jpg",
                 support_image: "img/Trient.jpg",
@@ -102,7 +102,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard6",
+                id: "postcard3",
                 image: "img/cards/0.5x/rhone@0.5x-50.jpg",
                 large_image: "img/cards/3x/rhone@3x-50.jpg",
                 support_image: "img/RhoneGlacier.jpeg",
@@ -152,8 +152,42 @@ const ROUTE_DATA = {
                     { name: "Oberalppass", type: "pass" }
                 ]
             },
-            postcard: {
+           postcard: {
                 id: "postcard4",
+                image: "img/cards/0.5x/oberalppass@0.5x-50.jpg",
+                large_image: "img/cards/3x/oberalppass@3x-50.jpg",
+                support_image: "img/Oberalppass.jpg",
+                support_image_source: "source: climbfinder.com",
+                name: "Oberalppass",
+                type: "col",
+                stats: {
+                    distance: "20.8",
+                    elevation: 906,
+                    gradient: "4.3",
+                    steepest: "9.4"
+                },
+                points: []
+            },
+            accumulatedDistance: 239
+        },
+        {
+            id: 5,
+            location: {
+                city: "Thusis",
+                country: "ch"
+            },
+          
+            stats: {
+                date: "Aug 27",
+                distance: 70,
+                elevation: 2120,
+                points: [
+                    { name: "Albulapass", type: "pass" },
+                    { name: "Morteratsch Glacier", type: "glacier" }
+                ]
+            },
+            postcard: {
+                id: "postcard5",
                 image: "img/cards/0.5x/morteratsch@0.5x-50.jpg",
                 large_image: "img/cards/3x/morteratsch@3x-50.jpg",
                 support_image: "img/Morteratsch.jpg",
@@ -187,40 +221,6 @@ const ROUTE_DATA = {
                       "Si prevede che il sesto ghiacciaio più grande sarà scomparso entro il 2100."
                     ]
                   }
-            },
-            accumulatedDistance: 239
-        },
-        {
-            id: 5,
-            location: {
-                city: "Thusis",
-                country: "ch"
-            },
-          
-            stats: {
-                date: "Aug 27",
-                distance: 70,
-                elevation: 2120,
-                points: [
-                    { name: "Albulapass", type: "pass" },
-                    { name: "Morteratsch Glacier", type: "glacier" }
-                ]
-            },
-            postcard: {
-                id: "postcard5",
-                image: "img/cards/0.5x/oberalppass@0.5x-50.jpg",
-                large_image: "img/cards/3x/oberalppass@3x-50.jpg",
-                support_image: "img/Oberalppass.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Oberalppass",
-                type: "col",
-                stats: {
-                    distance: "20.8",
-                    elevation: 906,
-                    gradient: "4.3",
-                    steepest: "9.4"
-                },
-                points: []
             },
             accumulatedDistance: 336
         },
@@ -297,37 +297,21 @@ const ROUTE_DATA = {
                     { name: "Passo di Stelvio", type: "pass" }
                 ]
             },
-            postcard: {
+             postcard: {
                 id: "postcard7",
-                image: "img/cards/0.5x/aletsch@0.5x-50.jpg",
-                large_image: "img/cards/3x/aletsch@3x-50.jpg",
-                support_image: "img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg",
-                support_image_source: "",
-                name: "Aletsch Glacier",
-                type: "glacier",
+                image: "img/cards/0.5x/stelvio@0.5x-50.jpg",
+                large_image: "img/cards/3x/stelvio@3x-50.jpg",
+                support_image: "img/Stelvio.jpg",
+                support_image_source: "source: climbfinder.com",
+                name: "Passo dello Stelvio",
+                type: "col",
                 stats: {
-                    size: 1,
-                    length: 20,
-                    surface: 78
+                    distance: "24.9",
+                    elevation: "1,846",
+                    gradient: "7.4",
+                    steepest: "10.3"
                 },
-                points: {
-                    en: [
-                      "The glacier lost 12% of its volume between 2016 and 2021"
-                    ],
-                    nl: [
-                      "De gletsjer verloor tussen 2016 en 2021 12% van zijn volume."
-                    ],
-                    de: [
-                      "Der Gletscher hat zwischen 2016 und 2021 12% seines Volumens verloren."
-                    ],
-                    fr: [
-                      "Le glacier a perdu 12% de son volume entre 2016 et 2021."
-                    ],
-                    it: [
-                      "Il ghiacciaio ha perso il 12% del suo volume tra il 2016 e il 2021."
-                    ]
-                  }
-                  
+                points: []
             },
             accumulatedDistance: 478
         },
