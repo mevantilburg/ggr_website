@@ -3,17 +3,17 @@ const ROUTE_DATA = {
         {
             id: 1,
             location: {
-                city: "Munich_Borne",
-                country: "de"
+                city: "Chamonix",
+                country: "fr"
             },
         
             stats: {
-                date: "Aug 28",
-                distance: 127,
-                elevation: 1360,
+                date: "Aug 23",
+                distance: 30,
+                elevation: 700,
                 points: [
-                    { name: "Garmisch-Partenkirchen", type: "place" },
-                    { name: "Zugspitze", type: "place" }
+                    { name: "Bossons Glacier", type: "glacier" },
+                    { name: "Mont Blanc", type: "glacier" }
                 ]
             },
             postcard: {
@@ -52,17 +52,19 @@ const ROUTE_DATA = {
         {
             id: 2,
             location: {
-                city: "Ehrwald_Borne",
-                country: "at"
+                city: "Chamonix",
+                country: "fr"
             },
           
             stats: {
-                date: "Aug 29",
-                distance: 113,
-                elevation: 2025,
+                date: "Aug 24",
+                distance: 121,
+                elevation: 1670,
                 points: [
-                    { name: "Fernpass", type: "pass" },
-                    { name: "Campanile di Curon", type: "place" }
+                    { name: "Col des Montets", type: "pass" },
+                    { name: "Trient Glacier", type: "glacier" },
+                    { name: "Col de Forclaz", type: "pass" },
+                    { name: "Martigny", type: "place" }
                 ]
             },
             postcard: {
@@ -96,23 +98,23 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 127
+            accumulatedDistance: 30
         },
         {
             id: 3,
             location: {
-                city: "Sankt Valentin_Borne",
-                country: "it"
+                city: "Visp",
+                country: "ch"
             },
            
             stats: {
-                date: "Aug 30",
-                distance: 106,
-                elevation: 3365,
+                date: "Aug 25",
+                distance: 88,
+                elevation: 2030,
                 points: [
-                    { name: "Passo dello Stelvio", type: "pass" },
-                    { name: "Passo di Valle Alpisella", type: "pass" },
-                    { name: "Madatsch Glacier", type: "glacier" }
+                    { name: "Rhône Glacier", type: "glacier" },
+                    { name: "Furkapass", type: "pass" },
+                    { name: "Rhône river bike path", type: "place" }
                 ]
             },
             postcard: {
@@ -131,24 +133,21 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 240
+            accumulatedDistance: 151
         },
         {
             id: 4,
             location: {
-                city: "Livigno_Borne",
-                country: "it"
+                city: "Andermatt",
+                country: "ch"
             },
           
             stats: {
-                date: "Aug 31",
-                distance: 111,
-                elevation: 2002,
+                date: "Aug 26",
+                distance: 97,
+                elevation: 1130,
                 points: [
-                    { name: "Passo Forcola di Livigno", type: "pass" },
-                    { name: "Passo Bernina", type: "pass" },
-                    { name: "Morteratsch Glacier", type: "glacier" },
-                    { name: "Albulapass", type: "pass" }
+                    { name: "Oberalppass", type: "pass" }
                 ]
             },
             postcard: {
@@ -187,21 +186,22 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 346
+            accumulatedDistance: 239
         },
         {
             id: 5,
             location: {
-                city: "Thusis_Borne",
+                city: "Thusis",
                 country: "ch"
             },
           
             stats: {
-                date: "Sept 1",
-                distance: 110,
-                elevation: 2640,
+                date: "Aug 27",
+                distance: 70,
+                elevation: 2120,
                 points: [
-                    { name: "Oberalppass", type: "pass" }
+                    { name: "Albulapass", type: "pass" },
+                    { name: "Morteratsch Glacier", type: "glacier" }
                 ]
             },
             postcard: {
@@ -220,24 +220,24 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 457
+            accumulatedDistance: 336
         },
         {
             id: 6,
             location: {
-                city: "Andermatt_Borne",
+                city: "Pontersina",
                 country: "ch"
             },
           
             stats: {
-                date: "Sept 2",
-                distance: 115,
-                elevation: 3499,
+                date: "Aug 28",
+                distance: 72,
+                elevation: 1460,
                 points: [
-                    { name: "Furkapass", type: "pass" },
-                    { name: "Rhône Glacier", type: "glacier" },
-                    { name: "Hotel Belvedere", type: "place" },
-                    { name: "Aletsch Glacier", type: "glacier" }
+                    { name: "Per Glacier", type: "glacier" },
+                    { name: "Diavolezza station", type: "place" },
+                    { name: "Berninapass", type: "pass" },
+                    { name: "Passo Foscagno", type: "pass" }
                 ]
             },
             postcard: {
@@ -276,21 +276,23 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 567
+            accumulatedDistance: 406
         },
         {
             id: 7,
            
             location: {
-                city: "Mörel-Filet_Borne",
-                country: "ch"
+                city: "Bormio",
+                country: "it"
             },
             stats: {
-                date: "Sept 3",
-                distance: 102,
-                elevation: 1335,
+                date: "Aug 29",
+                distance: 100,
+                elevation: 3320,
                 points: [
-                    { name: "Glacier Valley", type: "glacier" }
+                    { name: "Stelvio glacier", type: "glacier" },
+                    { name: "Umbrailpass", type: "pass" },
+                    { name: "Passo di Stelvio", type: "pass" }
                 ]
             },
             postcard: {
@@ -325,16 +327,16 @@ const ROUTE_DATA = {
                   }
                   
             },
-            accumulatedDistance: 682
+            accumulatedDistance: 478
         },
        
         {
             id: 8,
             location: {
-                city: "Monaco Casino",
-                country: "mc"
+                city: "Bormio",
+                country: "it"
             },
-            accumulatedDistance: 1664
+            accumulatedDistance: 578
         }
     ]
 };
