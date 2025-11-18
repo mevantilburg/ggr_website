@@ -168,6 +168,7 @@ const ROUTE_DATA = {
                     steepest: "9.4"
                 },
                 points: []
+            }
             },
             accumulatedDistance: 239
         },
