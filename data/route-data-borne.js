@@ -16,7 +16,7 @@ const ROUTE_DATA = {
                     { name: "Mont Blanc", type: "glacier" }
                 ]
             },
-        postcard: {
+            postcard: {
                 id: "postcard1",
                 image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
                 large_image: "img/cards/3x/merdeglace@3x-50.jpg",
@@ -135,8 +135,8 @@ const ROUTE_DATA = {
                       "Fonte principale d'acqua per il fiume Rodano.",
                       "Uno dei ghiacciai più studiati in maniera approfondita, che fornisce dati preziosi sul cambiamento climatico e sulla dinamica dei ghiacciai."
                     ]
-                  }
-        },
+                }
+            },
                 accumulatedDistance: 120
         },
         {
@@ -314,7 +314,6 @@ const ROUTE_DATA = {
                     steepest: "10.3"
                 },
                 points: []
-             }
             },
             accumulatedDistance: 478
         },
