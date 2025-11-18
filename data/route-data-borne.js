@@ -80,7 +80,8 @@ const ROUTE_DATA = {
                     length: "4.4",
                     surface: "5.5"
                 },
-                points: []    
+                points: [] 
+            }
             },
             accumulatedDistance: 30
         },
