@@ -81,7 +81,6 @@ const ROUTE_DATA = {
                     surface: "5.5"
                 },
                 points: [] 
-            }
             },
             accumulatedDistance: 30
         },
@@ -138,6 +137,8 @@ const ROUTE_DATA = {
                     ]
                   }
         },
+                accumulatedDistance: 120
+        },
         {
             id: 4,
             location: {
@@ -168,7 +169,6 @@ const ROUTE_DATA = {
                     steepest: "9.4"
                 },
                 points: []
-            }
             },
             accumulatedDistance: 239
         },
