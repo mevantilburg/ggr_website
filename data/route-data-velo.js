@@ -341,7 +341,7 @@ const ROUTE_DATA = {
                 city: "Chamonix",
                 country: "fr"
         },
-            accumulatedDistance: 700            
+            accumulatedDistance: 734            
         }
     ]
 };
