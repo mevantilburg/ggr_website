@@ -227,7 +227,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 446
+            accumulatedDistance: 442
         },
         {
             id: 6,
@@ -281,7 +281,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 541
+            accumulatedDistance: 547
         },
         {
             id: 7,
@@ -332,7 +332,7 @@ const ROUTE_DATA = {
                     ]
                   }         
             },
-            accumulatedDistance: 637
+            accumulatedDistance: 642
         },
         {
             id: 8,
@@ -340,7 +340,7 @@ const ROUTE_DATA = {
                 city: "Chamonix",
                 country: "fr"
         },
-            accumulatedDistance: 734            
+            accumulatedDistance: 738            
         }
     ]
 };
