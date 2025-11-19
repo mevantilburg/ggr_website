@@ -172,7 +172,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 332
+            accumulatedDistance: 341
         },
         {
             id: 5,
@@ -227,7 +227,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 437
+            accumulatedDistance: 446
         },
         {
             id: 6,
@@ -281,7 +281,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 532
+            accumulatedDistance: 541
         },
         {
             id: 7,
@@ -333,7 +333,7 @@ const ROUTE_DATA = {
                   }
                   
             },
-            accumulatedDistance: 628
+            accumulatedDistance: 637
         },
         {
             id: 8,
