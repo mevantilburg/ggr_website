@@ -17,57 +17,6 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard1",
-                image: "img/cards/0.5x/zugspitze@0.5x-50.jpg",
-                large_image: "img/cards/3x/zugspitze@3x-50.jpg",
-                support_image: "img/Zugspitze.jpg",
-                support_image_source: "",
-                name: "Zugspitze",
-                type: "location",
-                points: {
-                        en: [
-                        "The highest mountain in Germany (2,962m), on the border with Austria, holds the two last glaciers in Germany.",
-                        "In 2022, the Südliche Schneeferner has lost its status as a glacier and is now dead ice. The Nördliche Schneeferner will also be completely melted in a few years."
-                        ],
-                        nl: [
-                        "De hoogste berg in Duitsland (2.962 m), aan de grens met Oostenrijk, herbergt de twee laatste gletsjers in Duitsland.",
-                        "In 2022 heeft de Zuidelijke Schneeferner haar status als gletsjer verloren en is nu dode ijs. De Noordelijke Schneeferner zal ook binnen enkele jaren volledig gesmolten zijn."
-                        ],
-                        de: [
-                        "Der höchste Berg in Deutschland (2.962 m), an der Grenze zu Österreich, beherbergt die beiden letzten Gletscher in Deutschland.",
-                        "Im Jahr 2022 hat der Südliche Schneeferner seinen Status als Gletscher verloren und ist nun Toteis. Der Nördliche Schneeferner wird in wenigen Jahren ebenfalls vollständig schmelzen."
-                        ],
-                        fr: [
-                        "La plus haute montagne d'Allemagne (2 962 m), à la frontière avec l'Autriche, abrite les deux derniers glaciers d'Allemagne.",
-                        "En 2022, le Südliche Schneeferner a perdu son statut de glacier et n'est plus qu'une glace morte. Le Nördliche Schneeferner fondra complètement dans quelques années."
-                        ],
-                        it: [
-                        "La montagna più alta della Germania (2.962 m), al confine con l'Austria, ospita gli ultimi due ghiacciai della Germania.",
-                        "Nel 2022, il Südliche Schneeferner ha perso il suo status di ghiacciaio ed è ora ghiaccio morto. Il Nördliche Schneeferner si sarà completamente sciolto anche tra qualche anno."
-                        ]
-                    }
-            },
-            accumulatedDistance: 0
-        },
-        {
-            id: 2,
-            location: {
-                city: "Reschen",
-                country: "it"
-            },
-          
-            stats: {
-                date: "Aug 29",
-                distance: 106,
-                elevation: 3100,
-                points: [
-                    { name: "Madatsch Glacier", type: "glacier" },
-                    { name: "Passo di Stelvio", type: "pass" },
-                    { name: "Passo Foscagno", type: "pass" },
-                    { name: "Passo d’Eira", type: "pass"}
-                ]
-            },
-            postcard: {
                 id: "postcard2",
                 image: "img/cards/0.5x/fernpass@0.5x-50.jpg",
                 large_image: "img/cards/3x/fernpass@3x-50.jpg",
@@ -98,24 +47,24 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 127
+            accumulatedDistance: 0
         },
         {
-            id: 3,
+            id: 2,
             location: {
-                city: "Livigno",
+                city: "Reschen",
                 country: "it"
             },
-           
+          
             stats: {
-                date: "Aug 30",
-                distance: 110,
-                elevation: 2000,
+                date: "Aug 29",
+                distance: 106,
+                elevation: 3100,
                 points: [
-                    { name: "Passo Forcola di Livigno", type: "pass" },
-                    { name: "Passo Bernina", type: "pass" },
-                    { name: "Morteratsch Glacier", type: "glacier" },
-                    { name: "Albulapass", type: "pass" }
+                    { name: "Madatsch Glacier", type: "glacier" },
+                    { name: "Passo di Stelvio", type: "pass" },
+                    { name: "Passo Foscagno", type: "pass" },
+                    { name: "Passo d’Eira", type: "pass"}
                 ]
             },
             postcard: {
@@ -134,21 +83,24 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 240
+            accumulatedDistance: 125
         },
         {
-            id: 4,
+            id: 3,
             location: {
-                city: "Thusis",
-                country: "ch"
+                city: "Livigno",
+                country: "it"
             },
-          
+           
             stats: {
-                date: "Aug 31",
-                distance: 101,
-                elevation: 2500,
+                date: "Aug 30",
+                distance: 110,
+                elevation: 2000,
                 points: [
-                  { name: "Oberalppass", type: "pass" }
+                    { name: "Passo Forcola di Livigno", type: "pass" },
+                    { name: "Passo Bernina", type: "pass" },
+                    { name: "Morteratsch Glacier", type: "glacier" },
+                    { name: "Albulapass", type: "pass" }
                 ]
             },
             postcard: {
@@ -187,7 +139,40 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 346
+            accumulatedDistance: 231
+        },
+        {
+            id: 4,
+            location: {
+                city: "Thusis",
+                country: "ch"
+            },
+          
+            stats: {
+                date: "Aug 31",
+                distance: 101,
+                elevation: 2500,
+                points: [
+                  { name: "Oberalppass", type: "pass" }
+                ]
+            },
+            postcard: {
+                id: "postcard5",
+                image: "img/cards/0.5x/oberalppass@0.5x-50.jpg",
+                large_image: "img/cards/3x/oberalppass@3x-50.jpg",
+                support_image: "img/Oberalppass.jpg",
+                support_image_source: "source: climbfinder.com",
+                name: "Oberalppass",
+                type: "col",
+                stats: {
+                    distance: "20.8",
+                    elevation: 906,
+                    gradient: "4.3",
+                    steepest: "9.4"
+                },
+                points: []
+            },
+            accumulatedDistance: 332
         },
         {
             id: 5,
@@ -207,22 +192,42 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard5",
-                image: "img/cards/0.5x/oberalppass@0.5x-50.jpg",
-                large_image: "img/cards/3x/oberalppass@3x-50.jpg",
-                support_image: "img/Oberalppass.jpg",
-                support_image_source: "source: climbfinder.com",
-                name: "Oberalppass",
-                type: "col",
+                id: "postcard6",
+                image: "img/cards/0.5x/rhone@0.5x-50.jpg",
+                large_image: "img/cards/3x/rhone@3x-50.jpg",
+                support_image: "img/RhoneGlacier.jpeg",
+                support_image_source: "",
+                name: "Rhône Glacier",
+                type: "glacier",
                 stats: {
-                    distance: "20.8",
-                    elevation: 906,
-                    gradient: "4.3",
-                    steepest: "9.4"
+                    size: 8,
+                    length: 8,
+                    surface: 17
                 },
-                points: []
+                points: {
+                    en: [
+                      "Primary source of water for the Rhone River.",
+                      "One of the most extensively studied glaciers, providing valuable data on climate change and glacial dynamics."
+                    ],
+                    nl: [
+                      "Belangrijkste waterbron voor de Rhône.",
+                      "Een van de meest uitgebreid onderzochte gletsjers, die waardevolle gegevens levert over klimaatverandering en de dynamiek van gletsjers."
+                    ],
+                    de: [
+                      "Primäre Wasserquelle für den Rhône.",
+                      "Einer der am intensivsten untersuchten Gletscher, der wertvolle Daten über den Klimawandel und Gletscherdynamik liefert."
+                    ],
+                    fr: [
+                      "Source principale d'eau pour le Rhône.",
+                      "L'un des glaciers les plus étudiés en profondeur, fournissant des données précieuses sur le changement climatique et la dynamique glaciaire."
+                    ],
+                    it: [
+                      "Fonte principale d'acqua per il fiume Rodano.",
+                      "Uno dei ghiacciai più studiati in maniera approfondita, che fornisce dati preziosi sul cambiamento climatico e sulla dinamica dei ghiacciai."
+                    ]
+                  }
             },
-            accumulatedDistance: 457
+            accumulatedDistance: 437
         },
         {
             id: 6,
@@ -276,7 +281,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 567
+            accumulatedDistance: 532
         },
         {
             id: 7,
@@ -297,38 +302,38 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard7",
-                image: "img/cards/0.5x/aletsch@0.5x-50.jpg",
-                large_image: "img/cards/3x/aletsch@3x-50.jpg",
-                support_image: "img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg",
+                id: "postcard10",
+                image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
+                large_image: "img/cards/3x/merdeglace@3x-50.jpg",
+                support_image: "img/MerdeGlace.jpg",
                 support_image_source: "",
-                name: "Aletsch Glacier",
+                name: "Mer de Glace",
                 type: "glacier",
                 stats: {
-                    size: 1,
-                    length: 20,
-                    surface: 78
+                    size: 3,
+                    length: "11.5",
+                    surface: 28
                 },
                 points: {
                     en: [
-                      "The glacier lost 12% of its volume between 2016 and 2021"
+                      "It's the largest glacier in France and the third of the Alps and up to 200 m thick"
                     ],
                     nl: [
-                      "De gletsjer verloor tussen 2016 en 2021 12% van zijn volume."
+                      "Het is de grootste gletsjer in Frankrijk en de derde van de Alpen en is tot 200 m dik."
                     ],
                     de: [
-                      "Der Gletscher hat zwischen 2016 und 2021 12% seines Volumens verloren."
+                      "Es ist der größte Gletscher in Frankreich und der drittgrößte der Alpen und bis zu 200 m dick."
                     ],
                     fr: [
-                      "Le glacier a perdu 12% de son volume entre 2016 et 2021."
+                      "C'est le plus grand glacier de France et le troisième des Alpes, avec une épaisseur pouvant atteindre 200 m."
                     ],
                     it: [
-                      "Il ghiacciaio ha perso il 12% del suo volume tra il 2016 e il 2021."
+                      "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
                     ]
                   }
                   
             },
-            accumulatedDistance: 682
+            accumulatedDistance: 628
         },
         {
             id: 8,
