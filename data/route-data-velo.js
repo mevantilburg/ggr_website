@@ -341,6 +341,7 @@ const ROUTE_DATA = {
                 city: "Chamonix",
                 country: "fr"
         }
+        }
     ]
 };
 
