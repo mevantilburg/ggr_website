@@ -341,7 +341,7 @@ const ROUTE_DATA = {
                 country: "fr"
         },
             accumulatedDistance: 734            
-        }
+        },
     ]
 };
 
