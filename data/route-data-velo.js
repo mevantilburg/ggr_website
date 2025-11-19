@@ -17,7 +17,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard2",
+                id: "postcard1",
                 image: "img/cards/0.5x/fernpass@0.5x-50.jpg",
                 large_image: "img/cards/3x/fernpass@3x-50.jpg",
                 support_image: "img/Curon.jpg",
@@ -68,7 +68,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard3",
+                id: "postcard2",
                 image: "img/cards/0.5x/stelvio@0.5x-50.jpg",
                 large_image: "img/cards/3x/stelvio@3x-50.jpg",
                 support_image: "img/Stelvio.jpg",
@@ -104,7 +104,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard4",
+                id: "postcard3",
                 image: "img/cards/0.5x/morteratsch@0.5x-50.jpg",
                 large_image: "img/cards/3x/morteratsch@3x-50.jpg",
                 support_image: "img/Morteratsch.jpg",
@@ -157,7 +157,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard5",
+                id: "postcard4",
                 image: "img/cards/0.5x/oberalppass@0.5x-50.jpg",
                 large_image: "img/cards/3x/oberalppass@3x-50.jpg",
                 support_image: "img/Oberalppass.jpg",
@@ -192,7 +192,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard6",
+                id: "postcard5",
                 image: "img/cards/0.5x/rhone@0.5x-50.jpg",
                 large_image: "img/cards/3x/rhone@3x-50.jpg",
                 support_image: "img/RhoneGlacier.jpeg",
@@ -302,7 +302,7 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard10",
+                id: "postcard7",
                 image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
                 large_image: "img/cards/3x/merdeglace@3x-50.jpg",
                 support_image: "img/MerdeGlace.jpg",
@@ -330,8 +330,7 @@ const ROUTE_DATA = {
                     it: [
                       "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
                     ]
-                  }
-                  
+                  }         
             },
             accumulatedDistance: 637
         },
