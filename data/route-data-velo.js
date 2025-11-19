@@ -340,6 +340,14 @@ const ROUTE_DATA = {
             location: {
                 city: "Chamonix",
                 country: "fr"
+        }
+    ]
+};
+
+const ROUTE_DATA_old = {
+
+
+                
             },
          
             stats: {
