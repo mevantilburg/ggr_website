@@ -3,17 +3,17 @@ const ROUTE_DATA = {
         {
             id: 1,
             location: {
-                city: "Munich_velo",
-                country: "de"
+                city: "Innsbruck",
+                country: "at"
             },
         
             stats: {
                 date: "Aug 28",
-                distance: 127,
-                elevation: 1360,
+                distance: 125,
+                elevation: 1800,
                 points: [
-                    { name: "Garmisch-Partenkirchen", type: "place" },
-                    { name: "Zugspitze", type: "place" }
+                    { name: "Reschenpass", type: "pass" },
+                    { name: "Lago di Rèsia", type: "place" }
                 ]
             },
             postcard: {
@@ -52,17 +52,19 @@ const ROUTE_DATA = {
         {
             id: 2,
             location: {
-                city: "Ehrwald",
-                country: "at"
+                city: "Reschen",
+                country: "it"
             },
           
             stats: {
                 date: "Aug 29",
-                distance: 113,
-                elevation: 2025,
+                distance: 106,
+                elevation: 3100,
                 points: [
-                    { name: "Fernpass", type: "pass" },
-                    { name: "Campanile di Curon", type: "place" }
+                    { name: "Madatsch Glacier", type: "glacier" },
+                    { name: "Passo di Stelvio", type: "pass" },
+                    { name: "Passo Foscagno", type: "pass" },
+                    { name: "Passo d’Eira", type: "pass"}
                 ]
             },
             postcard: {
@@ -101,18 +103,19 @@ const ROUTE_DATA = {
         {
             id: 3,
             location: {
-                city: "Sankt Valentin",
+                city: "Livigno",
                 country: "it"
             },
            
             stats: {
                 date: "Aug 30",
-                distance: 106,
-                elevation: 3365,
+                distance: 110,
+                elevation: 2000,
                 points: [
-                    { name: "Passo dello Stelvio", type: "pass" },
-                    { name: "Passo di Valle Alpisella", type: "pass" },
-                    { name: "Madatsch Glacier", type: "glacier" }
+                    { name: "Passo Forcola di Livigno", type: "pass" },
+                    { name: "Passo Bernina", type: "pass" },
+                    { name: "Morteratsch Glacier", type: "glacier" },
+                    { name: "Albulapass", type: "pass" }
                 ]
             },
             postcard: {
@@ -136,19 +139,16 @@ const ROUTE_DATA = {
         {
             id: 4,
             location: {
-                city: "Livigno",
-                country: "it"
+                city: "Thusis",
+                country: "ch"
             },
           
             stats: {
                 date: "Aug 31",
-                distance: 111,
-                elevation: 2002,
+                distance: 101,
+                elevation: 2500,
                 points: [
-                    { name: "Passo Forcola di Livigno", type: "pass" },
-                    { name: "Passo Bernina", type: "pass" },
-                    { name: "Morteratsch Glacier", type: "glacier" },
-                    { name: "Albulapass", type: "pass" }
+                  { name: "Oberalppass", type: "pass" }
                 ]
             },
             postcard: {
@@ -192,16 +192,18 @@ const ROUTE_DATA = {
         {
             id: 5,
             location: {
-                city: "Thusis",
+                city: "Andermatt",
                 country: "ch"
             },
           
             stats: {
                 date: "Sept 1",
-                distance: 110,
-                elevation: 2640,
+                distance: 105,
+                elevation: 2100,
                 points: [
-                    { name: "Oberalppass", type: "pass" }
+                    { name: "Furkapass", type: "pass" },
+                    { name: "Rhône Glacier", type: "glacier" },
+                    { name: "Hotel Belvedere", type: "place" }
                 ]
             },
             postcard: {
@@ -225,19 +227,17 @@ const ROUTE_DATA = {
         {
             id: 6,
             location: {
-                city: "Andermatt",
+                city: "Visp",
                 country: "ch"
             },
           
             stats: {
                 date: "Sept 2",
-                distance: 115,
-                elevation: 3499,
+                distance: 95,
+                elevation: 2300,
                 points: [
-                    { name: "Furkapass", type: "pass" },
-                    { name: "Rhône Glacier", type: "glacier" },
-                    { name: "Hotel Belvedere", type: "place" },
-                    { name: "Aletsch Glacier", type: "glacier" }
+                    { name: "Lac de Moiry", type: "place" },
+                    { name: "Moiry Glacier", type: "glacier" }
                 ]
             },
             postcard: {
@@ -282,15 +282,18 @@ const ROUTE_DATA = {
             id: 7,
            
             location: {
-                city: "Mörel-Filet",
+                city: "Sierre",
                 country: "ch"
             },
             stats: {
                 date: "Sept 3",
-                distance: 102,
-                elevation: 1335,
+                distance: 96,
+                elevation: 2200,
                 points: [
-                    { name: "Glacier Valley", type: "glacier" }
+                    { name: "Col de la Forclaz", type: "pass" },
+                    { name: "Trient Glacier", type: "glacier" },
+                    { name: "Col des Montets", type: "pass" },
+                    { name: "Mer de Glace", type: "glacier" }
                 ]
             },
             postcard: {
@@ -330,8 +333,8 @@ const ROUTE_DATA = {
         {
             id: 8,
             location: {
-                city: "Zermatt",
-                country: "ch"
+                city: "Chamonix",
+                country: "fr"
             },
          
             stats: {
