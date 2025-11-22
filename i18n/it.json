@@ -2,7 +2,7 @@
   "pageTitle": "Glorious Glacier Ride",
   "hero": {
     "h1": "Glorious Glacier Ride",
-    "description": "I ghiacciai alpini hanno perso quasi il 40% del loro volume negli ultimi 25 anni. Con la Glorious Glacier Ride, stiamo agendo insieme.<br><br>Questo viaggio in bicicletta di 1.600 km da Monaco di Baviera a Monaco vi porterà a costeggiare i più grandi ghiacciai e a superare i passi montani più iconici d'Europa. Un viaggio in bicicletta unico per godere della bellezza delle Alpi e affrontare la realtà del cambiamento climatico. <br><br>Sostenete il Glorious Glacier Peloton acquistando una cartolina da inviare durante il viaggio!</br>"
+    "description": "I ghiacciai alpini hanno perso quasi il 40% del loro volume negli ultimi 25 anni. Con la Glorious Glacier Ride, stiamo agendo insieme.<br><br>Questo viaggio in bicicletta vi porterà a costeggiare i più grandi ghiacciai e a superare i passi montani più iconici d'Europa. Un viaggio in bicicletta unico per godere della bellezza delle Alpi e affrontare la realtà del cambiamento climatico. <br>"
   },
   "cta": "Partecipa!",
   "cta2": "Ricevi la newsletter",
@@ -24,9 +24,9 @@
     "p2": "Tuttavia, i ghiacciai stanno ritirandosi ad un ritmo allarmante a causa del cambiamento climatico. Ciò minaccia gli ecosistemi, le risorse idriche e le comunità umane. Lo scioglimento dei ghiacciai contribuisce in modo significativo all'innalzamento del livello del mare, ponendo rischi per le comunità costiere e causando l'intrusione di acqua salata nelle riserve di acqua dolce."
   },
    "2026": {
-  "h2": "Join The Ride in 2026",
-    "p1": "In 2026, the Glorious Glacier Ride will take place again. Cyclists from around the world will embark on this epic journey, experiencing the breathtaking beauty of the Alps while raising awareness about the urgent need to combat climate change.",
-    "p2": "There are 3 ways to take part in the ride. You can follow the route independently, join a guided tour with <a href=\"https://velotours.nl/\">VeloTours</a>, or  <a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a>."
+  "h2": "Partecipa all'evento nel 2026",
+    "p1": "Nel 2026 si terrà nuovamente la Glorious Glacier Ride. Ciclisti provenienti da tutto il mondo intraprenderanno questo viaggio epico, ammirando la bellezza mozzafiato delle Alpi e sensibilizzando l'opinione pubblica sull'urgente necessità di combattere il cambiamento climatico.",
+    "p2": "Esistono tre modalità per partecipare all'escursione. È possibile seguire il percorso in modo indipendente, partecipare a un tour guidato con <a href=\"https://velotours.nl/\">VeloTours</a>, o <a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a>. In entrambi i casi, vi invitiamo a partecipare al sabato senza auto e senza moto allo Stelvio Bike Day."
 },
   "slider": {
     "source": "Lo Schlatenkees intorno al 1920-1940 (a sinistra) e 2022. Fonte 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -106,7 +106,7 @@
       "answer9": "Prima di tutto, è ovvio che hai bisogno di una buona forma fisica! In secondo luogo, devi essere disposto a lanciare una campagna di rimozione di CO₂. Il tuo obiettivo è rimuovere tante tonnellate di CO₂ (in tonnellate) quanti sono i tuoi anni. Quindi, se hai 30 anni, devi rimuovere 30 tonnellate di CO₂, che al prezzo di 150 € a tonnellata corrisponde a un obiettivo di 4.500 €. In altre parole: mobilita abbastanza persone per rimuovere collettivamente la tua età in CO₂. In media, un europeo emette circa ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 tonnellate</a> di CO₂ all’anno (un olandese ne emette 9 all’anno).<br><br>Se desideri pedalare la GGR, puoi iscriverti <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>qui</a></strong>.",
   
       "question10": "Quando si svolge la Glorious Glacier Ride?",
-      "answer10": "La GGR è un percorso individuale, quindi puoi farlo quando sei pronto per la sfida. Se desideri unirti al gruppo GGR, puoi farlo! Partiamo <strong>giovedì 28 Agosto</strong> da Monaco di Baviera. Il 4 Settembre ci sarà un giorno di riposo a Zermatt. L’arrivo a Monaco è previsto per l’11 Settembre. Se desideri unirti al gruppo, faccelo sapere tramite questo <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>link</a></strong>.",
+      "answer10": "Il Glorious Glacier Ride sarà organizzato nel 2026 da Borne Cycling (dal 23 al 29 agosto) e da Velotours (dal 28 agosto al 4 settembre). Inoltre, è possibile partecipare al Glorious Glacier Ride individualmente o con gli amici. Per iscriversi, si prega di compilare il modulo <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>qui</a></strong>.",
   
       "question11": "Quanto dura la Glorious Glacier Ride?",
       "answer11": "L’intera Glorious Glacier Ride conta 14 tappe. Con un giorno di riposo a Zermatt, sarai in viaggio per 15 giorni. Ma puoi anche scegliere solo la prima settimana (la maggior parte dei ghiacciai), la seconda settimana (la maggior parte delle montagne) o solo alcune tappe.",
@@ -115,7 +115,7 @@
       "answer12": "Sì, è possibile. Idealmente, dovresti passare almeno per i ghiacciai Morteratsch, Rhône e Aletsch, e visitare la Mer de Glace vicino a Chamonix.",
   
       "question13": "Quanto costa partecipare?",
-      "answer13": "La quota di iscrizione alla GGR è di 25 €. Riceverai il file GPX, la pianificazione giornaliera e una pagina personale di raccolta fondi sul sito web. Riceverai anche i file di stampa digitali delle cartoline da inviare ai tuoi sostenitori e sarai incluso nell’elenco dei Glorious Glacier Riders. <br><br>Puoi iscriverti <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>qui</a></strong>.",
+      "answer13": "La quota di iscrizione alla GGR è di 50 €. Riceverai il file GPX, la pianificazione giornaliera e una pagina personale di raccolta fondi sul sito web. Riceverai anche i file di stampa digitali delle cartoline da inviare ai tuoi sostenitori e sarai incluso nell’elenco dei Glorious Glacier Riders. <br><br>Puoi iscriverti <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>qui</a></strong>.",
 
       "question14": "Con quale semplice misura i comuni hanno influenza?",
       "answer14": "La lotta contro il cambiamento climatico richiede progetti di grande impatto che riducano drasticamente la CO₂ e politiche che provochino un cambiamento nei comportamenti. Secondo l’IPCC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>il 40–70% dello sforzo di riduzione</a> dipende da questo. Andare più spesso in bicicletta invece di usare l’auto è un tale cambiamento comportamentale. Così come fermare la pubblicità fossile.<br><br> È molto semplice: più pubblicità per i prodotti fossili significa maggiore utilizzo di combustibili fossili e più danni al clima. È quindi essenziale che i comuni introducano <a href='https://www.worldwithoutfossilads.org/' target='_blank'>un divieto di pubblicità fossile</a> nei loro spazi pubblici, come fermate degli autobus, segnali stradali e edifici."
