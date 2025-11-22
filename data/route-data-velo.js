@@ -287,18 +287,16 @@ const ROUTE_DATA = {
             id: 7,
            
             location: {
-                city: "Sierre",
+                city: "Visp",
                 country: "ch"
             },
             stats: {
-                date: "Sept 3",
-                distance: 96,
+                date: "Sept 3 - restday",
+                distance: 80,
                 elevation: 2200,
                 points: [
-                    { name: "Col de la Forclaz", type: "pass" },
-                    { name: "Trient Glacier", type: "glacier" },
-                    { name: "Col des Montets", type: "pass" },
-                    { name: "Mer de Glace", type: "glacier" }
+                    { name: "Aletsch Glacier", type: "glacier" },
+                    { name: "Zermatt", type: "place" }
                 ]
             },
             postcard: {
@@ -336,6 +334,25 @@ const ROUTE_DATA = {
         },
         {
             id: 8,
+           
+            location: {
+                city: "Sierre",
+                country: "ch"
+            },
+            stats: {
+                date: "Sept 4",
+                distance: 96,
+                elevation: 2200,
+                points: [
+                    { name: "Col de la Forclaz", type: "pass" },
+                    { name: "Trient Glacier", type: "glacier" },
+                    { name: "Col des Montets", type: "pass" },
+                    { name: "Mer de Glace", type: "glacier" }
+                ]
+            },
+        
+        {
+            id: 9,
             location: {
                 city: "Chamonix",
                 country: "fr"
