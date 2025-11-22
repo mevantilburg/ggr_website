@@ -325,7 +325,7 @@ const ROUTE_DATA = {
                     ]
                   }         
             },
-            accumulatedDistance: 642
+            accumulatedDistance: 547
         },
         {
             id: 8,
@@ -346,33 +346,33 @@ const ROUTE_DATA = {
                 ]
             },
             postcard: {
-                id: "postcard7",
-                image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
-                large_image: "img/cards/3x/merdeglace@3x-50.jpg",
-                support_image: "img/MerdeGlace.jpg",
+                id: "postcard8",
+                image: "img/cards/0.5x/moiry@0.5x-50.jpg",
+                large_image: "img/cards/3x/moiry@3x-50.jpg",
+                support_image: "img/Moiry.jpg",
                 support_image_source: "",
-                name: "Mer de Glace",
+                name: "Moiry Glacier",
                 type: "glacier",
                 stats: {
                     size: 3,
-                    length: "11.5",
-                    surface: 28
+                    length: "4.5",
+                    surface: "<5"
                 },
                 points: {
                     en: [
-                      "It's the largest glacier in France and the third of the Alps and up to 200 m thick"
+                      "With a surface below 5 km², Moiry sits well below the handful of “giant” glaciers but above the bulk of tiny glaciers in Switzerland"
                     ],
                     nl: [
-                      "Het is de grootste gletsjer in Frankrijk en de derde van de Alpen en is tot 200 m dik."
+                      "Met een oppervlakte van minder dan 5 km² bevindt Moiry zich ruim onder de enkele ‘gigantische’ gletsjers, maar boven het merendeel van de kleine gletsjers in Zwitserland."
                     ],
                     de: [
-                      "Es ist der größte Gletscher in Frankreich und der drittgrößte der Alpen und bis zu 200 m dick."
+                      "Mit einer Fläche von weniger als 5 km² liegt Moiry deutlich unter den wenigen „riesigen“ Gletschern, jedoch über der Mehrheit der kleinen Gletscher in der Schweiz."
                     ],
                     fr: [
-                      "C'est le plus grand glacier de France et le troisième des Alpes, avec une épaisseur pouvant atteindre 200 m."
+                      "Avec une superficie inférieure à 5 km², Moiry se situe bien en dessous des quelques glaciers « géants », mais au-dessus de la plupart des petits glaciers de Suisse."
                     ],
                     it: [
-                      "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
+                      "Con una superficie inferiore a 5 km², Moiry si colloca ben al di sotto dei pochi ghiacciai “giganti”, ma al di sopra della maggior parte dei piccoli ghiacciai svizzeri."
                     ]
                   }         
             },
