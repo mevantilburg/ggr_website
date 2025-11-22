@@ -253,7 +253,7 @@ const ROUTE_DATA = {
                 name: "Madatsch Glacier",
                 type: "glacier",
                 stats: {
-                    size: 8,
+                    size: "small",
                     length: "0.5-1",
                     surface: "<1"
                 },
