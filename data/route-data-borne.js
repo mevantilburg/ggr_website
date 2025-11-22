@@ -246,37 +246,32 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard6",
-                image: "img/cards/0.5x/rhone@0.5x-50.jpg",
-                large_image: "img/cards/3x/rhone@3x-50.jpg",
-                support_image: "img/RhoneGlacier.jpeg",
+                image: "iimg/cards/0.5x/madatsch@0.5x-50.jpg",
+                large_image: "img/cards/3x/madatsch@3x-50.jpg",
+                support_image: "img/madatsch.jpeg",
                 support_image_source: "",
-                name: "Rhône Glacier",
+                name: "Madatsch Glacier",
                 type: "glacier",
                 stats: {
                     size: 8,
-                    length: 8,
-                    surface: 17
+                    length: "0.5-1",
+                    surface: "<1"
                 },
                 points: {
                     en: [
-                      "Primary source of water for the Rhone River.",
-                      "One of the most extensively studied glaciers, providing valuable data on climate change and glacial dynamics."
+                      "The Madatsch Glacier (Ghiacciaio di Madaccio) is a small, rapidly shrinking glacier in the Ortler Alps of northern Italy, near the Stelvio Pass"
                     ],
                     nl: [
-                      "Belangrijkste waterbron voor de Rhône.",
-                      "Een van de meest uitgebreid onderzochte gletsjers, die waardevolle gegevens levert over klimaatverandering en de dynamiek van gletsjers."
+                      "De Madatsch-gletsjer (Ghiacciaio di Madaccio) is een kleine, snel krimpende gletsjer in de Ortler-Alpen in Noord-Italië, nabij de Stelvio-pas."
                     ],
                     de: [
-                      "Primäre Wasserquelle für den Rhône.",
-                      "Einer der am intensivsten untersuchten Gletscher, der wertvolle Daten über den Klimawandel und Gletscherdynamik liefert."
+                      "Der Madatsch-Gletscher (Ghiacciaio di Madaccio) ist ein kleiner, schnell schrumpfender Gletscher in den Ortler-Alpen in Norditalien, nahe dem Stilfser Joch."
                     ],
                     fr: [
-                      "Source principale d'eau pour le Rhône.",
-                      "L'un des glaciers les plus étudiés en profondeur, fournissant des données précieuses sur le changement climatique et la dynamique glaciaire."
+                      "Le glacier Madatsch (Ghiacciaio di Madaccio) est un petit glacier en rapide recul situé dans les Alpes de l'Ortles, au nord de l'Italie, près du col du Stelvio."
                     ],
                     it: [
-                      "Fonte principale d'acqua per il fiume Rodano.",
-                      "Uno dei ghiacciai più studiati in maniera approfondita, che fornisce dati preziosi sul cambiamento climatico e sulla dinamica dei ghiacciai."
+                      "Il ghiacciaio Madaccio è un piccolo ghiacciaio in rapido ritiro situato nelle Alpi dell'Ortles, nel nord Italia, vicino al Passo dello Stelvio."
                     ]
                   }
             },
