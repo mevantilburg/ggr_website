@@ -28,11 +28,11 @@ class UpdateParser {
         }
       }
 
-      // Sort updates by day number in descending order (newest first)
+      // Sort updates by day number in ascending order (oldest first)
       this.updates.sort((a, b) => {
         const dayA = parseInt(a.metadata.day || '0', 10);
         const dayB = parseInt(b.metadata.day || '0', 10);
-        return dayB - dayA;
+        return dayA - dayB;
       });
 
       // Render all updates
@@ -265,7 +265,7 @@ class UpdateParser {
       if (`#${id}` !== window.location.hash) {
         history.replaceState(null, '', `#${id}`);
       }
-    }, { root: null, threshold: [0.5] });
+    }, { root: null, threshold: [0.1] });
 
     sections.forEach(s => io.observe(s));
   }

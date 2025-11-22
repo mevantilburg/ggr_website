@@ -72,10 +72,10 @@
     "gps": "Le GPS",
     "gpsdescription": "Les fichiers GPS de la Glorious Glacier Ride sont disponibles au téléchargement."
   },
-  "updates": {
-   "h1": "Mises à jour de la course",
-"description": "Suivez l'équipe en direct et restez informé grâce aux mises à jour du peloton."
-  },
+ "updates": {
+  "h1": "The Glorious Glacier Ride 2025",
+  "description": "En 2025, la randonnée a eu lieu du 28 août au 11 septembre. Vous trouverez ci-dessous des mises à jour de la randonnée."
+},
     "faq": {
       "h2": "Foire aux questions",
   
