@@ -1,71 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx>
-
   <wpt lon="6.91741299999999" lat="45.932107">
     <name>Mer de Glace</name>
     <sym>Dot</sym>
     <type>glacier</type>
       <img>MerDeGlaceCard.jpg</img>
-  </wpt>
-  <wpt lon="6.5333698673952645" lat="45.76146417042205">
-    <name>Col de Saisies - 1660m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="6.690157542693114" lat="45.69125498595285">
-    <name>Cormet de Roselend - 1974m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="7.030676307338264" lat="45.41725777339293">
-    <name>Col de l'Iseran - 2750m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
- <wpt lon="6.407975232393048" lat="45.063996034531534">
-    <name>Col du Galibier - 2642m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="6.444314002382225" lat="45.20254480936231">
-    <name>Col du Télégraphe - 1567m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="6.735011318741622" lat="44.81986326804929">
-    <name>Col d'Izoard - 2363m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="6.702448946732891" lat="44.539251809274724">
-    <name>Col de Vars - 2115m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="6.807150799953354" lat="44.321588609885644">
-    <name>Cime de la Bonette - 2802m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="7.223117106864123" lat="44.070971755010866">
-    <name>Col Saint-Martin - 1499</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
-  <wpt lon="7.38193330210811" lat="43.97315911781427">
-    <name>Col de Turini - 1630m</name>
-    <sym>Dot</sym>
-    <type>pass</type>
-  </wpt>
- <wpt lon="6.391422241844351" lat="44.943905718518394">
-    <name>Glacier Blanc</name>
-    <sym>Dot</sym>
-    <type>glacier</type>
-  </wpt>
-  <wpt lon="6.879827308192854" lat="45.41228668384758">
-    <name>La Grande Motte</name>
-    <sym>Dot</sym>
-    <type>glacier</type>
   </wpt>
 <wpt lon="7.8189921026630005" lat="45.94093868769692">
     <name>Gorner Glacier</name>
@@ -87,11 +26,67 @@
     <sym>Dot</sym>
     <type>glacier</type>
   </wpt>
-  <wpt lon="7.278506080549905" lat="45.95507950790901">
-    <name>Glacier de Corbassière</name>
+<wpt lon="10.451803465247735" lat="46.52971683046087">
+    <name>Passo di Stelvio - 2759m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+    <img>StelvioCard.jpg</img>
+  </wpt>
+  <wpt lon="10.390944028850813" lat="46.539939833266054">
+    <name>Bocchetta di Forcola - 2735m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="9.836945617142838" lat="46.58173965637579">
+    <name>Albulapass - 2307m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+  </wpt>
+  <wpt lon="8.67124835988211" lat="46.65936196710087">
+    <name>Oberalppass - 2040</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+    <img>OberalppassCard.jpg</img>
+  </wpt>
+  <wpt lon="8.414778650073224" lat="46.57277500717369">
+    <name>Furkapass - 2430m</name>
+    <sym>Dot</sym>
+    <type>pass</type>
+    <img>FurkaCard.jpg</img>
+  </wpt>
+  <wpt lon="8.086556351026942" lat="46.43299654027469">
+    <name>Aletsch Glacier - 2360m</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+    <img>aletsch_s.png</img>
+  </wpt>
+  <wpt lon="9.935964991237896" lat="46.423458057145666">
+    <name>Morteratsch Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+    <img>Morteratsch.jpg</img>
+  </wpt>
+  <wpt lon="8.38865268939065" lat="46.57904945959968">
+    <name>Rhône Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
   </wpt>
-    
+  <wpt lon="7.748201740219449" lat="46.02382648456371">
+    <name>Zermatt</name>
+    <sym>Dot</sym>
+    <type>Dot</type>
+     <img>ZermattCard.jpg</img>
+  </wpt>
+  <wpt lon="7.578658000000011" lat="46.103594">
+    <name>Moiry Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+  </wpt>
+  <wpt lon="7.011889999999985" lat="46.02990999999999">
+    <name>Trient Glacier</name>
+    <sym>Dot</sym>
+    <type>glacier</type>
+    <img>TrientCard.jpg</img>
+  </wpt>    
 </gpx>    
   
