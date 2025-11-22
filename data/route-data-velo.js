@@ -247,37 +247,32 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard6",
-                image: "img/cards/0.5x/rhone@0.5x-50.jpg",
-                large_image: "img/cards/3x/rhone@3x-50.jpg",
-                support_image: "img/RhoneGlacier.jpeg",
+                image: "img/cards/0.5x/aletsch@0.5x-50.jpg",
+                large_image: "img/cards/3x/aletsch@3x-50.jpg",
+                support_image: "img/1080px-Switzerland,_Bettmeralp_(19505442736).jpg",
                 support_image_source: "",
-                name: "Rhône Glacier",
+                name: "Aletsch Glacier",
                 type: "glacier",
                 stats: {
-                    size: 8,
-                    length: 8,
-                    surface: 17
+                    size: 1,
+                    length: 20,
+                    surface: 78
                 },
                 points: {
                     en: [
-                      "Primary source of water for the Rhone River.",
-                      "One of the most extensively studied glaciers, providing valuable data on climate change and glacial dynamics."
+                      "The glacier lost 12% of its volume between 2016 and 2021"
                     ],
                     nl: [
-                      "Belangrijkste waterbron voor de Rhône.",
-                      "Een van de meest uitgebreid onderzochte gletsjers, die waardevolle gegevens levert over klimaatverandering en de dynamiek van gletsjers."
+                      "De gletsjer verloor tussen 2016 en 2021 12% van zijn volume."
                     ],
                     de: [
-                      "Primäre Wasserquelle für den Rhône.",
-                      "Einer der am intensivsten untersuchten Gletscher, der wertvolle Daten über den Klimawandel und Gletscherdynamik liefert."
+                      "Der Gletscher hat zwischen 2016 und 2021 12% seines Volumens verloren."
                     ],
                     fr: [
-                      "Source principale d'eau pour le Rhône.",
-                      "L'un des glaciers les plus étudiés en profondeur, fournissant des données précieuses sur le changement climatique et la dynamique glaciaire."
+                      "Le glacier a perdu 12% de son volume entre 2016 et 2021."
                     ],
                     it: [
-                      "Fonte principale d'acqua per il fiume Rodano.",
-                      "Uno dei ghiacciai più studiati in maniera approfondita, che fornisce dati preziosi sul cambiamento climatico e sulla dinamica dei ghiacciai."
+                      "Il ghiacciaio ha perso il 12% del suo volume tra il 2016 e il 2021."
                     ]
                   }
             },
