@@ -6,26 +6,6 @@
     <type>glacier</type>
       <img>MerDeGlaceCard.jpg</img>
   </wpt>
-<wpt lon="7.8189921026630005" lat="45.94093868769692">
-    <name>Gorner Glacier</name>
-    <sym>Dot</sym>
-    <type>glacier</type>
-  </wpt>
-  <wpt lon="7.626937496849111" lat="45.99432910459629">
-    <name>Zmutt Glacier</name>
-    <sym>Dot</sym>
-    <type>glacier</type>
-  </wpt>
-  <wpt lon="7.875257083985332" lat="45.99187857855146">
-    <name>Findel Glacier</name>
-    <sym>Dot</sym>
-    <type>glacier</type>
-  </wpt>
-  <wpt lon="7.46115378562803" lat="45.954691642492016">
-    <name>Otemma Glacier</name>
-    <sym>Dot</sym>
-    <type>glacier</type>
-  </wpt>
 <wpt lon="10.451803465247735" lat="46.52971683046087">
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
