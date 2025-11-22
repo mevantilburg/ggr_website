@@ -75,6 +75,8 @@ const ICON_URLS = {
     place: '/img/marker_place.svg',
     pass: '/img/marker_pass.svg',
     glacier: '/img/marker_glacier.svg',
+    start: '/img/marker_start.svg',
+    finish: '/img/marker_finish.svg',
     default: '/img/marker2.svg'
 };
 
@@ -84,12 +86,12 @@ const GPX_BASE_OPTIONS = {
     marker_options: {
         iconSize: [18, 22],
         iconAnchor: [9, 22],
-        startIconUrl: ICON_URLS.place,
-        endIconUrl: ICON_URLS.place,
+        startIconUrl: ICON_URLS.start,
+        endIconUrl: ICON_URLS.finish,
     },
     markers: {
-        startIcon: ICON_URLS.place,
-        endIcon: ICON_URLS.place
+        startIcon: ICON_URLS.start,
+        endIcon: ICON_URLS.finish
     },
     async: true,
     polyline_options: { color: 'black', dashArray: '15,5' },
