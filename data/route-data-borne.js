@@ -246,7 +246,7 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard6",
-                image: "iimg/cards/0.5x/madatsch@0.5x-50.jpg",
+                image: "img/cards/0.5x/madatsch@0.5x-50.jpg",
                 large_image: "img/cards/3x/madatsch@3x-50.jpg",
                 support_image: "img/madatsch.jpeg",
                 support_image_source: "",
