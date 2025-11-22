@@ -237,12 +237,12 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Sept 2",
+                date: "Sept 2 - restday",
                 distance: 95,
                 elevation: 2300,
                 points: [
-                    { name: "Lac de Moiry", type: "place" },
-                    { name: "Moiry Glacier", type: "glacier" }
+                    { name: "Aletsch Glacier", type: "glacier" },
+                    { name: "Zermatt", type: "place" }
                 ]
             },
             postcard: {
@@ -291,12 +291,12 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                date: "Sept 3 - restday",
+                date: "Sept 3",
                 distance: 80,
                 elevation: 2200,
                 points: [
-                    { name: "Aletsch Glacier", type: "glacier" },
-                    { name: "Zermatt", type: "place" }
+                    { name: "Lac de Moiry", type: "place" },
+                    { name: "Moiry Glacier", type: "glacier" }
                 ]
             },
             postcard: {
