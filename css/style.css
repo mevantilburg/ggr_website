@@ -70,6 +70,11 @@ p{
 .p_center{
   text-align: center;
 }
+.p_center_small{
+  text-align: center;
+  font-size: 16px;
+   font-style: italic;
+}
 .faq_container{
   margin: 20px auto 0px auto;
   width: 80%;
@@ -767,6 +772,17 @@ a.anchor {
   z-index: 1;
   /* padding-top: 5px; */
   padding-top: 30px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+.center_image_section2{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+ 
+  z-index: 1;
+  /* padding-top: 5px; */
+  padding-top: 10px;
   background-color: rgb(255, 255, 255);
   flex-direction: column;
 }
