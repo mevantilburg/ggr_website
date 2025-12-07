@@ -26,9 +26,9 @@
   },
    "2026": {
    "h2": "Participez en 2026!",
-    "p1": "Le Glorious Glacier Ride aura également lieu en 2026. Les cyclistes de toute l'Europe pourront profiter des plus belles vues des Alpes tout en s'engageant activement en faveur de la lutte contre le changement climatique.",
+    "p1": "En 2026, Cycling 4 Climate organisera à nouveau la Glorious Glacier Ride. Les cyclistes de toute l'Europe pourront profiter des plus belles vues des Alpes tout en s'engageant activement en faveur de la lutte contre le changement climatique.",
     "p2": "Vous pouvez parcourir l'itinéraire seul ou entre amis, ou participer à l'une des randonnées organisées. Avec <a href=\"https://velotours.nl/reizen/9-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a>, vous partirez le 28 août d'Innsbruck en direction de Chamonix, tandis que la randonnée de <a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a> vous mènera de Chamonix (23 août) à Bormio. Dans les deux cas, vous profiterez du samedi sans voiture ni moto lors du Stelvio Bike Day!",
-    "p3": "Pour plus d’informations et pour vous inscrire à ces randonnées, utilisez les liens ci-dessous."
+    "p3": "Pour plus d’informations et pour vous inscrire à ces randonnées, utilisez les liens ci-dessous.Si vous souhaitez participer à la randonnée à vélo de manière indépendante, veuillez vous inscrire <a href=\"https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/\">ici</a>."
 },
   "slider": {
     "source": "Le Schlatenkees vers 1920-1940 (à gauche) et 2022. Source 1920 : Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -59,7 +59,7 @@
   "info": {
     "h2": "Soutenu par",
     "un": "Pour souligner l'importance des glaciers, les Nations Unies ont désigné 2025 comme l'Année internationale de la préservation des glaciers.",
-    "initiative": "Glorious Glacier Ride est une initiative de Cycling 4 Climate. Une fondation à but non lucratif mais à impact provenant des Pays-Bas.",
+    "initiative": "Glorious Glacier Ride est une initiative de <strong><a href=\"https://www.cycling4climate.nl/\">Cycling 4 Climate</a></strong>. Une fondation à but non lucratif mais à impact provenant des Pays-Bas.",
     "eth": " ",
     "wsl": " ",
     "vaw": " "
