@@ -3,7 +3,7 @@
   "hero": {
     "h1": "Glorious Glacier Ride",
     "description": "Les glaciers alpins ont perdu près de 40 % de leur volume au cours des 25 dernières années. Avec la Glorious Glacier Ride, nous agissons ensemble.<br><br>Cette randonnée à vélo, vous fera passer devant les plus grands glaciers et franchir les cols de montagne les plus emblématiques d'Europe. Une randonnée à vélo unique pour profiter de la beauté des Alpes et faire face à la réalité du changement climatique.<br>",
-    "initiative": "Une initiative de <a href=\"https://cycling4climate.nl\" target=\"_blank\">Cycling 4 Climate</a>."
+    "initiative": "Une initiative de <a href=\"https://cycling4climate.org\" target=\"_blank\">Cycling 4 Climate</a>."
   },
   "cta": "Rejoins!",
   "cta2": "Recevoir la newsletter",
@@ -59,7 +59,7 @@
   "info": {
     "h2": "Soutenu par",
     "un": "Pour souligner l'importance des glaciers, les Nations Unies ont désigné 2025 comme l'Année internationale de la préservation des glaciers.",
-    "initiative": "Glorious Glacier Ride est une initiative de <strong><a href=\"https://www.cycling4climate.nl/\">Cycling 4 Climate</a></strong>. Une fondation à but non lucratif mais à impact provenant des Pays-Bas.",
+    "initiative": "Glorious Glacier Ride est une initiative de <strong><a href=\"https://www.cycling4climate.org/\">Cycling 4 Climate</a></strong>. Une fondation à but non lucratif mais à impact provenant des Pays-Bas.",
     "eth": " ",
     "wsl": " ",
     "vaw": " "
