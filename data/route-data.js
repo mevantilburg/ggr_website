@@ -8,7 +8,7 @@ const ROUTE_DATA = {
             },
         
             stats: {
-                date: "Aug 28",
+                date: "Aug 27",
                 distance: 127,
                 elevation: 1360,
                 points: [
@@ -57,7 +57,7 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Aug 29",
+                date: "Aug 28",
                 distance: 113,
                 elevation: 2025,
                 points: [
@@ -106,7 +106,7 @@ const ROUTE_DATA = {
             },
            
             stats: {
-                date: "Aug 30",
+                date: "Aug 29",
                 distance: 106,
                 elevation: 3365,
                 points: [
@@ -141,7 +141,7 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Aug 31",
+                date: "Aug 30",
                 distance: 111,
                 elevation: 2002,
                 points: [
@@ -197,7 +197,7 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Sept 1",
+                date: "Aug 31",
                 distance: 110,
                 elevation: 2640,
                 points: [
@@ -230,7 +230,7 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Sept 2",
+                date: "Sept 1",
                 distance: 115,
                 elevation: 3499,
                 points: [
@@ -286,7 +286,7 @@ const ROUTE_DATA = {
                 country: "ch"
             },
             stats: {
-                date: "Sept 3",
+                date: "Sept 2",
                 distance: 102,
                 elevation: 1335,
                 points: [
@@ -335,7 +335,7 @@ const ROUTE_DATA = {
             },
          
             stats: {
-                date: "Sept 5",
+                date: "Sept 4",
                 distance: 117,
                 elevation: 3050,
                 points: [
@@ -385,7 +385,7 @@ const ROUTE_DATA = {
             },
          
             stats: {
-                date: "Sept 6",
+                date: "Sept 5",
                 distance: 116,
                 elevation: 3176,
                 points: [
@@ -420,7 +420,7 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Sept 7",
+                date: "Sept 6",
                 distance: 127,
                 elevation: 2815,
                 points: [
@@ -471,7 +471,7 @@ const ROUTE_DATA = {
             },
            
             stats: {
-                date: "Sept 8",
+                date: "Sept 7",
                 distance: 143,
                 elevation: 2778,
                 points: [
@@ -505,7 +505,7 @@ const ROUTE_DATA = {
             },
           
             stats: {
-                date: "Sept 9",
+                date: "Sept 8",
                 distance: 136,
                 elevation: 3881,
                 points: [
@@ -541,7 +541,7 @@ const ROUTE_DATA = {
             },
         
             stats: {
-                date: "Sept 10",
+                date: "Sept 9",
                 distance: 106,
                 elevation: 2856,
                 points: [
@@ -575,7 +575,7 @@ const ROUTE_DATA = {
             },
            
             stats: {
-                date: "Sept 11",
+                date: "Sept 10",
                 distance: 135,
                 elevation: 3035,
                 points: [
