@@ -60,7 +60,7 @@ const ROUTE_VARIANTS = await buildRouteVariants();
 
 console.log("Current language:", translator.getCurrentLanguage());
 
-let activeRouteKey = 'ride-yourself';
+let activeRouteKey = 'velo-tours';
 let activeRouteData = ROUTE_VARIANTS[activeRouteKey].data;
 window.ROUTE_DATA = activeRouteData;
 let map;
