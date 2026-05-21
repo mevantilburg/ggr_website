@@ -1,4 +1,4 @@
-import { translator } from './index.js';  // or from wherever the instance is exported
+import { translator } from './index.js?v0.30';  // or from wherever the instance is exported
 
 console.log("Current language:", translator.getCurrentLanguage());
 
@@ -48,4 +48,3 @@ window.toggleLanguageDropdown = toggleLanguageDropdown;
 window.toggleMenu = toggleMenu;
 window.closeMenu = closeMenu;
 window.handleClick = handleClick;
-

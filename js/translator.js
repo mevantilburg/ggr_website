@@ -35,7 +35,7 @@ class Translator {
   }
 
   _fetch(path) {
-    return fetch(path)
+    return fetch(path, { cache: "no-store" })
       .then(response => response.json())
       .catch(() => {
         console.error(

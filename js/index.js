@@ -1,5 +1,5 @@
 
-import Translator from "./translator.js";
+import Translator from "./translator.js?v0.30";
 
 export const translator = new Translator({
   persist: false,

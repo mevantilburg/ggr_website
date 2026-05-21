@@ -1,4 +1,4 @@
-import { translator, refreshPostcardHoverEffects } from './index.js';  // or from wherever the instance is exported
+import { translator, refreshPostcardHoverEffects } from './index.js?v0.30';  // or from wherever the instance is exported
 
 const assetUrl = (relativePath) => new URL(relativePath, import.meta.url).href;
 
