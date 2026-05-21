@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js" defer></script>
-    <link rel="stylesheet" href="css/style.css?v0.28">
+    <link rel="stylesheet" href="css/style.css?v0.31">
     <link
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
@@ -97,6 +97,27 @@
                                 data-i18n="nav.route">Route</a></li>
                         <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="#support"
                                 data-i18n="nav.support">Support</a></li>
+                        <li class="nav-item desktop-events-nav">
+                            <div class="dropdown nav-dropdown">
+                                <button class="dropdown-toggle nav-link nav-dropdown-toggle" type="button"
+                                    onclick="toggleEventsDropdown()">
+                                    <span data-i18n="nav.events" style="margin-top: 3px;">Events</span>
+                                    <span class="dropdown-arrow">&#9662;</span>
+                                </button>
+                                <div class="dropdown-menu nav-dropdown-menu" id="eventsDropdown">
+                                    <a class="dropdown-item" onclick="closeMenu()" href="/official-start-innsbruck.html"
+                                        data-i18n="nav.eventInnsbruck">Official Start Innsbruck</a>
+                                    <a class="dropdown-item" onclick="closeMenu()" href="/climate-ride-chamonix.html"
+                                        data-i18n="nav.eventChamonix">Climate Ride Chamonix</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item mobile-event-link"><a onclick="closeMenu()" class="nav-link"
+                                href="/official-start-innsbruck.html"
+                                data-i18n="nav.eventInnsbruck">Official Start Innsbruck</a></li>
+                        <li class="nav-item mobile-event-link"><a onclick="closeMenu()" class="nav-link"
+                                href="/climate-ride-chamonix.html"
+                                data-i18n="nav.eventChamonix">Climate Ride Chamonix</a></li>
                         <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="#faq"
                                 data-i18n="nav.faq">FAQ</a></li>
                         <li class="nav-item"><a onclick="closeMenu()" target="_blank" title="Instagram"

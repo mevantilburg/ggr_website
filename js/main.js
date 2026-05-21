@@ -124,8 +124,10 @@ function handleClick(event) {
 }
 function toggleMenu() {
     const menu = document.getElementById("languageDropdown");
+    const eventsMenu = document.getElementById("eventsDropdown");
     const nav = document.getElementById("navitems");
-    menu.style.display = 'none'
+    if (menu) menu.style.display = 'none'
+    if (eventsMenu) eventsMenu.style.display = 'none'
     if (nav.style.display == 'flex') {
         nav.style.display = 'none'
     } else {
@@ -135,6 +137,21 @@ function toggleMenu() {
 }
 function toggleLanguageDropdown() {
     const menu = document.getElementById("languageDropdown");
+    const eventsMenu = document.getElementById("eventsDropdown");
+    if (eventsMenu) eventsMenu.style.display = 'none'
+
+    if (menu.style.display == 'flex') {
+        menu.style.display = 'none'
+    } else {
+        menu.style.display = 'flex'
+    }
+}
+
+function toggleEventsDropdown() {
+    const menu = document.getElementById("eventsDropdown");
+    const languageMenu = document.getElementById("languageDropdown");
+    if (!menu) return;
+    if (languageMenu) languageMenu.style.display = 'none';
 
     if (menu.style.display == 'flex') {
         menu.style.display = 'none'
@@ -149,6 +166,10 @@ function closeMenu() {
 
         nav.style.display = 'none'
     }
+    const menu = document.getElementById("languageDropdown");
+    const eventsMenu = document.getElementById("eventsDropdown");
+    if (menu) menu.style.display = 'none';
+    if (eventsMenu) eventsMenu.style.display = 'none';
 
 }
 function showModal() {
@@ -1103,6 +1124,7 @@ document.addEventListener('keydown', (e) => {
 });
 
 window.toggleLanguageDropdown = toggleLanguageDropdown;
+window.toggleEventsDropdown = toggleEventsDropdown;
 window.toggleMenu = toggleMenu;
 window.closeMenu = closeMenu;
 window.handleClick = handleClick;
