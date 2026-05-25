@@ -200,7 +200,7 @@ p{
   margin-left: auto;
   margin-right: auto;
   width: calc(100% - 40px);
-  max-width: 760px;
+  max-width: 600px;
   border-collapse: collapse;
   border: 1px solid #d9d9d9;
 }
@@ -246,8 +246,12 @@ p{
     padding-top: 0;
   }
 }
+.event_page h1{
+  max-width: 600px;
+}
 .event_page .section_title h2{
   font-size: 30px;
+  max-width: 600px;
 }
 .faq_question{
 
