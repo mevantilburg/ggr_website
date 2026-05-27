@@ -159,20 +159,74 @@
                 </div>
             </div>
 
+
             <div class="section">
                 <div class="section_title">
-                    <h2 data-i18n="officialStart.ctaTitle">Ready? Register Now.</h2>
+                    <h2 data-i18n="officialStart.formTitle">Sign Up Directly</h2>
+                    <p class="section_subtitle" data-i18n="officialStart.formSubtitle">also for friends &amp; family</p>
                 </div>
             </div>
             <div class="section">
                 <div class="text_section">
+                    <!-- Hidden spans used by JS to read translated success/error messages -->
+                    <span id="formSuccessText" data-i18n="officialStart.formSuccess" style="display:none">Thank you! We'll be in touch soon.</span>
+                    <span id="formErrorText" data-i18n="officialStart.formError" style="display:none">Something went wrong. Please try again.</span>
+
+                    <form id="registrationForm" class="registration_form" novalidate>
+                        <div class="form_group">
+                            <label for="reg_name" data-i18n="officialStart.formName">Name</label>
+                            <input type="text" id="reg_name" name="name" required
+                                data-i18n="officialStart.formNamePlaceholder"
+                                data-i18n-attr="placeholder"
+                                placeholder="Your name">
+                        </div>
+                        <div class="form_group">
+                            <label for="reg_email" data-i18n="officialStart.formEmail">Email address</label>
+                            <input type="email" id="reg_email" name="email" required
+                                data-i18n="officialStart.formEmailPlaceholder"
+                                data-i18n-attr="placeholder"
+                                placeholder="your@email.com">
+                        </div>
+                        <div class="form_group">
+                            <label for="reg_city" data-i18n="officialStart.formCity">City</label>
+                            <input type="text" id="reg_city" name="city"
+                                data-i18n="officialStart.formCityPlaceholder"
+                                data-i18n-attr="placeholder"
+                                placeholder="Your city">
+                        </div>
+                        <div class="form_group">
+                            <label data-i18n="officialStart.formEvent">Which event would you like to join?</label>
+                            <div class="form_checkboxes">
+                                <label class="form_checkbox_label">
+                                    <input type="checkbox" name="event" value="workshop">
+                                    <span data-i18n="officialStart.formEventWorkshop">💡 Climate Fresk workshop (Thursday 27 August, evening)</span>
+                                </label>
+                                <label class="form_checkbox_label">
+                                    <input type="checkbox" name="event" value="peloton">
+                                    <span data-i18n="officialStart.formEventPeloton">🚴 Peloton start (Friday 28 August)</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form_group">
+                            <label for="reg_people" data-i18n="officialStart.formPeople">Number of people</label>
+                            <input type="number" id="reg_people" name="people" min="1" max="20" value="1">
+                        </div>
+                        <div class="form_group">
+                            <label for="reg_comment" data-i18n="officialStart.formComment">Comment or question</label>
+                            <textarea id="reg_comment" name="comment"
+                                data-i18n="officialStart.formCommentPlaceholder"
+                                data-i18n-attr="placeholder"
+                                placeholder="Optional"></textarea>
+                        </div>
+                        <div id="formMessage" class="form_message" style="display:none;"></div>
+                        <button type="submit" class="cta_button" data-i18n="officialStart.formSubmit">Register</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text_section">
                     <div class="cta_stack">
-                        <p class="cta_intro" data-i18n="officialStart.workshopIntro"><strong>💡 Climate Fresk workshop (Thursday evening, also for friends &amp; family!):</strong></p>
-                        <span class="cta_button cta_button_disabled" data-i18n="officialStart.workshopCtaLabel">Registration link coming soon</span>
-                        <p class="cta_intro" data-i18n="officialStart.pelotonIntro">🚴 Friday peloton start:</p>
-                        <a class="cta_button" target="_blank"
-                            href="https://cycling4climate.org/official-start-innsbruck/"
-                            data-i18n="officialStart.pelotonCtaLabel">Claim Your Spot</a>
                         <p class="cta_intro" data-i18n="officialStart.fullRideIntro">🚴 Full 10-day Glorious Glacier Ride:</p>
                         <a class="cta_button" target="_blank"
                             href="https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/"
@@ -310,6 +364,52 @@
     </div>
     <script type="module" src="js/index.js?v0.30"></script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var form = document.getElementById('registrationForm');
+        if (!form) return;
+
+        form.addEventListener('submit', async function (e) {
+            e.preventDefault();
+            var msg = document.getElementById('formMessage');
+            var btn = form.querySelector('button[type="submit"]');
+            btn.disabled = true;
+
+            var events = Array.from(form.querySelectorAll('input[name="event"]:checked'))
+                .map(function (cb) { return cb.value; }).join(', ');
+
+            var data = {
+                name: document.getElementById('reg_name').value,
+                email: document.getElementById('reg_email').value,
+                city: document.getElementById('reg_city').value,
+                event: events || '—',
+                people: document.getElementById('reg_people').value,
+                comment: document.getElementById('reg_comment').value
+            };
+
+            try {
+                var res = await fetch('https://formspree.io/f/xlgvovow', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                if (res.ok) {
+                    form.style.display = 'none';
+                    msg.className = 'form_message form_success';
+                    msg.textContent = document.getElementById('formSuccessText').textContent;
+                    msg.style.display = 'block';
+                } else {
+                    throw new Error('Server error');
+                }
+            } catch (_) {
+                msg.className = 'form_message form_error';
+                msg.textContent = document.getElementById('formErrorText').textContent;
+                msg.style.display = 'block';
+                btn.disabled = false;
+            }
+        });
+    });
+    </script>
 </body>
 
 </html>
