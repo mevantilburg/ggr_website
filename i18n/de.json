@@ -19,7 +19,7 @@
     "support": "Teilnehmen",
     "events": "Events",
     "eventInnsbruck": "Official Start Innsbruck",
-    "eventChamonix": "Climate Ride Chamonix",
+    "eventChamonix": "Official Finish Chamonix",
     "faq": "FAQ"
   },
   "why": {
@@ -31,7 +31,7 @@
   "h2": "Nehmen Sie 2026 teil!",
     "p1": "Auch im Jahr 2026 organisiert Cycling 4 Climate die Glorious Glacier Ride. Radfahrer aus ganz Europa können die schönsten Aussichten der Alpen genießen und sich gleichzeitig aktiv für den Klimaschutz engagieren.",
     "p2": "Sie können die Route alleine oder mit Freunden radeln oder an einer der organisierten Touren teilnehmen. Mit <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> starten Sie am 28. August von Innsbruck aus in Richtung Chamonix, während die Tour von <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> von Chamonix (23. August) nach Bormio führt. In beiden Fällen können Sie den autofreien und motorfreien Samstag beim Stelvio Bike Day genießen",
-    "p3": "Weitere Informationen und die Anmeldung für diese Touren findest du über die folgenden Links. Wenn Sie die Tour auf eigene Faust mit dem Fahrrad unternehmen möchten, registrieren Sie sich bitte <a href=\"https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/\">hier</a>"
+    "p3": "Weitere Informationen und die Anmeldung für diese Touren findest du über die folgenden Links. Wenn Sie die Tour auf eigene Faust mit dem Fahrrad unternehmen möchten, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>melden Sie sich bei uns</a>."
   },
   "slider": {
     "source": "Der Schlatenkees ca. 1920–1940 (links) und 2022. Quelle 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -56,8 +56,8 @@
   "support": {
     "h2": "Mach mit!",
     "description": "Die Glorious Glacier Ride zollt den Gletschern Tribut und macht auf das enorme Tempo aufmerksam, mit dem sie verschwinden. Schließen Sie sich unserem Peloton an und unterstützen Sie einen Teilnehmer! Sie können dies tun, indem Sie <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">eine oder mehrere Postkarten</a> kaufen. Diese werden während der Tour mit einer persönlichen Botschaft verschickt.<br><br>Mit Ihrem Kauf wird CO₂ aus der Luft entfernt, und zwar durch wirkungsvolle CO₂-Entfernungsprojekte. Während die Fahrer schwitzen, räumen Sie CO₂ auf!",
-    "events": "Möchten Sie an einer der besonderen Event-Rides teilnehmen? Erfahren Sie mehr über den <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> und die <a href=\"/climate-ride-chamonix.html\">Climate Ride Chamonix</a>.",
-    "register": "Möchten Sie selbst (teilweise) an Glorious Glacier Ride teilnehmen und Ihre eigene CO₂-Senkungskampagne starten? Sie können sich <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier anmelden</a>.",
+    "events": "Möchten Sie an einer der besonderen Event-Rides teilnehmen? Erfahren Sie mehr über den <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> und die <a href=\"/climate-ride-chamonix.html\">Official Finish Chamonix</a>.",
+    "register": "Möchten Sie selbst (teilweise) an Glorious Glacier Ride teilnehmen und Ihre eigene CO₂-Senkungskampagne starten? <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Melden Sie sich bei uns</a>.",
     "details": "Eine ausführlichere Beschreibung der Glorious Glacier Ride, einschließlich GPS-Dateien, finden Sie auf der <a href='/route.html'>Routenseite"
   },
   "info": {
@@ -101,7 +101,7 @@
     "pelotonIntro": "🚴 Anmeldung zum Start-Peloton am Freitag, 28. August:",
     "pelotonCtaLabel": "Hier",
     "fullRideIntro": "🚴 Information und Anmeldung zur gesamten Glorious Glacier Ride:",
-    "fullRideCtaLabel": "Für das gesamte Abenteuer anmelden",
+    "fullRideCtaLabel": "Ich möchte mehr Informationen",
     "closing": "Wir freuen uns darauf, gemeinsam mit dir ein starkes Zeichen für den Schutz unserer Alpen und Gletscher zu setzen.",
     "formTitle": "Direkt anmelden",
     "formSubtitle": "auch für Freunde &amp; Familie",
@@ -122,7 +122,7 @@
     "formError": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
   },
   "climateRideChamonix": {
-    "metaTitle": "Climate Ride Chamonix | Glorious Glacier Ride",
+    "metaTitle": "Official Finish Chamonix | Glorious Glacier Ride",
     "h1": "Fahrt an den Rand einer schwindenden Welt",
     "date": "Chamonix, 4. September 2026",
     "meta": "60 km | 1.500 Höhenmeter | Col de Montets | Trient-Gletscher",
@@ -157,7 +157,7 @@
     "rideIntro": "🚴 Chamonix Climate Ride — 15 €:",
     "rideCtaLabel": "Hier anmelden",
     "fullRideIntro": "🚴 Vollständige 10-tägige Glorious Glacier Ride:",
-    "fullRideCtaLabel": "Für Das Gesamte Abenteuer Anmelden",
+    "fullRideCtaLabel": "Ich möchte mehr Informationen",
     "closing": "Bis bald in Chamonix. Lasst uns für die Gletscher fahren."
   },
     "faq": {
@@ -200,7 +200,7 @@
       "answer12": "Ja, das geht. Idealerweise fährst du mindestens an den Gletschern Morteratsch, Rhône und Aletsch vorbei und besuchst die Mer de Glace in der Nähe von Chamonix.",
   
       "question13": "Was kostet die Teilnahme?",
-      "answer13": "Die Anmeldegebühr für die GGR beträgt 25 €. Du erhältst dann die GPX-Datei, den Tagesplan und eine persönliche Spendenseite auf der Website. Du erhältst außerdem die digitalen Druckvorlagen der Postkarten, die du an deine Unterstützer*innen senden kannst, und wirst in die Liste der Glorious Glacier Riders aufgenommen. <br><br>Du kannst dich <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> anmelden.",
+      "answer13": "Die Anmeldegebühr für die GGR beträgt 25 €. Du erhältst dann die GPX-Datei, den Tagesplan und eine persönliche Spendenseite auf der Website. Du erhältst außerdem die digitalen Druckvorlagen der Postkarten, die du an deine Unterstützer*innen senden kannst, und wirst in die Liste der Glorious Glacier Riders aufgenommen. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Melden Sie sich bei uns</a>.",
 
       "question14": "Mit welcher einfachen Maßnahme haben Gemeinden Einfluss?",
       "answer14": "Der Kampf gegen den Klimawandel erfordert wirkungsvolle Projekte, die den CO₂-Ausstoß drastisch reduzieren, sowie Maßnahmen, die Verhaltensänderungen bewirken. Laut dem IPCC hängen <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70 % der Reduktionsaufgabe</a> davon ab. Häufiger Radfahren statt Autofahren ist eine solche Verhaltensänderung. Ebenso wie der Stopp fossiler Werbung.<br><br> Es ist ganz einfach: Mehr Werbung für fossile Produkte bedeutet mehr Nutzung fossiler Brennstoffe und mehr Schaden für das Klima. Daher ist es entscheidend, dass Gemeinden <a href='https://www.worldwithoutfossilads.org/' target='_blank'>ein Verbot fossiler Werbung</a> in öffentlichen Räumen wie Bushaltestellen, Verkehrsschildern und Gebäuden einführen."

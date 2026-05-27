@@ -19,7 +19,7 @@
     "support": "Join",
     "events": "Events",
     "eventInnsbruck": "Official Start Innsbruck",
-    "eventChamonix": "Climate Ride Chamonix",
+    "eventChamonix": "Official Finish Chamonix",
     "faq": "FAQ"  
   },
   "why": {
@@ -31,7 +31,7 @@
     "h2": "Join The Ride in 2026",
     "p1": "Cycling 4 Climate will also be organising the Glorious Glacier Ride in 2026. Cyclists from all over Europe can enjoy the most beautiful views in the Alps while actively contributing to climate action.",
     "p2": "You can cycle the route alone or with friends, or take part in one of the <strong>organised tours</strong>. With <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\" >VeloTours</a></strong> you will depart from Innsbruck on 28 August and head for Chamonix, while <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> will make the trip from Chamonix (23 August) to Bormio. In both cases, you will enjoy the car- and motorbike-free Saturday on Stelvio Bike Day!",
-    "p3": "More information and registration via the logo's below! If you would like to cycle the route on your own, please register <a href=\"https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/\">here</a>."
+    "p3": "More information and registration via the logo's below! If you would like to cycle the route on your own, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>let us know</a>."
   },
   "slider": {
     "source": "The Schlatenkees in ca. 1920-1940 (left) and 2022. Source 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -56,8 +56,8 @@
   "support": {
     "h2": "Join",
     "description": "The Glorious Glacier Ride pays tribute to the glaciers and draws attention to the enormous rate at which they are disappearing. Join our peloton and support a participant! You can do this by purchasing <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">one or more postcards</a>. These will be sent during the trip with a personal message.<br><br>With your purchase, CO₂ is removed from the atmosphere through impactful CO₂ removal projects. While the riders sweat, you clean up CO₂!",
-    "events": "Want to join one of the special event rides? Read more about the <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> and the <a href=\"/climate-ride-chamonix.html\">Climate Ride Chamonix</a>.",
-    "register": "Do you want to ride (a part of) the Glorious Glacier Ride yourself and start your own Carbon-Sinking campaign? You can <a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>register here</a>.",
+    "events": "Want to join one of the special event rides? Read more about the <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> and the <a href=\"/climate-ride-chamonix.html\">Official Finish Chamonix</a>.",
+    "register": "Do you want to ride (a part of) the Glorious Glacier Ride yourself and start your own Carbon-Sinking campaign? <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Let us know</a>.",
     "details": "A more detailed description of the Glorious Glacier Ride, including GPS files, can be found on the <a href='/route.html'>Route Page"  },
   "info": {
     "h2": "Supported by",
@@ -99,7 +99,7 @@
     "pelotonIntro": "🚴 Friday peloton start:",
     "pelotonCtaLabel": "Claim Your Spot",
     "fullRideIntro": "🚴 Full 10-day Glorious Glacier Ride:",
-    "fullRideCtaLabel": "Register for the Full Adventure",
+    "fullRideCtaLabel": "I want more information",
     "closing": "See you in Innsbruck. Let's ride.",
     "formTitle": "Sign Up Directly",
     "formSubtitle": "also for friends &amp; family",
@@ -120,7 +120,7 @@
     "formError": "Something went wrong. Please try again."
   },
   "climateRideChamonix": {
-    "metaTitle": "Climate Ride Chamonix | Glorious Glacier Ride",
+    "metaTitle": "Official Finish Chamonix | Glorious Glacier Ride",
     "h1": "Ride to the Edge of a Vanishing World",
     "date": "Chamonix, 4 September 2026",
     "meta": "60 km | 1,500 m elevation | Col de Montets | Trient Glacier",
@@ -155,7 +155,7 @@
     "rideIntro": "🚴 Chamonix Climate Ride — €15:",
     "rideCtaLabel": "Register Here",
     "fullRideIntro": "🚴 Full 10-day Glorious Glacier Ride:",
-    "fullRideCtaLabel": "Register for the Full Adventure",
+    "fullRideCtaLabel": "I want more information",
     "closing": "See you in Chamonix. Let's ride for the glaciers."
   },
     "faq": {
@@ -198,7 +198,7 @@
       "answer12": "Yes, you can. Ideally, you ride past at least the Morteratsch, Rhône, Aletsch and Trient glaciers, and visit the Mer de Glace near Chamonix.",
   
       "question13": "What is the cost of participation?",
-      "answer13": "The registration fee for the GGR is €50. You then receive the GPX file, the daily schedule, and a personal fundraising page on the website. You will also receive the postcards to send to your supporters, and you will be included in the list of Glorious Glacier Riders. <br><br>You can register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
+      "answer13": "The registration fee for the GGR is €50. You then receive the GPX file, the daily schedule, and a personal fundraising page on the website. You will also receive the postcards to send to your supporters, and you will be included in the list of Glorious Glacier Riders. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Let us know</a>.",
 
       "question14": "With which simple measure do municipalities have influence?",
       "answer14": "The fight against climate change requires impactful projects that drastically reduce CO₂ and policies that bring about behavioral change. According to the IPCC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70% of the reduction effort</a> depends on this. Cycling more often instead of driving is one such behavioral change. Just like stopping fossil advertising.<br><br> It’s very simple: more advertising for fossil products means more use of fossil fuels and more damage to the climate. It is therefore essential that municipalities introduce <a href='https://www.worldwithoutfossilads.org/' target='_blank'>a ban on fossil advertising</a> in their public spaces, such as bus stops, traffic signs, and buildings."

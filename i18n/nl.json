@@ -19,7 +19,7 @@
     "support": "Doe mee",
     "events": "Events",
     "eventInnsbruck": "Official Start Innsbruck",
-    "eventChamonix": "Climate Ride Chamonix",
+    "eventChamonix": "Official Finish Chamonix",
     "faq": "FAQ"
   },
   "why": {
@@ -31,7 +31,7 @@
   "h2": "Editie 2026",
     "p1": "Ook in 2026 organiseert Cycling 4 Climate de Glorious Glacier Ride. Fietsers uit heel Europa kunnen genieten van de mooiste uitzichten in de Alpen terwijl ze zich actief inzetten voor klimaatactie.",
     "p2": "Je kunt de route alleen of met vrienden fietsen, of deelnemen aan één van de <strong>georganiseerde tochten</strong>. Met <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> vertrek je op 28 augustus vanuit Innsbruck richting Chamonix, terwijl <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> de tocht vanuit Chamonix (23 augustus) naar Bormio maakt. In beide gevallen genietje van de auto- en motorloze zaterdag op de Stelvio Bike Day!",
-    "p3": "Meer informatie over en inschrijven voor deze georganiseerde tochten doe je via onderstaande links. Als je de tocht op eigen gelegenheid wil fietsen, registreer je dan <a href=\"https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/\">hier</a>." 
+    "p3": "Meer informatie over en inschrijven voor deze georganiseerde tochten doe je via onderstaande links. Als je de tocht op eigen gelegenheid wil fietsen, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>laat het ons weten</a>." 
   },
   "slider": {
     "source": "De Schlatenkees circa 1920-1940 (links) en 2022. Bron 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -56,8 +56,8 @@
   "support": {
       "h2": "Doe mee",
       "description": "De Glorious Glacier Ride brengt een ode aan de gletsjers en vraagt aandacht voor het enorme tempo waarop ze verdwijnen. Sluit je aan bij ons peloton en steun een deelnemer! Dit doe je door <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">één of meer ansichtkaarten</a> te kopen. Deze worden tijdens de tocht met een persoonlijke boodschap verstuurd.<br><br>Met je aankoop wordt CO₂ uit de lucht gehaald via impactvolle CO₂ verwijderingsprojecten. Terwijl de renners zweten, ruim jij CO₂ op!",
-      "events": "Wil je meedoen aan een van de speciale event rides? Lees meer over de <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> en de <a href=\"/climate-ride-chamonix.html\">Climate Ride Chamonix</a>.",
-      "register": "Wil je zelf (een deel van) de Glorious Glacier Ride fietsen en een eigen CO₂ verwijderingscampagne  starten? Schrijf je <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> in.",
+      "events": "Wil je meedoen aan een van de speciale event rides? Lees meer over de <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> en de <a href=\"/climate-ride-chamonix.html\">Official Finish Chamonix</a>.",
+      "register": "Wil je zelf (een deel van) de Glorious Glacier Ride fietsen en een eigen CO₂ verwijderingscampagne starten? <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Laat het ons weten</a>.",
       "details": "Een meer gedetailleerde beschrijving van de Glorious Glacier Ride, inclusief GPS-bestanden, is te vinden op de <a href='/route.html'>Routepagina"
     },
   "info": {
@@ -101,7 +101,7 @@
     "pelotonIntro": "🚴 Vrijdagse pelotonstart:",
     "pelotonCtaLabel": "Claim je plek",
     "fullRideIntro": "🚴 Volledige 10-daagse Glorious Glacier Ride:",
-    "fullRideCtaLabel": "Schrijf je in voor het volledige avontuur",
+    "fullRideCtaLabel": "Ik wil meer informatie",
     "closing": "Tot in Innsbruck. Op de fiets!",
     "formTitle": "Direct aanmelden",
     "formSubtitle": "ook voor vrienden &amp; familie",
@@ -122,7 +122,7 @@
     "formError": "Er is iets misgegaan. Probeer het opnieuw."
   },
   "climateRideChamonix": {
-    "metaTitle": "Climate Ride Chamonix | Glorious Glacier Ride",
+    "metaTitle": "Official Finish Chamonix | Glorious Glacier Ride",
     "h1": "Fietsen naar de rand van een verdwijnende wereld",
     "date": "Chamonix, 4 september 2026",
     "meta": "60 km | 1.500 hoogtemeters | Col de Montets | Trient-gletsjer",
@@ -157,7 +157,7 @@
     "rideIntro": "🚴 Chamonix Climate Ride — €15:",
     "rideCtaLabel": "Aanmelden",
     "fullRideIntro": "🚴 Volledige 10-daagse Glorious Glacier Ride:",
-    "fullRideCtaLabel": "Aanmelden Voor Het Volledige Avontuur",
+    "fullRideCtaLabel": "Ik wil meer informatie",
     "closing": "Tot ziens in Chamonix. Laten we rijden voor de gletsjers."
   },
     "faq": {
@@ -200,7 +200,7 @@
       "answer12": "Ja, dat kan. Idealiter rijd je langs ten minste de Morteratsch, Rhône, Aletsch en Trient gletsjers, en bezoek je de Mer de Glace nabij Chamonix.",
   
       "question13": "Wat kost deelname?",
-      "answer13": "Het inschrijfgeld voor de GGR bedraagt € 50. Je ontvangt dan het GPX-bestand, de dagplanning en een persoonlijke inzamelpagina op de website. Daarnaast ontvang je de ansichtkaarten die je naar je supporters kunt sturen, en word je opgenomen in de lijst van Glorious Glacier Riders. <br><br> Inschrijven kan <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong>.",
+      "answer13": "Het inschrijfgeld voor de GGR bedraagt € 50. Je ontvangt dan het GPX-bestand, de dagplanning en een persoonlijke inzamelpagina op de website. Daarnaast ontvang je de ansichtkaarten die je naar je supporters kunt sturen, en word je opgenomen in de lijst van Glorious Glacier Riders. <br><br> <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Laat het ons weten</a>.",
 
       "question14": "Met welke eenvoudige maatregel hebben gemeentes invloed?",
       "answer14": "De strijd tegen klimaatverandering vraagt om impactvolle projecten die op drastische wijze de CO₂ reduceren én beleid dat gedragsverandering teweegbrengt. Volgens het IPCC is namelijk <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40-70% van de reductieopgave</a> daarvan afhankelijk. Vaker fietsen in plaats van autorijden is zo’n gedragsverandering. Net als het stoppen met fossiele reclame.<br><br> Het is heel eenvoudig: meer advertenties voor fossiele producten betekent meer gebruik van fossiele brandstoffen en meer schade aan het klimaat. Het is daarom essentieel dat gemeenten <a href='https://www.worldwithoutfossilads.org/' target='_blank'>een verbod op fossiele reclame</a> instellen in hun openbare ruimtes, zoals bushaltes, verkeersborden en op gebouwen."
