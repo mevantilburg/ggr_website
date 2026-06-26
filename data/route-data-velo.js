@@ -336,8 +336,8 @@ const ROUTE_DATA = {
             },
             stats: {
                 date: "Sept 4",
-                distance: 96,
-                elevation: 2200,
+                distance: 77,
+                elevation: 1990,
                 points: [
                     { name: "Col de la Forclaz", type: "pass" },
                     { name: "Trient Glacier", type: "glacier" },
