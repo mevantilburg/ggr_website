@@ -331,7 +331,7 @@ const ROUTE_DATA = {
             id: 8,
            
             location: {
-                city: "Sierre",
+                city: "Aigle - UCI",
                 country: "ch"
             },
             stats: {
