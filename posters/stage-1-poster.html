@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Glorious Glacier Ride — Stage 1 Poster</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue: #1974b7;
+    --blue-dark: #0f4d78;
+    --ink: #17232c;
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; background:#e9edf0; font-family:"Jost", sans-serif; }
+
+  .toolbar{
+    position: sticky; top:0; z-index: 50;
+    background:var(--ink); color:#fff;
+    padding: 14px 24px; display:flex; align-items:center; justify-content:space-between;
+    font-family:"Jost", sans-serif;
+  }
+  .toolbar h1{ font-size:16px; margin:0; font-weight:500; letter-spacing:.03em; text-transform:uppercase; }
+  .toolbar button{
+    background:var(--blue); color:#fff; border:none; border-radius:4px;
+    padding:10px 18px; font-size:14px; font-family:"Jost", sans-serif; cursor:pointer;
+    text-transform:uppercase; letter-spacing:.03em;
+  }
+  .toolbar button:hover{ background:var(--blue-dark); }
+  .toolbar p{ margin:0; font-size:12px; color:#cfd8de; }
+
+  .stack{ display:flex; flex-direction:column; align-items:center; gap:28px; padding:28px 0 60px; }
+
+  /* ---- Poster page: A4 landscape = 297mm x 210mm ---- */
+  .poster{
+    width:297mm; height:210mm;
+    background:#fff;
+    box-shadow: 0 6px 24px rgba(0,0,0,.25);
+    display:flex;
+    overflow:hidden;
+    position:relative;
+  }
+
+  /* Left visual panel */
+  .visual{
+    width:58%; position:relative;
+    background-size: cover; background-position: center;
+  }
+  .visual::after{
+    content:"";
+    position:absolute; inset:0;
+    background: linear-gradient(180deg, rgba(10,25,35,.15) 0%, rgba(10,25,35,.15) 45%, rgba(8,20,28,.92) 100%);
+  }
+  .visual-top{
+    position:absolute; top:14mm; left:14mm; right:14mm; z-index:2;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .brand{
+    color:#fff; font-family:"Jost", sans-serif; font-weight:500; letter-spacing:.12em;
+    font-size:11px; text-transform:uppercase; display:flex; flex-direction:column; line-height:1.5;
+  }
+  .brand span{ opacity:.75; font-weight:300; letter-spacing:.08em; }
+  .stagechip{
+    background: var(--blue); color:#fff; font-family:"Jost", sans-serif; font-weight:600;
+    font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+    padding:6px 14px; border-radius:2px;
+  }
+  .stagechip.finish{ background:#c0392b; }
+
+  .visual-bottom{
+    position:absolute; left:14mm; right:14mm; bottom:12mm; z-index:2; color:#fff;
+  }
+  .stage-num{
+    font-family:"PT Serif", serif; font-weight:700; font-size:15mm; line-height:1;
+    color:#fff; opacity:.92;
+  }
+  .route-title{
+    font-family:"PT Serif", serif; font-weight:700; font-size:11mm; line-height:1.12;
+    margin:2mm 0 3mm; letter-spacing:.01em;
+  }
+  .route-title .arrow{ color: #7fc4ee; padding: 0 4mm; }
+  .date-line{
+    font-family:"Jost", sans-serif; font-weight:400; font-size:5mm; letter-spacing:.05em;
+    opacity:.9;
+  }
+
+  /* Right info panel */
+  .info{
+    width:42%; padding:14mm 12mm 10mm; display:flex; flex-direction:column;
+    font-family:"Jost", sans-serif; color:var(--ink);
+  }
+  .info-logo{ display:flex; align-items:center; justify-content:space-between; margin-bottom:6mm; }
+  .info-logo img{ height:9mm; object-fit:contain; }
+  .info-logo .segment{ font-size:9px; letter-spacing:.1em; text-transform:uppercase; color:#8a99a3; text-align:right; }
+
+  .kpi-row{ display:flex; gap:6mm; margin-bottom:7mm; }
+  .kpi{ flex:1; border-top:2px solid var(--blue); padding-top:2.5mm; }
+  .kpi .val{ font-family:"PT Serif", serif; font-weight:700; font-size:9mm; color:var(--ink); line-height:1; }
+  .kpi .lbl{ font-size:8px; letter-spacing:.1em; text-transform:uppercase; color:#8a99a3; margin-top:1.5mm; }
+
+  .section-lbl{
+    font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--blue);
+    font-weight:600; margin-bottom:2.5mm; margin-top: 5mm;
+  }
+  .section-lbl:first-of-type{ margin-top:0; }
+
+  .climbs{ list-style:none; margin:0 0 2mm; padding:0; }
+  .climbs li{
+    display:flex; align-items:baseline; gap:2.5mm; font-size:9.5px; line-height:1.7;
+    color:var(--ink); border-bottom:1px solid #eef1f3; padding:1.3mm 0;
+  }
+  .climbs li:last-child{ border-bottom:none; }
+  .tag{
+    flex-shrink:0; width:5mm; height:5mm; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-size:7px; color:#fff; font-weight:700;
+  }
+  .tag.pass{ background:#c0392b; }
+  .tag.glacier{ background:#1974b7; }
+  .tag.place{ background:#8a99a3; }
+
+  .climbstat{
+    background:#f4f7f9; border-radius:3px; padding:3mm 4mm; margin: 3mm 0 0;
+    display:flex; gap:5mm; font-family:"Jost", sans-serif;
+  }
+  .climbstat div{ font-size:8px; color:#8a99a3; text-transform:uppercase; letter-spacing:.06em; }
+  .climbstat strong{ display:block; font-family:"PT Serif", serif; font-size:12px; color:var(--ink); margin-top:.8mm; }
+
+  .fact{
+    margin-top:5mm; padding:4mm; background: linear-gradient(135deg, var(--blue), var(--blue-dark));
+    border-radius:3px; color:#fff;
+  }
+  .fact .fact-lbl{ font-size:8px; letter-spacing:.1em; text-transform:uppercase; opacity:.8; margin-bottom:1.5mm; }
+  .fact p{ margin:0; font-family:"PT Serif", serif; font-size:9.5px; line-height:1.5; }
+
+  .info-footer{
+    margin-top:auto; padding-top:5mm; border-top:1px solid #eef1f3;
+    display:flex; justify-content:space-between; align-items:flex-end;
+  }
+  .info-footer .contact{ font-size:8px; color:#8a99a3; line-height:1.6; }
+  .info-footer .contact strong{ color:var(--ink); display:block; font-size:9px; }
+  .info-footer .pageof{ font-size:8px; color:#8a99a3; }
+
+  @media print{
+    body{ background:#fff; }
+    .toolbar{ display:none; }
+    .stack{ padding:0; gap:0; }
+    .poster{ box-shadow:none; }
+    @page{ size: A4 landscape; margin:0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="toolbar no-print">
+  <h1>Glorious Glacier Ride — Stage 1 poster (A4 landscape)</h1>
+  <p>Innsbruck → Reschen · 28 August 2026</p>
+  <button onclick="window.print()">Print / Save as PDF</button>
+</div>
+
+<div class="stack">
+  <div class="poster">
+    <div class="visual" style="background-image:url('../img/cards/3x/fernpass@3x-50.jpg');">
+      <div class="visual-top">
+        <div class="brand">Glorious Glacier Ride<span>Velo Tours segment</span></div>
+        <div class="stagechip">Stage 1 / 8</div>
+      </div>
+      <div class="visual-bottom">
+        <div class="stage-num">01</div>
+        <div class="route-title">Innsbruck <span class="arrow">→</span> Reschen</div>
+        <div class="date-line">Friday, 28 August 2026</div>
+      </div>
+    </div>
+    <div class="info">
+      <div class="info-logo"><div></div><div class="segment">AT → IT</div></div>
+      <div class="kpi-row">
+        <div class="kpi"><div class="val">125 km</div><div class="lbl">Distance</div></div>
+        <div class="kpi"><div class="val">1,800 m</div><div class="lbl">Elevation gain</div></div>
+      </div>
+      <div class="section-lbl">Route highlights</div>
+      <ul class="climbs">
+        <li><span class="tag pass">P</span> Reschenpass</li>
+        <li><span class="tag place">•</span> Lago di Rèsia</li>
+      </ul>
+      <div class="fact">
+        <div class="fact-lbl">Did you know</div>
+        <p>In 1950 the village of Curon was moved for a hydropower dam that joined the lakes of Resia and Curon — its 700-year-old bell tower still rises straight out of the water.</p>
+      </div>
+      <div class="info-footer">
+        <div class="contact"><strong>Glorious Glacier Ride 2026</strong>cycling4climate.nl · joost@cycling4climate.nl</div>
+        <div class="pageof">01 / 08</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
