@@ -20,14 +20,14 @@
     "events": "Events",
     "eventInnsbruck": "Official Start Innsbruck",
     "eventChamonix": "Official Finish Chamonix",
-    "faq": "FAQ"  
+    "faq": "FAQ"
   },
   "why": {
     "h2": "Why",
     "p1": "Glaciers are essential for life on earth. Billions of people - both in mountainous areas and large cities - depend on glaciers for drinking water and food production. Glaciers are our natural reservoirs of water.",
     "p2": "However, glaciers are shrinking at an alarming rate due to climate change. Less snow is falling and higher temperatures are melting more ice each year than is being added. In the Alps, this is clearly visible: many small glaciers have already disappeared."
   },
-   "2026": {
+  "2026": {
     "h2": "Join The Ride in 2026",
     "p1": "Cycling 4 Climate will also be organising the Glorious Glacier Ride in 2026. Cyclists from all over Europe can enjoy the most beautiful views in the Alps while actively contributing to climate action.",
     "p2": "You can cycle the route alone or with friends, or take part in one of the <strong>organised tours</strong>. With <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\" >VeloTours</a></strong> you will depart from Innsbruck on 28 August and head for Chamonix, while <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> will make the trip from Chamonix (23 August) to Bormio. In both cases, you will enjoy the car- and motorbike-free Saturday on Stelvio Bike Day!",
@@ -51,14 +51,15 @@
     "source": "The glaciers in the Alps have lost more than half their volume since this map was drawn in the 1930s."
   },
   "cyclist": {
-      "day": "day"
-    },
+    "day": "day"
+  },
   "support": {
     "h2": "Join",
     "description": "The Glorious Glacier Ride pays tribute to the glaciers and draws attention to the enormous rate at which they are disappearing. Join our peloton and support a participant! You can do this by purchasing <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">one or more postcards</a>. These will be sent during the trip with a personal message.<br><br>With your purchase, CO₂ is removed from the atmosphere through impactful CO₂ removal projects. While the riders sweat, you clean up CO₂!",
     "events": "Want to join one of the special event rides? Read more about the <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> and the <a href=\"/climate-ride-chamonix.html\">Official Finish Chamonix</a>.",
     "register": "Do you want to ride (a part of) the Glorious Glacier Ride yourself and start your own Carbon-Sinking campaign? <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Let us know</a>.",
-    "details": "A more detailed description of the Glorious Glacier Ride, including GPS files, can be found on the <a href='/route.html'>Route Page"  },
+    "details": "A more detailed description of the Glorious Glacier Ride, including GPS files, can be found on the <a href='/route.html'>Route Page"
+  },
   "info": {
     "h2": "Supported by",
     "un": "To highlight the importance of glaciers, the United Nations has designated 2025 as the International Year of Glaciers' Preservation.",
@@ -136,8 +137,10 @@
     "schedule": {
       "addressTime": "Location",
       "addressText": "Maison des Jeunes et de la Culture, 94 Promenade du Fori, 74400 Chamonix-Mont-Blanc",
-      "welcomeTime": "9:00",
-      "welcomeText": "Welcome & start Climate Fresk",
+      "coffeeTime": "8:30",
+      "coffeeText": "Welcome & coffee",
+      "welcomeTime": "9:00 - 12:00",
+      "welcomeText": "Climate Fresk or Workshop \"How to protect glaciers\"",
       "lunchTime": "12:00",
       "lunchText": "Simple lunch",
       "departureTime": "12:30",
@@ -145,9 +148,24 @@
       "meetTime": "14:15 - 15:15",
       "meetText": "Meet and greet the Glorious Glacier peloton at the Trient Glacier",
       "finishTime": "17:00",
-      "finishText": "Finish in Chamonix"
+      "finishText": "Finish in Chamonix",
+      "drinksTime": "17:00 - 20:00",
+      "drinksText": "Drinks & Bites",
+      "filmTime": "20:00 - 21:30",
+      "filmText": "Film screening: Après les Glaciers + debate"
     },
     "routeDescription": "The concept route can be viewed <a href=\"https://ridewithgps.com/events/478160-cyclo-pour-le-climat-chamonix\" target=\"_blank\">here</a>.",
+    "confTitle": "Meanwhile at the MJC",
+    "confSubtitle": "A parallel afternoon programme, while the peloton rides to the Trient Glacier",
+    "confIntro": "Not riding today? From 14:00 to 17:00, the Maison des Jeunes et de la Culture hosts an afternoon of talks, repair and reflection on the mountains we're trying to protect.",
+    "confItem1Time": "14:00 - 17:00",
+    "confItem1Text": "Outdoor textile repair workshop, with Patagonia",
+    "confItem2Time": "14:30 - 15:15",
+    "confItem2Text": "Talk: What science tells us — climate change in the mountains",
+    "confItem3Time": "15:15 - 16:00",
+    "confItem3Text": "Talk: Focus on glaciers and the ecosystems that follow them",
+    "confItem4Time": "16:00 - 16:45",
+    "confItem4Text": "Panel discussion with committed athletes × Protect Our Winters",
     "ctaTitle": "Ready to Ride for What Matters?",
     "ctaIntro": "A small participation fee of €15 goes directly towards supporting the ride and the climate projects behind it. Every euro counts.",
     "workshopIntro": "💡 Climate Fresk workshop — Free:",
@@ -156,57 +174,57 @@
     "rideCtaLabel": "Register Here",
     "fullRideIntro": "🚴 Full 8-day Glorious Glacier Ride:",
     "fullRideCtaLabel": "I want more information",
-    "closing": "See you in Chamonix. Let's ride for the glaciers."
+    "closing": "See you in Chamonix. Let's ride for the glaciers.",
+    "formTitle": "Sign Up Directly",
+    "formSubtitle": "also for friends &amp; family",
+    "formName": "Name",
+    "formNamePlaceholder": "Your name",
+    "formEmail": "Email address",
+    "formEmailPlaceholder": "your@email.com",
+    "formCity": "City",
+    "formCityPlaceholder": "Your city",
+    "formEvent": "Which part would you like to join?",
+    "formEventWorkshop": "💡 Climate Fresk workshop (Friday 4 September, 9:00–12:00)",
+    "formEventWorkshop2": "🧊 Workshop \"How to protect glaciers\" (Friday 4 September, 9:00–12:00)",
+    "formEventPeloton": "🚴 Chamonix Climate Ride (Friday 4 September, departure 12:30)",
+    "formEventConference": "🎤 Glacier Conference (afternoon, 14:00–17:00)",
+    "formEventFilm": "🎬 Film screening: Après les Glaciers (20:00–21:30)",
+    "formPeople": "Number of people",
+    "formComment": "Comment or question",
+    "formCommentPlaceholder": "Optional",
+    "formSubmit": "Register",
+    "formSuccess": "Thank you! We'll be in touch soon.",
+    "formError": "Something went wrong. Please try again."
   },
-    "faq": {
-      "h2": "Frequently Asked Questions",
-  
-      "question1": "What is the Glorious Glacier Ride?",
-      "answer1": "The Glorious Glacier Ride is a cycling experience along the most beautiful yet shrinking glaciers of the Alps, intended to raise awareness about climate change. The total ride is over 1,500km long and more than 30,000 meters of elevation gain must be conquered. Participants raise funds for CO₂ removal: they invite friends, family, etc. to remove CO₂ from the atmosphere via their individual fundraising campaign.",
-  
-      "question2": "How can I support the participants?",
-      "answer2": "You can make a donation to a participant of your choice. You can opt for a postcard that will be sent to you or make a direct donation. Your contribution helps your participant reach their CO₂ removal target!",
-  
-      "question3": "What is the impact of climate change on glaciers?",
-      "answer3": "Glaciers are retreating due to climate change. They rely on consistent snowfall in winter to replenish their ice mass. Climate change has led to higher temperatures, resulting in less snowfall and more rain. Additionally, warmer temperatures shorten the cold seasons, while the melt period is longer and warmer. Finally, snow cover increases the albedo (reflective capacity) of glaciers, slowing melting by reflecting sunlight. A lack of snow exposes darker glacier ice, which absorbs more heat and accelerates melting.<br><br>The University of Innsbruck has made predictions about the rate at which glaciers are retreating. The difference between 1.5°C (Paris Agreement) or 2.7°C (current trajectory) of warming by 2100 is significant.<br><br>For example, in 2020, the Rhône Glacier had an estimated volume of 1.24 km³. Under the 2.7°C scenario, it is expected to be largely gone by 2073. If warming is limited to 1.5°C, 22% of its 2020 volume remains (17% more than at 2.7°C).<br><br>Due to their relatively low altitudes, the glaciers in the Alps are particularly vulnerable to climate change, and a large part of their volume will be gone by 2100. However, the largest populations depending on glaciers live in Asia, where glaciers in the Himalayas will last longer. Wherever you live: <strong>0.1°C less helps save glaciers and limit the impact!</strong><br><br><video style='width:100%;' autoplay='' loop='' muted='' playsinline='' controls=''><source src='img/RGI60-11.01238_+2.7°C.mp4' type='video/mp4'>Your browser does not support the video tag.</video><br><br>Other glaciers the Glorious Glacier Ride will pass:<br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03638.html' target='_blank'>Argentière</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03662.html' target='_blank'>Grande Motte</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03684.html' target='_blank'>Glacier Blanc</a><br>More information can be found on <a href='https://goodbye-glaciers.info/' target='_blank'>goodbye-glaciers.info</a>.",
-  
-      "question4": "What is the cause of climate change?",
-      "answer4": "The main cause of climate change is the emission of greenhouse gases by human activities, especially the burning of fossil fuels such as oil, gas, and coal. These gases, primarily carbon dioxide (CO₂), enhance the Earth's natural greenhouse effect, leading to a rise in average temperature and changes in the climate system.",
-  
-      "question5": "What is a ton of CO₂?",
-      "answer5": "A ton is 1,000 kg. On average, a resident of Europe emits 7.5 tons of CO₂: roughly comparable to the weight of five midsize cars. Each liter of gasoline you fill up turns into 2.4 kg of CO₂ upon combustion. A full tank (40 liters) therefore equals 100 kg of CO₂. An intercontinental flight (for instance, to New York) quickly leads to 1 ton of CO₂ emissions (and a round trip therefore 2 tons). The consumption of (especially beef) meat also has a large impact: each kg of beef accounts for 20-25 kg of CO₂ (and if that beef comes from Brazil, it’s even double...). Every kilogram we put into the atmosphere will eventually need to be removed again.",
-  
-      "question6": "Why is CO₂ removal necessary?",
-      "answer6": "We have – especially in the last 50 years – pumped a lot of extra CO₂ into the atmosphere. At the moment, we are on track to exceed the average warming of 1.5°C. In addition to rapidly reducing our emissions, we therefore need to start cleaning up our historical emissions as well.",
-  
-      "question7": "How does CO₂ removal work and what does it cost?",
-      "answer7": "There are various ways to extract CO₂ from the air and store it. You might be familiar with the Climeworks project in Iceland. Large fans and CO₂-absorbing material capture CO₂ from the air and inject it into the ground. However, this requires a lot of energy and is relatively expensive (€600-800 per ton)<br><br>Another solution is through the production of biochar. In this process, organic waste (for example, corn and cocoa waste) is converted into biochar. Biochar is a kind of charcoal that is very stable. After production, the biochar is mixed into the soil, where it improves soil quality and stores the carbon for millennia.<br><br>This has three benefits: 1) Small-scale farmers in Africa receive additional income, 2) Their soil improves and is more resilient to climate change, increasing land yield and reducing fertilizer costs, 3) It is a form of climate financing. <br><br>The Dutch company Carboneers.earth has already returned more than 175,000 tons of CO₂ to the earth using this method. myclimate, a Swiss expert in sustainability and climate protection, includes this approach in their climate solutions as well. More information about the Carboneers and myclimate can be found at <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a> and <a href='https://www.myclimate.org/' target='_blank'>www.myclimate.org</a>.<br><br>There is also cycling for other forms of nature-based carbon sequestration, independently certified by Oncra. Examples include the biodiverse Food Forest Leuker1818, the biobased building materials from Finti, the seaweed sinking by Oceanus International, and the permanent carbon storage with olivine by Greensands. All these initiatives not only contribute to combating climate change through carbon sequestration, but also to a biodiverse world with healthy soils. More information about these projects can be found at <a href='https://oncra.org/' target='_blank'>Oncra.org</a>. <br><br>Removing and storing 1 kg of CO₂ costs €0.15. Every euro removes 6.67 kg of CO₂ from the atmosphere. Hence, removing 1 ton of CO₂ costs €150.",
-  
-      "question8": "How is my contribution spent?",
-      "answer8": "If you donate via a postcard, €5 is used for printing and postage costs. The remaining portion is used to fund a CO₂ removal project by the Carboneers. The Cycling 4 Climate Foundation collects your donation, and at the end, the full amount is used to remove CO₂.",
-  
-      "question9": "How can I cycle the Glorious Glacier Ride?",
-      "answer9": "First of all, you obviously need good physical fitness! In addition, you need to be willing to launch a CO₂ removal campaign. Your goal is to remove as many tons of CO₂ (in tons) as your age. So if you are 30 years old, you must remove 30 tons of CO₂, which at a price of €150 per ton amounts to a target of €4,500. In other words: mobilize enough people to collectively remove your age in CO₂. On average, a European emits about ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7.5 tons</a> of CO₂ per year (a Dutch person emits 9 tons per year).<br><br>If you want to cycle the GGR, you can register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
-  
-      "question10": "When does the Glorious Glacier Ride take place?",
-      "answer10": "The Glorious Glacier Ride will be organised in 2026 by Borne Cycling (23–29 August) and Velotours (28 August–4 September). You can also cycle the Glorious Glacier Ride individually or with friends. Register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
-  
-      "question11": "How long does the Glorious Glacier Ride last?",
-      "answer11": "The full Glorious Glacier Ride consists of 14 stages. With one rest day in Zermatt, you’ll be on the road for 15 days. But you can also choose just the first week (most glaciers), the second week (most mountains), or only a few stages.",
-  
-      "question12": "Can I also ride part of the Glorious Glacier Ride?",
-      "answer12": "Yes, you can. Ideally, you ride past at least the Morteratsch, Rhône, Aletsch and Trient glaciers, and visit the Mer de Glace near Chamonix.",
-  
-      "question13": "What is the cost of participation?",
-      "answer13": "The registration fee for the GGR is €50. You then receive the GPX file, the daily schedule, and a personal fundraising page on the website. You will also receive the postcards to send to your supporters, and you will be included in the list of Glorious Glacier Riders. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Let us know</a>.",
-
-      "question14": "With which simple measure do municipalities have influence?",
-      "answer14": "The fight against climate change requires impactful projects that drastically reduce CO₂ and policies that bring about behavioral change. According to the IPCC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70% of the reduction effort</a> depends on this. Cycling more often instead of driving is one such behavioral change. Just like stopping fossil advertising.<br><br> It’s very simple: more advertising for fossil products means more use of fossil fuels and more damage to the climate. It is therefore essential that municipalities introduce <a href='https://www.worldwithoutfossilads.org/' target='_blank'>a ban on fossil advertising</a> in their public spaces, such as bus stops, traffic signs, and buildings."
-
-    }
-  
-  
- 
-  
+  "faq": {
+    "h2": "Frequently Asked Questions",
+    "question1": "What is the Glorious Glacier Ride?",
+    "answer1": "The Glorious Glacier Ride is a cycling experience along the most beautiful yet shrinking glaciers of the Alps, intended to raise awareness about climate change. The total ride is over 1,500km long and more than 30,000 meters of elevation gain must be conquered. Participants raise funds for CO₂ removal: they invite friends, family, etc. to remove CO₂ from the atmosphere via their individual fundraising campaign.",
+    "question2": "How can I support the participants?",
+    "answer2": "You can make a donation to a participant of your choice. You can opt for a postcard that will be sent to you or make a direct donation. Your contribution helps your participant reach their CO₂ removal target!",
+    "question3": "What is the impact of climate change on glaciers?",
+    "answer3": "Glaciers are retreating due to climate change. They rely on consistent snowfall in winter to replenish their ice mass. Climate change has led to higher temperatures, resulting in less snowfall and more rain. Additionally, warmer temperatures shorten the cold seasons, while the melt period is longer and warmer. Finally, snow cover increases the albedo (reflective capacity) of glaciers, slowing melting by reflecting sunlight. A lack of snow exposes darker glacier ice, which absorbs more heat and accelerates melting.<br><br>The University of Innsbruck has made predictions about the rate at which glaciers are retreating. The difference between 1.5°C (Paris Agreement) or 2.7°C (current trajectory) of warming by 2100 is significant.<br><br>For example, in 2020, the Rhône Glacier had an estimated volume of 1.24 km³. Under the 2.7°C scenario, it is expected to be largely gone by 2073. If warming is limited to 1.5°C, 22% of its 2020 volume remains (17% more than at 2.7°C).<br><br>Due to their relatively low altitudes, the glaciers in the Alps are particularly vulnerable to climate change, and a large part of their volume will be gone by 2100. However, the largest populations depending on glaciers live in Asia, where glaciers in the Himalayas will last longer. Wherever you live: <strong>0.1°C less helps save glaciers and limit the impact!</strong><br><br><video style='width:100%;' autoplay='' loop='' muted='' playsinline='' controls=''><source src='img/RGI60-11.01238_+2.7°C.mp4' type='video/mp4'>Your browser does not support the video tag.</video><br><br>Other glaciers the Glorious Glacier Ride will pass:<br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03638.html' target='_blank'>Argentière</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03662.html' target='_blank'>Grande Motte</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03684.html' target='_blank'>Glacier Blanc</a><br>More information can be found on <a href='https://goodbye-glaciers.info/' target='_blank'>goodbye-glaciers.info</a>.",
+    "question4": "What is the cause of climate change?",
+    "answer4": "The main cause of climate change is the emission of greenhouse gases by human activities, especially the burning of fossil fuels such as oil, gas, and coal. These gases, primarily carbon dioxide (CO₂), enhance the Earth's natural greenhouse effect, leading to a rise in average temperature and changes in the climate system.",
+    "question5": "What is a ton of CO₂?",
+    "answer5": "A ton is 1,000 kg. On average, a resident of Europe emits 7.5 tons of CO₂: roughly comparable to the weight of five midsize cars. Each liter of gasoline you fill up turns into 2.4 kg of CO₂ upon combustion. A full tank (40 liters) therefore equals 100 kg of CO₂. An intercontinental flight (for instance, to New York) quickly leads to 1 ton of CO₂ emissions (and a round trip therefore 2 tons). The consumption of (especially beef) meat also has a large impact: each kg of beef accounts for 20-25 kg of CO₂ (and if that beef comes from Brazil, it’s even double...). Every kilogram we put into the atmosphere will eventually need to be removed again.",
+    "question6": "Why is CO₂ removal necessary?",
+    "answer6": "We have – especially in the last 50 years – pumped a lot of extra CO₂ into the atmosphere. At the moment, we are on track to exceed the average warming of 1.5°C. In addition to rapidly reducing our emissions, we therefore need to start cleaning up our historical emissions as well.",
+    "question7": "How does CO₂ removal work and what does it cost?",
+    "answer7": "There are various ways to extract CO₂ from the air and store it. You might be familiar with the Climeworks project in Iceland. Large fans and CO₂-absorbing material capture CO₂ from the air and inject it into the ground. However, this requires a lot of energy and is relatively expensive (€600-800 per ton)<br><br>Another solution is through the production of biochar. In this process, organic waste (for example, corn and cocoa waste) is converted into biochar. Biochar is a kind of charcoal that is very stable. After production, the biochar is mixed into the soil, where it improves soil quality and stores the carbon for millennia.<br><br>This has three benefits: 1) Small-scale farmers in Africa receive additional income, 2) Their soil improves and is more resilient to climate change, increasing land yield and reducing fertilizer costs, 3) It is a form of climate financing. <br><br>The Dutch company Carboneers.earth has already returned more than 175,000 tons of CO₂ to the earth using this method. myclimate, a Swiss expert in sustainability and climate protection, includes this approach in their climate solutions as well. More information about the Carboneers and myclimate can be found at <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a> and <a href='https://www.myclimate.org/' target='_blank'>www.myclimate.org</a>.<br><br>There is also cycling for other forms of nature-based carbon sequestration, independently certified by Oncra. Examples include the biodiverse Food Forest Leuker1818, the biobased building materials from Finti, the seaweed sinking by Oceanus International, and the permanent carbon storage with olivine by Greensands. All these initiatives not only contribute to combating climate change through carbon sequestration, but also to a biodiverse world with healthy soils. More information about these projects can be found at <a href='https://oncra.org/' target='_blank'>Oncra.org</a>. <br><br>Removing and storing 1 kg of CO₂ costs €0.15. Every euro removes 6.67 kg of CO₂ from the atmosphere. Hence, removing 1 ton of CO₂ costs €150.",
+    "question8": "How is my contribution spent?",
+    "answer8": "If you donate via a postcard, €5 is used for printing and postage costs. The remaining portion is used to fund a CO₂ removal project by the Carboneers. The Cycling 4 Climate Foundation collects your donation, and at the end, the full amount is used to remove CO₂.",
+    "question9": "How can I cycle the Glorious Glacier Ride?",
+    "answer9": "First of all, you obviously need good physical fitness! In addition, you need to be willing to launch a CO₂ removal campaign. Your goal is to remove as many tons of CO₂ (in tons) as your age. So if you are 30 years old, you must remove 30 tons of CO₂, which at a price of €150 per ton amounts to a target of €4,500. In other words: mobilize enough people to collectively remove your age in CO₂. On average, a European emits about ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7.5 tons</a> of CO₂ per year (a Dutch person emits 9 tons per year).<br><br>If you want to cycle the GGR, you can register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
+    "question10": "When does the Glorious Glacier Ride take place?",
+    "answer10": "The Glorious Glacier Ride will be organised in 2026 by Borne Cycling (23–29 August) and Velotours (28 August–4 September). You can also cycle the Glorious Glacier Ride individually or with friends. Register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
+    "question11": "How long does the Glorious Glacier Ride last?",
+    "answer11": "The full Glorious Glacier Ride consists of 14 stages. With one rest day in Zermatt, you’ll be on the road for 15 days. But you can also choose just the first week (most glaciers), the second week (most mountains), or only a few stages.",
+    "question12": "Can I also ride part of the Glorious Glacier Ride?",
+    "answer12": "Yes, you can. Ideally, you ride past at least the Morteratsch, Rhône, Aletsch and Trient glaciers, and visit the Mer de Glace near Chamonix.",
+    "question13": "What is the cost of participation?",
+    "answer13": "The registration fee for the GGR is €50. You then receive the GPX file, the daily schedule, and a personal fundraising page on the website. You will also receive the postcards to send to your supporters, and you will be included in the list of Glorious Glacier Riders. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Let us know</a>.",
+    "question14": "With which simple measure do municipalities have influence?",
+    "answer14": "The fight against climate change requires impactful projects that drastically reduce CO₂ and policies that bring about behavioral change. According to the IPCC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70% of the reduction effort</a> depends on this. Cycling more often instead of driving is one such behavioral change. Just like stopping fossil advertising.<br><br> It’s very simple: more advertising for fossil products means more use of fossil fuels and more damage to the climate. It is therefore essential that municipalities introduce <a href='https://www.worldwithoutfossilads.org/' target='_blank'>a ban on fossil advertising</a> in their public spaces, such as bus stops, traffic signs, and buildings."
+  }
 }
-  

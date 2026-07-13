@@ -27,8 +27,8 @@
     "p1": "letscher sind für das Leben auf der Erde unerlässlich. Milliarden von Menschen - sowohl in Gebirgsregionen als auch in Großstädten - sind auf Gletscher angewiesen, um Trinkwasser und Nahrungsmittel zu produzieren. Gletscher sind unsere natürlichen Wasserreservoirs.",
     "p2": "Aufgrund des Klimawandels schrumpfen die Gletscher jedoch in einem alarmierenden Tempo. Es fällt weniger Schnee und die höheren Temperaturen lassen jedes Jahr mehr Eis schmelzen als neu hinzukommt. In den Alpen ist dies deutlich sichtbar: Viele kleine Gletscher sind bereits verschwunden."
   },
-   "2026": {
-  "h2": "Nehmen Sie 2026 teil!",
+  "2026": {
+    "h2": "Nehmen Sie 2026 teil!",
     "p1": "Auch im Jahr 2026 organisiert Cycling 4 Climate die Glorious Glacier Ride. Radfahrer aus ganz Europa können die schönsten Aussichten der Alpen genießen und sich gleichzeitig aktiv für den Klimaschutz engagieren.",
     "p2": "Sie können die Route alleine oder mit Freunden radeln oder an einer der organisierten Touren teilnehmen. Mit <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> starten Sie am 28. August von Innsbruck aus in Richtung Chamonix, während die Tour von <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> von Chamonix (23. August) nach Bormio führt. In beiden Fällen können Sie den autofreien und motorfreien Samstag beim Stelvio Bike Day genießen",
     "p3": "Weitere Informationen und die Anmeldung für diese Touren findest du über die folgenden Links. Wenn Sie die Tour auf eigene Faust mit dem Fahrrad unternehmen möchten, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>melden Sie sich bei uns</a>."
@@ -77,12 +77,11 @@
     "flyer": "Routen-Flyer. Klicken Sie auf den Flyer, um ihn in einem neuen Tab zu öffnen.",
     "gps": "Das GPS",
     "gpsdescription": "GPS-Dateien für die Glorious Glacier Ride stehen zum Download bereit."
-
   },
- "updates": {
-  "h1": "The Glorious Glacier Ride 2025",
-  "description": "Im Jahr 2025 fand die Fahrt vom 28. August bis zum 11. September statt. Unten finden Sie Updates von der Fahrt."
-},
+  "updates": {
+    "h1": "The Glorious Glacier Ride 2025",
+    "description": "Im Jahr 2025 fand die Fahrt vom 28. August bis zum 11. September statt. Unten finden Sie Updates von der Fahrt."
+  },
   "officialStart": {
     "metaTitle": "Offizieller Start Innsbruck | Glorious Glacier Ride",
     "h1": "Offizieller Start<br>der Glorious Glacier Ride",
@@ -138,8 +137,10 @@
     "schedule": {
       "addressTime": "Ort",
       "addressText": "Maison des Jeunes et de la Culture, 94 Promenade du Fori, 74400 Chamonix-Mont-Blanc",
-      "welcomeTime": "9:00",
-      "welcomeText": "Willkommen & Start Climate Fresk",
+      "coffeeTime": "8:30",
+      "coffeeText": "Empfang & Kaffee",
+      "welcomeTime": "9:00 - 12:00",
+      "welcomeText": "Climate Fresk oder Workshop \"Wie man Gletscher schützt\"",
       "lunchTime": "12:00",
       "lunchText": "Einfaches Mittagessen",
       "departureTime": "12:30",
@@ -147,9 +148,24 @@
       "meetTime": "14:15 - 15:15",
       "meetText": "Treffen mit dem Glorious-Glacier-Peloton am Trient-Gletscher",
       "finishTime": "17:00",
-      "finishText": "Ziel in Chamonix"
+      "finishText": "Ziel in Chamonix",
+      "drinksTime": "17:00 - 20:00",
+      "drinksText": "Getränke & Snacks",
+      "filmTime": "20:00 - 21:30",
+      "filmText": "Filmvorführung: Après les Glaciers + Diskussion"
     },
     "routeDescription": "Die vorläufige Strecke kannst du <a href=\"https://ridewithgps.com/events/478160-cyclo-pour-le-climat-chamonix\" target=\"_blank\">hier</a> ansehen.",
+    "confTitle": "Zeitgleich im MJC",
+    "confSubtitle": "Ein paralleles Nachmittagsprogramm, während das Peloton zum Trient-Gletscher fährt",
+    "confIntro": "Fährst du heute nicht mit? Von 14:00 bis 17:00 Uhr bietet die Maison des Jeunes et de la Culture einen Nachmittag mit Vorträgen, Reparatur und Reflexion über die Berge, die wir schützen wollen.",
+    "confItem1Time": "14:00 - 17:00",
+    "confItem1Text": "Outdoor-Textilreparatur-Workshop mit Patagonia",
+    "confItem2Time": "14:30 - 15:15",
+    "confItem2Text": "Vortrag: Was uns die Wissenschaft sagt — Klimawandel im Gebirge",
+    "confItem3Time": "15:15 - 16:00",
+    "confItem3Text": "Vortrag: Fokus auf Gletscher und die Ökosysteme, die auf sie folgen",
+    "confItem4Time": "16:00 - 16:45",
+    "confItem4Text": "Podiumsdiskussion mit engagierten Athlet*innen × Protect Our Winters",
     "ctaTitle": "Bereit, für das zu fahren, was zählt?",
     "ctaIntro": "Eine kleine Teilnahmegebühr von 15 € fließt direkt in die Unterstützung der Fahrt und der dahinterstehenden Klimaprojekte. Jeder Euro zählt.",
     "workshopIntro": "💡 Climate Fresk Workshop — Kostenlos:",
@@ -158,53 +174,57 @@
     "rideCtaLabel": "Hier anmelden",
     "fullRideIntro": "🚴 Vollständige 8-tägige Glorious Glacier Ride:",
     "fullRideCtaLabel": "Ich möchte mehr Informationen",
-    "closing": "Bis bald in Chamonix. Lasst uns für die Gletscher fahren."
+    "closing": "Bis bald in Chamonix. Lasst uns für die Gletscher fahren.",
+    "formTitle": "Direkt anmelden",
+    "formSubtitle": "auch für Freunde &amp; Familie",
+    "formName": "Name",
+    "formNamePlaceholder": "Dein Name",
+    "formEmail": "E-Mail-Adresse",
+    "formEmailPlaceholder": "deine@email.de",
+    "formCity": "Stadt",
+    "formCityPlaceholder": "Deine Stadt",
+    "formEvent": "An welchem Teil möchtest du teilnehmen?",
+    "formEventWorkshop": "💡 Climate-Fresk-Workshop (Freitag, 4. September, 9:00–12:00 Uhr)",
+    "formEventWorkshop2": "🧊 Workshop „Wie man Gletscher schützt“ (Freitag, 4. September, 9:00–12:00 Uhr)",
+    "formEventPeloton": "🚴 Chamonix Climate Ride (Freitag, 4. September, Start 12:30 Uhr)",
+    "formEventConference": "🎤 Gletscher-Konferenz (Nachmittag, 14:00–17:00 Uhr)",
+    "formEventFilm": "🎬 Filmvorführung: Après les Glaciers (20:00–21:30 Uhr)",
+    "formPeople": "Anzahl Personen",
+    "formComment": "Kommentar oder Frage",
+    "formCommentPlaceholder": "Optional",
+    "formSubmit": "Anmelden",
+    "formSuccess": "Danke! Wir melden uns bald bei dir.",
+    "formError": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
   },
-    "faq": {
-      "h2": "Häufig gestellte Fragen",
-  
-      "question1": "Was ist die Glorious Glacier Ride?",
-      "answer1": "Die Glorious Glacier Ride ist ein Fahrradabenteuer entlang der schönsten, aber schrumpfenden Gletscher der Alpen, um das Bewusstsein für den Klimawandel zu schärfen. Die gesamte Strecke ist über 1.500 km lang und es müssen über 30.000 Höhenmeter bewältigt werden. Die Teilnehmenden sammeln Spenden für die Entfernung von CO₂: Sie laden Freunde, Familie usw. dazu ein, CO₂ aus der Atmosphäre über ihre individuelle Spendenkampagne zu entfernen.",
-  
-      "question2": "Wie kann ich die Teilnehmenden unterstützen?",
-      "answer2": "Du kannst eine Spende an eine*n Teilnehmer*in deiner Wahl leisten. Du kannst dich für eine Postkarte entscheiden, die dir zugeschickt wird, oder eine direkte Spende tätigen. Mit deinem Beitrag hilfst du deinem*r Teilnehmenden, ihr CO₂-Entfernungsziel zu erreichen!",
-  
-      "question3": "Welche Auswirkungen hat der Klimawandel auf Gletscher?",
-      "answer3": "Durch den Klimawandel ziehen sich die Gletscher zurück. Gletscher sind auf gleichmäßige Schneefälle im Winter angewiesen, um ihre Eismasse aufzufüllen. Der Klimawandel hat zu höheren Temperaturen geführt, was zu weniger Schneefall und mehr Regen führt. Darüber hinaus verkürzen höhere Temperaturen die kalten Jahreszeiten, während die Schmelzperiode länger und wärmer wird. Schließlich erhöht die Schneedecke das Albedo (Reflexionsvermögen) der Gletscher, was das Schmelzen verlangsamt, indem sie Sonnenlicht reflektiert. Ein Mangel an Schnee legt dunkleres Gletschereis frei, das mehr Wärme absorbiert und die Schmelze beschleunigt.<br><br>Die Universität Innsbruck hat Vorhersagen über die Geschwindigkeit des Gletscherrückgangs gemacht. Der Unterschied zwischen 1,5°C (Pariser Abkommen) oder 2,7°C (aktueller Kurs) Erwärmung bis 2100 ist erheblich.<br><br>Beispielsweise hatte der Rhône-Gletscher im Jahr 2020 ein geschätztes Volumen von 1,24 km³. Unter dem 2,7°C-Szenario wird erwartet, dass er bis 2073 weitgehend verschwunden sein wird. Wird die Erwärmung auf 1,5°C begrenzt, bleiben 22 % seines Volumens von 2020 erhalten (17 % mehr als bei 2,7°C).<br><br>Die Gletscher in den Alpen sind aufgrund ihrer relativ niedrigen Höhenlagen besonders anfällig für den Klimawandel, und ein großer Teil ihres Volumens wird bis 2100 verschwunden sein. Die größten Bevölkerungsgruppen, die von Gletschern abhängig sind, leben jedoch in Asien, wo die Gletscher im Himalaya länger bestehen bleiben. Wo auch immer du lebst: <strong>0,1°C weniger hilft, Gletscher zu retten und die Auswirkungen zu begrenzen!</strong><br><br><video style='width:100%;' autoplay='' loop='' muted='' playsinline='' controls=''><source src='img/RGI60-11.01238_+2.7°C.mp4' type='video/mp4'>Dein Browser unterstützt das Video-Tag nicht.</video><br><br>Andere Gletscher, an denen die Glorious Glacier Ride vorbeiführt:<br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03638.html' target='_blank'>Argentière</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03662.html' target='_blank'>Grande Motte</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03684.html' target='_blank'>Glacier Blanc</a><br>Weitere Informationen findest du auf <a href='https://goodbye-glaciers.info/' target='_blank'>goodbye-glaciers.info</a>.",
-  
-      "question4": "Was ist die Ursache des Klimawandels?",
-      "answer4": "Der Hauptgrund für den Klimawandel ist der Ausstoß von Treibhausgasen durch menschliche Aktivitäten, insbesondere durch die Verbrennung fossiler Brennstoffe wie Öl, Gas und Kohle. Diese Gase, vor allem Kohlendioxid (CO₂), verstärken den natürlichen Treibhauseffekt der Erde und führen zu einem Anstieg der Durchschnittstemperatur sowie zu Veränderungen im Klimasystem.",
-  
-      "question5": "Was ist eine Tonne CO₂?",
-      "answer5": "Eine Tonne entspricht 1.000 kg. Im Durchschnitt emittiert eine Person in Europa 7,5 Tonnen CO₂: Das ist in etwa vergleichbar mit dem Gewicht von fünf Mittelklasseautos. Jeder Liter Benzin, den du tankst, wird bei der Verbrennung in 2,4 kg CO₂ umgewandelt. Eine volle Tankfüllung (40 Liter) entspricht also 100 kg CO₂. Ein interkontinentaler Flug (z. B. nach New York) verursacht schnell 1 Tonne CO₂ (und ein Hin- und Rückflug somit 2 Tonnen). Auch der Verzehr von Fleisch (insbesondere Rindfleisch) hat eine große Auswirkung: pro kg Rindfleisch fallen 20–25 kg CO₂ an (und kommt das Rindfleisch aus Brasilien, ist es sogar doppelt so viel...). Jedes Kilogramm, das wir in die Atmosphäre ausstoßen, müssen wir irgendwann auch wieder entfernen.",
-  
-      "question6": "Warum ist die Entfernung von CO₂ notwendig?",
-      "answer6": "Wir haben vor allem in den letzten 50 Jahren sehr viel zusätzliches CO₂ in die Atmosphäre gepumpt. Derzeit sind wir auf dem Weg, die durchschnittliche Erwärmung von 1,5°C zu überschreiten. Neben einer raschen Verringerung unserer Emissionen müssen wir daher auch damit beginnen, unsere historischen Emissionen zu beseitigen.",
-  
-      "question7": "Wie funktioniert die Entfernung von CO₂ und was kostet sie?",
-      "answer7": "Es gibt verschiedene Möglichkeiten, CO₂ aus der Luft zu filtern und zu speichern. Vielleicht kennst du das Climeworks-Projekt in Island, bei dem mit großen Ventilatoren und einem CO₂-absorbierenden Material CO₂ aus der Luft gefiltert und in den Boden eingespeist wird. Dies erfordert jedoch viel Energie und ist relativ teuer (600-800 € pro Tonne)<br><br>Eine andere Lösung ist die Herstellung von Pflanzenkohle (Biochar). Dabei werden organische Abfälle (z. B. Mais- und Kakaoabfälle) in Pflanzenkohle umgewandelt. Pflanzenkohle ist eine Art Holzkohle, die sehr stabil ist. Nach der Herstellung wird die Pflanzenkohle in den Boden eingearbeitet, wo sie die Bodenqualität verbessert und den Kohlenstoff für Jahrtausende speichert.<br><br>Dies bietet drei Vorteile: 1) Kleinbäuerinnen und -bauern in Afrika erhalten ein zusätzliches Einkommen, 2) Ihr Boden verbessert sich und wird widerstandsfähiger gegen den Klimawandel, was den Ertrag steigert und die Kosten für Düngemittel reduziert, 3) Es handelt sich um eine Form der Klimafinanzierung.<br><br>Das niederländische Unternehmen Carboneers.earth hat mit dieser Methode bereits über 175.000 Tonnen CO₂ zurück in die Erde gebracht. myclimate – eine Schweizer Organisation – ist auch einer der Anbieter dieser Lösung zur CO2-Beseitigung. Weitere Informationen über die Carboneers und myclimate findest du unter <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a> & <a href='https://www.myclimate.org/' target='_blank'>www.myclimate.org</a>.<br><br>Es wird auch für andere Formen der naturbasierten Kohlenstoffbindung geradelt, unabhängig zertifiziert von Oncra. Beispiele hierfür sind der biodiverse Waldgarten Leuker1818, die biobasierten Baumaterialien von Finti, das Absenken von Meeresalgen durch Oceanus International und die dauerhafte Kohlenstoffspeicherung mit Olivin durch Greensands. All diese Initiativen tragen nicht nur zur Bekämpfung des Klimawandels durch Kohlenstoffbindung bei, sondern auch zu einer biodiversen Welt mit gesunden Böden. Weitere Informationen zu diesen Projekten finden Sie auf <a href='https://oncra.org/' target='_blank'>Oncra.org</a>. <br><br>Die Entfernung und Speicherung von 1 kg CO₂ kostet 0,15 €. Jeder Euro entfernt 6,67 kg CO₂ aus der Atmosphäre. Das Entfernen einer Tonne CO₂ kostet also 150 €.",
-  
-      "question8": "Wie wird mein Beitrag verwendet?",
-      "answer8": "Wenn du über eine Postkarte spendest, werden 5 € für Druck- und Portokosten verwendet. Der restliche Teil wird für die Finanzierung eines CO₂-Entfernungsprojekts der Carboneers und myclimate eingesetzt. Die Stiftung Cycling 4 Climate zieht deine Spende ein, und am Ende wird der gesamte Betrag zur Entfernung von CO₂ verwendet.",
-  
-      "question9": "Wie kann ich die Glorious Glacier Ride fahren?",
-      "answer9": "Zunächst benötigst du natürlich eine gute körperliche Verfassung! Außerdem musst du bereit sein, eine Kampagne zur CO₂-Entfernung zu starten. Dein Ziel ist es, so viele Tonnen CO₂ (in Tonnen) zu entfernen, wie du Jahre alt bist. Wenn du also 30 Jahre alt bist, musst du 30 Tonnen CO₂ entfernen, was bei 150 € pro Tonne ein Ziel von 4.500 € bedeutet. Mit anderen Worten: Mobilisiere genügend Menschen, um gemeinsam dein Alter in CO₂ zu entfernen. Im Durchschnitt emittiert eine Person in Europa etwa ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 Tonnen</a> CO₂ pro Jahr (eine Person in den Niederlanden etwa 9 Tonnen pro Jahr).<br><br>Wenn du die GGR fahren möchtest, kannst du dich <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> anmelden.",
-  
-      "question10": "Wann findet die Glorious Glacier Ride statt?",
-      "answer10": "Die GGR ist eine individuelle Tour, also kannst du sie fahren, wann immer du bereit für die Herausforderung bist. Wenn du dich dem GGR-Peloton anschließen möchtest: Gerne! Wir starten am <strong>Donnerstag, den 28. August</strong> in München. Am 4. September wird es einen Ruhetag in Zermatt geben. Das Ziel in Monaco ist für den 11. September geplant. Wenn du dich dem Peloton anschließen möchtest, lass es uns über diesen <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>Link</a></strong> wissen.",
-  
-      "question11": "Wie lange dauert die Glorious Glacier Ride?",
-      "answer11": "Die gesamte Glorious Glacier Ride umfasst 14 Etappen. Mit einem Ruhetag in Zermatt bist du also 15 Tage unterwegs. Du kannst aber auch nur die erste Woche (die meisten Gletscher), die zweite Woche (die meisten Berge) oder nur einige Etappen fahren.",
-  
-      "question12": "Kann ich auch nur einen Teil der Glorious Glacier Ride fahren?",
-      "answer12": "Ja, das geht. Idealerweise fährst du mindestens an den Gletschern Morteratsch, Rhône und Aletsch vorbei und besuchst die Mer de Glace in der Nähe von Chamonix.",
-  
-      "question13": "Was kostet die Teilnahme?",
-      "answer13": "Die Anmeldegebühr für die GGR beträgt 25 €. Du erhältst dann die GPX-Datei, den Tagesplan und eine persönliche Spendenseite auf der Website. Du erhältst außerdem die digitalen Druckvorlagen der Postkarten, die du an deine Unterstützer*innen senden kannst, und wirst in die Liste der Glorious Glacier Riders aufgenommen. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Melden Sie sich bei uns</a>.",
-
-      "question14": "Mit welcher einfachen Maßnahme haben Gemeinden Einfluss?",
-      "answer14": "Der Kampf gegen den Klimawandel erfordert wirkungsvolle Projekte, die den CO₂-Ausstoß drastisch reduzieren, sowie Maßnahmen, die Verhaltensänderungen bewirken. Laut dem IPCC hängen <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70 % der Reduktionsaufgabe</a> davon ab. Häufiger Radfahren statt Autofahren ist eine solche Verhaltensänderung. Ebenso wie der Stopp fossiler Werbung.<br><br> Es ist ganz einfach: Mehr Werbung für fossile Produkte bedeutet mehr Nutzung fossiler Brennstoffe und mehr Schaden für das Klima. Daher ist es entscheidend, dass Gemeinden <a href='https://www.worldwithoutfossilads.org/' target='_blank'>ein Verbot fossiler Werbung</a> in öffentlichen Räumen wie Bushaltestellen, Verkehrsschildern und Gebäuden einführen."
-
-    }
-  
+  "faq": {
+    "h2": "Häufig gestellte Fragen",
+    "question1": "Was ist die Glorious Glacier Ride?",
+    "answer1": "Die Glorious Glacier Ride ist ein Fahrradabenteuer entlang der schönsten, aber schrumpfenden Gletscher der Alpen, um das Bewusstsein für den Klimawandel zu schärfen. Die gesamte Strecke ist über 1.500 km lang und es müssen über 30.000 Höhenmeter bewältigt werden. Die Teilnehmenden sammeln Spenden für die Entfernung von CO₂: Sie laden Freunde, Familie usw. dazu ein, CO₂ aus der Atmosphäre über ihre individuelle Spendenkampagne zu entfernen.",
+    "question2": "Wie kann ich die Teilnehmenden unterstützen?",
+    "answer2": "Du kannst eine Spende an eine*n Teilnehmer*in deiner Wahl leisten. Du kannst dich für eine Postkarte entscheiden, die dir zugeschickt wird, oder eine direkte Spende tätigen. Mit deinem Beitrag hilfst du deinem*r Teilnehmenden, ihr CO₂-Entfernungsziel zu erreichen!",
+    "question3": "Welche Auswirkungen hat der Klimawandel auf Gletscher?",
+    "answer3": "Durch den Klimawandel ziehen sich die Gletscher zurück. Gletscher sind auf gleichmäßige Schneefälle im Winter angewiesen, um ihre Eismasse aufzufüllen. Der Klimawandel hat zu höheren Temperaturen geführt, was zu weniger Schneefall und mehr Regen führt. Darüber hinaus verkürzen höhere Temperaturen die kalten Jahreszeiten, während die Schmelzperiode länger und wärmer wird. Schließlich erhöht die Schneedecke das Albedo (Reflexionsvermögen) der Gletscher, was das Schmelzen verlangsamt, indem sie Sonnenlicht reflektiert. Ein Mangel an Schnee legt dunkleres Gletschereis frei, das mehr Wärme absorbiert und die Schmelze beschleunigt.<br><br>Die Universität Innsbruck hat Vorhersagen über die Geschwindigkeit des Gletscherrückgangs gemacht. Der Unterschied zwischen 1,5°C (Pariser Abkommen) oder 2,7°C (aktueller Kurs) Erwärmung bis 2100 ist erheblich.<br><br>Beispielsweise hatte der Rhône-Gletscher im Jahr 2020 ein geschätztes Volumen von 1,24 km³. Unter dem 2,7°C-Szenario wird erwartet, dass er bis 2073 weitgehend verschwunden sein wird. Wird die Erwärmung auf 1,5°C begrenzt, bleiben 22 % seines Volumens von 2020 erhalten (17 % mehr als bei 2,7°C).<br><br>Die Gletscher in den Alpen sind aufgrund ihrer relativ niedrigen Höhenlagen besonders anfällig für den Klimawandel, und ein großer Teil ihres Volumens wird bis 2100 verschwunden sein. Die größten Bevölkerungsgruppen, die von Gletschern abhängig sind, leben jedoch in Asien, wo die Gletscher im Himalaya länger bestehen bleiben. Wo auch immer du lebst: <strong>0,1°C weniger hilft, Gletscher zu retten und die Auswirkungen zu begrenzen!</strong><br><br><video style='width:100%;' autoplay='' loop='' muted='' playsinline='' controls=''><source src='img/RGI60-11.01238_+2.7°C.mp4' type='video/mp4'>Dein Browser unterstützt das Video-Tag nicht.</video><br><br>Andere Gletscher, an denen die Glorious Glacier Ride vorbeiführt:<br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03638.html' target='_blank'>Argentière</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03662.html' target='_blank'>Grande Motte</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03684.html' target='_blank'>Glacier Blanc</a><br>Weitere Informationen findest du auf <a href='https://goodbye-glaciers.info/' target='_blank'>goodbye-glaciers.info</a>.",
+    "question4": "Was ist die Ursache des Klimawandels?",
+    "answer4": "Der Hauptgrund für den Klimawandel ist der Ausstoß von Treibhausgasen durch menschliche Aktivitäten, insbesondere durch die Verbrennung fossiler Brennstoffe wie Öl, Gas und Kohle. Diese Gase, vor allem Kohlendioxid (CO₂), verstärken den natürlichen Treibhauseffekt der Erde und führen zu einem Anstieg der Durchschnittstemperatur sowie zu Veränderungen im Klimasystem.",
+    "question5": "Was ist eine Tonne CO₂?",
+    "answer5": "Eine Tonne entspricht 1.000 kg. Im Durchschnitt emittiert eine Person in Europa 7,5 Tonnen CO₂: Das ist in etwa vergleichbar mit dem Gewicht von fünf Mittelklasseautos. Jeder Liter Benzin, den du tankst, wird bei der Verbrennung in 2,4 kg CO₂ umgewandelt. Eine volle Tankfüllung (40 Liter) entspricht also 100 kg CO₂. Ein interkontinentaler Flug (z. B. nach New York) verursacht schnell 1 Tonne CO₂ (und ein Hin- und Rückflug somit 2 Tonnen). Auch der Verzehr von Fleisch (insbesondere Rindfleisch) hat eine große Auswirkung: pro kg Rindfleisch fallen 20–25 kg CO₂ an (und kommt das Rindfleisch aus Brasilien, ist es sogar doppelt so viel...). Jedes Kilogramm, das wir in die Atmosphäre ausstoßen, müssen wir irgendwann auch wieder entfernen.",
+    "question6": "Warum ist die Entfernung von CO₂ notwendig?",
+    "answer6": "Wir haben vor allem in den letzten 50 Jahren sehr viel zusätzliches CO₂ in die Atmosphäre gepumpt. Derzeit sind wir auf dem Weg, die durchschnittliche Erwärmung von 1,5°C zu überschreiten. Neben einer raschen Verringerung unserer Emissionen müssen wir daher auch damit beginnen, unsere historischen Emissionen zu beseitigen.",
+    "question7": "Wie funktioniert die Entfernung von CO₂ und was kostet sie?",
+    "answer7": "Es gibt verschiedene Möglichkeiten, CO₂ aus der Luft zu filtern und zu speichern. Vielleicht kennst du das Climeworks-Projekt in Island, bei dem mit großen Ventilatoren und einem CO₂-absorbierenden Material CO₂ aus der Luft gefiltert und in den Boden eingespeist wird. Dies erfordert jedoch viel Energie und ist relativ teuer (600-800 € pro Tonne)<br><br>Eine andere Lösung ist die Herstellung von Pflanzenkohle (Biochar). Dabei werden organische Abfälle (z. B. Mais- und Kakaoabfälle) in Pflanzenkohle umgewandelt. Pflanzenkohle ist eine Art Holzkohle, die sehr stabil ist. Nach der Herstellung wird die Pflanzenkohle in den Boden eingearbeitet, wo sie die Bodenqualität verbessert und den Kohlenstoff für Jahrtausende speichert.<br><br>Dies bietet drei Vorteile: 1) Kleinbäuerinnen und -bauern in Afrika erhalten ein zusätzliches Einkommen, 2) Ihr Boden verbessert sich und wird widerstandsfähiger gegen den Klimawandel, was den Ertrag steigert und die Kosten für Düngemittel reduziert, 3) Es handelt sich um eine Form der Klimafinanzierung.<br><br>Das niederländische Unternehmen Carboneers.earth hat mit dieser Methode bereits über 175.000 Tonnen CO₂ zurück in die Erde gebracht. myclimate – eine Schweizer Organisation – ist auch einer der Anbieter dieser Lösung zur CO2-Beseitigung. Weitere Informationen über die Carboneers und myclimate findest du unter <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a> & <a href='https://www.myclimate.org/' target='_blank'>www.myclimate.org</a>.<br><br>Es wird auch für andere Formen der naturbasierten Kohlenstoffbindung geradelt, unabhängig zertifiziert von Oncra. Beispiele hierfür sind der biodiverse Waldgarten Leuker1818, die biobasierten Baumaterialien von Finti, das Absenken von Meeresalgen durch Oceanus International und die dauerhafte Kohlenstoffspeicherung mit Olivin durch Greensands. All diese Initiativen tragen nicht nur zur Bekämpfung des Klimawandels durch Kohlenstoffbindung bei, sondern auch zu einer biodiversen Welt mit gesunden Böden. Weitere Informationen zu diesen Projekten finden Sie auf <a href='https://oncra.org/' target='_blank'>Oncra.org</a>. <br><br>Die Entfernung und Speicherung von 1 kg CO₂ kostet 0,15 €. Jeder Euro entfernt 6,67 kg CO₂ aus der Atmosphäre. Das Entfernen einer Tonne CO₂ kostet also 150 €.",
+    "question8": "Wie wird mein Beitrag verwendet?",
+    "answer8": "Wenn du über eine Postkarte spendest, werden 5 € für Druck- und Portokosten verwendet. Der restliche Teil wird für die Finanzierung eines CO₂-Entfernungsprojekts der Carboneers und myclimate eingesetzt. Die Stiftung Cycling 4 Climate zieht deine Spende ein, und am Ende wird der gesamte Betrag zur Entfernung von CO₂ verwendet.",
+    "question9": "Wie kann ich die Glorious Glacier Ride fahren?",
+    "answer9": "Zunächst benötigst du natürlich eine gute körperliche Verfassung! Außerdem musst du bereit sein, eine Kampagne zur CO₂-Entfernung zu starten. Dein Ziel ist es, so viele Tonnen CO₂ (in Tonnen) zu entfernen, wie du Jahre alt bist. Wenn du also 30 Jahre alt bist, musst du 30 Tonnen CO₂ entfernen, was bei 150 € pro Tonne ein Ziel von 4.500 € bedeutet. Mit anderen Worten: Mobilisiere genügend Menschen, um gemeinsam dein Alter in CO₂ zu entfernen. Im Durchschnitt emittiert eine Person in Europa etwa ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 Tonnen</a> CO₂ pro Jahr (eine Person in den Niederlanden etwa 9 Tonnen pro Jahr).<br><br>Wenn du die GGR fahren möchtest, kannst du dich <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> anmelden.",
+    "question10": "Wann findet die Glorious Glacier Ride statt?",
+    "answer10": "Die GGR ist eine individuelle Tour, also kannst du sie fahren, wann immer du bereit für die Herausforderung bist. Wenn du dich dem GGR-Peloton anschließen möchtest: Gerne! Wir starten am <strong>Donnerstag, den 28. August</strong> in München. Am 4. September wird es einen Ruhetag in Zermatt geben. Das Ziel in Monaco ist für den 11. September geplant. Wenn du dich dem Peloton anschließen möchtest, lass es uns über diesen <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>Link</a></strong> wissen.",
+    "question11": "Wie lange dauert die Glorious Glacier Ride?",
+    "answer11": "Die gesamte Glorious Glacier Ride umfasst 14 Etappen. Mit einem Ruhetag in Zermatt bist du also 15 Tage unterwegs. Du kannst aber auch nur die erste Woche (die meisten Gletscher), die zweite Woche (die meisten Berge) oder nur einige Etappen fahren.",
+    "question12": "Kann ich auch nur einen Teil der Glorious Glacier Ride fahren?",
+    "answer12": "Ja, das geht. Idealerweise fährst du mindestens an den Gletschern Morteratsch, Rhône und Aletsch vorbei und besuchst die Mer de Glace in der Nähe von Chamonix.",
+    "question13": "Was kostet die Teilnahme?",
+    "answer13": "Die Anmeldegebühr für die GGR beträgt 25 €. Du erhältst dann die GPX-Datei, den Tagesplan und eine persönliche Spendenseite auf der Website. Du erhältst außerdem die digitalen Druckvorlagen der Postkarten, die du an deine Unterstützer*innen senden kannst, und wirst in die Liste der Glorious Glacier Riders aufgenommen. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Melden Sie sich bei uns</a>.",
+    "question14": "Mit welcher einfachen Maßnahme haben Gemeinden Einfluss?",
+    "answer14": "Der Kampf gegen den Klimawandel erfordert wirkungsvolle Projekte, die den CO₂-Ausstoß drastisch reduzieren, sowie Maßnahmen, die Verhaltensänderungen bewirken. Laut dem IPCC hängen <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70 % der Reduktionsaufgabe</a> davon ab. Häufiger Radfahren statt Autofahren ist eine solche Verhaltensänderung. Ebenso wie der Stopp fossiler Werbung.<br><br> Es ist ganz einfach: Mehr Werbung für fossile Produkte bedeutet mehr Nutzung fossiler Brennstoffe und mehr Schaden für das Klima. Daher ist es entscheidend, dass Gemeinden <a href='https://www.worldwithoutfossilads.org/' target='_blank'>ein Verbot fossiler Werbung</a> in öffentlichen Räumen wie Bushaltestellen, Verkehrsschildern und Gebäuden einführen."
+  }
 }

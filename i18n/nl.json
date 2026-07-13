@@ -9,8 +9,8 @@
   "cta2": "Ontvang nieuwsbrief",
   "launch": {
     "h2": "Lancering: vrijdag 21 maart",
-  "announcement": "Het doel, de route en hoe je kunt deelnemen worden aangekondigd tijdens de World Glacier Day op <strong>vrijdag 21 maart</strong> live vanuit Parijs.",
-      "join": "De lancering start om <strong>10.00 uur</strong>. Via deze <strong><a href=\"https://meet.google.com/wms-wwht-kbk\">link</a></strong> kun je deelnemen."
+    "announcement": "Het doel, de route en hoe je kunt deelnemen worden aangekondigd tijdens de World Glacier Day op <strong>vrijdag 21 maart</strong> live vanuit Parijs.",
+    "join": "De lancering start om <strong>10.00 uur</strong>. Via deze <strong><a href=\"https://meet.google.com/wms-wwht-kbk\">link</a></strong> kun je deelnemen."
   },
   "nav": {
     "menu": "Menu",
@@ -27,11 +27,11 @@
     "p1": "Gletsjers zijn essentieel voor het leven op aarde. Miljarden mensen – zowel in bergachtige gebieden als in grote steden – zijn afhankelijk van gletsjers voor drinkwater en voedselproductie. Gletsjers zijn onze natuurlijke waterreservoirs.",
     "p2": "Gletsjers krimpen echter met een alarmerend tempo als gevolg van klimaatverandering. Er valt minder sneeuw en door de hogere temperaturen smelt er jaarlijks meer ijs dan dat erbij komt. In de Alpen is dit goed zichtbaar: veel kleine gletsjers zijn al verdwenen."
   },
-   "2026": {
-  "h2": "Editie 2026",
+  "2026": {
+    "h2": "Editie 2026",
     "p1": "Ook in 2026 organiseert Cycling 4 Climate de Glorious Glacier Ride. Fietsers uit heel Europa kunnen genieten van de mooiste uitzichten in de Alpen terwijl ze zich actief inzetten voor klimaatactie.",
     "p2": "Je kunt de route alleen of met vrienden fietsen, of deelnemen aan één van de <strong>georganiseerde tochten</strong>. Met <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> vertrek je op 28 augustus vanuit Innsbruck richting Chamonix, terwijl <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> de tocht vanuit Chamonix (23 augustus) naar Bormio maakt. In beide gevallen genietje van de auto- en motorloze zaterdag op de Stelvio Bike Day!",
-    "p3": "Meer informatie over en inschrijven voor deze georganiseerde tochten doe je via onderstaande links. Als je de tocht op eigen gelegenheid wil fietsen, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>laat het ons weten</a>." 
+    "p3": "Meer informatie over en inschrijven voor deze georganiseerde tochten doe je via onderstaande links. Als je de tocht op eigen gelegenheid wil fietsen, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>laat het ons weten</a>."
   },
   "slider": {
     "source": "De Schlatenkees circa 1920-1940 (links) en 2022. Bron 1920: Österreichische Nationalbibliothek, foto L 51918-B POR MAG. via <a href=\"https://glacierchange.com/nl/schlatenkees-nl/\">glacierchange.com</a>"
@@ -54,12 +54,12 @@
     "day": "dag"
   },
   "support": {
-      "h2": "Doe mee",
-      "description": "De Glorious Glacier Ride brengt een ode aan de gletsjers en vraagt aandacht voor het enorme tempo waarop ze verdwijnen. Sluit je aan bij ons peloton en steun een deelnemer! Dit doe je door <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">één of meer ansichtkaarten</a> te kopen. Deze worden tijdens de tocht met een persoonlijke boodschap verstuurd.<br><br>Met je aankoop wordt CO₂ uit de lucht gehaald via impactvolle CO₂ verwijderingsprojecten. Terwijl de renners zweten, ruim jij CO₂ op!",
-      "events": "Wil je meedoen aan een van de speciale event rides? Lees meer over de <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> en de <a href=\"/climate-ride-chamonix.html\">Official Finish Chamonix</a>.",
-      "register": "Wil je zelf (een deel van) de Glorious Glacier Ride fietsen en een eigen CO₂ verwijderingscampagne starten? <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Laat het ons weten</a>.",
-      "details": "Een meer gedetailleerde beschrijving van de Glorious Glacier Ride, inclusief GPS-bestanden, is te vinden op de <a href='/route.html'>Routepagina"
-    },
+    "h2": "Doe mee",
+    "description": "De Glorious Glacier Ride brengt een ode aan de gletsjers en vraagt aandacht voor het enorme tempo waarop ze verdwijnen. Sluit je aan bij ons peloton en steun een deelnemer! Dit doe je door <a href=\"#\" onclick=\"openFirstPostcard(); return false;\">één of meer ansichtkaarten</a> te kopen. Deze worden tijdens de tocht met een persoonlijke boodschap verstuurd.<br><br>Met je aankoop wordt CO₂ uit de lucht gehaald via impactvolle CO₂ verwijderingsprojecten. Terwijl de renners zweten, ruim jij CO₂ op!",
+    "events": "Wil je meedoen aan een van de speciale event rides? Lees meer over de <a href=\"/official-start-innsbruck.html\">Official Start in Innsbruck</a> en de <a href=\"/climate-ride-chamonix.html\">Official Finish Chamonix</a>.",
+    "register": "Wil je zelf (een deel van) de Glorious Glacier Ride fietsen en een eigen CO₂ verwijderingscampagne starten? <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Laat het ons weten</a>.",
+    "details": "Een meer gedetailleerde beschrijving van de Glorious Glacier Ride, inclusief GPS-bestanden, is te vinden op de <a href='/route.html'>Routepagina"
+  },
   "info": {
     "h2": "Ondersteund door",
     "un": "Om het belang van gletsjers te benadrukken, hebben de Verenigde Naties 2025 uitgeroepen tot het Internationaal Jaar van Gletsjerbehoud.",
@@ -77,12 +77,11 @@
     "flyer": "Routeflyer. Klik op de flyer om deze in een nieuw tabblad te openen.",
     "gps": "De GPS",
     "gpsdescription": "GPS-bestanden voor de Glorious Glacier Ride zijn beschikbaar om te downloaden."
-
   },
- "updates": {
-  "h1": "The Glorious Glacier Ride 2025",
-  "description": "In 2025 vond de tocht plaats van 28 augustus tot 11 september. Hieronder vind je updates van de tocht."
-},
+  "updates": {
+    "h1": "The Glorious Glacier Ride 2025",
+    "description": "In 2025 vond de tocht plaats van 28 augustus tot 11 september. Hieronder vind je updates van de tocht."
+  },
   "officialStart": {
     "metaTitle": "Officiële Start Innsbruck | Glorious Glacier Ride",
     "h1": "Officiële Start<br>Glorious Glacier Ride",
@@ -138,8 +137,10 @@
     "schedule": {
       "addressTime": "Locatie",
       "addressText": "Maison des Jeunes et de la Culture, 94 Promenade du Fori, 74400 Chamonix-Mont-Blanc",
-      "welcomeTime": "9:00",
-      "welcomeText": "Welkom & start Climate Fresk",
+      "coffeeTime": "8:30",
+      "coffeeText": "Welkom & koffie",
+      "welcomeTime": "9:00 - 12:00",
+      "welcomeText": "Climate Fresk of Workshop \"Hoe bescherm je gletsjers\"",
       "lunchTime": "12:00",
       "lunchText": "Eenvoudige lunch",
       "departureTime": "12:30",
@@ -147,9 +148,24 @@
       "meetTime": "14:15 - 15:15",
       "meetText": "Ontmoeting met het Glorious Glacier-peloton bij de Trient-gletsjer",
       "finishTime": "17:00",
-      "finishText": "Finish in Chamonix"
+      "finishText": "Finish in Chamonix",
+      "drinksTime": "17:00 - 20:00",
+      "drinksText": "Drankjes & hapjes",
+      "filmTime": "20:00 - 21:30",
+      "filmText": "Filmvertoning: Après les Glaciers + nagesprek"
     },
     "routeDescription": "De conceptroute kun je <a href=\"https://ridewithgps.com/events/478160-cyclo-pour-le-climat-chamonix\" target=\"_blank\">hier</a> bekijken.",
+    "confTitle": "Ondertussen bij de MJC",
+    "confSubtitle": "Een parallel middagprogramma, terwijl het peloton naar de Trient-gletsjer rijdt",
+    "confIntro": "Fiets je vandaag niet mee? Van 14:00 tot 17:00 uur organiseert de Maison des Jeunes et de la Culture een middag vol lezingen, reparatie en reflectie over de bergen die we proberen te beschermen.",
+    "confItem1Time": "14:00 - 17:00",
+    "confItem1Text": "Workshop reparatie van outdoor textiel, met Patagonia",
+    "confItem2Time": "14:30 - 15:15",
+    "confItem2Text": "Lezing: Wat de wetenschap ons vertelt — klimaatverandering in de bergen",
+    "confItem3Time": "15:15 - 16:00",
+    "confItem3Text": "Lezing: Focus op gletsjers en de ecosystemen die erop volgen",
+    "confItem4Time": "16:00 - 16:45",
+    "confItem4Text": "Paneldiscussie met betrokken atleten × Protect Our Winters",
     "ctaTitle": "Klaar om te rijden voor wat ertoe doet?",
     "ctaIntro": "Een kleine deelnamebijdrage van €15 gaat direct naar de ondersteuning van de rit en de klimaatprojecten erachter. Elke euro telt.",
     "workshopIntro": "💡 Climate Fresk workshop — Gratis:",
@@ -158,54 +174,57 @@
     "rideCtaLabel": "Aanmelden",
     "fullRideIntro": "🚴 Volledige 8-daagse Glorious Glacier Ride:",
     "fullRideCtaLabel": "Ik wil meer informatie",
-    "closing": "Tot ziens in Chamonix. Laten we rijden voor de gletsjers."
+    "closing": "Tot ziens in Chamonix. Laten we rijden voor de gletsjers.",
+    "formTitle": "Direct aanmelden",
+    "formSubtitle": "ook voor vrienden &amp; familie",
+    "formName": "Naam",
+    "formNamePlaceholder": "Jouw naam",
+    "formEmail": "E-mailadres",
+    "formEmailPlaceholder": "jouw@email.nl",
+    "formCity": "Stad",
+    "formCityPlaceholder": "Jouw stad",
+    "formEvent": "Aan welk onderdeel wil je meedoen?",
+    "formEventWorkshop": "💡 Climate Fresk workshop (vrijdag 4 september, 9:00–12:00)",
+    "formEventWorkshop2": "🧊 Workshop \"Hoe bescherm je gletsjers\" (vrijdag 4 september, 9:00–12:00)",
+    "formEventPeloton": "🚴 Chamonix Climate Ride (vrijdag 4 september, vertrek 12:30)",
+    "formEventConference": "🎤 Gletsjerconferentie (middag, 14:00–17:00)",
+    "formEventFilm": "🎬 Filmvertoning: Après les Glaciers (20:00–21:30)",
+    "formPeople": "Aantal personen",
+    "formComment": "Opmerking of vraag",
+    "formCommentPlaceholder": "Optioneel",
+    "formSubmit": "Aanmelden",
+    "formSuccess": "Bedankt! We nemen snel contact met je op.",
+    "formError": "Er is iets misgegaan. Probeer het opnieuw."
   },
-    "faq": {
-      "h2": "Veelgestelde Vragen",
-  
-      "question1": "Wat is de Glorious Glacier Ride?",
-      "answer1": "De Glorious Glacier Ride is een fietservaring langs de mooiste maar krimpende gletsjers van de Alpen, bedoeld om bewustzijn te creëren over klimaatverandering. De totale rit is meer dan 1.500km lang en er moeten meer dan 30.000 hoogtemeters worden overwonnen. Deelnemers zamelen geld in voor CO₂-verwijdering: ze nodigen vrienden, familie, etc. uit om via hun individuele inzamelingscampagne CO₂ uit de atmosfeer te verwijderen. De Glorious Glacier Ride wordt georganiseerd door Cycling 4 Climate.",
-  
-      "question2": "Hoe kan ik de deelnemers steunen?",
-      "answer2": "Je kunt een donatie doen aan een deelnemer van jouw keuze. Je kunt kiezen voor een ansichtkaart die naar je wordt verzonden of een directe donatie doen. Met je bijdrage help je jouw deelnemer om zijn CO₂-verwijderingsdoelstelling te halen!",
-  
-      "question3": "Wat is de impact van klimaatverandering op gletsjers?", 
-      "answer3": "Door klimaatverandering trekken gletsjers zich terug. Gletsjers zijn afhankelijk van consistente sneeuwval in de winter om hun ijsmassa aan te vullen. Klimaatverandering heeft geleid tot hogere temperaturen, waardoor er minder neerslag als sneeuw valt en meer als regen. Daarnaast verkorten warmere temperaturen de koude seizoenen, terwijl de smeltperiode langer en warmer wordt. Tot slot verhoogt sneeuwbedekking het albedo (reflectievermogen) van gletsjers, waardoor de smelt wordt vertraagd door zonlicht te weerkaatsen. Een gebrek aan sneeuw stelt donkerder gletsjerijs bloot, dat meer warmte absorbeert en het smeltproces versnelt.<br><br>De Universiteit van Innsbruck heeft voorspellingen gedaan over de snelheid waarmee gletsjers zich terugtrekken. Het verschil tussen 1,5°C (Akkoord van Parijs) of 2,7°C (huidige traject) opwarming tegen 2100 is aanzienlijk.<br><br>Bijvoorbeeld, de Rhône-gletsjer had in 2020 een geschat volume van 1,24 km³. Onder het 2,7°C-scenario zal deze naar verwachting grotendeels verdwenen zijn tegen 2073. Als de opwarming wordt beperkt tot 1,5°C, blijft 22% van het volume uit 2020 over (17% meer dan bij 2,7°C).<br><br>De gletsjers in de Alpen zijn, vanwege hun lage hoogtes, bijzonder kwetsbaar voor klimaatverandering en een groot deel van hun volume zal tegen 2100 verdwenen zijn. Echter, de grootste bevolkingsgroepen die afhankelijk zijn van gletsjers wonen in Azië, waar de gletsjers in de Himalaya langer zullen overleven. Waar je ook woont: <strong>0,1°C minder helpt gletsjers te redden en de impact te beperken!</strong><br><br><video style='width:100%;' autoplay='' loop='' muted='' playsinline='' controls=''><source src='img/RGI60-11.01238_+2.7°C.mp4' type='video/mp4'>Je browser ondersteunt de video-tag niet.</video><br><br>Andere gletsjers die de Glorious Glacier Ride zal passeren:<br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03638.html' target='_blank'>Argentière</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03662.html' target='_blank'>Grande Motte</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03684.html' target='_blank'>Glacier Blanc</a><br>Meer informatie is te vinden op de website <a href='https://goodbye-glaciers.info/' target='_blank'>goodbye-glaciers.info</a>",
-  
-      "question4": "Wat is de oorzaak van klimaatverandering?",
-      "answer4": "De belangrijkste oorzaak van klimaatverandering is de uitstoot van broeikasgassen door menselijke activiteiten, vooral de verbranding van fossiele brandstoffen zoals olie, gas en kolen. Deze gassen, voornamelijk koolstofdioxide (CO₂), versterken het natuurlijke broeikaseffect van de aarde, wat leidt tot een stijging van de gemiddelde temperatuur en veranderingen in het klimaatsysteem.",
-  
-      "question5": "Wat is een ton CO₂?",
-      "answer5": "Een ton is 1.000 kg. Gemiddeld stoot een inwoner van Europa 7,5 ton CO₂ uit: dat is grofweg vergelijkbaar met het gewicht van 5 middenklasse auto’s. Elke liter benzine die je tankt, wordt bij verbranding omgezet in 2,4 kg CO₂. Een volle tank (40 liter) staat dus gelijk aan 100kg CO₂. Een intercontinentale vlucht (bijvoorbeeld naar New York), is snel goed voor de uitstoot van 1 ton CO₂ (en een retourtje dus 2 ton).  Ook de consumptie van (vooral rund) vlees heeft een flinke impact: elke kg rundvlees is goed voor 20-25 kg CO₂ (en als die dode koe uit Brazilië komt is het zelfs het dubbele…). Elke kilo die we extra in de atmosfeer stoppen, zullen we er op termijn ook weer uit moeten halen.",
-  
-      "question6": "Waarom is CO₂ verwijdering nodig?",
-      "answer6": "We hebben - vooral in de afgelopen 50 jaar - heel veel extra CO₂ in de atmosfeer gepompt. Op dit moment liggen we op koers om de gemiddelde opwarming van 1,5°C te overschrijden. Naast dat we onze uitstoot snel moeten reduceren, zullen we daarom ook moeten starten met het opruimen van onze historische uitstoot.",
-  
-      "question7": "Hoe werkt CO₂ verwijdering en wat kost het?",
-      "answer7": "Er zijn verschillende manieren om CO₂ uit de lucht te halen en op te slaan. Bekend is wellicht het project van Climeworks op IJsland. Daar wordt met grote ventilatoren en CO₂-absorberend middel CO₂ uit de lucht gehaald en in de grond geïnjecteerd. Dit kost echter veel energie en is relatief prijzig (€600-800 per ton)<br><br>Een andere oplossing is door de productie van biochar. Hierbij wordt organisch afval (bijvoorbeeld afval van maïs en cacao) omgezet in biochar. Biochar is een soort houtskool dat zeer stabiel is. Na de productie wordt de biochar in de grond bijgemengd waar het de bodemkwaliteit verbetert en de koolstof voor millennia wordt opgeslagen. <br><br>Dit biedt drie voordelen: 1) Kleinschalige boeren in Afrika krijgen extra inkomen, 2) Hun bodem verbetert en is beter bestand tegen klimaatverandering: hiermee wordt de opbrengst van het land hoger en zijn de boeren minder geld kwijt aan kunstmest 3) Het is een vorm van klimaatfinanciering. <br><br>De Nederlandse onderneming Carboneers.earth heeft met deze methode inmiddels meer dan 175.000 ton CO₂ terug in de aarde gebracht. Meer informatie over de Carboneers is te vinden op <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a>.<br><br>Er wordt ook gefietst voor andere vormen van nature-based koolstofvastlegging, onafhankelijk gecertificeerd door Oncra. Voorbeelden hiervan zijn het biodiverse Voedselbos Leuker1818, de biobased bouwmaterialen van Finti, de zeewierafzinking van Oceanus International en de permanente koolstofopslag met olivijn door Greensands. Al deze initiatieven dragen niet alleen bij aan het tegengaan van klimaatverandering door koolstofvastlegging, maar ook aan een biodiverse wereld met gezonde bodems. Meer informatie over deze projecten is te vinden op <a href='https://oncra.org/' target='_blank'>Oncra.org</a>. <br><br>Het verwijderen en opslaan van 1 kg CO₂ kost €0,15. Elke euro verwijdert 6,67 kg CO₂ uit de atmosfeer. Om 1 ton CO₂ te verwijderen kost dus €150.",
-  
-      "question8": "Hoe wordt mijn bijdrage besteed?",
-      "answer8": "Als je doneert via een ansichtkaart, wordt €5 gebruikt voor de druk- en portokosten. Het andere deel wordt gebruikt om een CO₂-verwijderingsproject van de Carboneers & myclimate te financieren. De Stichting Cycling 4 Climate incasseert je donatie en aan het eind wordt het volledige bedrag gebruikt om CO₂ te verwijderen.",
-  
-      "question9": "Hoe kan ik Glorious Glacier Ride fietsen?",
-      "answer9": "Allereerst heb je natuurlijk een goede fysieke conditie nodig! Daarnaast moet je de bereidheid hebben om een CO₂-verwijdering campagne te starten. Je doel is om net zoveel CO₂ uit de lucht te halen (in tonnen) als je oud bent. Dus als je 30 jaar bent, moet je 30 ton CO₂ verwijderen, wat met een prijs van €150 neerkomt op een doelstelling van €4.500. Of te wel: voldoende mensen mobiliseren om samen jouw leeftijd aan CO₂ te verwijderen. Gemiddeld stoot een Europeaan ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 ton</a> CO₂ per jaar uit (een Nederlander zit op 9 ton per jaar).<br><br>Als je de GGR wil fietsen kun je je <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> inschrijven.",
-  
-      "question10": "Wanneer vindt de Glorious Glacier Ride plaats?",
-      "answer10": "De Glorious Glacier Ride wordt in 2026 georganiseerd door Borne Cycling (23 - 29 augustus), en door Velotours (28 aug - 4 sept), daarnaast kun je ook de Glorious Glacier Ride individueel of met vrienden fietsen. Geef je daarvoor <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> op. ",
-  
-      "question11": "Hoe lang duurt de Glorious Glacier Ride?",
-      "answer11": "De volledige Glorious Glacier Ride telt 14 etappes. Met een rustdag in Zermatt, ben je dus 15 dagen onderweg. Maar je kunt ook de eerste (meeste gletjsers), tweede (meeste bergen) week of alleen een aantal etappes fietsen.",
-  
-      "question12": "Kan ik ook een deel van de Glorious Glacier Ride rijden?",
-      "answer12": "Ja, dat kan. Idealiter rijd je langs ten minste de Morteratsch, Rhône, Aletsch en Trient gletsjers, en bezoek je de Mer de Glace nabij Chamonix.",
-  
-      "question13": "Wat kost deelname?",
-      "answer13": "Het inschrijfgeld voor de GGR bedraagt € 50. Je ontvangt dan het GPX-bestand, de dagplanning en een persoonlijke inzamelpagina op de website. Daarnaast ontvang je de ansichtkaarten die je naar je supporters kunt sturen, en word je opgenomen in de lijst van Glorious Glacier Riders. <br><br> <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Laat het ons weten</a>.",
-
-      "question14": "Met welke eenvoudige maatregel hebben gemeentes invloed?",
-      "answer14": "De strijd tegen klimaatverandering vraagt om impactvolle projecten die op drastische wijze de CO₂ reduceren én beleid dat gedragsverandering teweegbrengt. Volgens het IPCC is namelijk <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40-70% van de reductieopgave</a> daarvan afhankelijk. Vaker fietsen in plaats van autorijden is zo’n gedragsverandering. Net als het stoppen met fossiele reclame.<br><br> Het is heel eenvoudig: meer advertenties voor fossiele producten betekent meer gebruik van fossiele brandstoffen en meer schade aan het klimaat. Het is daarom essentieel dat gemeenten <a href='https://www.worldwithoutfossilads.org/' target='_blank'>een verbod op fossiele reclame</a> instellen in hun openbare ruimtes, zoals bushaltes, verkeersborden en op gebouwen."
- 
-    }
-  
-  
+  "faq": {
+    "h2": "Veelgestelde Vragen",
+    "question1": "Wat is de Glorious Glacier Ride?",
+    "answer1": "De Glorious Glacier Ride is een fietservaring langs de mooiste maar krimpende gletsjers van de Alpen, bedoeld om bewustzijn te creëren over klimaatverandering. De totale rit is meer dan 1.500km lang en er moeten meer dan 30.000 hoogtemeters worden overwonnen. Deelnemers zamelen geld in voor CO₂-verwijdering: ze nodigen vrienden, familie, etc. uit om via hun individuele inzamelingscampagne CO₂ uit de atmosfeer te verwijderen. De Glorious Glacier Ride wordt georganiseerd door Cycling 4 Climate.",
+    "question2": "Hoe kan ik de deelnemers steunen?",
+    "answer2": "Je kunt een donatie doen aan een deelnemer van jouw keuze. Je kunt kiezen voor een ansichtkaart die naar je wordt verzonden of een directe donatie doen. Met je bijdrage help je jouw deelnemer om zijn CO₂-verwijderingsdoelstelling te halen!",
+    "question3": "Wat is de impact van klimaatverandering op gletsjers?",
+    "answer3": "Door klimaatverandering trekken gletsjers zich terug. Gletsjers zijn afhankelijk van consistente sneeuwval in de winter om hun ijsmassa aan te vullen. Klimaatverandering heeft geleid tot hogere temperaturen, waardoor er minder neerslag als sneeuw valt en meer als regen. Daarnaast verkorten warmere temperaturen de koude seizoenen, terwijl de smeltperiode langer en warmer wordt. Tot slot verhoogt sneeuwbedekking het albedo (reflectievermogen) van gletsjers, waardoor de smelt wordt vertraagd door zonlicht te weerkaatsen. Een gebrek aan sneeuw stelt donkerder gletsjerijs bloot, dat meer warmte absorbeert en het smeltproces versnelt.<br><br>De Universiteit van Innsbruck heeft voorspellingen gedaan over de snelheid waarmee gletsjers zich terugtrekken. Het verschil tussen 1,5°C (Akkoord van Parijs) of 2,7°C (huidige traject) opwarming tegen 2100 is aanzienlijk.<br><br>Bijvoorbeeld, de Rhône-gletsjer had in 2020 een geschat volume van 1,24 km³. Onder het 2,7°C-scenario zal deze naar verwachting grotendeels verdwenen zijn tegen 2073. Als de opwarming wordt beperkt tot 1,5°C, blijft 22% van het volume uit 2020 over (17% meer dan bij 2,7°C).<br><br>De gletsjers in de Alpen zijn, vanwege hun lage hoogtes, bijzonder kwetsbaar voor klimaatverandering en een groot deel van hun volume zal tegen 2100 verdwenen zijn. Echter, de grootste bevolkingsgroepen die afhankelijk zijn van gletsjers wonen in Azië, waar de gletsjers in de Himalaya langer zullen overleven. Waar je ook woont: <strong>0,1°C minder helpt gletsjers te redden en de impact te beperken!</strong><br><br><video style='width:100%;' autoplay='' loop='' muted='' playsinline='' controls=''><source src='img/RGI60-11.01238_+2.7°C.mp4' type='video/mp4'>Je browser ondersteunt de video-tag niet.</video><br><br>Andere gletsjers die de Glorious Glacier Ride zal passeren:<br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03638.html' target='_blank'>Argentière</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03662.html' target='_blank'>Grande Motte</a><br><a href='https://goodbye-glaciers.info/glaciers/RGI60-11.03684.html' target='_blank'>Glacier Blanc</a><br>Meer informatie is te vinden op de website <a href='https://goodbye-glaciers.info/' target='_blank'>goodbye-glaciers.info</a>",
+    "question4": "Wat is de oorzaak van klimaatverandering?",
+    "answer4": "De belangrijkste oorzaak van klimaatverandering is de uitstoot van broeikasgassen door menselijke activiteiten, vooral de verbranding van fossiele brandstoffen zoals olie, gas en kolen. Deze gassen, voornamelijk koolstofdioxide (CO₂), versterken het natuurlijke broeikaseffect van de aarde, wat leidt tot een stijging van de gemiddelde temperatuur en veranderingen in het klimaatsysteem.",
+    "question5": "Wat is een ton CO₂?",
+    "answer5": "Een ton is 1.000 kg. Gemiddeld stoot een inwoner van Europa 7,5 ton CO₂ uit: dat is grofweg vergelijkbaar met het gewicht van 5 middenklasse auto’s. Elke liter benzine die je tankt, wordt bij verbranding omgezet in 2,4 kg CO₂. Een volle tank (40 liter) staat dus gelijk aan 100kg CO₂. Een intercontinentale vlucht (bijvoorbeeld naar New York), is snel goed voor de uitstoot van 1 ton CO₂ (en een retourtje dus 2 ton).  Ook de consumptie van (vooral rund) vlees heeft een flinke impact: elke kg rundvlees is goed voor 20-25 kg CO₂ (en als die dode koe uit Brazilië komt is het zelfs het dubbele…). Elke kilo die we extra in de atmosfeer stoppen, zullen we er op termijn ook weer uit moeten halen.",
+    "question6": "Waarom is CO₂ verwijdering nodig?",
+    "answer6": "We hebben - vooral in de afgelopen 50 jaar - heel veel extra CO₂ in de atmosfeer gepompt. Op dit moment liggen we op koers om de gemiddelde opwarming van 1,5°C te overschrijden. Naast dat we onze uitstoot snel moeten reduceren, zullen we daarom ook moeten starten met het opruimen van onze historische uitstoot.",
+    "question7": "Hoe werkt CO₂ verwijdering en wat kost het?",
+    "answer7": "Er zijn verschillende manieren om CO₂ uit de lucht te halen en op te slaan. Bekend is wellicht het project van Climeworks op IJsland. Daar wordt met grote ventilatoren en CO₂-absorberend middel CO₂ uit de lucht gehaald en in de grond geïnjecteerd. Dit kost echter veel energie en is relatief prijzig (€600-800 per ton)<br><br>Een andere oplossing is door de productie van biochar. Hierbij wordt organisch afval (bijvoorbeeld afval van maïs en cacao) omgezet in biochar. Biochar is een soort houtskool dat zeer stabiel is. Na de productie wordt de biochar in de grond bijgemengd waar het de bodemkwaliteit verbetert en de koolstof voor millennia wordt opgeslagen. <br><br>Dit biedt drie voordelen: 1) Kleinschalige boeren in Afrika krijgen extra inkomen, 2) Hun bodem verbetert en is beter bestand tegen klimaatverandering: hiermee wordt de opbrengst van het land hoger en zijn de boeren minder geld kwijt aan kunstmest 3) Het is een vorm van klimaatfinanciering. <br><br>De Nederlandse onderneming Carboneers.earth heeft met deze methode inmiddels meer dan 175.000 ton CO₂ terug in de aarde gebracht. Meer informatie over de Carboneers is te vinden op <a href='https://www.carboneers.earth/' target='_blank'>www.carboneers.earth</a>.<br><br>Er wordt ook gefietst voor andere vormen van nature-based koolstofvastlegging, onafhankelijk gecertificeerd door Oncra. Voorbeelden hiervan zijn het biodiverse Voedselbos Leuker1818, de biobased bouwmaterialen van Finti, de zeewierafzinking van Oceanus International en de permanente koolstofopslag met olivijn door Greensands. Al deze initiatieven dragen niet alleen bij aan het tegengaan van klimaatverandering door koolstofvastlegging, maar ook aan een biodiverse wereld met gezonde bodems. Meer informatie over deze projecten is te vinden op <a href='https://oncra.org/' target='_blank'>Oncra.org</a>. <br><br>Het verwijderen en opslaan van 1 kg CO₂ kost €0,15. Elke euro verwijdert 6,67 kg CO₂ uit de atmosfeer. Om 1 ton CO₂ te verwijderen kost dus €150.",
+    "question8": "Hoe wordt mijn bijdrage besteed?",
+    "answer8": "Als je doneert via een ansichtkaart, wordt €5 gebruikt voor de druk- en portokosten. Het andere deel wordt gebruikt om een CO₂-verwijderingsproject van de Carboneers & myclimate te financieren. De Stichting Cycling 4 Climate incasseert je donatie en aan het eind wordt het volledige bedrag gebruikt om CO₂ te verwijderen.",
+    "question9": "Hoe kan ik Glorious Glacier Ride fietsen?",
+    "answer9": "Allereerst heb je natuurlijk een goede fysieke conditie nodig! Daarnaast moet je de bereidheid hebben om een CO₂-verwijdering campagne te starten. Je doel is om net zoveel CO₂ uit de lucht te halen (in tonnen) als je oud bent. Dus als je 30 jaar bent, moet je 30 ton CO₂ verwijderen, wat met een prijs van €150 neerkomt op een doelstelling van €4.500. Of te wel: voldoende mensen mobiliseren om samen jouw leeftijd aan CO₂ te verwijderen. Gemiddeld stoot een Europeaan ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 ton</a> CO₂ per jaar uit (een Nederlander zit op 9 ton per jaar).<br><br>Als je de GGR wil fietsen kun je je <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> inschrijven.",
+    "question10": "Wanneer vindt de Glorious Glacier Ride plaats?",
+    "answer10": "De Glorious Glacier Ride wordt in 2026 georganiseerd door Borne Cycling (23 - 29 augustus), en door Velotours (28 aug - 4 sept), daarnaast kun je ook de Glorious Glacier Ride individueel of met vrienden fietsen. Geef je daarvoor <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> op. ",
+    "question11": "Hoe lang duurt de Glorious Glacier Ride?",
+    "answer11": "De volledige Glorious Glacier Ride telt 14 etappes. Met een rustdag in Zermatt, ben je dus 15 dagen onderweg. Maar je kunt ook de eerste (meeste gletjsers), tweede (meeste bergen) week of alleen een aantal etappes fietsen.",
+    "question12": "Kan ik ook een deel van de Glorious Glacier Ride rijden?",
+    "answer12": "Ja, dat kan. Idealiter rijd je langs ten minste de Morteratsch, Rhône, Aletsch en Trient gletsjers, en bezoek je de Mer de Glace nabij Chamonix.",
+    "question13": "Wat kost deelname?",
+    "answer13": "Het inschrijfgeld voor de GGR bedraagt € 50. Je ontvangt dan het GPX-bestand, de dagplanning en een persoonlijke inzamelpagina op de website. Daarnaast ontvang je de ansichtkaarten die je naar je supporters kunt sturen, en word je opgenomen in de lijst van Glorious Glacier Riders. <br><br> <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Laat het ons weten</a>.",
+    "question14": "Met welke eenvoudige maatregel hebben gemeentes invloed?",
+    "answer14": "De strijd tegen klimaatverandering vraagt om impactvolle projecten die op drastische wijze de CO₂ reduceren én beleid dat gedragsverandering teweegbrengt. Volgens het IPCC is namelijk <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40-70% van de reductieopgave</a> daarvan afhankelijk. Vaker fietsen in plaats van autorijden is zo’n gedragsverandering. Net als het stoppen met fossiele reclame.<br><br> Het is heel eenvoudig: meer advertenties voor fossiele producten betekent meer gebruik van fossiele brandstoffen en meer schade aan het klimaat. Het is daarom essentieel dat gemeenten <a href='https://www.worldwithoutfossilads.org/' target='_blank'>een verbod op fossiele reclame</a> instellen in hun openbare ruimtes, zoals bushaltes, verkeersborden en op gebouwen."
+  }
 }
