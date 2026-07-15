@@ -1,0 +1,146 @@
+<!doctype html>
+<html style="height:100%;margin:0">
+
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Register & Pay | Glorious Glacier Ride 2026" />
+    <meta property="og:image" content="https://gloriousglacier.eu/img/finalggr.png" />
+    <meta property="og:description"
+        content="Register and pay for the Chamonix Climate Ride, 4 September 2026." />
+    <meta property="og:url" content="https://gloriousglacier.eu/chamonix-payment.html" />
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='630' />
+    <title data-i18n="climateRideChamonix.ctaTitle">Ready to Ride for What Matters?</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css?v0.35">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <script type="module" src="js/route_page.js?v0.30" defer></script>
+</head>
+
+<body class="event_page" style="height:100%;margin:0">
+    <div id="wrapper" class="wrapper">
+        <nav class="navbar">
+            <div class="header"></div>
+            <div class="nav-container">
+                <a class="navbar-brand-link" href="./#page-top">
+                    <img class="navbar-brand" src="./img/finalggr_small.png" alt="Glorious Glacier Ride" />
+                </a>
+                <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+                    <span data-i18n="nav.menu">Menu</span>
+                    <svg class="svg-inline" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </button>
+
+                <div class="nav-collapse" id="navitems">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="./#route"
+                                data-i18n="nav.route">Route</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="./#support"
+                                data-i18n="nav.support">Support</a></li>
+                        <li class="nav-item desktop-events-nav">
+                            <div class="dropdown nav-dropdown">
+                                <button class="dropdown-toggle nav-link nav-dropdown-toggle" type="button"
+                                    onclick="toggleEventsDropdown()">
+                                    <span data-i18n="nav.events" style="margin-top: 3px;">Events</span>
+                                    <span class="dropdown-arrow">&#9662;</span>
+                                </button>
+                                <div class="dropdown-menu nav-dropdown-menu" id="eventsDropdown">
+                                    <a class="dropdown-item" onclick="closeMenu()" href="/official-start-innsbruck.html"
+                                        data-i18n="nav.eventInnsbruck">Official Start Innsbruck</a>
+                                    <a class="dropdown-item" onclick="closeMenu()" href="/climate-ride-chamonix.html"
+                                        data-i18n="nav.eventChamonix">Official Finish Chamonix</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item mobile-event-link"><a onclick="closeMenu()" class="nav-link"
+                                href="/official-start-innsbruck.html"
+                                data-i18n="nav.eventInnsbruck">Official Start Innsbruck</a></li>
+                        <li class="nav-item mobile-event-link"><a onclick="closeMenu()" class="nav-link"
+                                href="/climate-ride-chamonix.html"
+                                data-i18n="nav.eventChamonix">Official Finish Chamonix</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="./#faq"
+                                data-i18n="nav.faq">FAQ</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" target="_blank" title="Instagram"
+                                href="https://www.instagram.com/gloriousglacierride/"><img alt="instagram logo"
+                                    style="padding-top: 2px;" height="20" src="/img/instagram.png"></a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" target="_blank" class="nav-link" title="LinkedIn"
+                                href="https://www.linkedin.com/company/cycling4climate/"><img alt="linkedin logo"
+                                    style="padding-top: 2px;" height="20" src="/img/LinkedIn.png"></a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" target="_blank" class="nav-link"
+                                title="newsletter" href="https://laposta.nl/f/ssw1s01gmbom"><img alt="newsletter logo"
+                                    style="padding-top: 2px;" height="20" src="/img/newsletter.png"></a></li>
+                        <li class="nav-item language-switcher"></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="dropdown-toggle" id="languageSwitcher" type="button"
+                        onclick="toggleLanguageDropdown()">
+                        <img src="img/en.svg" alt="English Flag" class="flag-icon">
+                        <span class="dropdown-arrow">&#9662;</span>
+                    </button>
+                    <div class="dropdown-menu" id="languageDropdown">
+                        <a class="dropdown-item" href="#" id="nlLink">
+                            <img src="img/nl.svg" alt="NL Flag" class="flag-icon"> Nederlands
+                        </a>
+                        <a class="dropdown-item" href="#" id="enLink">
+                            <img src="img/en.svg" alt="EN Flag" class="flag-icon"> English
+                        </a>
+                        <a class="dropdown-item" href="#" id="frLink">
+                            <img src="img/fr.svg" alt="FR Flag" class="flag-icon"> Français
+                        </a>
+                        <a class="dropdown-item" href="#" id="deLink">
+                            <img src="img/de.svg" alt="DE Flag" class="flag-icon"> Deutsch
+                        </a>
+                        <a class="dropdown-item" href="#" id="itLink">
+                            <img src="img/it.svg" alt="IT Flag" class="flag-icon"> Italiano
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <a class="anchor" id="page-top"></a>
+        <div class="main">
+            <div class="section">
+                <div class="text_section">
+                    <p class="p_center"><a href="/climate-ride-chamonix.html" data-i18n="climateRideChamonix.backToChamonix">← Back to the Chamonix event page</a></p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section_title">
+                    <h2 data-i18n="climateRideChamonix.ctaTitle">Ready to Ride for What Matters?</h2>
+                </div>
+            </div>
+            <div class="section">
+                <div class="text_section">
+                    <p data-i18n="climateRideChamonix.ctaIntro">A small participation fee of €15 goes directly towards supporting the ride and the climate projects behind it. Every euro counts.</p>
+                    <div class="cta_stack">
+                        <p class="cta_intro" data-i18n="climateRideChamonix.rideIntro">🚴 Chamonix Climate Ride — €15:</p>
+                        <div class="helloasso_widget">
+                            <iframe
+                                src="https://www.helloasso.com/associations/c4c-france-cycling-for-climate/evenements/climate-ride-chamonix/widget"
+                                title="Chamonix Climate Ride registration"
+                                loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="footer"></div>
+        </div>
+    </div>
+    <script type="module" src="js/index.js?v0.30"></script>
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+</body>
+
+</html>

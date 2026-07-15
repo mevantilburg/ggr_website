@@ -170,13 +170,15 @@
     "ctaIntro": "Een kleine deelnamebijdrage van €15 gaat direct naar de ondersteuning van de rit en de klimaatprojecten erachter. Elke euro telt.",
     "workshopIntro": "💡 Climate Fresk workshop — Gratis:",
     "workshopCtaLabel": "Registratielink volgt binnenkort",
-    "rideIntro": "🚴 Chamonix Climate Ride — €15:",
+    "rideIntro": "🚴 Chamonix Climate Ride:",
+    "paymentButtonLabel": "Meedoen & Rijden",
     "rideCtaLabel": "Aanmelden",
     "fullRideIntro": "🚴 Volledige 8-daagse Glorious Glacier Ride:",
     "fullRideCtaLabel": "Ik wil meer informatie",
     "closing": "Tot ziens in Chamonix. Laten we rijden voor de gletsjers.",
-    "formTitle": "Direct aanmelden",
+    "formTitle": "Meld je aan voor de Gletsjerconferentie bij de MJC",
     "formSubtitle": "ook voor vrienden &amp; familie",
+    "signupButtonLabel": "Open het aanmeldformulier",
     "formName": "Naam",
     "formNamePlaceholder": "Jouw naam",
     "formEmail": "E-mailadres",
@@ -194,7 +196,8 @@
     "formCommentPlaceholder": "Optioneel",
     "formSubmit": "Aanmelden",
     "formSuccess": "Bedankt! We nemen snel contact met je op.",
-    "formError": "Er is iets misgegaan. Probeer het opnieuw."
+    "formError": "Er is iets misgegaan. Probeer het opnieuw.",
+    "backToChamonix": "← Terug naar de Chamonix-eventpagina"
   },
   "faq": {
     "h2": "Veelgestelde Vragen",

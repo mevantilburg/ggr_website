@@ -170,13 +170,15 @@
     "ctaIntro": "Une petite participation de 15 € est reversée directement au soutien de la ride et des projets climatiques qui l’animent. Chaque euro compte.",
     "workshopIntro": "💡 Atelier Climate Fresk — Gratuit :",
     "workshopCtaLabel": "Lien d’inscription à venir",
-    "rideIntro": "🚴 Chamonix Climate Ride — 15 € :",
+    "rideIntro": "🚴 Chamonix Climate Ride :",
+    "paymentButtonLabel": "Rejoins & roule",
     "rideCtaLabel": "S’inscrire ici",
     "fullRideIntro": "🚴 Glorious Glacier Ride complète de 8 jours :",
     "fullRideCtaLabel": "Je souhaite plus d’informations",
     "closing": "À bientôt à Chamonix. En selle pour les glaciers.",
-    "formTitle": "S'inscrire directement",
+    "formTitle": "Inscrivez-vous à la Conférence Glaciers à la MJC",
     "formSubtitle": "aussi pour les amis &amp; la famille",
+    "signupButtonLabel": "Ouvrir le formulaire d'inscription",
     "formName": "Nom",
     "formNamePlaceholder": "Votre nom",
     "formEmail": "Adresse e-mail",
@@ -194,7 +196,8 @@
     "formCommentPlaceholder": "Facultatif",
     "formSubmit": "S'inscrire",
     "formSuccess": "Merci ! Nous vous recontacterons bientôt.",
-    "formError": "Une erreur s'est produite. Veuillez réessayer."
+    "formError": "Une erreur s'est produite. Veuillez réessayer.",
+    "backToChamonix": "← Retour à la page de l'événement Chamonix"
   },
   "faq": {
     "h2": "Foire aux questions",
