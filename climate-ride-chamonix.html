@@ -14,7 +14,7 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="css/style.css?v0.32">
+    <link rel="stylesheet" href="css/style.css?v0.35">
     <link
         href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
@@ -258,74 +258,16 @@
             </div>
             <div class="section">
                 <div class="text_section">
-                    <!-- Hidden spans used by JS to read translated success/error messages -->
-                    <span id="formSuccessTextChamonix" data-i18n="climateRideChamonix.formSuccess" style="display:none">Thank you! We'll be in touch soon.</span>
-                    <span id="formErrorTextChamonix" data-i18n="climateRideChamonix.formError" style="display:none">Something went wrong. Please try again.</span>
-
-                    <form id="registrationFormChamonix" class="registration_form" novalidate>
-                        <div class="form_group">
-                            <label for="reg_name_cha" data-i18n="climateRideChamonix.formName">Name</label>
-                            <input type="text" id="reg_name_cha" name="name" required
-                                data-i18n="climateRideChamonix.formNamePlaceholder"
-                                data-i18n-attr="placeholder"
-                                placeholder="Your name">
-                        </div>
-                        <div class="form_group">
-                            <label for="reg_email_cha" data-i18n="climateRideChamonix.formEmail">Email address</label>
-                            <input type="email" id="reg_email_cha" name="email" required
-                                data-i18n="climateRideChamonix.formEmailPlaceholder"
-                                data-i18n-attr="placeholder"
-                                placeholder="your@email.com">
-                        </div>
-                        <div class="form_group">
-                            <label for="reg_city_cha" data-i18n="climateRideChamonix.formCity">City</label>
-                            <input type="text" id="reg_city_cha" name="city"
-                                data-i18n="climateRideChamonix.formCityPlaceholder"
-                                data-i18n-attr="placeholder"
-                                placeholder="Your city">
-                        </div>
-                        <div class="form_group">
-                            <label data-i18n="climateRideChamonix.formEvent">Which part would you like to join?</label>
-                            <div class="form_checkboxes">
-                                <label class="form_checkbox_label">
-                                    <input type="checkbox" name="event" value="workshop">
-                                    <span data-i18n="climateRideChamonix.formEventWorkshop">💡 Climate Fresk workshop (Friday 4 September, 9:00–12:00)</span>
-                                </label>
-                                <label class="form_checkbox_label">
-                                    <input type="checkbox" name="event" value="workshop2">
-                                    <span data-i18n="climateRideChamonix.formEventWorkshop2">🧊 Workshop "How to protect glaciers" (Friday 4 September, 9:00–12:00)</span>
-                                </label>
-                                <label class="form_checkbox_label">
-                                    <input type="checkbox" name="event" value="ride">
-                                    <span data-i18n="climateRideChamonix.formEventPeloton">🚴 Chamonix Climate Ride (Friday 4 September, departure 12:30)</span>
-                                </label>
-                                <label class="form_checkbox_label">
-                                    <input type="checkbox" name="event" value="conference">
-                                    <span data-i18n="climateRideChamonix.formEventConference">🎤 Glacier Conference (afternoon, 14:00–17:00)</span>
-                                </label>
-                                <label class="form_checkbox_label">
-                                    <input type="checkbox" name="event" value="film">
-                                    <span data-i18n="climateRideChamonix.formEventFilm">🎬 Film screening: Après les Glaciers (20:00–21:30)</span>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form_group">
-                            <label for="reg_people_cha" data-i18n="climateRideChamonix.formPeople">Number of people</label>
-                            <input type="number" id="reg_people_cha" name="people" min="1" max="20" value="1">
-                        </div>
-                        <div class="form_group">
-                            <label for="reg_comment_cha" data-i18n="climateRideChamonix.formComment">Comment or question</label>
-                            <textarea id="reg_comment_cha" name="comment"
-                                data-i18n="climateRideChamonix.formCommentPlaceholder"
-                                data-i18n-attr="placeholder"
-                                placeholder="Optional"></textarea>
-                        </div>
-                        <div id="formMessageChamonix" class="form_message" style="display:none;"></div>
-                        <button type="submit" class="cta_button" data-i18n="climateRideChamonix.formSubmit">Register</button>
-                    </form>
+                    <div class="google_form_embed">
+                        <iframe
+                            src="https://docs.google.com/forms/d/e/1FAIpQLSfvQrdViZ_S7UOJ_0qnxOjKKP-4jZ357oaGmrERdFgE3-1Row/viewform?embedded=true"
+                            title="Glorious Glacier Ride 2026 — Chamonix registration"
+                            loading="lazy">Loading…</iframe>
+                    </div>
                 </div>
             </div>
 
+            <a class="anchor" id="register"></a>
             <div class="section">
                 <div class="section_title">
                     <h2 data-i18n="climateRideChamonix.ctaTitle">Ready to Ride for What Matters?</h2>
@@ -450,67 +392,6 @@
     </div>
     <script type="module" src="js/index.js?v0.30"></script>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var form = document.getElementById('registrationFormChamonix');
-        if (!form) return;
-
-        // Some options happen at the same time, so picking one unpicks its counterpart
-        var exclusivePairs = [['workshop', 'workshop2'], ['ride', 'conference']];
-        form.querySelectorAll('input[name="event"]').forEach(function (cb) {
-            cb.addEventListener('change', function () {
-                if (!cb.checked) return;
-                exclusivePairs.forEach(function (pair) {
-                    if (pair.indexOf(cb.value) === -1) return;
-                    var otherValue = pair[0] === cb.value ? pair[1] : pair[0];
-                    var other = form.querySelector('input[name="event"][value="' + otherValue + '"]');
-                    if (other) other.checked = false;
-                });
-            });
-        });
-
-        form.addEventListener('submit', async function (e) {
-            e.preventDefault();
-            var msg = document.getElementById('formMessageChamonix');
-            var btn = form.querySelector('button[type="submit"]');
-            btn.disabled = true;
-
-            var events = Array.from(form.querySelectorAll('input[name="event"]:checked'))
-                .map(function (cb) { return cb.value; }).join(', ');
-
-            var data = {
-                name: document.getElementById('reg_name_cha').value,
-                email: document.getElementById('reg_email_cha').value,
-                city: document.getElementById('reg_city_cha').value,
-                event: events || '—',
-                people: document.getElementById('reg_people_cha').value,
-                comment: document.getElementById('reg_comment_cha').value
-            };
-
-            try {
-                // TODO: replace with your own Formspree form endpoint (formspree.io)
-                var res = await fetch('https://formspree.io/f/xzdnbvgp', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                    body: JSON.stringify(data)
-                });
-                if (res.ok) {
-                    form.style.display = 'none';
-                    msg.className = 'form_message form_success';
-                    msg.textContent = document.getElementById('formSuccessTextChamonix').textContent;
-                    msg.style.display = 'block';
-                } else {
-                    throw new Error('Server error');
-                }
-            } catch (_) {
-                msg.className = 'form_message form_error';
-                msg.textContent = document.getElementById('formErrorTextChamonix').textContent;
-                msg.style.display = 'block';
-                btn.disabled = false;
-            }
-        });
-    });
-    </script>
 </body>
 
 </html>
