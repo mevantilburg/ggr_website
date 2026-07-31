@@ -123,6 +123,7 @@
   "climateRideChamonix": {
     "metaTitle": "Official Finish Chamonix | Glorious Glacier Ride",
     "h1": "Ride to the Edge of a Vanishing World",
+    "heroSubtitle": "Let's ride together for the alpine glaciers!",
     "date": "Chamonix, 4 September 2026",
     "meta": "60 km | 1,500 m elevation | Col des Montets | Trient Glacier",
     "introTitle": "The Journey Ends Here — Be Part of It",
@@ -157,7 +158,13 @@
       "filmTime": "21:00",
       "filmText": "Film screening: Après les Glaciers, Cinéma le VOX Chamonix (€5 entry, no reservation) — Q&A with directors Dorothée Adam & Mathieu Navillod and glaciologist Jean-Baptiste Bosson"
     },
+    "scheduleSignupButtonLabel": "Sign up for the workshops or talks",
     "filmPosterCredit": "\"Après les Glaciers\" — a film by Dorothée Adam &amp; Mathieu Navillod. More info: <a href=\"https://apreslesglaciers-lefilm.fr/\" target=\"_blank\">apreslesglaciers-lefilm.fr</a>",
+    "filmTitle": "Discover the new documentary film “Après les Glaciers”",
+    "filmLede": "What will happen once the glaciers are gone?",
+    "filmBody1": "We're offering an exceptional screening of the film “Après les Glaciers”, directed by Dorothée Adam and Mathieu Navillod, giving voice to scientists, elected officials, athletes and artists mobilising in the Alps to create — for the first time through a citizen-led initiative — a protected post-glacial area. An ambitious and inspiring initiative to safeguard these key ecosystems and imagine a desirable future for them.",
+    "filmBody2": "The screening (52 min) will be followed by a discussion with directors Dorothée Adam and Mathieu Navillod, together with glaciologist Jean-Baptiste Bosson.",
+    "filmPracticalInfo": "“Après les Glaciers” - Cinéma le VOX Chamonix - 21:00<br>22 Cr du Bartavel, 74400 Chamonix-Mont-Blanc<br>€5 entry on site - no reservation",
     "routeDescription": "The concept route can be viewed <a href=\"https://ridewithgps.com/events/478160-cyclo-pour-le-climat-chamonix\" target=\"_blank\">here</a>.",
     "ctaTitle": "Ready to Ride for What Matters?",
     "ctaIntro": "Taking part is free — but if you'd like to support the ride and the climate projects behind it, a donation is very welcome. Every euro counts.",
