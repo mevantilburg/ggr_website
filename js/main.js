@@ -68,6 +68,13 @@ let layerControl;
 let imageOverlay;
 let currentGpxLayer;
 let currentWaypointLayers = [];
+let connectorLayer;
+
+const ROUTE_CONNECTORS = {
+    'velo-tours': [
+        { from: [46.1000, 7.0728], to: [46.3183, 6.9683], label: 'Martigny – Aigle' }
+    ]
+};
 let waypointFetchController = null;
 let currentPostcardIndex = 0;
 
@@ -75,6 +82,7 @@ const ICON_URLS = {
     place: '/img/marker_place.svg',
     pass: '/img/marker_pass.svg',
     glacier: '/img/marker_glacier.svg',
+    city: '/img/marker_city.svg',
     start: '/img/marker_start.svg',
     finish: '/img/marker_finish.svg',
     default: '/img/marker2.svg'
@@ -758,6 +766,7 @@ function loadRouteOnMap(routeVariant) {
     }
 
     clearWaypointLayers();
+    clearConnectorLayer();
 
     const gpxOptions = buildGpxOptions();
 
@@ -772,6 +781,29 @@ function loadRouteOnMap(routeVariant) {
         .addTo(map);
 
     loadWaypoints(routeVariant.waypoints);
+    loadConnectors(routeVariant.key);
+}
+
+function clearConnectorLayer() {
+    if (!map || !layerControl || !connectorLayer) return;
+    map.removeLayer(connectorLayer);
+    layerControl.removeLayer(connectorLayer);
+    connectorLayer = null;
+}
+
+function loadConnectors(routeKey) {
+    const connectors = ROUTE_CONNECTORS[routeKey];
+    if (!connectors || !connectors.length) return;
+
+    connectorLayer = L.layerGroup(
+        connectors.map(({ from, to }) => L.polyline([from, to], {
+            color: 'black',
+            dashArray: '15,5',
+            weight: 3
+        }))
+    ).addTo(map);
+
+    layerControl.addOverlay(connectorLayer, 'Route Connectors');
 }
 
 async function loadWaypoints(waypointsUrl) {
@@ -791,6 +823,7 @@ async function loadWaypoints(waypointsUrl) {
 
         const passMarkers = L.layerGroup();
         const glacierMarkers = L.layerGroup();
+        const cityMarkers = L.layerGroup();
         const dotMarkers = L.layerGroup();
 
         Array.from(waypoints).forEach(wpt => {
@@ -830,6 +863,9 @@ async function loadWaypoints(waypointsUrl) {
                 case 'glacier':
                     glacierMarkers.addLayer(marker);
                     break;
+                case 'city':
+                    cityMarkers.addLayer(marker);
+                    break;
                 default:
                     dotMarkers.addLayer(marker);
             }
@@ -837,17 +873,19 @@ async function loadWaypoints(waypointsUrl) {
 
         passMarkers.addTo(map);
         glacierMarkers.addTo(map);
+        cityMarkers.addTo(map);
         dotMarkers.addTo(map);
 
         const overlays = [
             { layer: passMarkers, label: 'Mountain Passes' },
             { layer: glacierMarkers, label: 'Glaciers' },
+            { layer: cityMarkers, label: 'Cities' },
             { layer: dotMarkers, label: 'Other Points' }
         ];
 
         overlays.forEach(({ layer, label }) => layerControl.addOverlay(layer, label));
         currentWaypointLayers = overlays;
-        console.log(`[Route] Waypoints loaded: passes=${passMarkers.getLayers().length}, glaciers=${glacierMarkers.getLayers().length}, other=${dotMarkers.getLayers().length}`);
+        console.log(`[Route] Waypoints loaded: passes=${passMarkers.getLayers().length}, glaciers=${glacierMarkers.getLayers().length}, cities=${cityMarkers.getLayers().length}, other=${dotMarkers.getLayers().length}`);
     } catch (error) {
         if (error.name === 'AbortError') {
             return;
@@ -866,6 +904,8 @@ function getIconUrl(type) {
             return ICON_URLS.pass;
         case 'glacier':
             return ICON_URLS.glacier;
+        case 'city':
+            return ICON_URLS.city;
         default:
             return ICON_URLS.default;
     }

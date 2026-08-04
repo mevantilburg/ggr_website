@@ -12,8 +12,7 @@ const ROUTE_DATA = {
                 distance: 125,
                 elevation: 1800,
                 points: [
-                    { name: "Reschenpass", type: "pass" },
-                    { name: "Lago di Rèsia", type: "place" }
+                    { name: "Norbertshöhe", type: "pass" }
                 ]
             },
             postcard: {
@@ -52,8 +51,8 @@ const ROUTE_DATA = {
         {
             id: 2,
             location: {
-                city: "Reschen",
-                country: "it"
+                city: "Nauders",
+                country: "at"
             },
           
             stats: {
@@ -61,10 +60,11 @@ const ROUTE_DATA = {
                 distance: 106,
                 elevation: 3100,
                 points: [
+                    { name: "Reschenpass", type: "pass" },
+                    { name: "Lago di Rèsia", type: "place" },
                     { name: "Madatsch Glacier", type: "glacier" },
                     { name: "Passo di Stelvio", type: "pass" },
-                    { name: "Passo Foscagno", type: "pass" },
-                    { name: "Passo d’Eira", type: "pass"}
+                    { name: "Passo Foscagno", type: "pass" }
                 ]
             },
             postcard: {

@@ -14,7 +14,7 @@
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
     <type>pass</type>
-    <img>StelvioCard.jpg</img>
+    <img>stelvio@2x-100.jpg</img>
   </wpt>
   <wpt lon="10.390944028850813" lat="46.539939833266054">
     <name>Bocchetta di Forcola - 2735m</name>
@@ -30,7 +30,7 @@
     <name>Oberalppass - 2040</name>
     <sym>Dot</sym>
     <type>pass</type>
-    <img>OberalppassCard.jpg</img>
+    <img>oberalppass@2x-100.jpg</img>
   </wpt>
   <wpt lon="8.414778650073224" lat="46.57277500717369">
     <name>Furkapass - 2430m</name>
@@ -42,24 +42,25 @@
     <name>Aletsch Glacier - 2360m</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>aletsch_s.png</img>
+    <img>aletsch@2x-100.jpg</img>
   </wpt>
   <wpt lon="9.935964991237896" lat="46.423458057145666">
     <name>Morteratsch Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>Morteratsch.jpg</img>
+    <img>morteratsch@2x-100.jpg</img>
   </wpt>
   <wpt lon="8.38865268939065" lat="46.57904945959968">
     <name>Rhône Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>rhone@2x-100.jpg</img>
   </wpt>
   <wpt lon="7.748201740219449" lat="46.02382648456371">
     <name>Zermatt</name>
     <sym>Dot</sym>
     <type>Dot</type>
-     <img>ZermattCard.jpg</img>
+     <img>zermatt@2x-100.jpg</img>
   </wpt>
   <wpt lon="7.578658000000011" lat="46.103594">
     <name>Moiry Glacier</name>
@@ -70,7 +71,7 @@
     <name>Trient Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>TrientCard.jpg</img>
+    <img>trient@2x-100.jpg</img>
   </wpt>
   <wpt lon="6.923646170929274" lat="46.004133251158635">
     <name>Col de Montets - 1458m</name>
@@ -91,7 +92,7 @@
     <name>Mer de Glace</name>
     <sym>Dot</sym>
     <type>glacier</type>
-      <img>MerDeGlaceCard.jpg</img>
+      <img>mer-de-glace@2x-100.jpg</img>
   </wpt>
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
     <name>Col de Saisies - 1660m</name>
