@@ -4,6 +4,7 @@
     <name>Fernpass - 1200m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>cards/map/fernpass-map.jpg</img>
   </wpt>
  <wpt lon="10.534450244809221" lat="46.8132021823893">
     <name>Campanile di Curon</name>
@@ -14,7 +15,7 @@
     <name>Passo di Stelvio - 2759m</name>
     <sym>Dot</sym>
     <type>pass</type>
-    <img>stelvio@2x-100.jpg</img>
+    <img>cards/map/stelvio-map.jpg</img>
   </wpt>
   <wpt lon="10.390944028850813" lat="46.539939833266054">
     <name>Bocchetta di Forcola - 2735m</name>
@@ -30,7 +31,7 @@
     <name>Oberalppass - 2040</name>
     <sym>Dot</sym>
     <type>pass</type>
-    <img>oberalppass@2x-100.jpg</img>
+    <img>cards/map/oberalppass-map.jpg</img>
   </wpt>
   <wpt lon="8.414778650073224" lat="46.57277500717369">
     <name>Furkapass - 2430m</name>
@@ -42,36 +43,37 @@
     <name>Aletsch Glacier - 2360m</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>aletsch@2x-100.jpg</img>
+    <img>cards/map/aletsch-map.jpg</img>
   </wpt>
   <wpt lon="9.935964991237896" lat="46.423458057145666">
     <name>Morteratsch Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>morteratsch@2x-100.jpg</img>
+    <img>cards/map/morteratsch-map.jpg</img>
   </wpt>
   <wpt lon="8.38865268939065" lat="46.57904945959968">
     <name>Rhône Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>rhone@2x-100.jpg</img>
+    <img>cards/map/rhone-map.jpg</img>
   </wpt>
   <wpt lon="7.748201740219449" lat="46.02382648456371">
     <name>Zermatt</name>
     <sym>Dot</sym>
     <type>Dot</type>
-     <img>zermatt@2x-100.jpg</img>
+     <img>cards/map/zermatt-map.jpg</img>
   </wpt>
   <wpt lon="7.578658000000011" lat="46.103594">
     <name>Moiry Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
+    <img>cards/map/moiry-map.jpg</img>
   </wpt>
   <wpt lon="7.011889999999985" lat="46.02990999999999">
     <name>Trient Glacier</name>
     <sym>Dot</sym>
     <type>glacier</type>
-    <img>trient@2x-100.jpg</img>
+    <img>cards/map/trient-map.jpg</img>
   </wpt>
   <wpt lon="6.923646170929274" lat="46.004133251158635">
     <name>Col de Montets - 1458m</name>
@@ -92,7 +94,7 @@
     <name>Mer de Glace</name>
     <sym>Dot</sym>
     <type>glacier</type>
-      <img>mer-de-glace@2x-100.jpg</img>
+      <img>cards/map/merdeglace-map.jpg</img>
   </wpt>
   <wpt lon="6.5333698673952645" lat="45.76146417042205">
     <name>Col de Saisies - 1660m</name>
@@ -108,11 +110,13 @@
     <name>Col de l'Iseran - 2750m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>cards/map/iseran-map.jpg</img>
   </wpt>
  <wpt lon="6.407975232393048" lat="45.063996034531534">
     <name>Col du Galibier - 2642m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>cards/map/galibier-map.jpg</img>
   </wpt>
   <wpt lon="6.444314002382225" lat="45.20254480936231">
     <name>Col du Télégraphe - 1567m</name>
@@ -133,6 +137,7 @@
     <name>Cime de la Bonette - 2802m</name>
     <sym>Dot</sym>
     <type>pass</type>
+    <img>cards/map/bonette-map.jpg</img>
   </wpt>
   <wpt lon="7.223117106864123" lat="44.070971755010866">
     <name>Col Saint-Martin - 1499</name>

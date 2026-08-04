@@ -296,57 +296,6 @@ const ROUTE_DATA = {
             },
             postcard: {
                 id: "postcard7",
-                image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
-                large_image: "img/cards/3x/merdeglace@3x-50.jpg",
-                support_image: "img/MerdeGlace.jpg",
-                support_image_source: "",
-                name: "Mer de Glace",
-                type: "glacier",
-                stats: {
-                    size: 3,
-                    length: "11.5",
-                    surface: 28
-                },
-                points: {
-                    en: [
-                      "It's the largest glacier in France and the third of the Alps and up to 200 m thick"
-                    ],
-                    nl: [
-                      "Het is de grootste gletsjer in Frankrijk en de derde van de Alpen en is tot 200 m dik."
-                    ],
-                    de: [
-                      "Es ist der größte Gletscher in Frankreich und der drittgrößte der Alpen und bis zu 200 m dick."
-                    ],
-                    fr: [
-                      "C'est le plus grand glacier de France et le troisième des Alpes, avec une épaisseur pouvant atteindre 200 m."
-                    ],
-                    it: [
-                      "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
-                    ]
-                  }         
-            },
-            accumulatedDistance: 547
-        },
-        {
-            id: 8,
-           
-            location: {
-                city: "Aigle - UCI",
-                country: "ch"
-            },
-            stats: {
-                date: "Sept 4",
-                distance: 77,
-                elevation: 1990,
-                points: [
-                    { name: "Col de la Forclaz", type: "pass" },
-                    { name: "Trient Glacier", type: "glacier" },
-                    { name: "Col des Montets", type: "pass" },
-                    { name: "Mer de Glace", type: "glacier" }
-                ]
-            },
-            postcard: {
-                id: "postcard8",
                 image: "img/cards/0.5x/moiry@0.5x-50.jpg",
                 large_image: "img/cards/3x/moiry@3x-50.jpg",
                 support_image: "img/Moiry.jpg",
@@ -374,7 +323,58 @@ const ROUTE_DATA = {
                     it: [
                       "Con una superficie inferiore a 5 km², Moiry si colloca ben al di sotto dei pochi ghiacciai “giganti”, ma al di sopra della maggior parte dei piccoli ghiacciai svizzeri."
                     ]
-                  }         
+                  }
+            },
+            accumulatedDistance: 547
+        },
+        {
+            id: 8,
+
+            location: {
+                city: "Aigle - UCI",
+                country: "ch"
+            },
+            stats: {
+                date: "Sept 4",
+                distance: 77,
+                elevation: 1990,
+                points: [
+                    { name: "Col de la Forclaz", type: "pass" },
+                    { name: "Trient Glacier", type: "glacier" },
+                    { name: "Col des Montets", type: "pass" },
+                    { name: "Mer de Glace", type: "glacier" }
+                ]
+            },
+            postcard: {
+                id: "postcard8",
+                image: "img/cards/0.5x/merdeglace@0.5x-50.jpg",
+                large_image: "img/cards/3x/merdeglace@3x-50.jpg",
+                support_image: "img/MerdeGlace.jpg",
+                support_image_source: "",
+                name: "Mer de Glace",
+                type: "glacier",
+                stats: {
+                    size: 3,
+                    length: "11.5",
+                    surface: 28
+                },
+                points: {
+                    en: [
+                      "It's the largest glacier in France and the third of the Alps and up to 200 m thick"
+                    ],
+                    nl: [
+                      "Het is de grootste gletsjer in Frankrijk en de derde van de Alpen en is tot 200 m dik."
+                    ],
+                    de: [
+                      "Es ist der größte Gletscher in Frankreich und der drittgrößte der Alpen und bis zu 200 m dick."
+                    ],
+                    fr: [
+                      "C'est le plus grand glacier de France et le troisième des Alpes, avec une épaisseur pouvant atteindre 200 m."
+                    ],
+                    it: [
+                      "È il più grande ghiacciaio della Francia e il terzo delle Alpi, con uno spessore fino a 200 m."
+                    ]
+                  }
             },
             accumulatedDistance: 642
         },
