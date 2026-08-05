@@ -9,8 +9,8 @@ const ROUTE_DATA = {
         
             stats: {
                 date: "Aug 28",
-                distance: 125,
-                elevation: 1800,
+                distance: 131,
+                elevation: 2000,
                 points: [
                     { name: "Norbertshöhe", type: "pass" }
                 ]
@@ -57,8 +57,8 @@ const ROUTE_DATA = {
           
             stats: {
                 date: "Aug 29",
-                distance: 106,
-                elevation: 3100,
+                distance: 118,
+                elevation: 3400,
                 points: [
                     { name: "Reschenpass", type: "pass" },
                     { name: "Lago di Rèsia", type: "place" },
@@ -83,7 +83,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 125
+            accumulatedDistance: 131
         },
         {
             id: 3,
@@ -139,7 +139,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 231
+            accumulatedDistance: 249
         },
         {
             id: 4,
@@ -172,7 +172,7 @@ const ROUTE_DATA = {
                 },
                 points: []
             },
-            accumulatedDistance: 341
+            accumulatedDistance: 359
         },
         {
             id: 5,
@@ -227,15 +227,15 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 442
+            accumulatedDistance: 460
         },
         {
             id: 6,
             location: {
-                city: "Visp",
+                city: "Unterbäch",
                 country: "ch"
             },
-          
+
             stats: {
                 date: "Sept 2 - restday",
                 distance: 95,
@@ -276,19 +276,19 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 547
+            accumulatedDistance: 565
         },
         {
             id: 7,
            
             location: {
-                city: "Visp",
+                city: "Unterbäch",
                 country: "ch"
             },
             stats: {
                 date: "Sept 3",
-                distance: 80,
-                elevation: 2200,
+                distance: 96,
+                elevation: 2500,
                 points: [
                     { name: "Lac de Moiry", type: "place" },
                     { name: "Moiry Glacier", type: "glacier" }
@@ -325,7 +325,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 547
+            accumulatedDistance: 565
         },
         {
             id: 8,
@@ -336,7 +336,7 @@ const ROUTE_DATA = {
             },
             stats: {
                 date: "Sept 4",
-                distance: 77,
+                distance: 95,
                 elevation: 1990,
                 points: [
                     { name: "Col de la Forclaz", type: "pass" },
@@ -376,7 +376,7 @@ const ROUTE_DATA = {
                     ]
                   }
             },
-            accumulatedDistance: 642
+            accumulatedDistance: 661
         },
         {
             id: 9,
@@ -384,7 +384,7 @@ const ROUTE_DATA = {
                 city: "Chamonix",
                 country: "fr"
         },
-            accumulatedDistance: 738            
+            accumulatedDistance: 756            
         }
     ]
 };
