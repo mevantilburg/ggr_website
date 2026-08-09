@@ -255,5 +255,13 @@
     "alt10": "Col de la Forclaz — Invest in a Clean Economy",
     "img11": "img/col-of-change/col-of-change-11.jpg",
     "alt11": "Col des Montets — Reforest Earth"
+  },
+  "titles": {
+    "home": "Glorious Glacier Ride",
+    "route": "Route | Glorious Glacier Ride",
+    "updates": "Updates | Glorious Glacier Ride",
+    "colOfChange": "Col of Change | Glorious Glacier Ride",
+    "signup": "Aanmelding Chamonix | Glorious Glacier Ride",
+    "payment": "Aanmelding & betaling Chamonix | Glorious Glacier Ride"
   }
 }

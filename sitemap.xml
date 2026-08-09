@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://goodbyeglacier.eu/</loc>
-        <priority>1</priority>
+        <loc>https://gloriousglacier.eu/</loc>
+        <priority>1.0</priority>
     </url>
-  
-</urlset> 
+    <url>
+        <loc>https://gloriousglacier.eu/route.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://gloriousglacier.eu/col-of-change.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://gloriousglacier.eu/updates.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gloriousglacier.eu/official-start-innsbruck.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gloriousglacier.eu/climate-ride-chamonix.html</loc>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://gloriousglacier.eu/chamonix-signup.html</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://gloriousglacier.eu/chamonix-payment.html</loc>
+        <priority>0.5</priority>
+    </url>
+</urlset>
