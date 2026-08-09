@@ -20,6 +20,7 @@
     "events": "Events",
     "eventInnsbruck": "Official Start Innsbruck",
     "eventChamonix": "Official Finish Chamonix",
+    "cols": "Pässe",
     "faq": "FAQ"
   },
   "why": {
@@ -228,5 +229,31 @@
     "answer13": "Die Anmeldegebühr für die GGR beträgt 25 €. Du erhältst dann die GPX-Datei, den Tagesplan und eine persönliche Spendenseite auf der Website. Du erhältst außerdem die digitalen Druckvorlagen der Postkarten, die du an deine Unterstützer*innen senden kannst, und wirst in die Liste der Glorious Glacier Riders aufgenommen. <br><br><a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>Melden Sie sich bei uns</a>.",
     "question14": "Mit welcher einfachen Maßnahme haben Gemeinden Einfluss?",
     "answer14": "Der Kampf gegen den Klimawandel erfordert wirkungsvolle Projekte, die den CO₂-Ausstoß drastisch reduzieren, sowie Maßnahmen, die Verhaltensänderungen bewirken. Laut dem IPCC hängen <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70 % der Reduktionsaufgabe</a> davon ab. Häufiger Radfahren statt Autofahren ist eine solche Verhaltensänderung. Ebenso wie der Stopp fossiler Werbung.<br><br> Es ist ganz einfach: Mehr Werbung für fossile Produkte bedeutet mehr Nutzung fossiler Brennstoffe und mehr Schaden für das Klima. Daher ist es entscheidend, dass Gemeinden <a href='https://www.worldwithoutfossilads.org/' target='_blank'>ein Verbot fossiler Werbung</a> in öffentlichen Räumen wie Bushaltestellen, Verkehrsschildern und Gebäuden einführen."
+  },
+  "colOfChange": {
+    "subtitle": "Elf Anstiege. Elf Aufrufe zum Handeln.",
+    "intro": "Jeder Pass der Glorious Glacier Ride, verbunden mit einer Sache, die du abseits des Rads tun kannst. Unsere Fahrer bezwingen den Berg — vor derselben Herausforderung stehen wir alle.",
+    "img01": "img/col-of-change/de/col-of-change-01.jpg",
+    "alt01": "Norbertshöhe — Verteidige die Wahrheit",
+    "img02": "img/col-of-change/de/col-of-change-02.jpg",
+    "alt02": "Reschenpass — Sieh dem Verlust ins Auge, aber halte an deiner Vision fest",
+    "img03": "img/col-of-change/de/col-of-change-03.jpg",
+    "alt03": "Passo di Stelvio — Lass die alte Welt los",
+    "img04": "img/col-of-change/de/col-of-change-04.jpg",
+    "alt04": "Passo di Foscagno — Sieh dich als Bürger, nicht nur als Konsument",
+    "img05": "img/col-of-change/de/col-of-change-05.jpg",
+    "alt05": "Albulapass — Übernimm Verantwortung",
+    "img06": "img/col-of-change/de/col-of-change-06.jpg",
+    "alt06": "Oberalppass — Iss Pflanzen, keine Tiere",
+    "img07": "img/col-of-change/de/col-of-change-07.jpg",
+    "alt07": "Furkapass — Raus aus den fossilen Brennstoffen",
+    "img08": "img/col-of-change/de/col-of-change-08.jpg",
+    "alt08": "Bettmeralp — Misch dich in die Politik ein",
+    "img09": "img/col-of-change/de/col-of-change-09.jpg",
+    "alt09": "Barrage de Moiry — Schaff Gleichberechtigung",
+    "img10": "img/col-of-change/de/col-of-change-10.jpg",
+    "alt10": "Col de la Forclaz — Investiere in eine saubere Wirtschaft",
+    "img11": "img/col-of-change/de/col-of-change-11.jpg",
+    "alt11": "Col des Montets — Bewalde die Erde neu"
   }
 }
