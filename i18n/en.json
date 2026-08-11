@@ -31,7 +31,7 @@
   "2026": {
     "h2": "Join The Ride in 2026",
     "p1": "Cycling 4 Climate will also be organising the Glorious Glacier Ride in 2026. Cyclists from all over Europe can enjoy the most beautiful views in the Alps while actively contributing to climate action.",
-    "p2": "You can cycle the route alone or with friends, or take part in one of the <strong>organised tours</strong>. With <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\" >VeloTours</a></strong> you will depart from Innsbruck on 28 August and head for Chamonix, while <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> will make the trip from Chamonix (23 August) to Bormio. In both cases, you will enjoy the car- and motorbike-free Saturday on Stelvio Bike Day!",
+    "p2": "You can cycle the route alone or with friends, or take part in the <strong>organised tour</strong>. With <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> you will depart from Innsbruck on 28 August and head for Chamonix, enjoying the car- and motorbike-free Saturday on Stelvio Bike Day!",
     "p3": "More information and registration via the logo's below! If you would like to cycle the route on your own, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>let us know</a>."
   },
   "slider": {
@@ -44,8 +44,7 @@
     "h2": "The Route",
     "tabs": {
       "rideYourself": "Ride Yourself",
-      "veloTours": "VeloTours",
-      "borneCycling": "Borne Cycling"
+      "veloTours": "VeloTours"
     }
   },
   "map": {
@@ -221,9 +220,9 @@
     "question9": "How can I cycle the Glorious Glacier Ride?",
     "answer9": "First of all, you obviously need good physical fitness! In addition, you need to be willing to launch a CO₂ removal campaign. Your goal is to remove as many tons of CO₂ (in tons) as your age. So if you are 30 years old, you must remove 30 tons of CO₂, which at a price of €150 per ton amounts to a target of €4,500. In other words: mobilize enough people to collectively remove your age in CO₂. On average, a European emits about ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7.5 tons</a> of CO₂ per year (a Dutch person emits 9 tons per year).<br><br>If you want to cycle the GGR, you can register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
     "question10": "When does the Glorious Glacier Ride take place?",
-    "answer10": "The Glorious Glacier Ride will be organised in 2026 by Borne Cycling (23–29 August) and Velotours (28 August–4 September). You can also cycle the Glorious Glacier Ride individually or with friends. Register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
+    "answer10": "The Glorious Glacier Ride will be organised in 2026 by Velotours (28 August–4 September). You can also cycle the Glorious Glacier Ride individually or with friends. Register <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>here</a></strong>.",
     "question11": "How long does the Glorious Glacier Ride last?",
-    "answer11": "The full Glorious Glacier Ride consists of 14 stages. With one rest day in Zermatt, you’ll be on the road for 15 days. But you can also choose just the first week (most glaciers), the second week (most mountains), or only a few stages.",
+    "answer11": "The full Glorious Glacier Ride 2026 consists of seven stages and one rest day — eight days in total, 756 kilometres and over 16,000 metres of climbing from Innsbruck to Chamonix. You don't have to ride all of it: you can also join for individual stages, such as the first one out of Innsbruck.",
     "question12": "Can I also ride part of the Glorious Glacier Ride?",
     "answer12": "Yes, you can. Ideally, you ride past at least the Morteratsch, Rhône, Aletsch and Trient glaciers, and visit the Mer de Glace near Chamonix.",
     "question13": "What is the cost of participation?",

@@ -31,7 +31,7 @@
   "2026": {
     "h2": "Nehmen Sie 2026 teil!",
     "p1": "Auch im Jahr 2026 organisiert Cycling 4 Climate die Glorious Glacier Ride. Radfahrer aus ganz Europa können die schönsten Aussichten der Alpen genießen und sich gleichzeitig aktiv für den Klimaschutz engagieren.",
-    "p2": "Sie können die Route alleine oder mit Freunden radeln oder an einer der organisierten Touren teilnehmen. Mit <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> starten Sie am 28. August von Innsbruck aus in Richtung Chamonix, während die Tour von <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> von Chamonix (23. August) nach Bormio führt. In beiden Fällen können Sie den autofreien und motorfreien Samstag beim Stelvio Bike Day genießen",
+    "p2": "Sie können die Route alleine oder mit Freunden radeln oder an der organisierten Tour teilnehmen. Mit <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> starten Sie am 28. August von Innsbruck aus in Richtung Chamonix und genießen den autofreien und motorfreien Samstag beim Stelvio Bike Day!",
     "p3": "Weitere Informationen und die Anmeldung für diese Touren findest du über die folgenden Links. Wenn Sie die Tour auf eigene Faust mit dem Fahrrad unternehmen möchten, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>melden Sie sich bei uns</a>."
   },
   "slider": {
@@ -44,8 +44,7 @@
     "h2": "Die Route",
     "tabs": {
       "rideYourself": "Selbst fahren",
-      "veloTours": "VeloTours",
-      "borneCycling": "Borne Cycling"
+      "veloTours": "VeloTours"
     }
   },
   "map": {
@@ -220,9 +219,9 @@
     "question9": "Wie kann ich die Glorious Glacier Ride fahren?",
     "answer9": "Zunächst benötigst du natürlich eine gute körperliche Verfassung! Außerdem musst du bereit sein, eine Kampagne zur CO₂-Entfernung zu starten. Dein Ziel ist es, so viele Tonnen CO₂ (in Tonnen) zu entfernen, wie du Jahre alt bist. Wenn du also 30 Jahre alt bist, musst du 30 Tonnen CO₂ entfernen, was bei 150 € pro Tonne ein Ziel von 4.500 € bedeutet. Mit anderen Worten: Mobilisiere genügend Menschen, um gemeinsam dein Alter in CO₂ zu entfernen. Im Durchschnitt emittiert eine Person in Europa etwa ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 Tonnen</a> CO₂ pro Jahr (eine Person in den Niederlanden etwa 9 Tonnen pro Jahr).<br><br>Wenn du die GGR fahren möchtest, kannst du dich <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> anmelden.",
     "question10": "Wann findet die Glorious Glacier Ride statt?",
-    "answer10": "Die GGR ist eine individuelle Tour, also kannst du sie fahren, wann immer du bereit für die Herausforderung bist. Wenn du dich dem GGR-Peloton anschließen möchtest: Gerne! Wir starten am <strong>Donnerstag, den 28. August</strong> in München. Am 4. September wird es einen Ruhetag in Zermatt geben. Das Ziel in Monaco ist für den 11. September geplant. Wenn du dich dem Peloton anschließen möchtest, lass es uns über diesen <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>Link</a></strong> wissen.",
+    "answer10": "Die zweite Ausgabe findet vom 28. August bis 4. September 2026 statt. Start ist am <strong>Freitag, 28. August, um 9:30 Uhr im Cool INN Park in Innsbruck</strong>, das Ziel wird am 4. September in Chamonix erreicht. Am 2. September ist Ruhetag. Du kannst die Route auch unabhängig fahren, wann immer du bereit für die Herausforderung bist, oder dich der organisierten Tour von <strong><a href='https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/' target='_blank'>VeloTours</a></strong> anschließen. Melde dich <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> an.",
     "question11": "Wie lange dauert die Glorious Glacier Ride?",
-    "answer11": "Die gesamte Glorious Glacier Ride umfasst 14 Etappen. Mit einem Ruhetag in Zermatt bist du also 15 Tage unterwegs. Du kannst aber auch nur die erste Woche (die meisten Gletscher), die zweite Woche (die meisten Berge) oder nur einige Etappen fahren.",
+    "answer11": "Die Glorious Glacier Ride 2026 umfasst sieben Etappen und einen Ruhetag — insgesamt acht Tage, 756 Kilometer und über 16.000 Höhenmeter von Innsbruck nach Chamonix. Du musst nicht alles fahren: Auch einzelne Etappen sind möglich, zum Beispiel die erste Etappe ab Innsbruck nach Nauders.",
     "question12": "Kann ich auch nur einen Teil der Glorious Glacier Ride fahren?",
     "answer12": "Ja, das geht. Idealerweise fährst du mindestens an den Gletschern Morteratsch, Rhône und Aletsch vorbei und besuchst die Mer de Glace in der Nähe von Chamonix.",
     "question13": "Was kostet die Teilnahme?",

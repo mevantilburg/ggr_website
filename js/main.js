@@ -36,13 +36,6 @@ async function buildRouteVariants() {
             waypoints: assetUrl('../data/waypoints_velo.xml'),
             dataPath: assetUrl('../data/route-data-velo.js'),
             mapLayerLabel: 'Velo Tours'
-        },
-        'borne-cycling': {
-            key: 'borne-cycling',
-            gpx: assetUrl('../data/Ride_borne.gpx'),
-            waypoints: assetUrl('../data/waypoints_borne.xml'),
-            dataPath: assetUrl('../data/route-data-borne.js'),
-            mapLayerLabel: 'Borne Cycling'
         }
     };
 

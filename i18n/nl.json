@@ -31,7 +31,7 @@
   "2026": {
     "h2": "Editie 2026",
     "p1": "Ook in 2026 organiseert Cycling 4 Climate de Glorious Glacier Ride. Fietsers uit heel Europa kunnen genieten van de mooiste uitzichten in de Alpen terwijl ze zich actief inzetten voor klimaatactie.",
-    "p2": "Je kunt de route alleen of met vrienden fietsen, of deelnemen aan één van de <strong>georganiseerde tochten</strong>. Met <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> vertrek je op 28 augustus vanuit Innsbruck richting Chamonix, terwijl <strong><a href=\"https://www.bornecycling.com/roadcyclingtours/glorious-glacier-ride\">Borne Cycling</a></strong> de tocht vanuit Chamonix (23 augustus) naar Bormio maakt. In beide gevallen genietje van de auto- en motorloze zaterdag op de Stelvio Bike Day!",
+    "p2": "Je kunt de route alleen of met vrienden fietsen, of deelnemen aan de <strong>georganiseerde tocht</strong>. Met <strong><a href=\"https://velotours.nl/reizen/10-daagse-fietsreis-glorious-glacier-ride/\">VeloTours</a></strong> vertrek je op 28 augustus vanuit Innsbruck richting Chamonix, en geniet je van de auto- en motorloze zaterdag op de Stelvio Bike Day!",
     "p3": "Meer informatie over en inschrijven voor deze georganiseerde tochten doe je via onderstaande links. Als je de tocht op eigen gelegenheid wil fietsen, <a href='mailto:joost@cycling4climate.nl?subject=interest%20in%20Glorious%20Glacier%20Ride'>laat het ons weten</a>."
   },
   "slider": {
@@ -44,8 +44,7 @@
     "h2": "De Route",
     "tabs": {
       "rideYourself": "Rijd Zelf",
-      "veloTours": "VeloTours",
-      "borneCycling": "Borne Cycling"
+      "veloTours": "VeloTours"
     }
   },
   "map": {
@@ -220,9 +219,9 @@
     "question9": "Hoe kan ik Glorious Glacier Ride fietsen?",
     "answer9": "Allereerst heb je natuurlijk een goede fysieke conditie nodig! Daarnaast moet je de bereidheid hebben om een CO₂-verwijdering campagne te starten. Je doel is om net zoveel CO₂ uit de lucht te halen (in tonnen) als je oud bent. Dus als je 30 jaar bent, moet je 30 ton CO₂ verwijderen, wat met een prijs van €150 neerkomt op een doelstelling van €4.500. Of te wel: voldoende mensen mobiliseren om samen jouw leeftijd aan CO₂ te verwijderen. Gemiddeld stoot een Europeaan ±<a href='https://www.eea.europa.eu/en/analysis/maps-and-charts/greenhouse-gases-viewer-data-viewers' target='_blank'>7,5 ton</a> CO₂ per jaar uit (een Nederlander zit op 9 ton per jaar).<br><br>Als je de GGR wil fietsen kun je je <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> inschrijven.",
     "question10": "Wanneer vindt de Glorious Glacier Ride plaats?",
-    "answer10": "De Glorious Glacier Ride wordt in 2026 georganiseerd door Borne Cycling (23 - 29 augustus), en door Velotours (28 aug - 4 sept), daarnaast kun je ook de Glorious Glacier Ride individueel of met vrienden fietsen. Geef je daarvoor <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> op. ",
+    "answer10": "De Glorious Glacier Ride wordt in 2026 georganiseerd door Velotours (28 aug - 4 sept), daarnaast kun je ook de Glorious Glacier Ride individueel of met vrienden fietsen. Geef je daarvoor <strong><a href='https://cycling4climate.nl/glorious-glacier-ride/ggr-interest-form/' target='_blank'>hier</a></strong> op.",
     "question11": "Hoe lang duurt de Glorious Glacier Ride?",
-    "answer11": "De volledige Glorious Glacier Ride telt 14 etappes. Met een rustdag in Zermatt, ben je dus 15 dagen onderweg. Maar je kunt ook de eerste (meeste gletjsers), tweede (meeste bergen) week of alleen een aantal etappes fietsen.",
+    "answer11": "De volledige Glorious Glacier Ride 2026 telt zeven etappes en één rustdag — acht dagen in totaal, 756 kilometer en ruim 16.000 hoogtemeters van Innsbruck naar Chamonix. Je hoeft niet alles te rijden: losse etappes kunnen ook, bijvoorbeeld de eerste vanuit Innsbruck.",
     "question12": "Kan ik ook een deel van de Glorious Glacier Ride rijden?",
     "answer12": "Ja, dat kan. Idealiter rijd je langs ten minste de Morteratsch, Rhône, Aletsch en Trient gletsjers, en bezoek je de Mer de Glace nabij Chamonix.",
     "question13": "Wat kost deelname?",
