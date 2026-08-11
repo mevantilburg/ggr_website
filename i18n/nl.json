@@ -230,7 +230,7 @@
     "question14": "Met welke eenvoudige maatregel hebben gemeentes invloed?",
     "answer14": "De strijd tegen klimaatverandering vraagt om impactvolle projecten die op drastische wijze de CO₂ reduceren én beleid dat gedragsverandering teweegbrengt. Volgens het IPCC is namelijk <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40-70% van de reductieopgave</a> daarvan afhankelijk. Vaker fietsen in plaats van autorijden is zo’n gedragsverandering. Net als het stoppen met fossiele reclame.<br><br> Het is heel eenvoudig: meer advertenties voor fossiele producten betekent meer gebruik van fossiele brandstoffen en meer schade aan het klimaat. Het is daarom essentieel dat gemeenten <a href='https://www.worldwithoutfossilads.org/' target='_blank'>een verbod op fossiele reclame</a> instellen in hun openbare ruimtes, zoals bushaltes, verkeersborden en op gebouwen."
   },
-  "colOfChange": {
+  "colToAction": {
     "subtitle": "Eleven climbs. Eleven calls to action.",
     "intro": "Every col on the Glorious Glacier Ride, paired with one thing you can do off the bike. Our riders climb the mountain — we all have to climb the same challenge.",
     "img01": "img/col-of-change/col-of-change-01.jpg",
@@ -260,7 +260,7 @@
     "home": "Glorious Glacier Ride",
     "route": "Route | Glorious Glacier Ride",
     "updates": "Updates | Glorious Glacier Ride",
-    "colOfChange": "Col of Change | Glorious Glacier Ride",
+    "colToAction": "Col to Action | Glorious Glacier Ride",
     "signup": "Aanmelding Chamonix | Glorious Glacier Ride",
     "payment": "Aanmelding & betaling Chamonix | Glorious Glacier Ride"
   }

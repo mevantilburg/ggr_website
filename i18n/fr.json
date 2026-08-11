@@ -231,7 +231,7 @@
     "question14": "Avec quelle mesure simple les communes ont-elles de l'influence ?",
     "answer14": "La lutte contre le changement climatique exige des projets d'impact qui réduisent drastiquement le CO₂ ainsi que des politiques qui entraînent un changement de comportement. Selon le GIEC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40 à 70 % de l'effort de réduction</a> en dépend. Faire plus de vélo au lieu de prendre la voiture est un tel changement de comportement. Tout comme l’arrêt de la publicité fossile.<br><br> C’est très simple : plus de publicité pour les produits fossiles signifie plus d’utilisation de combustibles fossiles et plus de dommages pour le climat. Il est donc essentiel que les communes instaurent <a href='https://www.worldwithoutfossilads.org/' target='_blank'>une interdiction de la publicité fossile</a> dans leurs espaces publics, tels que les arrêts de bus, les panneaux de signalisation et les bâtiments."
   },
-  "colOfChange": {
+  "colToAction": {
     "subtitle": "Onze ascensions. Onze appels à l'action.",
     "intro": "Chaque col de la Glorious Glacier Ride, associé à une action concrète en dehors du vélo. Nos cyclistes gravissent la montagne — nous devons tous gravir le même défi.",
     "img01": "img/col-of-change/fr/col-of-change-01.jpg",
@@ -261,7 +261,7 @@
     "home": "Glorious Glacier Ride",
     "route": "Itinéraire | Glorious Glacier Ride",
     "updates": "Actualités | Glorious Glacier Ride",
-    "colOfChange": "Col of Change | Glorious Glacier Ride",
+    "colToAction": "Col to Action | Glorious Glacier Ride",
     "signup": "Inscription Chamonix | Glorious Glacier Ride",
     "payment": "Inscription et paiement Chamonix | Glorious Glacier Ride"
   }

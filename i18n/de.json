@@ -230,7 +230,7 @@
     "question14": "Mit welcher einfachen Maßnahme haben Gemeinden Einfluss?",
     "answer14": "Der Kampf gegen den Klimawandel erfordert wirkungsvolle Projekte, die den CO₂-Ausstoß drastisch reduzieren, sowie Maßnahmen, die Verhaltensänderungen bewirken. Laut dem IPCC hängen <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70 % der Reduktionsaufgabe</a> davon ab. Häufiger Radfahren statt Autofahren ist eine solche Verhaltensänderung. Ebenso wie der Stopp fossiler Werbung.<br><br> Es ist ganz einfach: Mehr Werbung für fossile Produkte bedeutet mehr Nutzung fossiler Brennstoffe und mehr Schaden für das Klima. Daher ist es entscheidend, dass Gemeinden <a href='https://www.worldwithoutfossilads.org/' target='_blank'>ein Verbot fossiler Werbung</a> in öffentlichen Räumen wie Bushaltestellen, Verkehrsschildern und Gebäuden einführen."
   },
-  "colOfChange": {
+  "colToAction": {
     "subtitle": "Elf Anstiege. Elf Aufrufe zum Handeln.",
     "intro": "Jeder Pass der Glorious Glacier Ride, verbunden mit einer Sache, die du abseits des Rads tun kannst. Unsere Fahrer bezwingen den Berg — vor derselben Herausforderung stehen wir alle.",
     "img01": "img/col-of-change/de/col-of-change-01.jpg",
@@ -260,7 +260,7 @@
     "home": "Glorious Glacier Ride",
     "route": "Route | Glorious Glacier Ride",
     "updates": "Updates | Glorious Glacier Ride",
-    "colOfChange": "Col of Change | Glorious Glacier Ride",
+    "colToAction": "Col to Action | Glorious Glacier Ride",
     "signup": "Anmeldung Chamonix | Glorious Glacier Ride",
     "payment": "Anmeldung & Zahlung Chamonix | Glorious Glacier Ride"
   }

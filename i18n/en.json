@@ -231,7 +231,7 @@
     "question14": "With which simple measure do municipalities have influence?",
     "answer14": "The fight against climate change requires impactful projects that drastically reduce CO₂ and policies that bring about behavioral change. According to the IPCC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>40–70% of the reduction effort</a> depends on this. Cycling more often instead of driving is one such behavioral change. Just like stopping fossil advertising.<br><br> It’s very simple: more advertising for fossil products means more use of fossil fuels and more damage to the climate. It is therefore essential that municipalities introduce <a href='https://www.worldwithoutfossilads.org/' target='_blank'>a ban on fossil advertising</a> in their public spaces, such as bus stops, traffic signs, and buildings."
   },
-  "colOfChange": {
+  "colToAction": {
     "subtitle": "Eleven climbs. Eleven calls to action.",
     "intro": "Every col on the Glorious Glacier Ride, paired with one thing you can do off the bike. Our riders climb the mountain — we all have to climb the same challenge.",
     "img01": "img/col-of-change/col-of-change-01.jpg",
@@ -261,7 +261,7 @@
     "home": "Glorious Glacier Ride",
     "route": "Route | Glorious Glacier Ride",
     "updates": "Updates | Glorious Glacier Ride",
-    "colOfChange": "Col of Change | Glorious Glacier Ride",
+    "colToAction": "Col to Action | Glorious Glacier Ride",
     "signup": "Sign Up Chamonix | Glorious Glacier Ride",
     "payment": "Register & Pay Chamonix | Glorious Glacier Ride"
   }

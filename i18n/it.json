@@ -230,7 +230,7 @@
     "question14": "Con quale semplice misura i comuni hanno influenza?",
     "answer14": "La lotta contro il cambiamento climatico richiede progetti di grande impatto che riducano drasticamente la CO₂ e politiche che provochino un cambiamento nei comportamenti. Secondo l’IPCC, <a href='https://www.worldwithoutfossilads.org/listing/ipcc-sixth-assessment-report-mitigation-of-climate-change/' target='_blank'>il 40–70% dello sforzo di riduzione</a> dipende da questo. Andare più spesso in bicicletta invece di usare l’auto è un tale cambiamento comportamentale. Così come fermare la pubblicità fossile.<br><br> È molto semplice: più pubblicità per i prodotti fossili significa maggiore utilizzo di combustibili fossili e più danni al clima. È quindi essenziale che i comuni introducano <a href='https://www.worldwithoutfossilads.org/' target='_blank'>un divieto di pubblicità fossile</a> nei loro spazi pubblici, come fermate degli autobus, segnali stradali e edifici."
   },
-  "colOfChange": {
+  "colToAction": {
     "subtitle": "Eleven climbs. Eleven calls to action.",
     "intro": "Every col on the Glorious Glacier Ride, paired with one thing you can do off the bike. Our riders climb the mountain — we all have to climb the same challenge.",
     "img01": "img/col-of-change/col-of-change-01.jpg",
@@ -260,7 +260,7 @@
     "home": "Glorious Glacier Ride",
     "route": "Percorso | Glorious Glacier Ride",
     "updates": "Aggiornamenti | Glorious Glacier Ride",
-    "colOfChange": "Col of Change | Glorious Glacier Ride",
+    "colToAction": "Col to Action | Glorious Glacier Ride",
     "signup": "Iscrizione Chamonix | Glorious Glacier Ride",
     "payment": "Iscrizione e pagamento Chamonix | Glorious Glacier Ride"
   }
