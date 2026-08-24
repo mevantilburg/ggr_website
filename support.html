@@ -1,206 +1,183 @@
 <!doctype html>
-<html lang="en">
+<html style="height:100%;margin:0">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Support the Glorious Glacier Ride | Cycling 4 Climate</title>
-<meta name="description" content="Support Cycling 4 Climate and the Glorious Glacier Ride. Scan the QR code or click through to donate securely via Mollie.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap">
-<style>
-  :root {
-    --bg-top: #1c2f42;
-    --bg-mid: #0c1520;
-    --bg-bottom: #060a10;
-    --ink: #f4fbff;
-    --ink-dim: #c7d4de;
-    --accent: #4fa8d8;
-    --accent-light: #bfe3f5;
-    --accent-dark: #245a80;
-    --card-bg: rgba(255,255,255,0.04);
-    --card-border: rgba(255,255,255,0.12);
-  }
-  * { box-sizing: border-box; }
-  html, body {
-    margin: 0;
-    padding: 0;
-    min-height: 100%;
-    background: radial-gradient(120% 90% at 50% 0%, var(--bg-top) 0%, var(--bg-mid) 55%, var(--bg-bottom) 100%);
-    color: var(--ink);
-    font-family: 'Manrope', system-ui, -apple-system, sans-serif;
-  }
-  .wrap {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 56px 24px 72px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .back-link {
-    align-self: flex-start;
-    color: var(--ink-dim);
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.3px;
-    margin-bottom: 28px;
-    opacity: 0.85;
-    transition: opacity 0.15s ease;
-  }
-  .back-link:hover { opacity: 1; }
-  .eyebrow {
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--accent-light);
-    opacity: 0.85;
-    margin-bottom: 14px;
-  }
-  h1 {
-    font-size: clamp(28px, 5vw, 40px);
-    font-weight: 800;
-    line-height: 1.15;
-    margin: 0 0 16px;
-  }
-  .lede {
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--ink-dim);
-    max-width: 480px;
-    margin: 0 0 40px;
-  }
-  .card {
-    width: 100%;
-    max-width: 380px;
-    background: var(--card-bg);
-    border: 1px solid var(--card-border);
-    border-radius: 20px;
-    padding: 32px 28px 28px;
-    backdrop-filter: blur(6px);
-    box-shadow: 0 24px 48px rgba(0,0,0,0.35);
-  }
-  .qr-frame {
-    background: #ffffff;
-    border-radius: 14px;
-    padding: 16px;
-    display: inline-block;
-    line-height: 0;
-  }
-  .qr-frame svg {
-    width: 100%;
-    max-width: 260px;
-    height: auto;
-    display: block;
-  }
-  .scan-hint {
-    margin: 18px 0 0;
-    font-size: 13px;
-    color: var(--ink-dim);
-    letter-spacing: 0.3px;
-  }
-  .divider {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 22px 0;
-    color: var(--ink-dim);
-    font-size: 12px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    opacity: 0.7;
-  }
-  .divider::before, .divider::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: var(--card-border);
-  }
-  .donate-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    width: 100%;
-    padding: 15px 20px;
-    background: linear-gradient(135deg, var(--accent-light), var(--accent));
-    color: #0b1e33;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 800;
-    letter-spacing: 0.3px;
-    text-decoration: none;
-    border-radius: 12px;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    box-shadow: 0 10px 24px rgba(79,168,216,0.25);
-  }
-  .donate-btn:hover { transform: translateY(-1px); box-shadow: 0 14px 28px rgba(79,168,216,0.35); }
-  .secure-note {
-    margin: 18px 0 0;
-    font-size: 12.5px;
-    color: var(--ink-dim);
-    opacity: 0.75;
-    line-height: 1.5;
-  }
-  .about {
-    margin-top: 44px;
-    max-width: 480px;
-    font-size: 14.5px;
-    line-height: 1.7;
-    color: var(--ink-dim);
-  }
-  .about strong { color: var(--ink); }
-  .footer {
-    margin-top: 40px;
-    font-size: 12px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--ink-dim);
-    opacity: 0.6;
-  }
-  @media (max-width: 420px) {
-    .wrap { padding: 40px 18px 56px; }
-    .card { padding: 26px 20px 22px; }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta property="og:title" content="Support the Glorious Glacier Ride" />
+    <meta property="og:image" content="https://gloriousglacier.eu/img/finalggr.png" />
+    <meta property="og:description"
+        content="Support Cycling 4 Climate and the Glorious Glacier Ride. Scan the QR code or click through to donate securely." />
+    <meta property="og:url" content="https://gloriousglacier.eu/support" />
+    <meta property='og:image:width' content='1200' />
+    <meta property='og:image:height' content='630' />
+    <title>Support | Glorious Glacier Ride</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/style.css?v0.31">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <script type="module" src="js/main.js?v0.29" defer></script>
+    <style>
+        .support_card {
+            width: calc(100% - 40px);
+            max-width: 380px;
+            margin: 30px auto 0;
+            background-color: #fff;
+            border: 1px solid #1974b773;
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+            padding: 30px 24px 26px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .support_qr_frame {
+            display: inline-block;
+            line-height: 0;
+        }
+        .support_qr_frame svg {
+            width: 100%;
+            max-width: 220px;
+            height: auto;
+            display: block;
+        }
+        .support_scan_hint {
+            margin: 16px 0 0;
+            font-family: "Jost", serif;
+            font-size: 15px;
+            font-weight: 300;
+            color: #555;
+        }
+        .support_divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 20px 0;
+            font-family: "Jost", serif;
+            font-size: 12px;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #999;
+        }
+        .support_divider::before,
+        .support_divider::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #ddd;
+        }
+        .support_secure_note {
+            margin: 14px 0 0;
+            font-family: "Jost", serif;
+            font-size: 13px;
+            font-weight: 300;
+            color: #888;
+        }
+        .support_intro {
+            max-width: 560px;
+        }
+    </style>
 </head>
-<body>
-<div class="wrap">
-  <a class="back-link" href="/">&larr; Back to gloriousglacier.eu</a>
 
-  <div class="eyebrow">Cycling 4 Climate</div>
-  <h1>Support the Glorious&nbsp;Glacier&nbsp;Ride</h1>
-  <p class="lede">
-    Every donation helps us bring more riders to the Alps to raise awareness for climate change
-    and fund local nature restoration and carbon-sinking projects along the route.
-  </p>
+<body style="height:100%;margin:0">
 
-  <div class="card">
-    <div class="qr-frame">
-      <svg viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="QR code linking to the Cycling 4 Climate donation page">
-        <rect width="41" height="41" fill="#ffffff"/>
-        <path d="M4,4h7v1h-7zM12,4h1v1h-1zM15,4h1v1h-1zM17,4h6v1h-6zM24,4h1v1h-1zM27,4h1v1h-1zM30,4h7v1h-7zM4,5h1v1h-1zM10,5h1v1h-1zM14,5h4v1h-4zM22,5h2v1h-2zM25,5h1v1h-1zM30,5h1v1h-1zM36,5h1v1h-1zM4,6h1v1h-1zM6,6h3v1h-3zM10,6h1v1h-1zM14,6h1v1h-1zM16,6h1v1h-1zM18,6h1v1h-1zM21,6h3v1h-3zM25,6h4v1h-4zM30,6h1v1h-1zM32,6h3v1h-3zM36,6h1v1h-1zM4,7h1v1h-1zM6,7h3v1h-3zM10,7h1v1h-1zM12,7h2v1h-2zM15,7h1v1h-1zM18,7h1v1h-1zM20,7h1v1h-1zM22,7h1v1h-1zM24,7h1v1h-1zM27,7h2v1h-2zM30,7h1v1h-1zM32,7h3v1h-3zM36,7h1v1h-1zM4,8h1v1h-1zM6,8h3v1h-3zM10,8h1v1h-1zM12,8h2v1h-2zM17,8h5v1h-5zM24,8h2v1h-2zM27,8h1v1h-1zM30,8h1v1h-1zM32,8h3v1h-3zM36,8h1v1h-1zM4,9h1v1h-1zM10,9h1v1h-1zM12,9h2v1h-2zM16,9h1v1h-1zM18,9h1v1h-1zM21,9h1v1h-1zM23,9h1v1h-1zM25,9h2v1h-2zM28,9h1v1h-1zM30,9h1v1h-1zM36,9h1v1h-1zM4,10h7v1h-7zM12,10h1v1h-1zM14,10h1v1h-1zM16,10h1v1h-1zM18,10h1v1h-1zM20,10h1v1h-1zM22,10h1v1h-1zM24,10h1v1h-1zM26,10h1v1h-1zM28,10h1v1h-1zM30,10h7v1h-7zM12,11h3v1h-3zM18,11h4v1h-4zM23,11h5v1h-5zM4,12h1v1h-1zM8,12h1v1h-1zM10,12h3v1h-3zM14,12h2v1h-2zM19,12h1v1h-1zM21,12h1v1h-1zM23,12h1v1h-1zM25,12h9v1h-9zM36,12h1v1h-1zM4,13h4v1h-4zM12,13h1v1h-1zM14,13h1v1h-1zM16,13h4v1h-4zM22,13h1v1h-1zM25,13h3v1h-3zM29,13h1v1h-1zM33,13h2v1h-2zM8,14h1v1h-1zM10,14h2v1h-2zM15,14h5v1h-5zM21,14h2v1h-2zM24,14h1v1h-1zM26,14h5v1h-5zM33,14h1v1h-1zM35,14h1v1h-1zM9,15h1v1h-1zM12,15h1v1h-1zM16,15h1v1h-1zM18,15h2v1h-2zM21,15h1v1h-1zM23,15h1v1h-1zM25,15h4v1h-4zM30,15h1v1h-1zM35,15h2v1h-2zM5,16h2v1h-2zM8,16h1v1h-1zM10,16h1v1h-1zM13,16h1v1h-1zM15,16h4v1h-4zM20,16h1v1h-1zM26,16h3v1h-3zM30,16h1v1h-1zM32,16h2v1h-2zM4,17h4v1h-4zM9,17h1v1h-1zM13,17h4v1h-4zM18,17h6v1h-6zM26,17h1v1h-1zM31,17h1v1h-1zM34,17h1v1h-1zM4,18h1v1h-1zM10,18h1v1h-1zM12,18h1v1h-1zM14,18h3v1h-3zM18,18h2v1h-2zM21,18h2v1h-2zM25,18h1v1h-1zM27,18h4v1h-4zM32,18h2v1h-2zM35,18h1v1h-1zM4,19h1v1h-1zM6,19h2v1h-2zM9,19h1v1h-1zM11,19h5v1h-5zM17,19h1v1h-1zM21,19h2v1h-2zM25,19h3v1h-3zM29,19h2v1h-2zM32,19h1v1h-1zM4,20h1v1h-1zM10,20h1v1h-1zM13,20h6v1h-6zM21,20h1v1h-1zM23,20h3v1h-3zM28,20h1v1h-1zM30,20h1v1h-1zM32,20h1v1h-1zM35,20h1v1h-1zM5,21h3v1h-3zM9,21h1v1h-1zM14,21h2v1h-2zM17,21h4v1h-4zM22,21h1v1h-1zM27,21h1v1h-1zM33,21h3v1h-3zM5,22h1v1h-1zM10,22h1v1h-1zM12,22h2v1h-2zM15,22h1v1h-1zM17,22h1v1h-1zM19,22h1v1h-1zM21,22h2v1h-2zM25,22h5v1h-5zM31,22h1v1h-1zM33,22h1v1h-1zM4,23h2v1h-2zM7,23h3v1h-3zM11,23h2v1h-2zM15,23h1v1h-1zM19,23h3v1h-3zM23,23h5v1h-5zM31,23h1v1h-1zM35,23h1v1h-1zM4,24h1v1h-1zM6,24h1v1h-1zM9,24h3v1h-3zM13,24h1v1h-1zM15,24h7v1h-7zM26,24h5v1h-5zM32,24h2v1h-2zM4,25h4v1h-4zM9,25h1v1h-1zM11,25h3v1h-3zM16,25h1v1h-1zM19,25h5v1h-5zM25,25h1v1h-1zM27,25h1v1h-1zM29,25h1v1h-1zM31,25h1v1h-1zM34,25h2v1h-2zM6,26h1v1h-1zM8,26h1v1h-1zM10,26h2v1h-2zM14,26h1v1h-1zM17,26h1v1h-1zM19,26h2v1h-2zM22,26h1v1h-1zM25,26h1v1h-1zM27,26h1v1h-1zM32,26h1v1h-1zM35,26h1v1h-1zM11,27h2v1h-2zM15,27h2v1h-2zM18,27h6v1h-6zM25,27h1v1h-1zM36,27h1v1h-1zM4,28h2v1h-2zM7,28h1v1h-1zM10,28h1v1h-1zM16,28h1v1h-1zM19,28h1v1h-1zM21,28h1v1h-1zM23,28h4v1h-4zM28,28h6v1h-6zM12,29h1v1h-1zM14,29h1v1h-1zM16,29h1v1h-1zM19,29h2v1h-2zM22,29h1v1h-1zM27,29h2v1h-2zM32,29h1v1h-1zM34,29h2v1h-2zM4,30h7v1h-7zM12,30h1v1h-1zM15,30h1v1h-1zM19,30h2v1h-2zM24,30h1v1h-1zM26,30h1v1h-1zM28,30h1v1h-1zM30,30h1v1h-1zM32,30h2v1h-2zM35,30h1v1h-1zM4,31h1v1h-1zM10,31h1v1h-1zM14,31h4v1h-4zM19,31h1v1h-1zM21,31h1v1h-1zM25,31h1v1h-1zM28,31h1v1h-1zM32,31h1v1h-1zM35,31h2v1h-2zM4,32h1v1h-1zM6,32h3v1h-3zM10,32h1v1h-1zM12,32h1v1h-1zM14,32h2v1h-2zM19,32h2v1h-2zM26,32h1v1h-1zM28,32h6v1h-6zM4,33h1v1h-1zM6,33h3v1h-3zM10,33h1v1h-1zM13,33h1v1h-1zM15,33h3v1h-3zM20,33h3v1h-3zM24,33h5v1h-5zM30,33h3v1h-3zM4,34h1v1h-1zM6,34h3v1h-3zM10,34h1v1h-1zM15,34h3v1h-3zM19,34h1v1h-1zM21,34h2v1h-2zM25,34h1v1h-1zM27,34h1v1h-1zM30,34h3v1h-3zM4,35h1v1h-1zM10,35h1v1h-1zM13,35h6v1h-6zM20,35h2v1h-2zM25,35h3v1h-3zM29,35h2v1h-2zM4,36h7v1h-7zM12,36h2v1h-2zM15,36h1v1h-1zM18,36h1v1h-1zM21,36h1v1h-1zM24,36h5v1h-5zM36,36h1v1h-1z" fill="#0b1e33"/>
-      </svg>
+    <!-- Main Content -->
+    <div id="wrapper" class="wrapper">
+        <nav class="navbar">
+            <div class="header"></div>
+            <div class="nav-container">
+                <a class="navbar-brand-link" href="/">
+                    <img class="navbar-brand" src="./img/finalggr_small.png" alt="Glorious Glacier Ride" />
+                </a>
+                <button class="navbar-toggler" type="button" onclick="toggleMenu()">
+                    <span data-i18n="nav.menu">Menu</span>
+                    <svg class="svg-inline" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                            d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+                        </path>
+                    </svg>
+                </button>
+
+                <div class="nav-collapse" id="navitems">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="/#route"
+                                data-i18n="nav.route">Route</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="/#support"
+                                data-i18n="nav.support">Support</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="/col-to-action.html"
+                                data-i18n="nav.cols">Cols</a></li>
+                        <li class="nav-item"><a onclick="closeMenu()" class="nav-link" href="/#faq"
+                                data-i18n="nav.faq">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main">
+
+            <div class="section">
+                <div class="text_section">
+                    <h1>Support the Ride</h1>
+                    <p class="p_center support_intro">
+                        Every donation helps us bring more riders to the Alps to raise awareness for
+                        climate change and fund local nature restoration and carbon-sinking projects
+                        along the route.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="center_image_section2">
+                    <div class="support_card">
+                        <div class="support_qr_frame">
+                            <svg viewBox="0 0 41 41" xmlns="http://www.w3.org/2000/svg" role="img"
+                                aria-label="QR code linking to the Cycling 4 Climate donation page">
+                                <rect width="41" height="41" fill="#ffffff" />
+                                <path
+                                    d="M4,4h7v1h-7zM12,4h1v1h-1zM15,4h1v1h-1zM17,4h6v1h-6zM24,4h1v1h-1zM27,4h1v1h-1zM30,4h7v1h-7zM4,5h1v1h-1zM10,5h1v1h-1zM14,5h4v1h-4zM22,5h2v1h-2zM25,5h1v1h-1zM30,5h1v1h-1zM36,5h1v1h-1zM4,6h1v1h-1zM6,6h3v1h-3zM10,6h1v1h-1zM14,6h1v1h-1zM16,6h1v1h-1zM18,6h1v1h-1zM21,6h3v1h-3zM25,6h4v1h-4zM30,6h1v1h-1zM32,6h3v1h-3zM36,6h1v1h-1zM4,7h1v1h-1zM6,7h3v1h-3zM10,7h1v1h-1zM12,7h2v1h-2zM15,7h1v1h-1zM18,7h1v1h-1zM20,7h1v1h-1zM22,7h1v1h-1zM24,7h1v1h-1zM27,7h2v1h-2zM30,7h1v1h-1zM32,7h3v1h-3zM36,7h1v1h-1zM4,8h1v1h-1zM6,8h3v1h-3zM10,8h1v1h-1zM12,8h2v1h-2zM17,8h5v1h-5zM24,8h2v1h-2zM27,8h1v1h-1zM30,8h1v1h-1zM32,8h3v1h-3zM36,8h1v1h-1zM4,9h1v1h-1zM10,9h1v1h-1zM12,9h2v1h-2zM16,9h1v1h-1zM18,9h1v1h-1zM21,9h1v1h-1zM23,9h1v1h-1zM25,9h2v1h-2zM28,9h1v1h-1zM30,9h1v1h-1zM36,9h1v1h-1zM4,10h7v1h-7zM12,10h1v1h-1zM14,10h1v1h-1zM16,10h1v1h-1zM18,10h1v1h-1zM20,10h1v1h-1zM22,10h1v1h-1zM24,10h1v1h-1zM26,10h1v1h-1zM28,10h1v1h-1zM30,10h7v1h-7zM12,11h3v1h-3zM18,11h4v1h-4zM23,11h5v1h-5zM4,12h1v1h-1zM8,12h1v1h-1zM10,12h3v1h-3zM14,12h2v1h-2zM19,12h1v1h-1zM21,12h1v1h-1zM23,12h1v1h-1zM25,12h9v1h-9zM36,12h1v1h-1zM4,13h4v1h-4zM12,13h1v1h-1zM14,13h1v1h-1zM16,13h4v1h-4zM22,13h1v1h-1zM25,13h3v1h-3zM29,13h1v1h-1zM33,13h2v1h-2zM8,14h1v1h-1zM10,14h2v1h-2zM15,14h5v1h-5zM21,14h2v1h-2zM24,14h1v1h-1zM26,14h5v1h-5zM33,14h1v1h-1zM35,14h1v1h-1zM9,15h1v1h-1zM12,15h1v1h-1zM16,15h1v1h-1zM18,15h2v1h-2zM21,15h1v1h-1zM23,15h1v1h-1zM25,15h4v1h-4zM30,15h1v1h-1zM35,15h2v1h-2zM5,16h2v1h-2zM8,16h1v1h-1zM10,16h1v1h-1zM13,16h1v1h-1zM15,16h4v1h-4zM20,16h1v1h-1zM26,16h3v1h-3zM30,16h1v1h-1zM32,16h2v1h-2zM4,17h4v1h-4zM9,17h1v1h-1zM13,17h4v1h-4zM18,17h6v1h-6zM26,17h1v1h-1zM31,17h1v1h-1zM34,17h1v1h-1zM4,18h1v1h-1zM10,18h1v1h-1zM12,18h1v1h-1zM14,18h3v1h-3zM18,18h2v1h-2zM21,18h2v1h-2zM25,18h1v1h-1zM27,18h4v1h-4zM32,18h2v1h-2zM35,18h1v1h-1zM4,19h1v1h-1zM6,19h2v1h-2zM9,19h1v1h-1zM11,19h5v1h-5zM17,19h1v1h-1zM21,19h2v1h-2zM25,19h3v1h-3zM29,19h2v1h-2zM32,19h1v1h-1zM4,20h1v1h-1zM10,20h1v1h-1zM13,20h6v1h-6zM21,20h1v1h-1zM23,20h3v1h-3zM28,20h1v1h-1zM30,20h1v1h-1zM32,20h1v1h-1zM35,20h1v1h-1zM5,21h3v1h-3zM9,21h1v1h-1zM14,21h2v1h-2zM17,21h4v1h-4zM22,21h1v1h-1zM27,21h1v1h-1zM33,21h3v1h-3zM5,22h1v1h-1zM10,22h1v1h-1zM12,22h2v1h-2zM15,22h1v1h-1zM17,22h1v1h-1zM19,22h1v1h-1zM21,22h2v1h-2zM25,22h5v1h-5zM31,22h1v1h-1zM33,22h1v1h-1zM4,23h2v1h-2zM7,23h3v1h-3zM11,23h2v1h-2zM15,23h1v1h-1zM19,23h3v1h-3zM23,23h5v1h-5zM31,23h1v1h-1zM35,23h1v1h-1zM4,24h1v1h-1zM6,24h1v1h-1zM9,24h3v1h-3zM13,24h1v1h-1zM15,24h7v1h-7zM26,24h5v1h-5zM32,24h2v1h-2zM4,25h4v1h-4zM9,25h1v1h-1zM11,25h3v1h-3zM16,25h1v1h-1zM19,25h5v1h-5zM25,25h1v1h-1zM27,25h1v1h-1zM29,25h1v1h-1zM31,25h1v1h-1zM34,25h2v1h-2zM6,26h1v1h-1zM8,26h1v1h-1zM10,26h2v1h-2zM14,26h1v1h-1zM17,26h1v1h-1zM19,26h2v1h-2zM22,26h1v1h-1zM25,26h1v1h-1zM27,26h1v1h-1zM32,26h1v1h-1zM35,26h1v1h-1zM11,27h2v1h-2zM15,27h2v1h-2zM18,27h6v1h-6zM25,27h1v1h-1zM36,27h1v1h-1zM4,28h2v1h-2zM7,28h1v1h-1zM10,28h1v1h-1zM16,28h1v1h-1zM19,28h1v1h-1zM21,28h1v1h-1zM23,28h4v1h-4zM28,28h6v1h-6zM12,29h1v1h-1zM14,29h1v1h-1zM16,29h1v1h-1zM19,29h2v1h-2zM22,29h1v1h-1zM27,29h2v1h-2zM32,29h1v1h-1zM34,29h2v1h-2zM4,30h7v1h-7zM12,30h1v1h-1zM15,30h1v1h-1zM19,30h2v1h-2zM24,30h1v1h-1zM26,30h1v1h-1zM28,30h1v1h-1zM30,30h1v1h-1zM32,30h2v1h-2zM35,30h1v1h-1zM4,31h1v1h-1zM10,31h1v1h-1zM14,31h4v1h-4zM19,31h1v1h-1zM21,31h1v1h-1zM25,31h1v1h-1zM28,31h1v1h-1zM32,31h1v1h-1zM35,31h2v1h-2zM4,32h1v1h-1zM6,32h3v1h-3zM10,32h1v1h-1zM12,32h1v1h-1zM14,32h2v1h-2zM19,32h2v1h-2zM26,32h1v1h-1zM28,32h6v1h-6zM4,33h1v1h-1zM6,33h3v1h-3zM10,33h1v1h-1zM13,33h1v1h-1zM15,33h3v1h-3zM20,33h3v1h-3zM24,33h5v1h-5zM30,33h3v1h-3zM4,34h1v1h-1zM6,34h3v1h-3zM10,34h1v1h-1zM15,34h3v1h-3zM19,34h1v1h-1zM21,34h2v1h-2zM25,34h1v1h-1zM27,34h1v1h-1zM30,34h3v1h-3zM4,35h1v1h-1zM10,35h1v1h-1zM13,35h6v1h-6zM20,35h2v1h-2zM25,35h3v1h-3zM29,35h2v1h-2zM4,36h7v1h-7zM12,36h2v1h-2zM15,36h1v1h-1zM18,36h1v1h-1zM21,36h1v1h-1zM24,36h5v1h-5zM36,36h1v1h-1z"
+                                    fill="#1974b7" />
+                            </svg>
+                        </div>
+                        <p class="support_scan_hint">Scan with your phone's camera to donate</p>
+
+                        <div class="support_divider">or</div>
+
+                        <a class="cta_button" href="https://payment-links.mollie.com/payment/BaHrjPCX2PW9tDbCXwxeG"
+                            target="_blank" rel="noopener" style="display:block; text-decoration:none;">
+                            Donate now
+                        </a>
+                        <p class="support_secure_note">Secure payment via Mollie &middot; iDEAL, cards &amp; more</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="text_section">
+                    <p class="p_center">
+                        <strong>Cycling 4 Climate</strong> is a Dutch not-for-profit-but-for-impact foundation,
+                        founded in 2019. The Glorious Glacier Ride carries riders 756&nbsp;km and over
+                        16,000&nbsp;metres of climbing from Innsbruck to Chamonix, passing several retreating
+                        glaciers along the way, to raise awareness for climate change and fund local nature
+                        restoration and carbon-sinking projects.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <div class="footer">follow us on: <a target="_blank"
+                    href="https://www.instagram.com/gloriousglacierride/">instagram</a> | <a target="_blank"
+                    href="https://www.linkedin.com/company/cycling4climate/">linkedin</a> | <a target="_blank"
+                    href="https://laposta.nl/f/ssw1s01gmbom">newsletter</a>
+                | <a target="_blank"
+                    href="https://drive.google.com/drive/u/0/folders/1WxiMb1kwWzC-YcbSI2ObrxKijrI-hgR2">for press</a>
+            </div>
+        </div>
     </div>
-    <p class="scan-hint">Scan with your phone's camera to donate</p>
-
-    <div class="divider">or</div>
-
-    <a class="donate-btn" href="https://payment-links.mollie.com/payment/BaHrjPCX2PW9tDbCXwxeG" target="_blank" rel="noopener">
-      Donate now
-    </a>
-    <p class="secure-note">Secure payment via Mollie &middot; iDEAL, cards &amp; more accepted</p>
-  </div>
-
-  <div class="about">
-    <strong>Cycling 4 Climate</strong> is a Dutch not-for-profit-but-for-impact foundation, founded in 2019.
-    The Glorious Glacier Ride carries riders 756&nbsp;km and over 16,000&nbsp;metres of climbing from
-    Innsbruck to Chamonix, passing several retreating glaciers along the way, to raise awareness for
-    climate change and fund local nature restoration and carbon-sinking projects.
-  </div>
-
-  <div class="footer">Thank you for your support</div>
-</div>
 </body>
+
 </html>
